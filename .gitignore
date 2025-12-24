@@ -1,10 +1,141 @@
-# Deploy folder - keep everything
-# This folder contains the optimized deployment package
+# LFU Explorer - Git Ignore Configuration
+# Excludes large asset folders while preserving deployment package
 
-# Don't ignore anything in deploy
-!*
+# ============================================================================
+# LARGE ASSET FOLDERS (excluded from git)
+# ============================================================================
+# Original assets are too large (~1.5 GB, 51,804 images)
+# Only deploy/assets (~16 MB, 608 images) is needed for deployment
+/assets/Sprite/*
+/assets/Texture2D/*
 
-# But ignore OS files
+# Keep directory structure but ignore contents
+!.gitkeep
+
+# ============================================================================
+# DEPLOYMENT (keep this folder)
+# ============================================================================
+# The deploy folder contains the optimized deployment package
+# This is what gets uploaded to hosting (GitHub Pages, Netlify, etc.)
+!/deploy/
+
+# ============================================================================
+# ANALYSIS & TEMPORARY FILES
+# ============================================================================
+# Scripts and outputs from image analysis
+/used_images.txt
+/missing_images.txt
+/analyze_images.py
+/prepare_deploy.py
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# ============================================================================
+# IDE & EDITOR FILES
+# ============================================================================
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (WebStorm, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# ============================================================================
+# OPERATING SYSTEM FILES
+# ============================================================================
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
 Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
 Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+[Cc]onfiguration/
+Debug/
+Release/
+
+# Linux
+*~
+.directory
+
+# ============================================================================
+# BUILD & CACHE FILES
+# ============================================================================
+# npm
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+*.log
+logs/
+log/
+
+# ============================================================================
+# BACKUP & TEMPORARY FILES
+# ============================================================================
+*.bak
+*.backup
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# ============================================================================
+# LOCAL CONFIGURATION
+# ============================================================================
+.env
+config.local
+*.local
+
+# ============================================================================
+# GIT & VERSION CONTROL
+# ============================================================================
+*.orig
+*.rej
+
+# ============================================================================
+# IMPORTANT: Files and folders that ARE tracked (not ignored)
+# ============================================================================
+# Refrence/ - Contains processed JSON data files needed by the website
+# Export/ - Contains exported game data needed by the website
+# Localization_LocalizationComponent_dictionary.json - Required for text translations
+# *.html, *.css, *.js - Required website files
+# deploy/ - Optimized deployment package with only used assets
