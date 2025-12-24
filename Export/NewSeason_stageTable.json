@@ -1,0 +1,20 @@
+{
+  "table_name": "NewSeason_stageTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 12071, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12071, "SpawnZoneIdArray": [1], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12111, 12104], "AdjacentCityIdArrayLength": 2, "Index": 0},
+    {"Id": 12030, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12030, "SpawnZoneIdArray": [1], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12086, 12093, 12091], "AdjacentCityIdArrayLength": 3, "Index": 1},
+    {"Id": 12067, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12067, "SpawnZoneIdArray": [1], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12092, 12113], "AdjacentCityIdArrayLength": 2, "Index": 2},
+    {"Id": 12074, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12074, "SpawnZoneIdArray": [2], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12139, 12175], "AdjacentCityIdArrayLength": 2, "Index": 3},
+    {"Id": 12075, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12075, "SpawnZoneIdArray": [2], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12151, 12127, 12176], "AdjacentCityIdArrayLength": 3, "Index": 4},
+    {"Id": 12039, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12039, "SpawnZoneIdArray": [2], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12164, 12169], "AdjacentCityIdArrayLength": 2, "Index": 5},
+    {"Id": 12014, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12014, "SpawnZoneIdArray": [3], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12003, 12037], "AdjacentCityIdArrayLength": 2, "Index": 6},
+    {"Id": 12069, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12069, "SpawnZoneIdArray": [3], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12138, 12224, 12219], "AdjacentCityIdArrayLength": 3, "Index": 7},
+    {"Id": 12041, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12041, "SpawnZoneIdArray": [3], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12222, 12216], "AdjacentCityIdArrayLength": 2, "Index": 8},
+    {"Id": 12068, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12068, "SpawnZoneIdArray": [4], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12236, 12234], "AdjacentCityIdArrayLength": 2, "Index": 9},
+    {"Id": 12078, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12078, "SpawnZoneIdArray": [4], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12241, 12245, 12244], "AdjacentCityIdArrayLength": 3, "Index": 10},
+    {"Id": 12050, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12050, "SpawnZoneIdArray": [4], "SpawnZoneIdArrayLength": 1, "AdjacentCityIdArray": [12269, 12257], "AdjacentCityIdArrayLength": 2, "Index": 11},
+    {"Id": 12034, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12034, "SpawnZoneIdArray": [1, 2], "SpawnZoneIdArrayLength": 2, "AdjacentCityIdArray": [12247], "AdjacentCityIdArrayLength": 1, "Index": 12},
+    {"Id": 12056, "SeasonId": 1, "SubSeasonId": 2, "StageId": 12056, "SpawnZoneIdArray": [3, 4], "SpawnZoneIdArrayLength": 2, "AdjacentCityIdArray": [12260], "AdjacentCityIdArrayLength": 1, "Index": 13}
+  ]
+}

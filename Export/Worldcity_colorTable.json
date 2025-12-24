@@ -1,0 +1,18 @@
+{
+  "table_name": "Worldcity_colorTable",
+  "row_count": 12,
+  "data": [
+    {"Id": 1, "OutlineColor": "e0a743", "InnerColor": "945525", "InnerInt": 0.7, "BaseColor": "d9983a", "BaseAlpha": 0.2, "Splash": 1, "SplashX": 15, "SplashY": 1, "SplashR": 30, "SplashA": 0, "GroundColor": "ffb961", "Index": 0},
+    {"Id": 2, "OutlineColor": "a366cc", "InnerColor": "563170", "InnerInt": 2, "BaseColor": "683d99", "BaseAlpha": 0.5, "Splash": 1, "SplashX": 20, "SplashY": 1, "SplashR": 180, "SplashA": 0.3, "GroundColor": "c560c5", "Index": 1},
+    {"Id": 3, "OutlineColor": "bf5143", "InnerColor": "a1402d", "InnerInt": 1, "BaseColor": "bf4836", "BaseAlpha": 0.6, "Splash": 2, "SplashX": 18, "SplashY": 1, "SplashR": 90, "SplashA": 0.25, "GroundColor": "e15151", "Index": 2},
+    {"Id": 4, "OutlineColor": "64b3b1", "InnerColor": "549099", "InnerInt": 2, "BaseColor": "407980", "BaseAlpha": 1, "Splash": 1, "SplashX": 16, "SplashY": 1, "SplashR": 120, "SplashA": 0.4, "GroundColor": "5cb6cc", "Index": 3},
+    {"Id": 5, "OutlineColor": "c2be4e", "InnerColor": "937b1c", "InnerInt": 1, "BaseColor": "9e9a26", "BaseAlpha": 0.3, "Splash": 1, "SplashX": 16, "SplashY": 1, "SplashR": 150, "SplashA": 0.1, "GroundColor": "c6c659", "Index": 4},
+    {"Id": 6, "OutlineColor": "996b48", "InnerColor": "704423", "InnerInt": 2, "BaseColor": "4d2b1b", "BaseAlpha": 0.4, "Splash": 2, "SplashX": 16, "SplashY": 1, "SplashR": 30, "SplashA": 0.25, "GroundColor": "a15f45", "Index": 5},
+    {"Id": 7, "OutlineColor": "cc683d", "InnerColor": "95582d", "InnerInt": 2, "BaseColor": "c25236", "BaseAlpha": 0.5, "Splash": 1, "SplashX": 16, "SplashY": 1, "SplashR": 60, "SplashA": 0.1, "GroundColor": "e76d51", "Index": 6},
+    {"Id": 8, "OutlineColor": "649dd1", "InnerColor": "5e6cc2", "InnerInt": 2, "BaseColor": "4c5e99", "BaseAlpha": 0.8, "Splash": 2, "SplashX": 11, "SplashY": 1, "SplashR": 90, "SplashA": 0.3, "GroundColor": "659cf2", "Index": 7},
+    {"Id": 9, "OutlineColor": "82bf6f", "InnerColor": "607635", "InnerInt": 3, "BaseColor": "739954", "BaseAlpha": 1, "Splash": 1, "SplashX": 8, "SplashY": 1, "SplashR": 120, "SplashA": 0.1, "GroundColor": "66cc89", "Index": 8},
+    {"Id": 10, "OutlineColor": "55ad94", "InnerColor": "27785a", "InnerInt": 1.2, "BaseColor": "1b504c", "BaseAlpha": 0.4, "Splash": 1, "SplashX": 8, "SplashY": 1, "SplashR": 150, "SplashA": 0.3, "GroundColor": "91dc53", "Index": 9},
+    {"Id": 11, "OutlineColor": "806cd9", "InnerColor": "534d8c", "InnerInt": 1.5, "BaseColor": "5c4cbf", "BaseAlpha": 0.5, "Splash": 2, "SplashX": 8, "SplashY": 1, "SplashR": 0, "SplashA": 0.2, "GroundColor": "6d69e9", "Index": 10},
+    {"Id": 12, "OutlineColor": "b865b6", "InnerColor": "945185", "InnerInt": 1, "BaseColor": "993d82", "BaseAlpha": 0.5, "Splash": 2, "SplashX": 12, "SplashY": 1, "SplashR": 30, "SplashA": 0.2, "GroundColor": "944dd1", "Index": 11}
+  ]
+}

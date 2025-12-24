@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APCs & Skins - LF Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        
+        .apc-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .apc-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(100, 149, 237, 0.3);
+            border-color: #4a7bdc;
+        }
+
+        .apc-image {
+            width: 100%;
+            height: 140px;
+            object-fit: contain;
+            background: linear-gradient(135deg, rgba(30, 30, 50, 0.8), rgba(20, 20, 35, 0.9));
+            padding: 12px;
+        }
+
+        .apc-info {
+            padding: 12px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .apc-info h3 {
+            color: #ffd700;
+            margin: 0 0 8px 0;
+            font-size: 1.2em;
+        }
+
+        .apc-stats {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.85em;
+            color: #b8c5d6;
+            margin-top: auto;
+        }
+
+        .apc-card-header {
+            position: relative;
+        }
+
+        .skin-count-badge {
+            position: absolute;
+            top: 8px;
+            right: 8px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.9) 0%, rgba(147, 51, 234, 0.9) 100%);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.5);
+        }
+
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 16px;
+            padding: 16px;
+        }
+
+        .apc-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+        
+        .detail-header {
+            display: flex;
+            gap: 32px;
+            margin-bottom: 32px;
+            background: rgba(20, 20, 35, 0.95);
+            padding: 24px;
+            border-radius: 12px;
+            border: 2px solid #4a7bdc;
+        }
+        
+        .detail-image {
+            width: 300px;
+            height: 300px;
+            object-fit: contain;
+            background: linear-gradient(135deg, rgba(30, 30, 50, 0.8), rgba(20, 20, 35, 0.9));
+            border-radius: 8px;
+            padding: 20px;
+        }
+        
+        .detail-info {
+            flex: 1;
+        }
+        
+        .detail-info h1 {
+            color: #ffd700;
+            margin: 0 0 16px 0;
+        }
+        
+        .detail-stats {
+            display: grid;
+            gap: 12px;
+            color: #b8c5d6;
+            font-size: 1.05em;
+        }
+        
+        .skins-section {
+            background: rgba(20, 20, 35, 0.95);
+            padding: 24px;
+            border-radius: 12px;
+            margin-top: 24px;
+        }
+        
+        .skins-section h2 {
+            color: #ffd700;
+            margin: 0 0 20px 0;
+        }
+        
+        .skins-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+        
+        .skin-card {
+            background: rgba(10, 10, 25, 0.8);
+            border: 2px solid #3a3a5a;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .skin-card:hover {
+            transform: translateY(-4px);
+            border-color: #6a8bdc;
+            box-shadow: 0 4px 12px rgba(100, 149, 237, 0.3);
+        }
+        
+        .skin-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            margin-bottom: 12px;
+        }
+        
+        .skin-card h4 {
+            color: #ffd700;
+            margin: 0 0 8px 0;
+            font-size: 1.1em;
+        }
+        
+        .skin-rarity {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85em;
+            font-weight: bold;
+        }
+        
+        .rarity-4 {
+            background: rgba(147, 112, 219, 0.3);
+            color: #dda0dd;
+            border: 1px solid #9370db;
+        }
+        
+        .rarity-5 {
+            background: rgba(255, 140, 0, 0.3);
+            color: #ffb347;
+            border: 1px solid #ff8c00;
+        }
+        
+        .back-button {
+            display: inline-block;
+            margin-bottom: 24px;
+            padding: 10px 20px;
+            background: rgba(100, 149, 237, 0.2);
+            color: #6495ed;
+            border: 2px solid #6495ed;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .back-button:hover {
+            background: rgba(100, 149, 237, 0.3);
+            transform: translateX(-4px);
+        }
+
+
+        .skin-description {
+            color: #b8c5d6;
+            font-size: 0.85em;
+            margin-top: 8px;
+            line-height: 1.4;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .page-title-section h1 {
+                font-size: 32px;
+            }
+
+            .page-subtitle {
+                font-size: 16px;
+            }
+
+            .card-grid {
+                grid-template-columns: 1fr;
+                padding: 12px;
+            }
+
+            .detail-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+
+            .detail-image {
+                width: 200px;
+                height: 200px;
+            }
+
+            .skins-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link active" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>APCs & Skins</h1>
+            <p class="page-subtitle">Explore armored personnel carriers and their exclusive skins</p>
+        </div>
+
+        <div style="max-width: 1400px; margin: 0 auto 20px; padding: 0 16px;">
+            <input type="search" id="apc-search" placeholder="Search APCs..."
+                   style="width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid rgba(100, 149, 237, 0.3);
+                          border-radius: 8px; background: rgba(20, 20, 35, 0.95); color: #e0e0ff;
+                          transition: border-color 0.3s ease; outline: none;"
+                   onfocus="this.style.borderColor='rgba(100, 149, 237, 0.6)'"
+                   onblur="this.style.borderColor='rgba(100, 149, 237, 0.3)'">
+        </div>
+
+        <div id="apc-list" class="card-grid"></div>
+        <div id="apc-detail" style="display: none;"></div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        let apcsData = [];
+        let localizationData = {};
+        let exclusiveParts = {};
+
+        async function loadLocalization() {
+            try {
+                const response = await fetch('Localization_LocalizationComponent_dictionary.json');
+                const data = await response.json();
+                localizationData = data.data;
+            } catch (error) {
+                console.error('Error loading localization:', error);
+            }
+        }
+
+        async function loadExclusiveParts() {
+            try {
+                const response = await fetch('Refrence/apc_exclusive_parts.json');
+                exclusiveParts = await response.json();
+            } catch (error) {
+                console.error('Error loading exclusive parts:', error);
+            }
+        }
+
+        function parseBaseEffect(effectStr) {
+            if (!effectStr) return 'N/A';
+            const [effectId, value] = effectStr.split(';');
+            const effectName = localizationData[effectId] || `Effect ${effectId}`;
+            return `${effectName}: ${value}`;
+        }
+
+        function parseSpecialSlot(specialSlotStr) {
+            if (!specialSlotStr) return null;
+
+            // Extract part ID from "Slot 2 (2503)" format
+            const match = specialSlotStr.match(/\((\d+)\)/);
+            if (!match) return null;
+
+            const partId = match[1];
+            const part = exclusiveParts[partId];
+
+            if (!part) return null;
+
+            return part;
+        }
+
+        async function loadAPCs() {
+            try {
+                await Promise.all([loadLocalization(), loadExclusiveParts()]);
+                const response = await fetch('Refrence/book_apc_list.json');
+                apcsData = await response.json();
+                displayAPCList();
+            } catch (error) {
+                console.error('Error loading APCs:', error);
+                document.getElementById('apc-list').innerHTML = '<p style="color: #ff6b6b; text-align: center; padding: 40px;">Error loading APC data</p>';
+            }
+        }
+        
+        function displayAPCList() {
+            const grid = document.getElementById('apc-list');
+            grid.innerHTML = '';
+            
+            apcsData.forEach(apc => {
+                const card = document.createElement('div');
+                card.className = 'apc-card';
+                card.onclick = () => showAPCDetail(apc.Id);
+                
+                const skinCount = apc.Skins ? apc.Skins.length : 0;
+                
+                // Add quality-based border color
+                card.classList.add(`quality-${apc.Quality}`);
+
+                card.innerHTML = `
+                    <div class="apc-card-header">
+                        <img src="${apc.Icon}" alt="${apc.Name}" class="apc-image" onerror="this.src='assets/Sprite/icon_default.png'">
+                        ${skinCount > 0 ? `<div class="skin-count-badge">${skinCount} Skin${skinCount > 1 ? 's' : ''}</div>` : ''}
+                    </div>
+                    <div class="apc-info">
+                        <h3>${apc.Name}</h3>
+                        <div class="apc-stats">
+                            <div><strong>Quality:</strong> ⭐${apc.Quality}</div>
+                        </div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+        
+        function showAPCDetail(id) {
+            const apc = apcsData.find(a => a.Id === id);
+            if (!apc) return;
+
+            document.getElementById('apc-list').style.display = 'none';
+            const detailDiv = document.getElementById('apc-detail');
+            detailDiv.style.display = 'block';
+
+            // Parse exclusive part
+            const exclusivePart = parseSpecialSlot(apc.SpecialSlot);
+            let exclusivePartHTML = '';
+            if (exclusivePart) {
+                exclusivePartHTML = `
+                    <div style="margin-top: 24px; padding: 16px; background: rgba(99, 102, 241, 0.1); border: 2px solid rgba(99, 102, 241, 0.3); border-radius: 8px;">
+                        <h3 style="color: #6366f1; margin: 0 0 12px 0; font-size: 18px;">🔧 Exclusive Part</h3>
+                        <div style="display: flex; gap: 16px; align-items: flex-start;">
+                            <img src="${exclusivePart.icon}" alt="${exclusivePart.name}" style="width: 80px; height: 80px; border-radius: 6px; border: 2px solid rgba(99, 102, 241, 0.5);" onerror="this.style.display='none'">
+                            <div style="flex: 1;">
+                                <div style="font-size: 16px; font-weight: 600; color: #e0e0ff; margin-bottom: 8px;">${exclusivePart.name}</div>
+                                <div style="font-size: 13px; color: #b0b0d0;">
+                                    ${exclusivePart.effects.map(eff => `<div style="margin: 4px 0;">• ${eff}</div>`).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+
+            let skinsHTML = '';
+            if (apc.Skins && apc.Skins.length > 0) {
+                skinsHTML = `
+                    <div class="skins-section">
+                        <h2>Available Skins (${apc.Skins.length})</h2>
+                        <div class="skins-grid">
+                            ${apc.Skins.map(skin => `
+                                <div class="skin-card">
+                                    <img src="${skin.Icon}" alt="${skin.Name}" onerror="this.src='assets/Sprite/icon_default.png'">
+                                    <h4>${skin.Name}</h4>
+                                    <div class="skin-rarity rarity-${skin.Quality}">
+                                        ${skin.Quality === 4 ? 'Elite' : 'Epic'}
+                                    </div>
+                                    ${skin.Theme ? `<p style="color: #888; font-size: 0.9em; margin-top: 8px;">${skin.Theme}</p>` : ''}
+                                    ${skin.Description ? `<p class="skin-description">${skin.Description}</p>` : ''}
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                `;
+            }
+
+            detailDiv.innerHTML = `
+                <div class="apc-detail">
+                    <a href="#" class="back-button" onclick="showAPCList(); return false;">← Back to APCs</a>
+
+                    <div class="detail-header">
+                        <img src="${apc.Icon}" alt="${apc.Name}" class="detail-image" onerror="this.src='assets/Sprite/icon_default.png'">
+                        <div class="detail-info">
+                            <h1>${apc.Name}</h1>
+                            <div class="detail-stats">
+                                <div><strong>Quality:</strong> ⭐${apc.Quality}</div>
+                            </div>
+                            ${exclusivePartHTML}
+                        </div>
+                    </div>
+
+                    ${skinsHTML}
+                </div>
+            `;
+
+            window.scrollTo(0, 0);
+        }
+        
+        function showAPCList() {
+            document.getElementById('apc-detail').style.display = 'none';
+            document.getElementById('apc-list').style.display = 'grid';
+            window.scrollTo(0, 0);
+        }
+
+        // Initialize the page
+        loadAPCs();
+    </script>
+</body>
+</html>

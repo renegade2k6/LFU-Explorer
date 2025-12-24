@@ -1,0 +1,29 @@
+{
+  "table_name": "Trade_goTable",
+  "row_count": 23,
+  "data": [
+    {"Id": 30001, "Description": "110200", "Type1": 1, "GuideFreedom": 10092, "Index": 0},
+    {"Id": 30002, "Description": "138059", "Type1": 1, "GuideFreedom": 10093, "Index": 1},
+    {"Id": 30003, "Description": "370024", "Type1": 1, "GuideFreedom": 10094, "Index": 2},
+    {"Id": 30004, "Description": "138058", "Type1": 1, "GuideFreedom": 10096, "Index": 3},
+    {"Id": 30005, "Description": "110200", "Type1": 2, "GuideFreedom": 10097, "Index": 4},
+    {"Id": 30006, "Description": "138059", "Type1": 2, "GuideFreedom": 10098, "Index": 5},
+    {"Id": 30007, "Description": "370024", "Type1": 2, "GuideFreedom": 10094, "Index": 6},
+    {"Id": 30008, "Description": "138058", "Type1": 2, "GuideFreedom": 10099, "Index": 7},
+    {"Id": 30009, "Description": "110200", "Type1": 3, "GuideFreedom": 10100, "Index": 8},
+    {"Id": 30010, "Description": "138059", "Type1": 3, "GuideFreedom": 10101, "Index": 9},
+    {"Id": 30011, "Description": "370024", "Type1": 3, "GuideFreedom": 10094, "Index": 10},
+    {"Id": 30012, "Description": "138058", "Type1": 3, "GuideFreedom": 10102, "Index": 11},
+    {"Id": 30013, "Description": "138059", "Type1": 4, "GuideFreedom": 10103, "Index": 12},
+    {"Id": 30014, "Description": "138058", "Type1": 4, "GuideFreedom": 10104, "Index": 13},
+    {"Id": 30015, "Description": "370024", "Type1": 4, "GuideFreedom": 10094, "Index": 14},
+    {"Id": 30016, "Description": "138060", "Type1": 4, "GuideFreedom": 10095, "Index": 15},
+    {"Id": 30017, "Description": "138059", "Type1": 5, "GuideFreedom": 10105, "Index": 16},
+    {"Id": 30018, "Description": "138058", "Type1": 5, "GuideFreedom": 10106, "Index": 17},
+    {"Id": 30019, "Description": "370024", "Type1": 5, "GuideFreedom": 10094, "Index": 18},
+    {"Id": 30020, "Description": "138060", "Type1": 5, "GuideFreedom": 10095, "Index": 19},
+    {"Id": 30021, "Description": "138059", "Type1": 6, "GuideFreedom": 10107, "Index": 20},
+    {"Id": 30022, "Description": "138058", "Type1": 6, "GuideFreedom": 10108, "Index": 21},
+    {"Id": 30023, "Description": "138060", "Type1": 6, "GuideFreedom": 10095, "Index": 22}
+  ]
+}

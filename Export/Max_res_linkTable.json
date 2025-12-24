@@ -1,0 +1,14 @@
+{
+  "table_name": "Max_res_linkTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 1001, "Tips": 16, "Des": 130342, "Pic": "UI_ziyuanbuzu_cangku", "GoodsArray": [203006, 203007, 203020, 203042], "GoodsArrayLength": 4, "BuildingArray": [409000], "BuildingArrayLength": 1, "Para1": "0", "Order": 100, "BaseAlies": "0-30", "Index": 0},
+    {"Id": 1002, "Tips": 20, "Des": 130343, "Pic": "UI_ziyuanbuzu_zhishengji", "GoodsArray": [203006, 203007, 203020, 203042], "GoodsArrayLength": 4, "BuildingArray": [409000], "BuildingArrayLength": 1, "Para1": "", "Order": 80, "BaseAlies": "8-30", "Index": 1},
+    {"Id": 1003, "Tips": 31, "Des": 135056, "Pic": "UI_ziyuanbuzu_yanjiu", "GoodsArray": [203006, 203007, 203020, 203042], "GoodsArrayLength": 4, "BuildingArray": [409000], "BuildingArrayLength": 1, "Para1": "1005300", "Order": 120, "BaseAlies": "0-30", "Index": 2},
+    {"Id": 1004, "Tips": 16, "Des": 130342, "Pic": "image_jianzhujianzao_xudianshi", "GoodsArray": [3003], "GoodsArrayLength": 1, "BuildingArray": [421000, 403000], "BuildingArrayLength": 2, "Para1": "4", "Order": 100, "BaseAlies": "5-30", "Index": 3},
+    {"Id": 1005, "Tips": 13, "Des": 135031, "Pic": "UI_ziyuanbuzu_zaojianzhu", "GoodsArray": [3003], "GoodsArrayLength": 1, "BuildingArray": [403000, 421000], "BuildingArrayLength": 2, "Para1": "", "Order": 80, "BaseAlies": "5-30", "Index": 4},
+    {"Id": 1007, "Tips": 20, "Des": 130343, "Pic": "UI_ziyuanbuzu_zhishengji", "GoodsArray": [3003], "GoodsArrayLength": 1, "BuildingArray": [403000, 457000, 421000], "BuildingArrayLength": 3, "Para1": "", "Order": 60, "BaseAlies": "8-30", "Index": 5},
+    {"Id": 1008, "Tips": 107, "Des": 100505, "Pic": "UI_ziyuanbuzu_pengren", "GoodsArray": [203002, 203003, 203004, 203005, 203024, 203026, 203030, 203032, 203033, 203034, 203035, 203036, 203037, 203038, 203039, 203040, 203041], "GoodsArrayLength": 17, "BuildingArray": [408000], "BuildingArrayLength": 1, "Para1": "", "Order": 150, "BaseAlies": "8-30", "Index": 6},
+    {"Id": 1009, "Tips": 16, "Des": 135015, "Pic": "image_jianzhujianzao_canting", "GoodsArray": [203002, 203003, 203004, 203005, 203024, 203026, 203030, 203032, 203033, 203034, 203035, 203036, 203037, 203038, 203039, 203040, 203041], "GoodsArrayLength": 17, "BuildingArray": [408000], "BuildingArrayLength": 1, "Para1": "", "Order": 120, "BaseAlies": "2-30", "Index": 7}
+  ]
+}

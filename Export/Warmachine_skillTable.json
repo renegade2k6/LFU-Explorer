@@ -1,0 +1,12 @@
+{
+  "table_name": "Warmachine_skillTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 9200001, "SkillID": 991011, "UnlockTrace": "effect_WarMachineTrailEffect_LV1", "Desc": 805200011, "WarmachineID": 101, "Skillicon": "warmachine_skill_icon_101", "Index": 0},
+    {"Id": 9200002, "SkillID": 991012, "UnlockTrace": "effect_WarMachineTrailEffect_LV2", "Desc": 805200012, "WarmachineID": 101, "Skillicon": "warmachine_skill_icon_101", "Index": 1},
+    {"Id": 9201001, "SkillID": 991031, "UnlockTrace": "effect_WarMachine_gorilla_LV1", "Desc": 805200011, "WarmachineID": 103, "Skillicon": "warmachine_skill_icon_103", "Index": 2},
+    {"Id": 9201002, "SkillID": 991032, "UnlockTrace": "effect_WarMachine_gorilla_LV2", "Desc": 805200012, "WarmachineID": 103, "Skillicon": "warmachine_skill_icon_103", "Index": 3},
+    {"Id": 9202001, "SkillID": 991051, "UnlockTrace": "effect_WarMachine_Dragon_LV1", "Desc": 805200011, "WarmachineID": 105, "Skillicon": "warmachine_skill_icon_105", "Index": 4},
+    {"Id": 9202002, "SkillID": 991052, "UnlockTrace": "effect_WarMachine_Dragon_LV2", "Desc": 805200012, "WarmachineID": 105, "Skillicon": "warmachine_skill_icon_105", "Index": 5}
+  ]
+}

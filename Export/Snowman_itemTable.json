@@ -1,0 +1,17 @@
+{
+  "table_name": "Snowman_itemTable",
+  "row_count": 11,
+  "data": [
+    {"Id": 1, "ItemId": 737003, "Score": 100, "Slot": 1, "Icon": "icon_feast_Candle", "Index": 0},
+    {"Id": 2, "ItemId": 737004, "Score": 50, "Slot": 1, "Icon": "icon_feast_flour", "Index": 1},
+    {"Id": 3, "ItemId": 737005, "Score": 20, "Slot": 3, "Icon": "icon_feast_cream", "Index": 2},
+    {"Id": 4, "ItemId": 737006, "Score": 5, "Slot": 4, "Icon": "icon_feast_egg", "Index": 3},
+    {"Id": 5, "ItemId": 700101, "Score": 0, "Slot": 1, "Icon": "icon_xueqiu", "Index": 4},
+    {"Id": 6, "ItemId": 700118, "Score": 0, "Slot": 1, "Icon": "icon_shouhushengdan_lihe", "Index": 5},
+    {"Id": 7, "ItemId": 700117, "Score": 0, "Slot": 1, "Icon": "icon_shouhushengdan_miluzhadan", "Index": 6},
+    {"Id": 8, "ItemId": 800064, "Score": 100, "Slot": 1, "Icon": "icon_MidAutumn_storehouse01", "Index": 7},
+    {"Id": 9, "ItemId": 800065, "Score": 50, "Slot": 1, "Icon": "icon_MidAutumn_storehouse02", "Index": 8},
+    {"Id": 10, "ItemId": 800066, "Score": 20, "Slot": 3, "Icon": "icon_feast_cream", "Index": 9},
+    {"Id": 11, "ItemId": 800067, "Score": 5, "Slot": 4, "Icon": "icon_MidAutumn_storehouse03", "Index": 10}
+  ]
+}

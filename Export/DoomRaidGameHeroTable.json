@@ -1,0 +1,8 @@
+{
+  "table_name": "DoomRaidGameHeroTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1001, "SkillArray": [], "SkillArrayLength": 0, "Hp": 500, "Attack": 40, "Entity": 3001001, "Name": 0, "Discription": 0, "ActiveSkill": 10100001, "Index": 0},
+    {"Id": 1002, "SkillArray": [], "SkillArrayLength": 0, "Hp": 500, "Attack": 40, "Entity": 3001002, "Name": 0, "Discription": 0, "ActiveSkill": 10100001, "Index": 1}
+  ]
+}

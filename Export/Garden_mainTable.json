@@ -1,0 +1,8 @@
+{
+  "table_name": "Garden_mainTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 500101, "Activity": 500101, "Name": 805002162, "SuperPrice": 600000, "Ratio": 1, "PositionArray": [-6, -1, -14], "PositionArrayLength": 3, "RotationArray": [-7, 35, -9], "RotationArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "RewardGoodArray": [2, 1500601], "RewardGoodArrayLength": 2, "IconArray": null, "IconArrayLength": 0, "AccumulateArray": ["0-15", "16-25", "26-45", "46-65", "66-70", "71-74", "75-9999"], "AccumulateArrayLength": 7, "ReturnNum": 1000, "ReturnGoodArray": ["10-50", "8899999"], "ReturnGoodArrayLength": 2, "SlotsGoods": 8899995, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "IfFree": 1, "FreeRefresh": 1440, "ShowArray": [8500005, 8500002, 8500001, 8500003, 8500004], "ShowArrayLength": 5, "Index": 0},
+    {"Id": 500103, "Activity": 500103, "Name": 805002208, "SuperPrice": 600000, "Ratio": 1, "PositionArray": [-4.2, -2.07, -15.31], "PositionArrayLength": 3, "RotationArray": [-1.13, 2.92, 4], "RotationArrayLength": 3, "ScaleArray": [0.6, 0.6, 0.6], "ScaleArrayLength": 3, "RewardGoodArray": [3, 1002901], "RewardGoodArrayLength": 2, "IconArray": null, "IconArrayLength": 0, "AccumulateArray": ["0-15", "16-25", "26-45", "46-65", "66-70", "71-74", "75-9999"], "AccumulateArrayLength": 7, "ReturnNum": 1000, "ReturnGoodArray": ["10-50", "8899999"], "ReturnGoodArrayLength": 2, "SlotsGoods": 8899994, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "IfFree": 1, "FreeRefresh": 1440, "ShowArray": [8000030, 8000031, 8000032, 8000033, 8000034], "ShowArrayLength": 5, "Index": 1}
+  ]
+}

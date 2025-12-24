@@ -1,0 +1,12 @@
+{
+  "table_name": "WorldBossTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 10016, "Type": 1, "FieldMonsterId": 670001, "BossEffectArray": ["61001;50", "61101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"61001": 50, "61101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_02", "EffectText": 406224, "Index": 0},
+    {"Id": 10017, "Type": 2, "FieldMonsterId": 670002, "BossEffectArray": ["60001;50", "60101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"60001": 50, "60101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_03", "EffectText": 406225, "Index": 1},
+    {"Id": 10018, "Type": 3, "FieldMonsterId": 670003, "BossEffectArray": ["62001;50", "62101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"62001": 50, "62101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_01", "EffectText": 406226, "Index": 2},
+    {"Id": 10019, "Type": 4, "FieldMonsterId": 670001, "BossEffectArray": ["61001;50", "61101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"61001": 50, "61101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_02", "EffectText": 406224, "Index": 3},
+    {"Id": 10020, "Type": 5, "FieldMonsterId": 670002, "BossEffectArray": ["60001;50", "60101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"60001": 50, "60101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_03", "EffectText": 406225, "Index": 4},
+    {"Id": 10021, "Type": 6, "FieldMonsterId": 670003, "BossEffectArray": ["62001;50", "62101;50", "63001;50", "63101;50"], "BossEffectArrayLength": 4, "BossEffectDic": {"62001": 50, "62101": 50, "63001": 50, "63101": 50}, "ShowImg": "img_boss_01", "EffectText": 406226, "Index": 5}
+  ]
+}

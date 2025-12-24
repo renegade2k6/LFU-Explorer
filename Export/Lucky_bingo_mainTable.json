@@ -1,0 +1,7 @@
+{
+  "table_name": "Lucky_bingo_mainTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1001, "CostCoinArray": ["1;700821,100", "5;700821,500"], "CostCoinArrayLength": 2, "CostCoinDic": {"1": "700821,100", "5": "700821,500"}, "RewardProp": 700821, "SameNumArray": [3, 4, 5], "SameNumArrayLength": 3, "Index": 0}
+  ]
+}

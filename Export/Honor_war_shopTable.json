@@ -1,0 +1,15 @@
+{
+  "table_name": "Honor_war_shopTable",
+  "row_count": 9,
+  "data": [
+    {"Id": 1001, "Season": 0, "GoodsArray": [440071, 1], "GoodsArrayLength": 2, "CostArray": [700431, 40000], "CostArrayLength": 2, "Order": 1, "Limit": 6, "Hide": 1, "Reset": 0, "HighlightBackground": 1, "ShowValue": 1, "Index": 0},
+    {"Id": 1002, "Season": 0, "GoodsArray": [200059, 1], "GoodsArrayLength": 2, "CostArray": [700431, 3000], "CostArrayLength": 2, "Order": 7, "Limit": 12, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 1},
+    {"Id": 1003, "Season": 0, "GoodsArray": [203271, 1], "GoodsArrayLength": 2, "CostArray": [700431, 20000], "CostArrayLength": 2, "Order": 2, "Limit": 5, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 2},
+    {"Id": 1004, "Season": 0, "GoodsArray": [200093, 2], "GoodsArrayLength": 2, "CostArray": [700431, 6000], "CostArrayLength": 2, "Order": 4, "Limit": 20, "Hide": 1, "Reset": 0, "HighlightBackground": 1, "ShowValue": 1, "Index": 3},
+    {"Id": 1005, "Season": 0, "GoodsArray": [200030, 300], "GoodsArrayLength": 2, "CostArray": [700431, 3500], "CostArrayLength": 2, "Order": 6, "Limit": 100, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 4},
+    {"Id": 1006, "Season": 0, "GoodsArray": [240001, 20], "GoodsArrayLength": 2, "CostArray": [700431, 1500], "CostArrayLength": 2, "Order": 5, "Limit": 20, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 5},
+    {"Id": 1007, "Season": 0, "GoodsArray": [200056, 300], "GoodsArrayLength": 2, "CostArray": [700431, 3500], "CostArrayLength": 2, "Order": 9, "Limit": 20, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 6},
+    {"Id": 1008, "Season": 0, "GoodsArray": [240002, 1], "GoodsArrayLength": 2, "CostArray": [700431, 5000], "CostArrayLength": 2, "Order": 3, "Limit": 20, "Hide": 1, "Reset": 0, "HighlightBackground": 1, "ShowValue": 1, "Index": 7},
+    {"Id": 1009, "Season": 0, "GoodsArray": [200213, 5], "GoodsArrayLength": 2, "CostArray": [700431, 2000], "CostArrayLength": 2, "Order": 8, "Limit": 25, "Hide": 1, "Reset": 0, "HighlightBackground": 0, "ShowValue": 0, "Index": 8}
+  ]
+}

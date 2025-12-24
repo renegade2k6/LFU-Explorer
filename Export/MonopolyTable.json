@@ -1,0 +1,7 @@
+{
+  "table_name": "MonopolyTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 259001, "ConsumeArray": [800028, 1], "ConsumeArrayLength": 2, "LinkGoodsArray": [800029, 800030, 800031], "LinkGoodsArrayLength": 3, "ProgressRewardArray": ["50;4420099", "100;4420100", "150;4420101", "200;4420102", "300;4420103", "400;4420104", "500;4420105"], "ProgressRewardArrayLength": 7, "ProgressRewardDic": {"50": 4420099, "100": 4420100, "150": 4420101, "200": 4420102, "300": 4420103, "400": 4420104, "500": 4420105}, "Mail": 203023, "Index": 0}
+  ]
+}

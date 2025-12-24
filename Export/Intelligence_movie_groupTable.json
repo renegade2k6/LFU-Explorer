@@ -1,0 +1,20 @@
+{
+  "table_name": "Intelligence_movie_groupTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 2001, "IntelligenceIdsArray": [150001, 150002, 150003, 150004, 150005], "IntelligenceIdsArrayLength": 5, "HeroId": 2102, "MovieIdArray": [1001], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [150001, 150002, 150003, 150004, 150005], "OldIntelligenceIdsArrayLength": 5, "Index": 0},
+    {"Id": 2002, "IntelligenceIdsArray": [100001], "IntelligenceIdsArrayLength": 1, "HeroId": 2012, "MovieIdArray": [1002], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100001], "OldIntelligenceIdsArrayLength": 1, "Index": 1},
+    {"Id": 2003, "IntelligenceIdsArray": [150001, 150002, 150003, 150004, 150005], "IntelligenceIdsArrayLength": 5, "HeroId": 2026, "MovieIdArray": [1003], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100002], "OldIntelligenceIdsArrayLength": 1, "Index": 2},
+    {"Id": 2004, "IntelligenceIdsArray": [100002], "IntelligenceIdsArrayLength": 1, "HeroId": 2024, "MovieIdArray": [1004], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100003, 100015, 100016, 100017], "OldIntelligenceIdsArrayLength": 4, "Index": 3},
+    {"Id": 2005, "IntelligenceIdsArray": [100003], "IntelligenceIdsArrayLength": 1, "HeroId": 2022, "MovieIdArray": [1005], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100004, 100018, 100019, 100020], "OldIntelligenceIdsArrayLength": 4, "Index": 4},
+    {"Id": 2006, "IntelligenceIdsArray": [100004], "IntelligenceIdsArrayLength": 1, "HeroId": 2020, "MovieIdArray": [1006], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100005, 100021, 100022, 100023], "OldIntelligenceIdsArrayLength": 4, "Index": 5},
+    {"Id": 2007, "IntelligenceIdsArray": [100005], "IntelligenceIdsArrayLength": 1, "HeroId": 2025, "MovieIdArray": [1007], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100006, 100024, 100025, 100026], "OldIntelligenceIdsArrayLength": 4, "Index": 6},
+    {"Id": 2008, "IntelligenceIdsArray": [100006], "IntelligenceIdsArrayLength": 1, "HeroId": 2023, "MovieIdArray": [1008], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100007, 100027, 100028, 100029], "OldIntelligenceIdsArrayLength": 4, "Index": 7},
+    {"Id": 2009, "IntelligenceIdsArray": [100007], "IntelligenceIdsArrayLength": 1, "HeroId": 2021, "MovieIdArray": [1009], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100008, 100030, 100031, 100032], "OldIntelligenceIdsArrayLength": 4, "Index": 8},
+    {"Id": 2010, "IntelligenceIdsArray": [150020, 150021, 150022, 150023, 150024], "IntelligenceIdsArrayLength": 5, "HeroId": 2112, "MovieIdArray": [1018], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [], "OldIntelligenceIdsArrayLength": 0, "Index": 9},
+    {"Id": 2011, "IntelligenceIdsArray": [100008], "IntelligenceIdsArrayLength": 1, "HeroId": 2013, "MovieIdArray": [1019], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100002], "OldIntelligenceIdsArrayLength": 1, "Index": 10},
+    {"Id": 2012, "IntelligenceIdsArray": [150020, 150021, 150022, 150023, 150024], "IntelligenceIdsArrayLength": 5, "HeroId": 2026, "MovieIdArray": [1003], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [100002], "OldIntelligenceIdsArrayLength": 1, "Index": 11},
+    {"Id": 2013, "IntelligenceIdsArray": [151001, 151002], "IntelligenceIdsArrayLength": 2, "HeroId": 2102, "MovieIdArray": [1020], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [151001, 151002], "OldIntelligenceIdsArrayLength": 2, "Index": 12},
+    {"Id": 2014, "IntelligenceIdsArray": [140001, 150002, 150003, 150004, 150005], "IntelligenceIdsArrayLength": 5, "HeroId": 2102, "MovieIdArray": [1021], "MovieIdArrayLength": 1, "OldIntelligenceIdsArray": [140001, 150002, 150003, 150004, 150005], "OldIntelligenceIdsArrayLength": 5, "Index": 13}
+  ]
+}

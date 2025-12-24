@@ -1,0 +1,10 @@
+{
+  "table_name": "Activity_dropTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1001, "Gotype": 6124, "Go": 1, "Orde": 1, "Description": 382414, "Index": 0},
+    {"Id": 1002, "Gotype": 6111, "Go": 2, "Orde": 2, "Description": 382415, "Index": 1},
+    {"Id": 1003, "Gotype": 6109, "Go": 1, "Orde": 3, "Description": 382416, "Index": 2},
+    {"Id": 1004, "Gotype": 6139, "Go": 0, "Orde": 4, "Description": 900636, "Index": 3}
+  ]
+}

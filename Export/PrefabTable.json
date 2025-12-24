@@ -1,0 +1,14 @@
+{
+  "table_name": "PrefabTable",
+  "row_count": 8,
+  "data": [
+    {"Id": "Ground", "AssetName": "Assets/Shelter/Prefabs/Ground/Ground", "DefaultPrefab": "Ground", "PrefabsArray": ["Ground_low", "Ground_low", "Ground", "Ground"], "PrefabsArrayLength": 4, "Index": 0},
+    {"Id": "ZombieRoot", "AssetName": "Assets/Shelter/Prefabs/Ground/ZombieRoot", "DefaultPrefab": "ZombieRoot", "PrefabsArray": ["ZombieRoot_low", "ZombieRoot_low", "ZombieRoot", "ZombieRoot"], "PrefabsArrayLength": 4, "Index": 2},
+    {"Id": "RoughTemplate", "AssetName": "Assets/Shelter/Prefabs/Rough/RoughTemplate", "DefaultPrefab": "RoughTemplate", "PrefabsArray": null, "PrefabsArrayLength": 0, "Index": 1},
+    {"Id": "RoomGate_1", "AssetName": "Assets/Shelter/Prefabs/Room/RoomGate_1", "DefaultPrefab": "RoomGate_1", "PrefabsArray": ["RoomGate_1_low", "RoomGate_1_low", "RoomGate_1", "RoomGate_1"], "PrefabsArrayLength": 4, "Index": 3},
+    {"Id": "Ground_DigCopy", "AssetName": "Assets/Shelter/Prefabs/Ground/DigCopy/Ground_DigCopy", "DefaultPrefab": "Ground_DigCopy", "PrefabsArray": ["Ground_DigCopy", "Ground_DigCopy", "Ground_DigCopy", "Ground_DigCopy"], "PrefabsArrayLength": 4, "Index": 4},
+    {"Id": "Ground_Ip", "AssetName": "Assets/Shelter/Prefabs/Ground/Ground/Ip", "DefaultPrefab": "Ground_Ip", "PrefabsArray": ["Ground_low_Ip", "Ground_low_Ip", "Ground_Ip", "Ground_Ip"], "PrefabsArrayLength": 4, "Index": 5},
+    {"Id": "RoomGate_1_Ip", "AssetName": "Assets/Shelter/Prefabs/Room/RoomGate_1/IP", "DefaultPrefab": "RoomGate_1_Ip", "PrefabsArray": ["RoomGate_1_low_Ip", "RoomGate_1_low_Ip", "RoomGate_1_Ip", "RoomGate_1_Ip"], "PrefabsArrayLength": 4, "Index": 6},
+    {"Id": "RoomGate_1_upgrade_low", "AssetName": "Assets/Shelter/Prefabs/Room/RoomGate_1/upgrade", "DefaultPrefab": "RoomGate_1_upgrade_low", "PrefabsArray": ["RoomGate_1_upgrade_low", "RoomGate_1_upgrade_low", "RoomGate_1_upgrade_low", "RoomGate_1_upgrade_low"], "PrefabsArrayLength": 4, "Index": 7}
+  ]
+}

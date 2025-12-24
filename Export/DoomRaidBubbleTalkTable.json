@@ -1,0 +1,13 @@
+{
+  "table_name": "DoomRaidBubbleTalkTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1, "TalkType": 1, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "10", "Probability": 0, "AppearRule": 1, "DisplayTime": 5, "Index": 0},
+    {"Id": 2, "TalkType": 1, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "80", "Probability": 0, "AppearRule": 2, "DisplayTime": 5, "Index": 1},
+    {"Id": 3, "TalkType": 2, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "13120101", "Probability": 0, "AppearRule": 3, "DisplayTime": 5, "Index": 2},
+    {"Id": 4, "TalkType": 2, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "13130101", "Probability": 0, "AppearRule": 3, "DisplayTime": 5, "Index": 3},
+    {"Id": 5, "TalkType": 2, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "13140101", "Probability": 0, "AppearRule": 3, "DisplayTime": 5, "Index": 4},
+    {"Id": 6, "TalkType": 2, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "13150101", "Probability": 0, "AppearRule": 3, "DisplayTime": 5, "Index": 5},
+    {"Id": 7, "TalkType": 2, "DisplayResource": 0, "MessageArray": [], "MessageArrayLength": 0, "Param1": "", "Probability": 0, "AppearRule": 4, "DisplayTime": 5, "Index": 6}
+  ]
+}

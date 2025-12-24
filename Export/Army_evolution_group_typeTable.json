@@ -1,0 +1,9 @@
+{
+  "table_name": "Army_evolution_group_typeTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1001, "Name": 809300009, "Order": 1, "ScienceGroupArray": [100101, 100102, 100103, 100104, 100105], "ScienceGroupArrayLength": 5, "Index": 0},
+    {"Id": 1002, "Name": 809300010, "Order": 2, "ScienceGroupArray": [100201, 100202, 100203, 100204, 100205], "ScienceGroupArrayLength": 5, "Index": 1},
+    {"Id": 1003, "Name": 809300011, "Order": 3, "ScienceGroupArray": [100301, 100302, 100303, 100304, 100305], "ScienceGroupArrayLength": 5, "Index": 2}
+  ]
+}

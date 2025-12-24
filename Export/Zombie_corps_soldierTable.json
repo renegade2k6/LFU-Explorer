@@ -1,0 +1,16 @@
+{
+  "table_name": "Zombie_corps_soldierTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "Level": 1, "Maxlevel": 10, "EffectArray": ["20018;5", "20014;5"], "EffectArrayLength": 2, "EffectDic": {"20018": 5, "20014": 5}, "EffectShowArray": ["162076;5", "162078;5"], "EffectShowArrayLength": 2, "EffectShowDic": {"162076": 5, "162078": 5}, "Index": 0},
+    {"Id": 2, "Level": 2, "Maxlevel": 10, "EffectArray": ["20018;5", "20014;5"], "EffectArrayLength": 2, "EffectDic": {"20018": 5, "20014": 5}, "EffectShowArray": ["162076;10", "162078;10"], "EffectShowArrayLength": 2, "EffectShowDic": {"162076": 10, "162078": 10}, "Index": 1},
+    {"Id": 3, "Level": 3, "Maxlevel": 10, "EffectArray": ["20018;35", "20014;35"], "EffectArrayLength": 2, "EffectDic": {"20018": 35, "20014": 35}, "EffectShowArray": ["162076;45", "162078;45"], "EffectShowArrayLength": 2, "EffectShowDic": {"162076": 45, "162078": 45}, "Index": 2},
+    {"Id": 4, "Level": 4, "Maxlevel": 10, "EffectArray": ["20017;10", "20013;10"], "EffectArrayLength": 2, "EffectDic": {"20017": 10, "20013": 10}, "EffectShowArray": ["162076;45", "162078;45", "162075;10", "162077;10"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 45, "162078": 45, "162075": 10, "162077": 10}, "Index": 3},
+    {"Id": 5, "Level": 5, "Maxlevel": 10, "EffectArray": ["20017;20", "20013;20"], "EffectArrayLength": 2, "EffectDic": {"20017": 20, "20013": 20}, "EffectShowArray": ["162076;45", "162078;45", "162075;30", "162077;30"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 45, "162078": 45, "162075": 30, "162077": 30}, "Index": 4},
+    {"Id": 6, "Level": 6, "Maxlevel": 10, "EffectArray": ["20018;10", "20014;10"], "EffectArrayLength": 2, "EffectDic": {"20018": 10, "20014": 10}, "EffectShowArray": ["162076;55", "162078;55", "162075;30", "162077;30"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 55, "162078": 55, "162075": 30, "162077": 30}, "Index": 5},
+    {"Id": 7, "Level": 7, "Maxlevel": 10, "EffectArray": ["20018;30", "20014;30"], "EffectArrayLength": 2, "EffectDic": {"20018": 30, "20014": 30}, "EffectShowArray": ["162076;85", "162078;85", "162075;30", "162077;30"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 85, "162078": 85, "162075": 30, "162077": 30}, "Index": 6},
+    {"Id": 8, "Level": 8, "Maxlevel": 10, "EffectArray": ["20017;10", "20013;10"], "EffectArrayLength": 2, "EffectDic": {"20017": 10, "20013": 10}, "EffectShowArray": ["162076;85", "162078;85", "162075;40", "162077;40"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 85, "162078": 85, "162075": 40, "162077": 40}, "Index": 7},
+    {"Id": 9, "Level": 9, "Maxlevel": 10, "EffectArray": ["20018;10", "20014;10"], "EffectArrayLength": 2, "EffectDic": {"20018": 10, "20014": 10}, "EffectShowArray": ["162076;95", "162078;95", "162075;40", "162077;40"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 95, "162078": 95, "162075": 40, "162077": 40}, "Index": 8},
+    {"Id": 10, "Level": 10, "Maxlevel": 10, "EffectArray": ["20017;20", "20013;20"], "EffectArrayLength": 2, "EffectDic": {"20017": 20, "20013": 20}, "EffectShowArray": ["162076;95", "162078;95", "162075;60", "162077;60"], "EffectShowArrayLength": 4, "EffectShowDic": {"162076": 95, "162078": 95, "162075": 60, "162077": 60}, "Index": 9}
+  ]
+}

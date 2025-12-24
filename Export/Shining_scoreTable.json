@@ -1,0 +1,24 @@
+{
+  "table_name": "Shining_scoreTable",
+  "row_count": 18,
+  "data": [
+    {"Id": 10001, "Season": 1, "Type": 1, "Value": 265001, "Points": 60, "Name": 398177, "Story": 0, "Index": 0},
+    {"Id": 10002, "Season": 1, "Type": 1, "Value": 265002, "Points": 500, "Name": 398178, "Story": 0, "Index": 1},
+    {"Id": 10003, "Season": 1, "Type": 2, "Value": 0, "Points": 800, "Name": 398179, "Story": 0, "Index": 2},
+    {"Id": 10004, "Season": 1, "Type": 3, "Value": 1, "Points": 1000, "Name": 398213, "Story": 0, "Index": 3},
+    {"Id": 10005, "Season": 1, "Type": 3, "Value": 2, "Points": 1200, "Name": 398213, "Story": 0, "Index": 4},
+    {"Id": 10006, "Season": 1, "Type": 3, "Value": 3, "Points": 1500, "Name": 398213, "Story": 0, "Index": 5},
+    {"Id": 10007, "Season": 1, "Type": 3, "Value": 4, "Points": 1800, "Name": 398213, "Story": 0, "Index": 6},
+    {"Id": 10008, "Season": 1, "Type": 3, "Value": 5, "Points": 2500, "Name": 398213, "Story": 0, "Index": 7},
+    {"Id": 10011, "Season": 1, "Type": 4, "Value": 0, "Points": 2, "Name": 398183, "Story": 0, "Index": 8},
+    {"Id": 11001, "Season": -1, "Type": 1, "Value": 265011, "Points": 60, "Name": 398177, "Story": 5, "Index": 9},
+    {"Id": 11002, "Season": -1, "Type": 1, "Value": 265012, "Points": 500, "Name": 398178, "Story": 5, "Index": 10},
+    {"Id": 11003, "Season": -1, "Type": 2, "Value": 0, "Points": 800, "Name": 398179, "Story": 5, "Index": 11},
+    {"Id": 11004, "Season": -1, "Type": 3, "Value": 1, "Points": 1000, "Name": 398213, "Story": 5, "Index": 12},
+    {"Id": 11005, "Season": -1, "Type": 3, "Value": 2, "Points": 1200, "Name": 398213, "Story": 5, "Index": 13},
+    {"Id": 11006, "Season": -1, "Type": 3, "Value": 3, "Points": 1500, "Name": 398213, "Story": 5, "Index": 14},
+    {"Id": 11007, "Season": -1, "Type": 3, "Value": 4, "Points": 1800, "Name": 398213, "Story": 5, "Index": 15},
+    {"Id": 11008, "Season": -1, "Type": 3, "Value": 5, "Points": 2500, "Name": 398213, "Story": 5, "Index": 16},
+    {"Id": 11009, "Season": -1, "Type": 4, "Value": 0, "Points": 2, "Name": 398183, "Story": 5, "Index": 17}
+  ]
+}

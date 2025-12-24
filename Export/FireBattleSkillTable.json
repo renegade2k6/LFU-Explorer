@@ -1,0 +1,16 @@
+{
+  "table_name": "FireBattleSkillTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 201801, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 201801, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 0},
+    {"Id": 201802, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 201802, "SkillName": 513201, "SkillPic": "ICON_Brady_01", "SkillDes": 513202, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 1},
+    {"Id": 220901, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 220901, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 2},
+    {"Id": 220902, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 1, "SkillEffectGroup": 220902, "SkillName": 160279, "SkillPic": "ICON_Natalie_01", "SkillDes": 513203, "ActAnimationPre": "FB_skill_pre", "ActAnimationLast": "FB_skill_last", "Index": 3},
+    {"Id": 220401, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 1, "SkillEffectGroup": 220401, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 4},
+    {"Id": 220402, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 220402, "SkillName": 160210, "SkillPic": "ICON_Matthew_01", "SkillDes": 513204, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 5},
+    {"Id": 210701, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 210701, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 6},
+    {"Id": 210702, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 2, "SkillEffectGroup": 210702, "SkillName": 160007, "SkillPic": "ICON_Braum_01", "SkillDes": 513205, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 7},
+    {"Id": 9900101, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 1, "SkillEffectGroup": 9900101, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 8},
+    {"Id": 9900102, "StiffnessRateAtk": 1, "RepelRateAtk": 1, "MoveType": 1, "SkillEffectGroup": 9900102, "SkillName": 0, "SkillPic": "", "SkillDes": 0, "ActAnimationPre": "", "ActAnimationLast": "", "Index": 9}
+  ]
+}

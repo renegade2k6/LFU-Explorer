@@ -1,0 +1,7 @@
+{
+  "table_name": "Drop_groupTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 10001, "Max": 800, "AddMaxArray": [50, 850, 850, 850, 850, 850, 850], "AddMaxArrayLength": 7, "Para": "1001;1002;1003;1004", "Index": 0}
+  ]
+}

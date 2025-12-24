@@ -1,0 +1,10 @@
+{
+  "table_name": "Fight_campTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1, "Camp": 1, "ShowRewardArray": ["1104;1", "2104;1", "3104;1", "4104;1"], "ShowRewardArrayLength": 4, "Pic": "ui_jiaodouchang_img_02", "Name": "150704", "PicCamp": "icon_HeroDrawCard_da_04", "PicNew": "", "Index": 0},
+    {"Id": 2, "Camp": 2, "ShowRewardArray": ["1104;1", "2104;1", "3104;1", "4104;1"], "ShowRewardArrayLength": 4, "Pic": "ui_jiaodouchang_img_04", "Name": "150701", "PicCamp": "icon_HeroDrawCard_da_03", "PicNew": "", "Index": 1},
+    {"Id": 3, "Camp": 3, "ShowRewardArray": ["1104;1", "2104;1", "3104;1", "4104;1"], "ShowRewardArrayLength": 4, "Pic": "ui_jiaodouchang_img_03", "Name": "150702", "PicCamp": "icon_HeroDrawCard_da_02", "PicNew": "", "Index": 2},
+    {"Id": 4, "Camp": 4, "ShowRewardArray": ["1104;1", "2104;1", "3104;1", "4104;1"], "ShowRewardArrayLength": 4, "Pic": "ui_jiaodouchang_img_01", "Name": "150703", "PicCamp": "icon_HeroDrawCard_da_01", "PicNew": "", "Index": 3}
+  ]
+}

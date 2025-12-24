@@ -1,0 +1,18 @@
+{
+  "table_name": "Equip_clean_up_itemTable",
+  "row_count": 12,
+  "data": [
+    {"Id": 1, "GroupName": 150705, "Order": 1, "EffectArray": [], "EffectArrayLength": 0, "Index": 0},
+    {"Id": 2, "GroupName": 100400, "Order": 2, "EffectArray": [6, 13, 34, 43, 50], "EffectArrayLength": 5, "Index": 1},
+    {"Id": 3, "GroupName": 100401, "Order": 3, "EffectArray": [17, 18, 26, 27, 31, 35, 57, 65], "EffectArrayLength": 8, "Index": 2},
+    {"Id": 4, "GroupName": 100405, "Order": 4, "EffectArray": [22, 36, 58, 66], "EffectArrayLength": 4, "Index": 3},
+    {"Id": 5, "GroupName": 138471, "Order": 5, "EffectArray": [3, 7, 10, 14, 33, 40, 44, 47, 51, 73], "EffectArrayLength": 10, "Index": 4},
+    {"Id": 6, "GroupName": 410021, "Order": 6, "EffectArray": [38, 45, 52, 60, 68, 71], "EffectArrayLength": 6, "Index": 5},
+    {"Id": 7, "GroupName": 410022, "Order": 7, "EffectArray": [23, 32, 39, 46, 53, 59, 61, 67, 69, 72], "EffectArrayLength": 10, "Index": 6},
+    {"Id": 8, "GroupName": 410001, "Order": 8, "EffectArray": [1, 4, 41], "EffectArrayLength": 3, "Index": 7},
+    {"Id": 9, "GroupName": 410002, "Order": 9, "EffectArray": [8, 48, 11], "EffectArrayLength": 3, "Index": 8},
+    {"Id": 10, "GroupName": 410003, "Order": 10, "EffectArray": [2, 5, 9, 12, 15, 20, 24, 29, 42, 49, 55, 63], "EffectArrayLength": 12, "Index": 9},
+    {"Id": 11, "GroupName": 410004, "Order": 11, "EffectArray": [16, 21, 25, 30, 56, 64], "EffectArrayLength": 6, "Index": 10},
+    {"Id": 12, "GroupName": 410005, "Order": 12, "EffectArray": [37, 70, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87], "EffectArrayLength": 12, "Index": 11}
+  ]
+}

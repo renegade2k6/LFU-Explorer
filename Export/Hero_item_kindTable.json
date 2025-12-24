@@ -1,0 +1,22 @@
+{
+  "table_name": "Hero_item_kindTable",
+  "row_count": 16,
+  "data": [
+    {"Id": 0, "Name": "301614", "Icon": "", "Group": 1, "Quality": 0, "Select": 0, "Index": 0},
+    {"Id": 1, "Name": "400001", "Icon": "ICON_EQ_Hand_s", "Group": 1, "Quality": 0, "Select": 0, "Index": 1},
+    {"Id": 2, "Name": "400002", "Icon": "ICON_EQ_Head_s", "Group": 1, "Quality": 0, "Select": 0, "Index": 2},
+    {"Id": 3, "Name": "400003", "Icon": "ICON_EQ_Body_s", "Group": 1, "Quality": 0, "Select": 0, "Index": 3},
+    {"Id": 4, "Name": "400004", "Icon": "ICON_EQ_Ornaments_s", "Group": 1, "Quality": 0, "Select": 0, "Index": 4},
+    {"Id": 106, "Name": "400050", "Icon": "", "Group": 2, "Quality": 0, "Select": 0, "Index": 5},
+    {"Id": 101, "Name": "400022", "Icon": "", "Group": 2, "Quality": 0, "Select": 1, "Index": 6},
+    {"Id": 102, "Name": "400023", "Icon": "", "Group": 2, "Quality": 0, "Select": 2, "Index": 7},
+    {"Id": 103, "Name": "400024", "Icon": "", "Group": 2, "Quality": 0, "Select": 3, "Index": 8},
+    {"Id": 104, "Name": "400025", "Icon": "", "Group": 2, "Quality": 0, "Select": 4, "Index": 9},
+    {"Id": 105, "Name": "301614", "Icon": "", "Group": 2, "Quality": 0, "Select": 9999, "Index": 10},
+    {"Id": 201, "Name": "400046", "Icon": "", "Group": 3, "Quality": 0, "Select": 0, "Index": 11},
+    {"Id": 202, "Name": "400047", "Icon": "", "Group": 3, "Quality": 0, "Select": 0, "Index": 12},
+    {"Id": 203, "Name": "400048", "Icon": "", "Group": 3, "Quality": 0, "Select": 0, "Index": 13},
+    {"Id": 204, "Name": "400049", "Icon": "", "Group": 3, "Quality": 0, "Select": 0, "Index": 14},
+    {"Id": 205, "Name": "301614", "Icon": "", "Group": 3, "Quality": 0, "Select": 0, "Index": 15}
+  ]
+}

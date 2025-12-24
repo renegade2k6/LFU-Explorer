@@ -1,0 +1,27 @@
+{
+  "table_name": "Tile_patternTable",
+  "row_count": 21,
+  "data": [
+    {"Id": 101, "Type": 1, "Icon": "icon_wanshengjie_01", "Color": 0, "Index": 0},
+    {"Id": 102, "Type": 1, "Icon": "icon_wanshengjie_02", "Color": 0, "Index": 1},
+    {"Id": 103, "Type": 1, "Icon": "icon_wanshengjie_03", "Color": 0, "Index": 2},
+    {"Id": 104, "Type": 1, "Icon": "icon_wanshengjie_04", "Color": 0, "Index": 3},
+    {"Id": 105, "Type": 1, "Icon": "icon_wanshengjie_05", "Color": 0, "Index": 4},
+    {"Id": 106, "Type": 1, "Icon": "icon_wanshengjie_06", "Color": 0, "Index": 5},
+    {"Id": 107, "Type": 1, "Icon": "icon_wanshengjie_07", "Color": 0, "Index": 6},
+    {"Id": 108, "Type": 1, "Icon": "icon_wanshengjie_08", "Color": 0, "Index": 7},
+    {"Id": 109, "Type": 1, "Icon": "icon_wanshengjie_09", "Color": 0, "Index": 8},
+    {"Id": 110, "Type": 1, "Icon": "icon_wanshengjie_10", "Color": 0, "Index": 9},
+    {"Id": 111, "Type": 1, "Icon": "icon_wanshengjie_11", "Color": 0, "Index": 10},
+    {"Id": 112, "Type": 1, "Icon": "icon_wanshengjie_12", "Color": 0, "Index": 11},
+    {"Id": 113, "Type": 1, "Icon": "icon_wanshengjie_13", "Color": 0, "Index": 12},
+    {"Id": 114, "Type": 1, "Icon": "icon_wanshengjie_14", "Color": 0, "Index": 13},
+    {"Id": 115, "Type": 2, "Icon": "item200056", "Color": 3, "Index": 14},
+    {"Id": 116, "Type": 2, "Icon": "item200059", "Color": 4, "Index": 15},
+    {"Id": 117, "Type": 2, "Icon": "ICON_guajiCoin", "Color": 3, "Index": 16},
+    {"Id": 118, "Type": 2, "Icon": "ICON_prestige", "Color": 2, "Index": 17},
+    {"Id": 119, "Type": 2, "Icon": "item_operationscenter_exp", "Color": 3, "Index": 18},
+    {"Id": 120, "Type": 2, "Icon": "item_operationscenter_coin", "Color": 3, "Index": 19},
+    {"Id": 121, "Type": 2, "Icon": "icon_cjhd_rhsd_hb", "Color": 3, "Index": 20}
+  ]
+}

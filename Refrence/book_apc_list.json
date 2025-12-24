@@ -1,0 +1,184 @@
+[
+  {
+    "Id": 1,
+    "Name": "APC {0}",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_02.png",
+    "Quality": 3,
+    "MaxLevel": 1,
+    "MaxSupremeLevel": 0,
+    "BaseEffect": "400001;800",
+    "RabbetSlots": [1, 2, 3, 4, null],
+    "SpecialSlot": null,
+    "HeroSkillId": 5001,
+    "RepairCost": "Free"
+  },
+  {
+    "Id": 2,
+    "Name": "Armed Chariot",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_03.png",
+    "Quality": 5,
+    "MaxLevel": 40,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 2, 3, 4],
+    "SpecialSlot": "Slot 2 (2703)",
+    "HeroSkillId": 5002,
+    "RepairCost": "270201 × 500"
+  },
+  {
+    "Id": 3,
+    "Name": "Iron Fist",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_01.png",
+    "Quality": 5,
+    "MaxLevel": 40,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 3, 3, 4],
+    "SpecialSlot": "Slot 3 (3403)",
+    "HeroSkillId": 5003,
+    "RepairCost": "270201 × 500"
+  },
+  {
+    "Id": 4,
+    "Name": "Plunderer",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_04.png",
+    "Quality": 4,
+    "MaxLevel": 20,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 3, 4, 4],
+    "SpecialSlot": "Slot 4 (4403)",
+    "HeroSkillId": 5004,
+    "RepairCost": "270201 × 100"
+  },
+  {
+    "Id": 5,
+    "Name": "New World Protector",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_05.png",
+    "Quality": 5,
+    "MaxLevel": 50,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 3, 4, 4],
+    "SpecialSlot": "Slot 4 (4503)",
+    "HeroSkillId": 5005,
+    "RepairCost": "270201 × 800"
+  },
+  {
+    "Id": 6,
+    "Name": "Demon",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_06.png",
+    "Quality": 5,
+    "MaxLevel": 60,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 2, 3, 4],
+    "SpecialSlot": "Slot 2 (2503)",
+    "HeroSkillId": 5006,
+    "RepairCost": "270201 × 1000"
+  },
+  {
+    "Id": 7,
+    "Name": "Neon",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_07.png",
+    "Quality": 6,
+    "MaxLevel": 60,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 2, 3, 4],
+    "SpecialSlot": "Slot 2 (2603)",
+    "HeroSkillId": 5007,
+    "RepairCost": "270202 × 100"
+  },
+  {
+    "Id": 8,
+    "Name": "Hero Rally",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Theboys.png",
+    "Quality": 5,
+    "MaxLevel": 60,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 2, 3, 4],
+    "SpecialSlot": "Slot 2 (2703)",
+    "HeroSkillId": 5008,
+    "RepairCost": "271009 × 1",
+    "Skins": [
+      {
+        "SkinId": 101,
+        "Name": "Hero Rally",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Theboys.png",
+        "Model": "Hmodel_car_Theboys",
+        "Quality": 4,
+        "Theme": "The Boys (Base)",
+        "Description": "Use it to change the appearance of the APC into the [Hero Rally]."
+      },
+      {
+        "SkinId": 102,
+        "Name": "Homelander Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Homelander.png",
+        "Model": "Hmodel_car_Homelander",
+        "Quality": 4,
+        "Theme": "Homelander",
+        "Description": "Use it to change the coating into [Homelander Coating] (can only be used on the \"Hero Rally\" APC)."
+      },
+      {
+        "SkinId": 103,
+        "Name": "Starlight Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_StarLight.png",
+        "Model": "Hmodel_car_StarLight",
+        "Quality": 4,
+        "Theme": "Starlight",
+        "Description": "Use it to change the coating into [Starlight Coating] (can only be used on the \"Hero Rally\" APC)."
+      },
+      {
+        "SkinId": 104,
+        "Name": "Hughie Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Hughie.png",
+        "Model": "Hmodel_car_Hughie",
+        "Quality": 4,
+        "Theme": "Hughie",
+        "Description": "Use it to change the coating into [Hughie Coating] (can only be used on the \"Hero Rally\" APC)."
+      },
+      {
+        "SkinId": 105,
+        "Name": "Butcher Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Butcher.png",
+        "Model": "Hmodel_car_Butcher",
+        "Quality": 4,
+        "Theme": "Butcher",
+        "Description": "Use it to change the coating into [Butcher Coating] (can only be used on the \"Hero Rally\" APC)."
+      },
+      {
+        "SkinId": 106,
+        "Name": "Soldier Boy Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_SoldierBoy.png",
+        "Model": "Hmodel_car_SoldierBoy",
+        "Quality": 4,
+        "Theme": "Soldier Boy",
+        "Description": "Use it to change the coating into [Soldier Boy Coating] (can only be used on the \"Hero Rally\" APC)."
+      },
+      {
+        "SkinId": 107,
+        "Name": "A-Train Coating",
+        "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_ATrain.png",
+        "Model": "Hmodel_car_Atrain",
+        "Quality": 4,
+        "Theme": "A-Train",
+        "Description": "Use it to change the coating into [A-Train Coating] (can only be used on the \"Hero Rally\" APC)."
+      }
+    ]
+  },
+  {
+    "Id": 9,
+    "Name": "Pink Note",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_08.png",
+    "Quality": 6,
+    "MaxLevel": 60,
+    "MaxSupremeLevel": 50,
+    "BaseEffect": "400001;1080",
+    "RabbetSlots": [1, 2, 3, 4, 4],
+    "SpecialSlot": "Slot 4 (4603)",
+    "HeroSkillId": 5009,
+    "RepairCost": "270202 × 100"
+  }
+]

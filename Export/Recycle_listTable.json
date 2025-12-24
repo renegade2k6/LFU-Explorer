@@ -1,0 +1,31 @@
+{
+  "table_name": "Recycle_listTable",
+  "row_count": 25,
+  "data": [
+    {"Id": 2001, "GoodsId": 800001, "Point": 5, "Index": 0},
+    {"Id": 2002, "GoodsId": 800002, "Point": 5, "Index": 1},
+    {"Id": 2003, "GoodsId": 800003, "Point": 5, "Index": 2},
+    {"Id": 2004, "GoodsId": 800021, "Point": 5, "Index": 3},
+    {"Id": 2005, "GoodsId": 800014, "Point": 50, "Index": 4},
+    {"Id": 2006, "GoodsId": 800000, "Point": 50, "Index": 5},
+    {"Id": 2007, "GoodsId": 800015, "Point": 5, "Index": 6},
+    {"Id": 2008, "GoodsId": 704001, "Point": 5, "Index": 7},
+    {"Id": 2009, "GoodsId": 704002, "Point": 5, "Index": 8},
+    {"Id": 2010, "GoodsId": 704003, "Point": 5, "Index": 9},
+    {"Id": 2011, "GoodsId": 201161, "Point": 5, "Index": 10},
+    {"Id": 2012, "GoodsId": 203117, "Point": 2500, "Index": 11},
+    {"Id": 2013, "GoodsId": 203118, "Point": 250, "Index": 12},
+    {"Id": 2014, "GoodsId": 204002, "Point": 5, "Index": 13},
+    {"Id": 2015, "GoodsId": 201193, "Point": 5, "Index": 14},
+    {"Id": 2016, "GoodsId": 201195, "Point": 5, "Index": 15},
+    {"Id": 2017, "GoodsId": 700101, "Point": 5, "Index": 16},
+    {"Id": 2018, "GoodsId": 731001, "Point": 5, "Index": 17},
+    {"Id": 2019, "GoodsId": 731002, "Point": 5, "Index": 18},
+    {"Id": 2020, "GoodsId": 730001, "Point": 5, "Index": 19},
+    {"Id": 2021, "GoodsId": 730002, "Point": 5, "Index": 20},
+    {"Id": 2022, "GoodsId": 201196, "Point": 5, "Index": 21},
+    {"Id": 2023, "GoodsId": 201197, "Point": 5, "Index": 22},
+    {"Id": 2024, "GoodsId": 201198, "Point": 5, "Index": 23},
+    {"Id": 2025, "GoodsId": 201199, "Point": 5, "Index": 24}
+  ]
+}

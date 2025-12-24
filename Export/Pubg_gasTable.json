@@ -1,0 +1,11 @@
+{
+  "table_name": "Pubg_gasTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "GasNum": 1, "GasBegan": 30, "GasType": 0, "GasDownsize": 0.6, "GasHarm": 0, "GasPreview": 0, "GasReduce": 0, "Index": 0},
+    {"Id": 2, "GasNum": 2, "GasBegan": 160, "GasType": 1, "GasDownsize": 0.7, "GasHarm": 5, "GasPreview": 150, "GasReduce": 60, "Index": 1},
+    {"Id": 3, "GasNum": 3, "GasBegan": 340, "GasType": 1, "GasDownsize": 0.6, "GasHarm": 10, "GasPreview": 330, "GasReduce": 60, "Index": 2},
+    {"Id": 4, "GasNum": 4, "GasBegan": 490, "GasType": 1, "GasDownsize": 0.5, "GasHarm": 20, "GasPreview": 480, "GasReduce": 50, "Index": 3},
+    {"Id": 5, "GasNum": 5, "GasBegan": 640, "GasType": 1, "GasDownsize": 0, "GasHarm": 40, "GasPreview": 630, "GasReduce": 50, "Index": 4}
+  ]
+}

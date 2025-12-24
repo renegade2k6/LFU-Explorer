@@ -1,0 +1,18 @@
+{
+  "table_name": "MathShooterEventPoolTable",
+  "row_count": 12,
+  "data": [
+    {"Id": 1, "Type": 1, "Name": 1, "Desc": 1, "EffectResPath": "str", "EffectResPic": "str", "EffectTarget": 1, "Para1": "", "Index": 0},
+    {"Id": 101, "Type": 1, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_sheji_gongji_01", "EffectTarget": 1, "Para1": "", "Index": 1},
+    {"Id": 201, "Type": 2, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_sheji_gongji_01", "EffectTarget": 1, "Para1": "", "Index": 2},
+    {"Id": 301, "Type": 3, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_sheji_baoji_01", "EffectTarget": 1, "Para1": "", "Index": 3},
+    {"Id": 401, "Type": 4, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_sheji_shijian_01", "EffectTarget": 1, "Para1": "", "Index": 4},
+    {"Id": 501, "Type": 5, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_sheji_zidan_01", "EffectTarget": 3, "Para1": "", "Index": 5},
+    {"Id": 601, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "", "EffectTarget": 3, "Para1": "10101", "Index": 6},
+    {"Id": 602, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "", "EffectTarget": 3, "Para1": "20101", "Index": 7},
+    {"Id": 603, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_qiangxie_buqiang", "EffectTarget": 3, "Para1": "30101", "Index": 8},
+    {"Id": 604, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_qiangxie_penzi", "EffectTarget": 3, "Para1": "40101", "Index": 9},
+    {"Id": 605, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_qiangxie_jiatelin", "EffectTarget": 3, "Para1": "50101", "Index": 10},
+    {"Id": 606, "Type": 6, "Name": 0, "Desc": 0, "EffectResPath": "effect_xiayouxi_shengji", "EffectResPic": "icon_shuzhi_qiangxie_rpg", "EffectTarget": 3, "Para1": "60101", "Index": 11}
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "table_name": "Res_typeTable",
+  "row_count": 27,
+  "data": [
+    {"Id": 3001, "Type": 201, "Name": "100800", "Pic": "icontz_food", "Description": "", "Index": 0},
+    {"Id": 3002, "Type": 202, "Name": "100801", "Pic": "icontz_water", "Description": "180901", "Index": 1},
+    {"Id": 3003, "Type": 203, "Name": "100802", "Pic": "icontz_elec", "Description": "130807", "Index": 2},
+    {"Id": 3004, "Type": 204, "Name": "100803", "Pic": "ICON_z", "Description": "133907", "Index": 3},
+    {"Id": 3005, "Type": 205, "Name": "100804", "Pic": "ICON_diamonds", "Description": "320101", "Index": 4},
+    {"Id": 3006, "Type": 206, "Name": "", "Pic": "", "Description": "", "Index": 5},
+    {"Id": 3007, "Type": 207, "Name": "100901", "Pic": "UI_Icon_population", "Description": "", "Index": 6},
+    {"Id": 3008, "Type": 208, "Name": "100805", "Pic": "ICON_exp", "Description": "100807", "Index": 7},
+    {"Id": 3009, "Type": 209, "Name": "100806", "Pic": "ICON_prestige", "Description": "100808", "Index": 8},
+    {"Id": 3012, "Type": 210, "Name": "306031", "Pic": "icon_jungong_common", "Description": "306032", "Index": 9},
+    {"Id": 4001, "Type": 211, "Name": "308160", "Pic": "s1_icon_diamond_red", "Description": "308162", "Index": 10},
+    {"Id": 4002, "Type": 212, "Name": "308161", "Pic": "s1_icon_diamond_blue", "Description": "308163", "Index": 11},
+    {"Id": 4003, "Type": 213, "Name": "308371", "Pic": "img_zhanling_huobi", "Description": "308371", "Index": 12},
+    {"Id": 4004, "Type": 214, "Name": "139529", "Pic": "Icon_timeaccelerate_01", "Description": "139530", "Index": 13},
+    {"Id": 4005, "Type": 215, "Name": "308471", "Pic": "Icon_Special_fuel", "Description": "308472", "Index": 14},
+    {"Id": 4006, "Type": 216, "Name": "102308", "Pic": "ICON_bangzhuhuobi", "Description": "136326", "Index": 15},
+    {"Id": 4007, "Type": 217, "Name": "102309", "Pic": "ICON_lianmenghuobi", "Description": "102311", "Index": 16},
+    {"Id": 4008, "Type": 218, "Name": "365007", "Pic": "icon_policy_pot", "Description": "365015", "Index": 17},
+    {"Id": 4009, "Type": 219, "Name": "323122", "Pic": "ICON_S4_juzhenshuijing", "Description": "323305", "Index": 18},
+    {"Id": 4010, "Type": 220, "Name": "323301", "Pic": "icon_s4_quan_01", "Description": "323302", "Index": 19},
+    {"Id": 4011, "Type": 224, "Name": "325102", "Pic": "icon_policy_pot", "Description": "325103", "Index": 20},
+    {"Id": 4012, "Type": 225, "Name": "328143", "Pic": "", "Description": "328144", "Index": 21},
+    {"Id": 4013, "Type": 226, "Name": "328102", "Pic": "icon_cb_score", "Description": "328103", "Index": 22},
+    {"Id": 3013, "Type": 221, "Name": "136645", "Pic": "icon_lianmengjuanxian_jinengdian", "Description": "136646", "Index": 23},
+    {"Id": 3014, "Type": 222, "Name": "137023", "Pic": "icon_alliance_experience_01", "Description": "137024", "Index": 24},
+    {"Id": 3015, "Type": 223, "Name": "140071", "Pic": "icon_zhanyi", "Description": "140072", "Index": 25},
+    {"Id": 4014, "Type": 227, "Name": "328102", "Pic": "shijie_icon_GW_City_res01", "Description": "328103", "Index": 26}
+  ]
+}

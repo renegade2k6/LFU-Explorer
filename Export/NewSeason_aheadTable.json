@@ -1,0 +1,10 @@
+{
+  "table_name": "NewSeason_aheadTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1, "Group": 100, "Minrank": 1, "Maxrank": 30, "Reward": 1520001, "Index": 0},
+    {"Id": 2, "Group": 100, "Minrank": 31, "Maxrank": 100, "Reward": 1520002, "Index": 1},
+    {"Id": 3, "Group": 100, "Minrank": 101, "Maxrank": 300, "Reward": 1520003, "Index": 2},
+    {"Id": 4, "Group": 100, "Minrank": 301, "Maxrank": 3000, "Reward": 1520004, "Index": 3}
+  ]
+}

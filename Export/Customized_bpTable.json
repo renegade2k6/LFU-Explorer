@@ -1,0 +1,10 @@
+{
+  "table_name": "Customized_bpTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1001, "ActivityId": 170064, "SeasonArray": ["0-0"], "SeasonArrayLength": 1, "TargetArray": [20, 50, 80, 120, 160, 200, 250, 300, 350, 400], "TargetArrayLength": 10, "RewardArray": [470225, 470226, 470227, 470228, 470229, 470230, 470231, 470232, 470233, 470234], "RewardArrayLength": 10, "IconResourceArray": ["470195,icon_zxbp_zt02", "470194,icon_zxbp_zt06"], "IconResourceArrayLength": 2, "Index": 0},
+    {"Id": 1002, "ActivityId": 170064, "SeasonArray": ["6-99"], "SeasonArrayLength": 1, "TargetArray": [20, 50, 80, 120, 160, 200, 250, 300, 350, 400], "TargetArrayLength": 10, "RewardArray": [470225, 470226, 470227, 470228, 470229, 470230, 470231, 470232, 470233, 470234], "RewardArrayLength": 10, "IconResourceArray": ["470173,icon_zxbp_zt01", "470175,icon_zxbp_zt03", "470176,icon_zxbp_zt04", "470216,icon_zxbp_zt08"], "IconResourceArrayLength": 4, "Index": 1},
+    {"Id": 1003, "ActivityId": 170064, "SeasonArray": ["1-3"], "SeasonArrayLength": 1, "TargetArray": [20, 50, 80, 120, 160, 200, 250, 300, 350, 400], "TargetArrayLength": 10, "RewardArray": [470225, 470226, 470227, 470228, 470229, 470230, 470231, 470232, 470233, 470234], "RewardArrayLength": 10, "IconResourceArray": ["470196,icon_zxbp_zt06", "470197,icon_zxbp_zt07", "470198,icon_zxbp_zt01"], "IconResourceArrayLength": 3, "Index": 2},
+    {"Id": 1004, "ActivityId": 170064, "SeasonArray": ["4-5"], "SeasonArrayLength": 1, "TargetArray": [20, 50, 80, 120, 160, 200, 250, 300, 350, 400], "TargetArrayLength": 10, "RewardArray": [470225, 470226, 470227, 470228, 470229, 470230, 470231, 470232, 470233, 470234], "RewardArrayLength": 10, "IconResourceArray": ["470212,icon_zxbp_zt06", "470213,icon_zxbp_zt07", "470214,icon_zxbp_zt01", "470215,icon_zxbp_zt08"], "IconResourceArrayLength": 4, "Index": 3}
+  ]
+}

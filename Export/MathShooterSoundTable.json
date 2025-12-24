@@ -1,0 +1,26 @@
+{
+  "table_name": "MathShooterSoundTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "ResourceName": "str", "SoundType": 1, "Volume": 1, "IsLoop": 1, "Index": 0},
+    {"Id": 2001, "ResourceName": "bgm_DD", "SoundType": 1, "Volume": 75, "IsLoop": 1, "Index": 1},
+    {"Id": 2002, "ResourceName": "LF_Bgm_PVE1", "SoundType": 1, "Volume": 50, "IsLoop": 1, "Index": 2},
+    {"Id": 1001, "ResourceName": "sound_DoomRaid_paota_01", "SoundType": 2, "Volume": 60, "IsLoop": 0, "Index": 3},
+    {"Id": 1002, "ResourceName": "sound_DoomRaid_paota_02", "SoundType": 2, "Volume": 60, "IsLoop": 0, "Index": 4},
+    {"Id": 1003, "ResourceName": "sound_DoomRaid_paota_03", "SoundType": 2, "Volume": 60, "IsLoop": 0, "Index": 5},
+    {"Id": 1004, "ResourceName": "sound_DoomRaid_buqiang", "SoundType": 2, "Volume": 40, "IsLoop": 0, "Index": 6},
+    {"Id": 1005, "ResourceName": "sound_DoomRaid_penzi", "SoundType": 2, "Volume": 65, "IsLoop": 0, "Index": 7},
+    {"Id": 1006, "ResourceName": "sound_DoomRaid_jiatelin", "SoundType": 2, "Volume": 25, "IsLoop": 0, "Index": 8},
+    {"Id": 1007, "ResourceName": "sound_hc_nu_sanlianfa", "SoundType": 2, "Volume": 45, "IsLoop": 0, "Index": 9},
+    {"Id": 1008, "ResourceName": "sound_hc_rpg", "SoundType": 2, "Volume": 80, "IsLoop": 0, "Index": 10},
+    {"Id": 1101, "ResourceName": "sound_DoomRaid_feipan_02", "SoundType": 2, "Volume": 100, "IsLoop": 0, "Index": 11},
+    {"Id": 1102, "ResourceName": "sound_DoomRaid_Hit", "SoundType": 2, "Volume": 35, "IsLoop": 0, "Index": 12},
+    {"Id": 1103, "ResourceName": "sound_DoomRaid_Hurt", "SoundType": 2, "Volume": 35, "IsLoop": 0, "Index": 13},
+    {"Id": 1201, "ResourceName": "sound_DoomRaid_shoulei", "SoundType": 2, "Volume": 75, "IsLoop": 0, "Index": 14},
+    {"Id": 1202, "ResourceName": "sound_DoomRaid_cibao", "SoundType": 2, "Volume": 35, "IsLoop": 0, "Index": 15},
+    {"Id": 1203, "ResourceName": "sound_DoomRaid_shoulei", "SoundType": 2, "Volume": 100, "IsLoop": 0, "Index": 16},
+    {"Id": 1601, "ResourceName": "sound_DoomRaid_huixue", "SoundType": 2, "Volume": 100, "IsLoop": 0, "Index": 17},
+    {"Id": 2101, "ResourceName": "sound_DoomRaid_boss", "SoundType": 2, "Volume": 100, "IsLoop": 0, "Index": 18},
+    {"Id": 2102, "ResourceName": "sound_DoomRaid_warning", "SoundType": 2, "Volume": 100, "IsLoop": 0, "Index": 19}
+  ]
+}

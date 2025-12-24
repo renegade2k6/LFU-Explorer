@@ -1,0 +1,10 @@
+{
+  "table_name": "GuideTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1, "Root": 1, "Next": 2, "Description": "605002008", "TriggerConditionArray": ["2"], "TriggerConditionArrayLength": 1, "ConditionLogic": 0, "CompleteActionArray": null, "CompleteActionArrayLength": 0, "ActionLogic": 0, "Index": 0},
+    {"Id": 2, "Root": 0, "Next": 3, "Description": "605002009", "TriggerConditionArray": null, "TriggerConditionArrayLength": 0, "ConditionLogic": 0, "CompleteActionArray": null, "CompleteActionArrayLength": 0, "ActionLogic": 0, "Index": 1},
+    {"Id": 3, "Root": 0, "Next": 4, "Description": "605002010", "TriggerConditionArray": null, "TriggerConditionArrayLength": 0, "ConditionLogic": 0, "CompleteActionArray": null, "CompleteActionArrayLength": 0, "ActionLogic": 0, "Index": 2},
+    {"Id": 4, "Root": 0, "Next": -1, "Description": "605002011", "TriggerConditionArray": null, "TriggerConditionArrayLength": 0, "ConditionLogic": 0, "CompleteActionArray": ["2"], "CompleteActionArrayLength": 1, "ActionLogic": 0, "Index": 3}
+  ]
+}

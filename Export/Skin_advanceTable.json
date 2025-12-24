@@ -1,0 +1,15 @@
+{
+  "table_name": "Skin_advanceTable",
+  "row_count": 9,
+  "data": [
+    {"Id": 1, "AdvanceId": 100056, "OriginId": 100020, "Cost1Array": [400035, 1], "Cost1ArrayLength": 2, "Cost2Array": [780000, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_legao01", "AdvancePic": "icon_pfjj_legao02", "NumRequire": 1, "Index": 0},
+    {"Id": 2, "AdvanceId": 100057, "OriginId": 100024, "Cost1Array": [400045, 1], "Cost1ArrayLength": 2, "Cost2Array": [780000, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_hmsd01", "AdvancePic": "icon_pfjj_hmsd02", "NumRequire": 1, "Index": 1},
+    {"Id": 3, "AdvanceId": 100058, "OriginId": 100046, "Cost1Array": [400102, 1], "Cost1ArrayLength": 2, "Cost2Array": [780000, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_znq01", "AdvancePic": "icon_pfjj_znq02", "NumRequire": 1, "Index": 2},
+    {"Id": 4, "AdvanceId": 1100006, "OriginId": 1100002, "Cost1Array": [443001, 1], "Cost1ArrayLength": 2, "Cost2Array": [780001, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_chibang3_01", "AdvancePic": "icon_pfjj_chibang3_02", "NumRequire": 2, "Index": 3},
+    {"Id": 5, "AdvanceId": 1100004, "OriginId": 1100003, "Cost1Array": [443002, 1], "Cost1ArrayLength": 2, "Cost2Array": [780001, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_chibang2_01", "AdvancePic": "icon_pfjj_chibang2_02", "NumRequire": 2, "Index": 4},
+    {"Id": 6, "AdvanceId": 1100005, "OriginId": 1200010, "Cost1Array": [443009, 1], "Cost1ArrayLength": 2, "Cost2Array": [780001, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_pfjj_chibang1_01", "AdvancePic": "icon_pfjj_chibang1_02", "NumRequire": 2, "Index": 5},
+    {"Id": 7, "AdvanceId": 1400008, "OriginId": 1400002, "Cost1Array": [445001, 1], "Cost1ArrayLength": 2, "Cost2Array": [780002, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_halo_bingxuepro_2506_01", "AdvancePic": "icon_halo_bingxuepro_250602", "NumRequire": 1, "Index": 6},
+    {"Id": 8, "AdvanceId": 1400009, "OriginId": 1400003, "Cost1Array": [445003, 1], "Cost1ArrayLength": 2, "Cost2Array": [780002, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_halo_sciencepro_2506_01", "AdvancePic": "icon_halo_sciencepro_2506_02", "NumRequire": 1, "Index": 7},
+    {"Id": 9, "AdvanceId": 1400010, "OriginId": 1400004, "Cost1Array": [445005, 1], "Cost1ArrayLength": 2, "Cost2Array": [780002, 1], "Cost2ArrayLength": 2, "OriginPic": "icon_halo_autumnpro_2506_01", "AdvancePic": "icon_halo_autumnpro_2506_02", "NumRequire": 1, "Index": 8}
+  ]
+}

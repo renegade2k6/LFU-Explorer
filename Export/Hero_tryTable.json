@@ -1,0 +1,14 @@
+{
+  "table_name": "Hero_tryTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 1, "HeroId": 2010, "HeroReward": 0, "ConditionArray": ["1;400000,31"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80001, "Description": "164030", "Level": 10, "Movie": 30070101, "Picture": "img_heroestest_7", "Showtype": 0, "ShowType": 72, "SkillDes": 164042, "Index": 0},
+    {"Id": 2, "HeroId": 2009, "HeroReward": 0, "ConditionArray": ["1;439000,2"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80002, "Description": "164031", "Level": 15, "Movie": 30060101, "Picture": "img_heroestest_3", "Showtype": 0, "ShowType": 72, "SkillDes": 164043, "Index": 1},
+    {"Id": 3, "HeroId": 2031, "HeroReward": 0, "ConditionArray": ["1;425000,6"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80003, "Description": "164032", "Level": 20, "Movie": 30030101, "Picture": "img_heroestest_8", "Showtype": 0, "ShowType": 72, "SkillDes": 164044, "Index": 2},
+    {"Id": 4, "HeroId": 2029, "HeroReward": 0, "ConditionArray": ["1;423000,6"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80004, "Description": "164033", "Level": 20, "Movie": 30050101, "Picture": "img_heroestest_6", "Showtype": 0, "ShowType": 72, "SkillDes": 164045, "Index": 3},
+    {"Id": 5, "HeroId": 2028, "HeroReward": 0, "ConditionArray": ["1;424000,6"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80005, "Description": "164034", "Level": 20, "Movie": 30010101, "Picture": "img_heroestest_5", "Showtype": 0, "ShowType": 72, "SkillDes": 164046, "Index": 4},
+    {"Id": 6, "HeroId": 2005, "HeroReward": 0, "ConditionArray": ["1;400000,8"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80006, "Description": "164035", "Level": 25, "Movie": 30080101, "Picture": "img_heroestest_1", "Showtype": 0, "ShowType": 72, "SkillDes": 164047, "Index": 5},
+    {"Id": 7, "HeroId": 2007, "HeroReward": 0, "ConditionArray": ["1;423000,9", "1;424000,9", "1;425000,9"], "ConditionArrayLength": 3, "Reward": 0, "HeroTime": 172800, "EndMail": 80007, "Description": "164036", "Level": 30, "Movie": 30040101, "Picture": "img_heroestest_2", "Showtype": 0, "ShowType": 72, "SkillDes": 164048, "Index": 6},
+    {"Id": 8, "HeroId": 2003, "HeroReward": 0, "ConditionArray": ["1;400000,9"], "ConditionArrayLength": 1, "Reward": 0, "HeroTime": 172800, "EndMail": 80008, "Description": "164037", "Level": 30, "Movie": 30020101, "Picture": "img_heroestest_4", "Showtype": 0, "ShowType": 72, "SkillDes": 164049, "Index": 7}
+  ]
+}

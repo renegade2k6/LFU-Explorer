@@ -1,0 +1,16 @@
+{
+  "table_name": "Dog_intimacyTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "LV": 1, "Intimacy": 50, "Reward": 2300001, "GoodsArray": ["700202;1"], "GoodsArrayLength": 1, "GoodsDic": {"700202": 1}, "Index": 0},
+    {"Id": 2, "LV": 2, "Intimacy": 100, "Reward": 2300002, "GoodsArray": ["200371;4", "200335;5", "200355;5"], "GoodsArrayLength": 3, "GoodsDic": {"200371": 4, "200335": 5, "200355": 5}, "Index": 1},
+    {"Id": 3, "LV": 3, "Intimacy": 150, "Reward": 2300003, "GoodsArray": ["200313;5", "200384;5", "200213;5"], "GoodsArrayLength": 3, "GoodsDic": {"200313": 5, "200384": 5, "200213": 5}, "Index": 2},
+    {"Id": 4, "LV": 4, "Intimacy": 200, "Reward": 2300004, "GoodsArray": ["200393;5", "200403;5", "200056;500"], "GoodsArrayLength": 3, "GoodsDic": {"200393": 5, "200403": 5, "200056": 500}, "Index": 3},
+    {"Id": 5, "LV": 5, "Intimacy": 250, "Reward": 2300005, "GoodsArray": ["200313;10", "200384;10", "210503;30"], "GoodsArrayLength": 3, "GoodsDic": {"200313": 10, "200384": 10, "210503": 30}, "Index": 4},
+    {"Id": 6, "LV": 6, "Intimacy": 300, "Reward": 2300006, "GoodsArray": ["200273;5", "200356;3", "200384;10"], "GoodsArrayLength": 3, "GoodsDic": {"200273": 5, "200356": 3, "200384": 10}, "Index": 5},
+    {"Id": 7, "LV": 7, "Intimacy": 350, "Reward": 2300007, "GoodsArray": ["200056;900", "210504;20"], "GoodsArrayLength": 2, "GoodsDic": {"200056": 900, "210504": 20}, "Index": 6},
+    {"Id": 8, "LV": 8, "Intimacy": 400, "Reward": 2300008, "GoodsArray": ["200336;5", "200356;5", "240001;200"], "GoodsArrayLength": 3, "GoodsDic": {"200336": 5, "200356": 5, "240001": 200}, "Index": 7},
+    {"Id": 9, "LV": 9, "Intimacy": 450, "Reward": 2300009, "GoodsArray": ["240001;500", "240002;3"], "GoodsArrayLength": 2, "GoodsDic": {"240001": 500, "240002": 3}, "Index": 8},
+    {"Id": 10, "LV": 10, "Intimacy": 500, "Reward": 2300010, "GoodsArray": ["410028;1"], "GoodsArrayLength": 1, "GoodsDic": {"410028": 1}, "Index": 9}
+  ]
+}

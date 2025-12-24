@@ -1,0 +1,26 @@
+{
+  "table_name": "Cultural_relics_equipTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 5, "Type": 3, "UnlockConsumArray": [331004, 2], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [3, 1, 1], "MappingArrayLength": 3, "Index": 4},
+    {"Id": 13, "Type": 3, "UnlockConsumArray": [331004, 200], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [7, 1, 1], "MappingArrayLength": 3, "Index": 12},
+    {"Id": 9, "Type": 3, "UnlockConsumArray": [331004, 24], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [5, 1, 1], "MappingArrayLength": 3, "Index": 8},
+    {"Id": 11, "Type": 3, "UnlockConsumArray": [331004, 96], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [6, 1, 1], "MappingArrayLength": 3, "Index": 10},
+    {"Id": 17, "Type": 3, "UnlockConsumArray": [331004, 400], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [9, 1, 1], "MappingArrayLength": 3, "Index": 16},
+    {"Id": 12, "Type": 3, "UnlockConsumArray": [331004, 150], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [6, 1, 2], "MappingArrayLength": 3, "Index": 11},
+    {"Id": 14, "Type": 3, "UnlockConsumArray": [331004, 250], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [7, 1, 2], "MappingArrayLength": 3, "Index": 13},
+    {"Id": 15, "Type": 3, "UnlockConsumArray": [331004, 300], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [8, 1, 1], "MappingArrayLength": 3, "Index": 14},
+    {"Id": 18, "Type": 3, "UnlockConsumArray": [331004, 450], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [9, 1, 2], "MappingArrayLength": 3, "Index": 17},
+    {"Id": 7, "Type": 3, "UnlockConsumArray": [331004, 6], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [4, 1, 1], "MappingArrayLength": 3, "Index": 6},
+    {"Id": 8, "Type": 3, "UnlockConsumArray": [331004, 12], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [4, 1, 2], "MappingArrayLength": 3, "Index": 7},
+    {"Id": 19, "Type": 3, "UnlockConsumArray": [331004, 500], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [10, 1, 1], "MappingArrayLength": 3, "Index": 18},
+    {"Id": 3, "Type": 3, "UnlockConsumArray": [331004, 0], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [2, 1, 1], "MappingArrayLength": 3, "Index": 2},
+    {"Id": 2, "Type": 3, "UnlockConsumArray": [331004, 0], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [1, 1, 2], "MappingArrayLength": 3, "Index": 1},
+    {"Id": 16, "Type": 3, "UnlockConsumArray": [331004, 350], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [8, 1, 2], "MappingArrayLength": 3, "Index": 15},
+    {"Id": 20, "Type": 3, "UnlockConsumArray": [331004, 550], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [10, 1, 2], "MappingArrayLength": 3, "Index": 19},
+    {"Id": 6, "Type": 3, "UnlockConsumArray": [331004, 4], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [3, 1, 2], "MappingArrayLength": 3, "Index": 5},
+    {"Id": 4, "Type": 3, "UnlockConsumArray": [331004, 1], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [2, 1, 2], "MappingArrayLength": 3, "Index": 3},
+    {"Id": 1, "Type": 3, "UnlockConsumArray": [331004, 0], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [1, 1, 1], "MappingArrayLength": 3, "Index": 0},
+    {"Id": 10, "Type": 3, "UnlockConsumArray": [331004, 48], "UnlockConsumArrayLength": 2, "IfRelease": 1, "MappingArray": [5, 1, 2], "MappingArrayLength": 3, "Index": 9}
+  ]
+}

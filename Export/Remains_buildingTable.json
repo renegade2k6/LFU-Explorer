@@ -1,0 +1,9 @@
+{
+  "table_name": "Remains_buildingTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Lv": 1, "Type": 1, "Name": 323141, "Desc": 323185, "Prefab": "World_RemainsBigBuilding", "Pic": "UI_im_S4_dayiji", "Icon": "icon_S4shijietanchuang_headportrait_02", "TowerSize": 2, "MainArmy": 241002, "WeakArmy": 231328, "MainArmyNum": 8, "ArmyIcon": "scws_icon", "ArmyRecoverTime": 600, "Wall": 500, "WallRecover": 0.1, "FirstReward": 800, "OccupyReward": 50, "View": 5, "DefendLimit": 3, "Index": 0},
+    {"Id": 2, "Lv": 3, "Type": 1, "Name": 323141, "Desc": 323185, "Prefab": "World_RemainsBigBuilding", "Pic": "UI_im_S4_dayiji", "Icon": "icon_S4shijietanchuang_headportrait_02", "TowerSize": 2, "MainArmy": 241004, "WeakArmy": 231328, "MainArmyNum": 10, "ArmyIcon": "scws_icon", "ArmyRecoverTime": 600, "Wall": 700, "WallRecover": 0.1, "FirstReward": 1500, "OccupyReward": 100, "View": 5, "DefendLimit": 3, "Index": 1},
+    {"Id": 3, "Lv": 1, "Type": 2, "Name": 323148, "Desc": 323186, "Prefab": "World_RemainsWatchTower", "Pic": "UI_im_S4_ta", "Icon": "icon_S4shijietanchuang_headportrait_03", "TowerSize": 1, "MainArmy": 241002, "WeakArmy": 231328, "MainArmyNum": 3, "ArmyIcon": "scws_icon", "ArmyRecoverTime": 600, "Wall": 300, "WallRecover": 0.1, "FirstReward": 200, "OccupyReward": 10, "View": 12, "DefendLimit": 3, "Index": 2}
+  ]
+}

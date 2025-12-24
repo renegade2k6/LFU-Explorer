@@ -1,0 +1,16 @@
+{
+  "table_name": "FlagTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "PathName": "flag1", "Index": 0},
+    {"Id": 2, "PathName": "flag2", "Index": 1},
+    {"Id": 3, "PathName": "flag3", "Index": 2},
+    {"Id": 4, "PathName": "flag4", "Index": 3},
+    {"Id": 5, "PathName": "flag5", "Index": 4},
+    {"Id": 6, "PathName": "flag6", "Index": 5},
+    {"Id": 7, "PathName": "flag7", "Index": 6},
+    {"Id": 8, "PathName": "flag8", "Index": 7},
+    {"Id": 9, "PathName": "flag9", "Index": 8},
+    {"Id": 10, "PathName": "flag10", "Index": 9}
+  ]
+}

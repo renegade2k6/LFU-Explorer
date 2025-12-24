@@ -1,0 +1,11 @@
+{
+  "table_name": "AllianceBossRewardTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "BossHp": "1-10000", "AllianceReward": 9901000, "Index": 0},
+    {"Id": 2, "BossHp": "10001-50000", "AllianceReward": 9901001, "Index": 1},
+    {"Id": 3, "BossHp": "50001-250000", "AllianceReward": 9901002, "Index": 2},
+    {"Id": 4, "BossHp": "250001-1000000", "AllianceReward": 9901003, "Index": 3},
+    {"Id": 5, "BossHp": "1000001-999999999", "AllianceReward": 9901004, "Index": 4}
+  ]
+}

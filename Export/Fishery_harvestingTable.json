@@ -1,0 +1,11 @@
+{
+  "table_name": "Fishery_harvestingTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1001, "SourceArray": ["201176;10"], "SourceArrayLength": 1, "SourceDic": {"201176": 10}, "Time": 5, "ProductArray": [201181, 1], "ProductArrayLength": 2, "Order": 1, "Index": 0},
+    {"Id": 1002, "SourceArray": ["201177;2", "201176;10"], "SourceArrayLength": 2, "SourceDic": {"201177": 2, "201176": 10}, "Time": 5, "ProductArray": [201182, 1], "ProductArrayLength": 2, "Order": 2, "Index": 1},
+    {"Id": 1003, "SourceArray": ["201178;2", "201176;10"], "SourceArrayLength": 2, "SourceDic": {"201178": 2, "201176": 10}, "Time": 5, "ProductArray": [201183, 1], "ProductArrayLength": 2, "Order": 3, "Index": 2},
+    {"Id": 1004, "SourceArray": ["201179;2", "201176;10"], "SourceArrayLength": 2, "SourceDic": {"201179": 2, "201176": 10}, "Time": 5, "ProductArray": [201184, 1], "ProductArrayLength": 2, "Order": 4, "Index": 3},
+    {"Id": 1005, "SourceArray": ["201180;2", "201176;10"], "SourceArrayLength": 2, "SourceDic": {"201180": 2, "201176": 10}, "Time": 5, "ProductArray": [201185, 1], "ProductArrayLength": 2, "Order": 5, "Index": 4}
+  ]
+}

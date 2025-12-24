@@ -1,0 +1,11 @@
+{
+  "table_name": "FireBattleEventPoolTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 101, "Name": 513015, "Desc": 513012, "EffectType": 1, "EffectPara1": 15, "EffectResPath": "FB_effect_atkBuff", "Type": 0, "EffectResPic": "", "EffectTarget": 0, "Index": 0},
+    {"Id": 102, "Name": 513013, "Desc": 513014, "EffectType": 2, "EffectPara1": 100, "EffectResPath": "FB_effect_nuqiBuff", "Type": 0, "EffectResPic": "", "EffectTarget": 0, "Index": 1},
+    {"Id": 103, "Name": 513011, "Desc": 513016, "EffectType": 3, "EffectPara1": 20, "EffectResPath": "FB_effect_jinengBuff", "Type": 0, "EffectResPic": "", "EffectTarget": 0, "Index": 2},
+    {"Id": 104, "Name": 513009, "Desc": 513010, "EffectType": 4, "EffectPara1": 15, "EffectResPath": "FB_effect_gongsuBuff", "Type": 0, "EffectResPic": "", "EffectTarget": 0, "Index": 3},
+    {"Id": 105, "Name": 513017, "Desc": 513018, "EffectType": 5, "EffectPara1": 20, "EffectResPath": "FB_effect_xueliangBuff", "Type": 0, "EffectResPic": "", "EffectTarget": 0, "Index": 4}
+  ]
+}

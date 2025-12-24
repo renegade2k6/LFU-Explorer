@@ -1,0 +1,9 @@
+{
+  "table_name": "Circular_relicTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Mod": "World_CircleRelic2", "Lockname": 324010, "Lockdesc": 324011, "Name": 324012, "Desc": 324013, "EffectArray": null, "EffectArrayLength": 0, "ExtraEffectArray": null, "ExtraEffectArrayLength": 0, "Guide": 4100001, "Radius": 4, "Index": 0},
+    {"Id": 2, "Mod": "World_CircleRelic3", "Lockname": 324010, "Lockdesc": 324011, "Name": 324012, "Desc": 324034, "EffectArray": null, "EffectArrayLength": 0, "ExtraEffectArray": null, "ExtraEffectArrayLength": 0, "Guide": 4200001, "Radius": 4, "Index": 1},
+    {"Id": 3, "Mod": "World_CircleRelic1", "Lockname": 324010, "Lockdesc": 324011, "Name": 324012, "Desc": 324035, "EffectArray": null, "EffectArrayLength": 0, "ExtraEffectArray": null, "ExtraEffectArrayLength": 0, "Guide": 4300001, "Radius": 4, "Index": 2}
+  ]
+}

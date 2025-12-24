@@ -1,0 +1,7 @@
+{
+  "table_name": "DD_GameLevelTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1000, "NextId": 0, "PowerSpend": 1, "StartReward": 100001, "DropCoinMin": 5, "DropCoinMax": 5, "Chapter": 1, "Level": 1, "LevelType": 4, "ActiveSkillNum": 6, "PassiveSkillNum": 6, "LevelGround": "scene_forest2160_3840", "LevelMainGround": "DarkForest", "BtnStartShadowArray": [25, 35, 19, 255], "BtnStartShadowArrayLength": 4, "LevelName": 130037, "LevelDescription": 130001, "Hp": 600, "Attack": 1000, "MonsterRefreshArray": [50000001, 50000002, 50000003, 50000004, 50000005, 50000006, 50000007, 50000008, 50000009, 50000014, 50000016], "MonsterRefreshArrayLength": 11, "BossRefreshArray": [50000011, 50000012, 50000013], "BossRefreshArrayLength": 3, "BossSoundArray": [2001], "BossSoundArrayLength": 1, "Height": 10, "Width": 20, "IsRefreshFill": 1, "TreasureRefreshIntervalArray": [30, 1], "TreasureRefreshIntervalArrayLength": 2, "TreasureProbabilityArray": ["4001004;100"], "TreasureProbabilityArrayLength": 1, "TreasureMaxCount": 20, "RewardTypeArray": ["1;2", "1;5", "2;1001"], "RewardTypeArrayLength": 3, "RewardArray": [100002, 100003, 100004], "RewardArrayLength": 3, "GoldLimit": 3000, "DropRewardArray": ["10;1001", "15;1001"], "DropRewardArrayLength": 2, "FullFallArray": [4001006], "FullFallArrayLength": 1, "AdResurrectionCount": 0, "ResurrectionCount": 0, "ResurrectionCostArray": [0], "ResurrectionCostArrayLength": 1, "SoundBgm": 2001, "EliteRefreshArray": [], "EliteRefreshArrayLength": 0, "Index": 0}
+  ]
+}

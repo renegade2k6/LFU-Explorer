@@ -1,0 +1,9 @@
+{
+  "table_name": "Activity_banquet_rankTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Activityid": 274502, "RankRange": "1-1", "AllianceRewardArray": ["101;5", "102;5", "103;10", "104;10"], "AllianceRewardArrayLength": 4, "AllianceRewardDic": {"101": 5, "102": 5, "103": 10, "104": 10}, "Name": 803018060, "Pic": "icon_SYHD_rank_dacan03", "Time": 360, "AllianceRankActivity": 274504, "Index": 0},
+    {"Id": 2, "Activityid": 274502, "RankRange": "2-20", "AllianceRewardArray": ["101;3", "102;3", "103;8", "104;8"], "AllianceRewardArrayLength": 4, "AllianceRewardDic": {"101": 3, "102": 3, "103": 8, "104": 8}, "Name": 803018061, "Pic": "icon_SYHD_rank_dacan02", "Time": 360, "AllianceRankActivity": 274504, "Index": 1},
+    {"Id": 3, "Activityid": 274502, "RankRange": "21-200", "AllianceRewardArray": ["102;3", "103;5", "104;5"], "AllianceRewardArrayLength": 3, "AllianceRewardDic": {"102": 3, "103": 5, "104": 5}, "Name": 803018062, "Pic": "icon_SYHD_rank_dacan01", "Time": 360, "AllianceRankActivity": 274504, "Index": 2}
+  ]
+}

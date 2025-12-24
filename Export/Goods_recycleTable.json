@@ -1,0 +1,8 @@
+{
+  "table_name": "Goods_recycleTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1001, "ActivityId": 600001, "CountMax": 10, "Cost": 200, "Reward": 24601, "ResIcon": "icon_juben4_jiasu", "Index": 0},
+    {"Id": 1002, "ActivityId": 600002, "CountMax": 10, "Cost": 200, "Reward": 24601, "ResIcon": "icon_juben4_jiasu", "Index": 1}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "table_name": "Garden_resident_mainTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 10001, "Activity": 500100, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "SlotsGoods": 8899996, "IfFree": 1, "FreeRefresh": 1440, "PoolArray": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18], "PoolArrayLength": 18, "BuildingArray": [1, 2, 3, 4, 5], "BuildingArrayLength": 5, "GuaranteedTimes": 50, "Index": 0},
+    {"Id": 10004, "Activity": 500105, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "SlotsGoods": 8899996, "IfFree": 1, "FreeRefresh": 1440, "PoolArray": [47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60], "PoolArrayLength": 14, "BuildingArray": [16, 17, 18, 19, 20], "BuildingArrayLength": 5, "GuaranteedTimes": 50, "Index": 3},
+    {"Id": 10002, "Activity": 500102, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "SlotsGoods": 8899996, "IfFree": 1, "FreeRefresh": 1440, "PoolArray": [19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32], "PoolArrayLength": 14, "BuildingArray": [6, 7, 8, 9, 10], "BuildingArrayLength": 5, "GuaranteedTimes": 50, "Index": 1},
+    {"Id": 10003, "Activity": 500104, "SlotsCostArray": [1, 10, 100], "SlotsCostArrayLength": 3, "SlotsGoods": 8899996, "IfFree": 1, "FreeRefresh": 1440, "PoolArray": [33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46], "PoolArrayLength": 14, "BuildingArray": [11, 12, 13, 14, 15], "BuildingArrayLength": 5, "GuaranteedTimes": 50, "Index": 2}
+  ]
+}

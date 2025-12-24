@@ -1,0 +1,8 @@
+{
+  "table_name": "Special_slotTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 50000, "ItemRewardArray": ["200334;1;2", "200354;1;6", "222001;2;10", "210308;20;3", "210310;10;7", "210301;10;11", "221002;1;4", "221007;1;8", "200103;1;12"], "ItemRewardArrayLength": 9, "HeroRewardArray": ["2009;1;1", "2011;1;5", "2002;1;9"], "HeroRewardArrayLength": 3, "SlotItem": 201000, "SlotItemNum": 1, "GetSlotItem": "1;11|2;70001", "Index": 0},
+    {"Id": 50001, "ItemRewardArray": ["200334;1;2", "200354;1;6", "222001;2;10", "210308;20;3", "210310;10;7", "210301;10;11", "221002;1;4", "221007;1;8", "200103;1;12"], "ItemRewardArrayLength": 9, "HeroRewardArray": ["2009;1;1", "2011;1;5", "2002;1;9"], "HeroRewardArrayLength": 3, "SlotItem": 201000, "SlotItemNum": 1, "GetSlotItem": "1;11|2;70003", "Index": 1}
+  ]
+}

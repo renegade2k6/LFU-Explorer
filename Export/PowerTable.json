@@ -1,0 +1,14 @@
+{
+  "table_name": "PowerTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 1001, "Name": 804000411, "Icon": "Icon_ZLTSTJ_BuyGift", "Order": 100, "Special": 1, "Gotype": 6139, "Go": 0, "Gobuild": 0, "UnlockLv": 0, "Index": 0},
+    {"Id": 1002, "Name": 804000412, "Icon": "Icon_ZLTSTJ_BuildUpGrade", "Order": 99, "Special": 0, "Gotype": 2, "Go": 400000, "Gobuild": 2, "UnlockLv": 0, "Index": 1},
+    {"Id": 1003, "Name": 804000413, "Icon": "Icon_ZLTSTJ_TechnologyResearch", "Order": 98, "Special": 0, "Gotype": 8, "Go": 10101, "Gobuild": 0, "UnlockLv": 0, "Index": 2},
+    {"Id": 1004, "Name": 804000414, "Icon": "Icon_ZLTSTJ_HeroDevelopment", "Order": 97, "Special": 0, "Gotype": 13, "Go": 0, "Gobuild": 0, "UnlockLv": 0, "Index": 3},
+    {"Id": 1005, "Name": 804000415, "Icon": "Icon_ZLTSTJ_HeroRecruitment", "Order": 96, "Special": 0, "Gotype": 2, "Go": 436000, "Gobuild": 7, "UnlockLv": 0, "Index": 4},
+    {"Id": 1006, "Name": 804000416, "Icon": "Icon_ZLTSTJ_EquipmentBuilding", "Order": 95, "Special": 0, "Gotype": 2, "Go": 552000, "Gobuild": 0, "UnlockLv": 7, "Index": 5},
+    {"Id": 1007, "Name": 804000417, "Icon": "Icon_ZLTSTJ_SoldierTraining", "Order": 94, "Special": 0, "Gotype": 2, "Go": 423000, "Gobuild": 13, "UnlockLv": 0, "Index": 6},
+    {"Id": 1008, "Name": 804000418, "Icon": "Icon_ZLTSTJ_BarracksUpgrade", "Order": 93, "Special": 0, "Gotype": 2, "Go": 423000, "Gobuild": 2, "UnlockLv": 0, "Index": 7}
+  ]
+}

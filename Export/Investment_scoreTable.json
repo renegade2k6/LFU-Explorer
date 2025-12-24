@@ -1,0 +1,13 @@
+{
+  "table_name": "Investment_scoreTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 10001, "Season": 1, "Type": 1, "Value": 265001, "Points": 100, "Name": 398177, "Index": 0},
+    {"Id": 10002, "Season": 1, "Type": 1, "Value": 265002, "Points": 300, "Name": 398178, "Index": 1},
+    {"Id": 10003, "Season": 1, "Type": 2, "Value": 0, "Points": 1000, "Name": 398179, "Index": 2},
+    {"Id": 10004, "Season": 1, "Type": 3, "Value": 1, "Points": 500, "Name": 398180, "Index": 3},
+    {"Id": 10005, "Season": 1, "Type": 3, "Value": 2, "Points": 800, "Name": 398181, "Index": 4},
+    {"Id": 10006, "Season": 1, "Type": 3, "Value": 3, "Points": 1000, "Name": 398182, "Index": 5},
+    {"Id": 10007, "Season": 1, "Type": 4, "Value": 0, "Points": 10, "Name": 398183, "Index": 6}
+  ]
+}

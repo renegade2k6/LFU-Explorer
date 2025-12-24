@@ -1,0 +1,22 @@
+{
+  "table_name": "DuoyuyanTable",
+  "row_count": 16,
+  "data": [
+    {"Id": 2001, "Language": "English", "LockAlies": 0, "Index": 0},
+    {"Id": 2002, "Language": "日本語", "LockAlies": 0, "Index": 1},
+    {"Id": 2003, "Language": "한국어", "LockAlies": 0, "Index": 2},
+    {"Id": 2004, "Language": "Français", "LockAlies": 0, "Index": 3},
+    {"Id": 2005, "Language": "Deutsch", "LockAlies": 0, "Index": 4},
+    {"Id": 2006, "Language": "Pусский", "LockAlies": 0, "Index": 5},
+    {"Id": 2007, "Language": "Español", "LockAlies": 0, "Index": 6},
+    {"Id": 2008, "Language": "Português", "LockAlies": 0, "Index": 7},
+    {"Id": 2009, "Language": "Italiano", "LockAlies": 0, "Index": 8},
+    {"Id": 2010, "Language": "العربية", "LockAlies": 0, "Index": 9},
+    {"Id": 2012, "Language": "Bahasa Indonesia", "LockAlies": 0, "Index": 10},
+    {"Id": 2014, "Language": "Türkçe", "LockAlies": 0, "Index": 11},
+    {"Id": 2015, "Language": "繁體中文", "LockAlies": 0, "Index": 12},
+    {"Id": 2016, "Language": "ภาษาไทย", "LockAlies": 0, "Index": 13},
+    {"Id": 2000, "Language": "简体中文", "LockAlies": 0, "Index": 14},
+    {"Id": 2011, "Language": "Tiếng Việt", "LockAlies": 0, "Index": 15}
+  ]
+}

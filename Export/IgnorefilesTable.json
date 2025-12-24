@@ -1,0 +1,8 @@
+{
+  "table_name": "IgnorefilesTable",
+  "row_count": 2,
+  "data": [
+    {"Id": "building", "Index": 0},
+    {"Id": "truck", "Index": 1}
+  ]
+}

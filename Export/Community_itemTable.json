@@ -1,0 +1,21 @@
+{
+  "table_name": "Community_itemTable",
+  "row_count": 15,
+  "data": [
+    {"Id": "facebook", "Position": "facebook", "Icon": "btn_shequn_Facebook", "Link": "https://www.facebook.com/LastFortress-101374491782638/?ref=pages_you_manage", "Index": 0},
+    {"Id": "facebook_tw", "Position": "facebook", "Icon": "btn_shequn_Facebook", "Link": "https://www.facebook.com/LFnumber7", "Index": 1},
+    {"Id": "facebook_vi", "Position": "facebook", "Icon": "btn_shequn_Facebook", "Link": "https://www.facebook.com/profile.php?id=61556558656401&notif_id=1714123532238679", "Index": 2},
+    {"Id": "instagram", "Position": "instagram", "Icon": "btn_shequn_Instagram", "Link": "https://www.instagram.com/lastfortressofficial/", "Index": 3},
+    {"Id": "discord", "Position": "discord", "Icon": "btn_shequn_Discord", "Link": "https://discord.gg/lastfortress", "Index": 4},
+    {"Id": "discord_jp", "Position": "discord", "Icon": "btn_shequn_Discord", "Link": "https://discord.gg/3Ftsj4mPfS", "Index": 5},
+    {"Id": "twitter", "Position": "twitter", "Icon": "btn_shequn_Twitter01", "Link": "https://twitter.com/LFortressGame", "Index": 6},
+    {"Id": "twitter_jp", "Position": "twitter_jp", "Icon": "btn_shequn_Twitter01", "Link": "https://twitter.com/lastfort_JP", "Index": 7},
+    {"Id": "youtube", "Position": "youtube", "Icon": "btn_shequn_YouTube", "Link": "https://www.youtube.com/@LastFortressUnderground", "Index": 8},
+    {"Id": "navercafe", "Position": "navercafe", "Icon": "btn_shequn_NaverCafe", "Link": "https://cafe.naver.com/lfnumber7", "Index": 9},
+    {"Id": "bahamut", "Position": "bahamute", "Icon": "btn_shequn_Bahamut", "Link": "https://forum.gamer.com.tw/B.php?bsn=72001", "Index": 10},
+    {"Id": "qq", "Position": "qq", "Icon": "btn_shequn_QQ", "Link": "https://qm.qq.com/q/WhnMK6Xpug", "Index": 11},
+    {"Id": "wechat", "Position": "gongzhonghao", "Icon": "btn_shequn_WeChat", "Link": "https://mp.weixin.qq.com/s/V0gGCp7kopJmOse2XNax_g", "Index": 12},
+    {"Id": "douyin", "Position": "douyin", "Icon": "btn_shequn_TIKTOK", "Link": "https://v.douyin.com/i6PdADea/", "Index": 13},
+    {"Id": "tiktok", "Position": "TikTok", "Icon": "btn_shequn_TIKTOK", "Link": "https://www.tiktok.com/@lastfortress", "Index": 14}
+  ]
+}

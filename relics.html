@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relics | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="relic-buffs.js" defer></script>
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .set-grid {
+                grid-template-columns: 1fr !important;
+                padding: 12px;
+                gap: 12px;
+            }
+
+            .quality-header {
+                font-size: 1.5rem;
+                padding: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link active" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>Relics</h1>
+            <p class="page-subtitle">Browse cultural relics, their effects, and collection tiers</p>
+        </div>
+
+        <h2 class="quality-header">Quality 1</h2>
+        <div class="set-grid" aria-live="polite">
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_syc.png" alt="Tri-color Pottery" loading="lazy">
+                <div class="set-name">Tri-color Pottery</div>
+                <div class="set-meta-line">ID: 1001</div>
+                <div class="set-meta-line">Clay figures and vessels predominantly in the three colors of amber, green, and a creamy off-white, with vibrant glazes.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_kl.png" alt="Oracle bone script" loading="lazy">
+                <div class="set-name">Oracle bone script</div>
+                <div class="set-meta-line">ID: 1002</div>
+                <div class="set-meta-line">Ancient characters carved on turtle shell shards. Said to be used for divination.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_dqy.png" alt="Bagua Pattern" loading="lazy">
+                <div class="set-name">Bagua Pattern</div>
+                <div class="set-meta-line">ID: 1003</div>
+                <div class="set-meta-line">An octagonal pattern with trigrams and Yin-Yang patterns. Used in divination, deducting auspicious dates, and Feng Shui (geomancy) analysis. It is a blend of ancient philosophy and cosmology.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hz.png" alt="Seeds of Life" loading="lazy">
+                <div class="set-name">Seeds of Life</div>
+                <div class="set-meta-line">ID: 1004</div>
+                <div class="set-meta-line">Humans mastered fire for the first time, which drove the growth of civilization as the seeds of life.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_cy.png" alt="Classic Tea" loading="lazy">
+                <div class="set-name">Classic Tea</div>
+                <div class="set-meta-line">ID: 1005</div>
+                <div class="set-meta-line">As per tea-making techniques passed down over thousands of years, the tea went through fixation, rolling, and sun-drying, with its authentic aroma preserved.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_gjb.png" alt="Copper Coin" loading="lazy">
+                <div class="set-name">Copper Coin</div>
+                <div class="set-meta-line">ID: 1006</div>
+                <div class="set-meta-line">Currency from ancient times, artistic and valuable.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_cbx.png" alt="Treasure Chest" loading="lazy">
+                <div class="set-name">Treasure Chest</div>
+                <div class="set-meta-line">ID: 1007</div>
+                <div class="set-meta-line">A relic from a shipwreck. It contains gold, silver, and many other exotic treasures. It&#x27;s proof of ancient maritime trade and routes.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_jgw.png" alt="The Thinker" loading="lazy">
+                <div class="set-name">The Thinker</div>
+                <div class="set-meta-line">ID: 1008</div>
+                <div class="set-meta-line">A bronze statue of a figure with a solemn look, featuring a compact framing.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hht.png" alt="The Scream" loading="lazy">
+                <div class="set-name">The Scream</div>
+                <div class="set-meta-line">ID: 1009</div>
+                <div class="set-meta-line">A painting with strong emotional appeal. The distorted figures and background mirrored the deep fear and anxiety in people&#x27;s minds.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_zj.png" alt="The Great Wave off Kanagawa" loading="lazy">
+                <div class="set-name">The Great Wave off Kanagawa</div>
+                <div class="set-meta-line">ID: 1010</div>
+                <div class="set-meta-line">A painting showing how big waves and small boats were battling each other. The intricate framing and dynamics portrayed nature&#x27;s power and humans&#x27; powerlessness. It boasts a unique artistic appeal.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hy.png" alt="The Code of Hammurabi" loading="lazy">
+                <div class="set-name">The Code of Hammurabi</div>
+                <div class="set-meta-line">ID: 1011</div>
+                <div class="set-meta-line">A stele inscribed with detailed and rigorous laws. An example of the early practices of law, order, and institutions.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_bk.png" alt="Tiger Tally" loading="lazy">
+                <div class="set-name">Tiger Tally</div>
+                <div class="set-meta-line">ID: 1012</div>
+                <div class="set-meta-line">A tally of authority. Used to command armies. One needs to hold both the pieces to issue orders. A token of absolute power.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_bg.png" alt="The Sword in the Stone" loading="lazy">
+                <div class="set-name">The Sword in the Stone</div>
+                <div class="set-meta-line">ID: 1013</div>
+                <div class="set-meta-line">The legendary sword stuck in the stone. Only a real hero can pull it out.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_dbj.png" alt="Seismoscope" loading="lazy">
+                <div class="set-name">Seismoscope</div>
+                <div class="set-meta-line">ID: 1014</div>
+                <div class="set-meta-line">An intricate bronze instrument. The dragon heads on the exterior can spit orbs based on the vibrations detected to show where the earthquake comes.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hp.png" alt="Amber" loading="lazy">
+                <div class="set-name">Amber</div>
+                <div class="set-meta-line">ID: 1015</div>
+                <div class="set-meta-line">Resin that trapped ancient insects. Valuable samples for the research on prehistoric ecosystems.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_tmc.png" alt="Bronze Chariot" loading="lazy">
+                <div class="set-name">Bronze Chariot</div>
+                <div class="set-meta-line">ID: 1016</div>
+                <div class="set-meta-line">An intricately crafted bronze chariot, featuring a meticulous structure and realistic design. A typical example of the advanced metallurgy development at that time.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hjr.png" alt="Bronze Vessel" loading="lazy">
+                <div class="set-name">Bronze Vessel</div>
+                <div class="set-meta-line">ID: 1017</div>
+                <div class="set-meta-line">An alcohol container for daily use or sacrifice practices. Often seen at ceremonies and social occasions.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_xy.png" alt="Mammoth Ivory" loading="lazy">
+                <div class="set-name">Mammoth Ivory</div>
+                <div class="set-meta-line">ID: 1018</div>
+                <div class="set-meta-line">A fossilized tooth from ancient mammoths. Solid and smooth, it witnessed the glory of prehistoric times.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hf.png" alt="Tiger Tally" loading="lazy">
+                <div class="set-name">Tiger Tally</div>
+                <div class="set-meta-line">ID: 1019</div>
+                <div class="set-meta-line">A tally of authority. Used to command armies. One needs to hold both the pieces to issue orders. A token of absolute power.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_tsc.png" alt="Tri-color Pottery" loading="lazy">
+                <div class="set-name">Tri-color Pottery</div>
+                <div class="set-meta-line">ID: 1020</div>
+                <div class="set-meta-line">Clay figures and vessels predominantly in the three colors of amber, green, and a creamy off-white, with vibrant glazes.</div>
+            </div>
+        </div>
+
+        <h2 class="quality-header">Quality 2</h2>
+        <div class="set-grid" aria-live="polite">
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_mny.png" alt="Mummy" loading="lazy">
+                <div class="set-name">Mummy</div>
+                <div class="set-meta-line">ID: 2001</div>
+                <div class="set-meta-line">In slumber, it was isolated from the outside for thousands of years, waiting for the time to awaken.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_jmj.png" alt="Sacred Mask" loading="lazy">
+                <div class="set-name">Sacred Mask</div>
+                <div class="set-meta-line">ID: 2002</div>
+                <div class="set-meta-line">The mask of the king is a token of glory and power.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_sbd.png" alt="Spartan Helmet" loading="lazy">
+                <div class="set-name">Spartan Helmet</div>
+                <div class="set-meta-line">ID: 2003</div>
+                <div class="set-meta-line">A helmet for a brave warrior. This is a testament to the brutal wars of the cold arms era.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_rg.png" alt="Mona Lisa" loading="lazy">
+                <div class="set-name">Mona Lisa</div>
+                <div class="set-meta-line">ID: 2004</div>
+                <div class="set-meta-line">The woman slightly smiles, gazing gently at the viewer. The layered background adds a mystic touch. The painting is an exploration of both emotional and physical space.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_dw.png" alt="Records of the Grand Historian" loading="lazy">
+                <div class="set-name">Records of the Grand Historian</div>
+                <div class="set-meta-line">ID: 2005</div>
+                <div class="set-meta-line">With texts left on bamboo slips, it is an important document of ancient history.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_bmy.png" alt="Sundial" loading="lazy">
+                <div class="set-name">Sundial</div>
+                <div class="set-meta-line">ID: 2006</div>
+                <div class="set-meta-line">An ancient time-measuring device. It marks the passage of time using the sun&#x27;s shadow.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_skz.png" alt="Girl with a Pearl Earring" loading="lazy">
+                <div class="set-name">Girl with a Pearl Earring</div>
+                <div class="set-meta-line">ID: 2007</div>
+                <div class="set-meta-line">The subtle appearance of the tear-shaped pearl earring in the shadow of the girl&#x27;s neck showcases the painter&#x27;s exquisite command of light and shadow.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_sjc.png" alt="Genesis" loading="lazy">
+                <div class="set-name">Genesis</div>
+                <div class="set-meta-line">ID: 2008</div>
+                <div class="set-meta-line">It depicts the moment when God&#x27;s finger was about to touch Adam. Force and stillness were framed right at the center of the painting, making it a perfect example of anatomy and dynamic aesthetics.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_cq.png" alt="Blue &amp; White Porcelain" loading="lazy">
+                <div class="set-name">Blue &amp; White Porcelain</div>
+                <div class="set-meta-line">ID: 2009</div>
+                <div class="set-meta-line">With a smooth glaze and delicate body, it is a perfect blend of craftsmanship and aesthetics. Made when ancient pottery techniques reached their pinnacle.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_wzqy.png" alt="On the Origin of Species" loading="lazy">
+                <div class="set-name">On the Origin of Species</div>
+                <div class="set-meta-line">ID: 2010</div>
+                <div class="set-meta-line">A work explaining the mechanisms of evolution, profoundly influencing humanity&#x27;s understanding of nature and the evolution of life.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_dfq.png" alt="Da Vinci&#x27;s Manuscripts" loading="lazy">
+                <div class="set-name">Da Vinci&#x27;s Manuscripts</div>
+                <div class="set-meta-line">ID: 2011</div>
+                <div class="set-meta-line">Contains numerous illustrations of machinery, anatomy, and architecture. The text and drawings showcase rare interdisciplinary knowledge and exceptional imagination.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_syfz.png" alt="Galileo Telescope" loading="lazy">
+                <div class="set-name">Galileo Telescope</div>
+                <div class="set-meta-line">ID: 2012</div>
+                <div class="set-meta-line">A refracting telescope with a simple structure. It helps humanity have a look at deep space, revolutionizing astronomical studies.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_sjtg.png" alt="Gemstone Necklace" loading="lazy">
+                <div class="set-name">Gemstone Necklace</div>
+                <div class="set-meta-line">ID: 2013</div>
+                <div class="set-meta-line">Embedded with various gemstones, it features intricate design and magnificent craftsmanship. A piece that can show one&#x27;s social identity and wealth.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_fhj.png" alt="Moai" loading="lazy">
+                <div class="set-name">Moai</div>
+                <div class="set-meta-line">ID: 2014</div>
+                <div class="set-meta-line">Massive volcanic rock statues with disproportionately big heads and solemn looks. Lined up along the coast, they became local landmarks.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_mtfy.png" alt="Bronze Running Horse" loading="lazy">
+                <div class="set-name">Bronze Running Horse</div>
+                <div class="set-meta-line">ID: 2015</div>
+                <div class="set-meta-line">Also known as the Galloping Horse Treading on a Flying Swallow. Standing for fearlessness and freedom. It&#x27;s a perfect blend of strength and beauty.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ft.png" alt="Radium" loading="lazy">
+                <div class="set-name">Radium</div>
+                <div class="set-meta-line">ID: 2016</div>
+                <div class="set-meta-line">A metallic element extracted from ores. Highly radioactive. Its discovery drove the development of atomic physics and radiological medicine. It found applications across multiple disciplines.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_mymj.png" alt="Jade Mask" loading="lazy">
+                <div class="set-name">Jade Mask</div>
+                <div class="set-meta-line">ID: 2017</div>
+                <div class="set-meta-line">An artifact of a vanished civilization. Said to be a symbol of death and rebirth. The owner can see other worlds when putting on the jade mask.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ysl.png" alt="Sunflowers" loading="lazy">
+                <div class="set-name">Sunflowers</div>
+                <div class="set-meta-line">ID: 2018</div>
+                <div class="set-meta-line">Bold strokes and vibrant colors depict the vitality of nature and strong emotions. A reflection of the painter&#x27;s intense and immense thoughts in mind.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_jll.png" alt="Four-goat Square Zun" loading="lazy">
+                <div class="set-name">Four-goat Square Zun</div>
+                <div class="set-meta-line">ID: 2019</div>
+                <div class="set-meta-line">Featuring four goat heads at its corners, it boasts solemn designs and intricate casting. An epitome of ancient bronze craftsmanship.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_scj.png" alt="Venus de Milo" loading="lazy">
+                <div class="set-name">Venus de Milo</div>
+                <div class="set-meta-line">ID: 2020</div>
+                <div class="set-meta-line">The missing arms add a sense of eternity, revealing how people valued the perfect proportions of the human body in ancient times.</div>
+            </div>
+        </div>
+
+        <h2 class="quality-header">Quality 3</h2>
+        <div class="set-grid" aria-live="polite">
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_mnls.png" alt="Mona Lisa" loading="lazy">
+                <div class="set-name">Mona Lisa</div>
+                <div class="set-meta-line">ID: 3001</div>
+                <div class="set-meta-line">The woman slightly smiles, gazing gently at the viewer. The layered background adds a mystic touch. The painting is an exploration of both emotional and physical space.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_zzsn.png" alt="Girl with a Pearl Earring" loading="lazy">
+                <div class="set-name">Girl with a Pearl Earring</div>
+                <div class="set-meta-line">ID: 3002</div>
+                <div class="set-meta-line">The subtle appearance of the tear-shaped pearl earring in the shadow of the girl&#x27;s neck showcases the painter&#x27;s exquisite command of light and shadow.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_wns.png" alt="Trilobite Fossil" loading="lazy">
+                <div class="set-name">Trilobite Fossil</div>
+                <div class="set-meta-line">ID: 3003</div>
+                <div class="set-meta-line">A fossil of an ancient marine creature. Well-preserved, it is valuable evidence of biological evolution and geological changes.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ddy.png" alt="Dinosaur Skull" loading="lazy">
+                <div class="set-name">Dinosaur Skull</div>
+                <div class="set-meta-line">ID: 3004</div>
+                <div class="set-meta-line">A fossilized dinosaur skull featuring a complex structure and sharp teeth. It gives us a glimpse of the morphology and living conditions of extinct species.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ajm.png" alt="Bastet" loading="lazy">
+                <div class="set-name">Bastet</div>
+                <div class="set-meta-line">ID: 3005</div>
+                <div class="set-meta-line">A metal statue of a cat with a serene expression and upright ears. Often used to pray for protection and peace.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_xrk.png" alt="Sunflowers" loading="lazy">
+                <div class="set-name">Sunflowers</div>
+                <div class="set-meta-line">ID: 3006</div>
+                <div class="set-meta-line">Bold strokes and vibrant colors depict the vitality of nature and strong emotions. A reflection of the painter&#x27;s intense and immense thoughts in mind.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_nh.png" alt="The Scream" loading="lazy">
+                <div class="set-name">The Scream</div>
+                <div class="set-meta-line">ID: 3007</div>
+                <div class="set-meta-line">A painting with strong emotional appeal. The distorted figures and background mirrored the deep fear and anxiety in people&#x27;s minds.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_snc.png" alt="The Great Wave off Kanagawa" loading="lazy">
+                <div class="set-name">The Great Wave off Kanagawa</div>
+                <div class="set-meta-line">ID: 3008</div>
+                <div class="set-meta-line">A painting showing how big waves and small boats were battling each other. The intricate framing and dynamics portrayed nature&#x27;s power and humans&#x27; powerlessness. It boasts a unique artistic appeal.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_qljs.png" alt="A Thousand Li of Rivers and Mountains" loading="lazy">
+                <div class="set-name">A Thousand Li of Rivers and Mountains</div>
+                <div class="set-meta-line">ID: 3009</div>
+                <div class="set-meta-line">A long scroll of hills and streams. The hills and dunes, pavilions and towers are nicely arranged. Nature&#x27;s beauty is perfectly portrayed thanks to the exceptional painting skills.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_wg.png" alt="Statue of Liberty" loading="lazy">
+                <div class="set-name">Statue of Liberty</div>
+                <div class="set-meta-line">ID: 3010</div>
+                <div class="set-meta-line">A colossal metal statue symbolizing freedom and hope. With a solemn posture and a torch held high, it guides navigators on their journey.</div>
+            </div>
+        </div>
+
+        <h2 class="quality-header">Quality 4</h2>
+        <div class="set-grid" aria-live="polite">
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_sb.png" alt="Holy Grail" loading="lazy">
+                <div class="set-name">Holy Grail</div>
+                <div class="set-meta-line">ID: 4001</div>
+                <div class="set-meta-line">A legendary artifact that has inspired many people to embark on great journeys.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_yx.png" alt="Aladdin&#x27;s Lamp" loading="lazy">
+                <div class="set-name">Aladdin&#x27;s Lamp</div>
+                <div class="set-meta-line">ID: 4002</div>
+                <div class="set-meta-line">A magic lamp widely known in folklore. Said to be able to make one&#x27;s wishes come true. Its design is quite intricate and exquisite.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ald.png" alt="Blue &amp; White Porcelain" loading="lazy">
+                <div class="set-name">Blue &amp; White Porcelain</div>
+                <div class="set-meta-line">ID: 4003</div>
+                <div class="set-meta-line">With a smooth glaze and delicate body, it is a perfect blend of craftsmanship and aesthetics. Made when ancient pottery techniques reached their pinnacle.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_zyns.png" alt="Venus de Milo" loading="lazy">
+                <div class="set-name">Venus de Milo</div>
+                <div class="set-meta-line">ID: 4004</div>
+                <div class="set-meta-line">The missing arms add a sense of eternity, revealing how people valued the perfect proportions of the human body in ancient times.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_sq.png" alt="Sphinx" loading="lazy">
+                <div class="set-name">Sphinx</div>
+                <div class="set-meta-line">ID: 4005</div>
+                <div class="set-meta-line">A stone-carved statue with a human head and a lion&#x27;s body. Crouching on the ground, it gazes forward silently. Its intricately carved face and solemn look symbolize the authority and the protective power.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_csj.png" alt="David Statue" loading="lazy">
+                <div class="set-name">David Statue</div>
+                <div class="set-meta-line">ID: 4006</div>
+                <div class="set-meta-line">A marble statue of a human. The upright posture and clear portrait of muscles show the ideal image of strength and beauty in ancient times.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hmlb.png" alt="Amber" loading="lazy">
+                <div class="set-name">Amber</div>
+                <div class="set-meta-line">ID: 4007</div>
+                <div class="set-meta-line">Resin that trapped ancient insects. Valuable samples for the research on prehistoric ecosystems.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_szj.png" alt="Divine Comedy" loading="lazy">
+                <div class="set-name">Divine Comedy</div>
+                <div class="set-meta-line">ID: 4008</div>
+                <div class="set-meta-line">A classic in poetic form depicting a soul&#x27;s journey. It presented a unique view of the cosmos and profoundly influenced philosophy and literature.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ywgjj.png" alt="Sword of Goujian" loading="lazy">
+                <div class="set-name">Sword of Goujian</div>
+                <div class="set-meta-line">ID: 4009</div>
+                <div class="set-meta-line">The blade is made from refined steel, adorned with intricate patterns. It represents the desire for vengeance and the determination for the revival of Goujian, one of the last kings of the State of Yue.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_ssr.png" alt="Sphinx" loading="lazy">
+                <div class="set-name">Sphinx</div>
+                <div class="set-meta-line">ID: 4010</div>
+                <div class="set-meta-line">A stone-carved statue with a human head and a lion&#x27;s body. Crouching on the ground, it gazes forward silently. Its intricately carved face and solemn look symbolize the authority and the protective power.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_hls.png" alt="Eye of Horus" loading="lazy">
+                <div class="set-name">Eye of Horus</div>
+                <div class="set-meta-line">ID: 4011</div>
+                <div class="set-meta-line">A symbol of Horus, who represents royalty, majesty, and fairness. Horus is in the protection of each pharaoh.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_czyd.png" alt="The Creation of Adam" loading="lazy">
+                <div class="set-name">The Creation of Adam</div>
+                <div class="set-meta-line">ID: 4012</div>
+                <div class="set-meta-line">Part of a famous Renaissance chapel ceiling painting. An epitome of his exceptional painting skills.</div>
+            </div>
+            <div class="set-card">
+                <img class="set-list-img"  src="assets/Sprite/relics_item_wdq.png" alt="Five-Reign Coins" loading="lazy">
+                <div class="set-name">Five-Reign Coins</div>
+                <div class="set-meta-line">ID: 4013</div>
+                <div class="set-meta-line">A string of coins issued during the reigns of five emperors in the Qing Dynasty. Legend has it that the one who collects all five coins can be favored by good fortune.</div>
+            </div>
+        </div>
+    </div>
+    <script src="back-to-top.js" defer></script>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>War Machines | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #06b6d4 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .warmachine-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 24px;
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .warmachine-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .warmachine-card:hover {
+            transform: translateY(-4px);
+            border-color: #4a9eff;
+            box-shadow: 0 8px 24px rgba(74, 158, 255, 0.3);
+        }
+
+        .warmachine-card-header {
+            position: relative;
+            padding: 16px;
+            background: transparent;
+        }
+
+        .warmachine-portrait {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .warmachine-card-body {
+            padding: 16px;
+            border-top: 1px solid #2a2a4a;
+        }
+
+        .warmachine-card-body h3 {
+            margin: 0 0 12px 0;
+            color: #e0e0ff;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .warmachine-meta {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .badge-skin-count {
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.9) 0%, rgba(147, 51, 234, 0.9) 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 700;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 12px rgba(74, 158, 255, 0.5);
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .warmachine-detail {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 24px;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-bottom: 16px;
+            padding: 8px 16px;
+            background: rgba(74, 158, 255, 0.1);
+            border: 1px solid #2a2a4a;
+            border-radius: 6px;
+            color: #4a9eff;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.2s;
+        }
+
+        .back-button:hover {
+            background: rgba(74, 158, 255, 0.2);
+            border-color: #4a9eff;
+        }
+
+        .warmachine-detail-header {
+            display: flex;
+            gap: 32px;
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            padding: 32px;
+            margin-bottom: 32px;
+        }
+
+        .warmachine-portrait-large {
+            flex-shrink: 0;
+            width: 300px;
+        }
+
+        .warmachine-portrait-large img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .warmachine-info {
+            flex: 1;
+        }
+
+        .warmachine-info h1 {
+            margin: 0 0 16px 0;
+            font-size: 36px;
+            color: #e0e0ff;
+        }
+
+        .warmachine-description {
+            color: #8080a0;
+            line-height: 1.6;
+        }
+
+        .warmachine-skins-section {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            padding: 24px;
+        }
+
+        .warmachine-skins-section h2 {
+            margin: 0 0 20px 0;
+            color: #e0e0ff;
+            font-size: 24px;
+        }
+
+        .skins-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .skin-card {
+            background: rgba(30, 30, 50, 0.6);
+            border: 2px solid #2a2a4a;
+            border-radius: 8px;
+            padding: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .skin-card:hover {
+            transform: translateY(-2px);
+            border-color: #4a9eff;
+            box-shadow: 0 4px 12px rgba(74, 158, 255, 0.3);
+        }
+
+        .skin-image-container {
+            position: relative;
+            margin-bottom: 8px;
+        }
+
+        .skin-image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 4px;
+        }
+
+        .skin-name {
+            color: #e0e0ff;
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .warmachine-grid {
+                grid-template-columns: 1fr;
+                padding: 12px;
+                gap: 16px;
+            }
+
+            .skins-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link active" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>War Machines</h1>
+            <p class="page-subtitle">View war machines and warbeasts with their powerful abilities</p>
+        </div>
+
+        <div id="warmachineGrid" class="warmachine-grid"></div>
+
+        <div id="warmachineDetail" class="warmachine-detail" style="display: none;">
+            <button id="backButton" class="back-button">← Back to List</button>
+            <div id="detailContent"></div>
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        let warmachines = [];
+        let skins = [];
+        let localization = {};
+
+        async function loadData() {
+            try {
+                const [warmachineData, skinData, loc] = await Promise.all([
+                    fetch('Export/WarmachineTable.json').then(r => r.json()),
+                    fetch('Export/Warmachine_skinTable.json').then(r => r.json()),
+                    fetch('Localization_LocalizationComponent_dictionary.json').then(r => r.json())
+                ]);
+                
+                warmachines = warmachineData.data;
+                skins = skinData.data;
+                localization = loc.data;
+                
+                displayWarmachines();
+            } catch (error) {
+                console.error('Error loading data:', error);
+            }
+        }
+        
+        function getLocalizedText(id) {
+            return localization[id] || `[Missing: ${id}]`;
+        }
+
+        function getSkinsForWarmachine(warmachineId) {
+            // Find the warmachine to get its SkinArrayLength
+            const warmachine = warmachines.find(wm => wm.Id === warmachineId);
+            if (!warmachine) {
+                return [];
+            }
+
+            // Get skins that match the warmachine ID pattern (first 3 digits)
+            const idStr = String(warmachineId);
+            const matchingSkins = skins.filter(skin => {
+                const skinIdStr = String(skin.Id);
+                return skinIdStr.startsWith(idStr.substring(0, 3));
+            });
+
+            // Return only the first N skins based on SkinArrayLength
+            const skinCount = warmachine.SkinArrayLength || matchingSkins.length;
+            return matchingSkins.slice(0, skinCount);
+        }
+
+        function displayWarmachines() {
+            const grid = document.getElementById('warmachineGrid');
+            grid.innerHTML = warmachines.map(wm => {
+                const wmSkins = getSkinsForWarmachine(wm.Id);
+                const skinCount = wmSkins.length;
+                const name = getLocalizedText(wm.Name);
+                const qualityClass = `quality-${wm.Quality}`;
+
+                return `
+                    <div class="warmachine-card ${qualityClass}" onclick="showDetail(${wm.Id})">
+                        <div class="warmachine-card-header">
+                            <img class="warmachine-portrait" src="assets/Sprite/${wm.Pic}.png"
+                                 alt="${name}" loading="lazy"
+                                 onerror="this.src='assets/placeholder.png'">
+                        </div>
+                        <div class="warmachine-card-body">
+                            <h3>${name}</h3>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showDetail(id) {
+            const wm = warmachines.find(w => w.Id === id);
+            if (!wm) return;
+
+            const wmSkins = getSkinsForWarmachine(id);
+            const name = getLocalizedText(wm.Name);
+
+            const detailContent = document.getElementById('detailContent');
+            detailContent.innerHTML = `
+                <header class="warmachine-detail-header">
+                    <div class="warmachine-portrait-large">
+                        <img src="assets/Sprite/${wm.Pic}.png" alt="${name}"
+                             onerror="this.src='assets/placeholder.png'">
+                    </div>
+                    <div class="warmachine-info">
+                        <h1>${name}</h1>
+                        <div class="warmachine-quality">Quality: ⭐${wm.Quality}</div>
+                    </div>
+                </header>
+
+                <section class="warmachine-skins-section">
+                    <h2>Skins (${wmSkins.length})</h2>
+                    <div class="skins-grid">
+                        ${wmSkins.map(skin => {
+                            const skinName = getLocalizedText(skin.Name);
+                            const qualityClass = `quality-${skin.Quality}`;
+
+                            return `
+                                <div class="skin-card ${qualityClass}">
+                                    <div class="skin-image-container">
+                                        <img src="assets/Sprite/${skin.PicTuzhuang}.png"
+                                             alt="${skinName}"
+                                             title="${skinName}"
+                                             loading="lazy"
+                                             onerror="this.src='assets/placeholder.png'">
+                                    </div>
+                                    <div class="skin-name">${skinName}</div>
+                                </div>
+                            `;
+                        }).join('')}
+                    </div>
+                </section>
+            `;
+
+            document.getElementById('warmachineGrid').style.display = 'none';
+            document.getElementById('warmachineDetail').style.display = 'block';
+        }
+
+        document.getElementById('backButton').addEventListener('click', () => {
+            document.getElementById('warmachineDetail').style.display = 'none';
+            document.getElementById('warmachineGrid').style.display = 'grid';
+        });
+
+        loadData();
+    </script>
+</body>
+</html>

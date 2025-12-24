@@ -1,0 +1,16 @@
+{
+  "table_name": "Pubg_war_chariotTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1001, "Level": 1, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 0},
+    {"Id": 1002, "Level": 2, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 1},
+    {"Id": 1003, "Level": 3, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 2},
+    {"Id": 1004, "Level": 4, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 3},
+    {"Id": 1005, "Level": 5, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 4},
+    {"Id": 1006, "Level": 6, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 5},
+    {"Id": 1007, "Level": 7, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 6},
+    {"Id": 1008, "Level": 8, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 7},
+    {"Id": 1009, "Level": 9, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 8},
+    {"Id": 1010, "Level": 10, "WarValueArray": null, "WarValueArrayLength": 0, "WarValueDic": {}, "CostArray": [], "CostArrayLength": 0, "Index": 9}
+  ]
+}

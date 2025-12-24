@@ -1,0 +1,26 @@
+{
+  "table_name": "Alliance_chest_levelTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "ChestLevelNum": 180, "ChestReward": 740001, "ChestPreview": 740001, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 0},
+    {"Id": 2, "ChestLevelNum": 270, "ChestReward": 740002, "ChestPreview": 740002, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 1},
+    {"Id": 3, "ChestLevelNum": 405, "ChestReward": 740003, "ChestPreview": 740003, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 2},
+    {"Id": 4, "ChestLevelNum": 605, "ChestReward": 740004, "ChestPreview": 740004, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 3},
+    {"Id": 5, "ChestLevelNum": 910, "ChestReward": 740005, "ChestPreview": 740005, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 4},
+    {"Id": 6, "ChestLevelNum": 1365, "ChestReward": 740006, "ChestPreview": 740006, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 5},
+    {"Id": 7, "ChestLevelNum": 2050, "ChestReward": 740007, "ChestPreview": 740007, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 6},
+    {"Id": 8, "ChestLevelNum": 3075, "ChestReward": 740008, "ChestPreview": 740008, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 7},
+    {"Id": 9, "ChestLevelNum": 4610, "ChestReward": 740009, "ChestPreview": 740009, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 8},
+    {"Id": 10, "ChestLevelNum": 7000, "ChestReward": 740010, "ChestPreview": 740010, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 9},
+    {"Id": 11, "ChestLevelNum": 8300, "ChestReward": 740011, "ChestPreview": 740011, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 10},
+    {"Id": 12, "ChestLevelNum": 9950, "ChestReward": 740012, "ChestPreview": 740012, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 11},
+    {"Id": 13, "ChestLevelNum": 12000, "ChestReward": 740013, "ChestPreview": 740013, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 12},
+    {"Id": 14, "ChestLevelNum": 14300, "ChestReward": 740014, "ChestPreview": 740014, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 13},
+    {"Id": 15, "ChestLevelNum": 17200, "ChestReward": 740015, "ChestPreview": 740015, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 14},
+    {"Id": 16, "ChestLevelNum": 20650, "ChestReward": 740016, "ChestPreview": 740016, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 15},
+    {"Id": 17, "ChestLevelNum": 25000, "ChestReward": 740017, "ChestPreview": 740017, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 16},
+    {"Id": 18, "ChestLevelNum": 30000, "ChestReward": 740018, "ChestPreview": 740018, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 17},
+    {"Id": 19, "ChestLevelNum": 35700, "ChestReward": 740019, "ChestPreview": 740019, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 18},
+    {"Id": 20, "ChestLevelNum": 0, "ChestReward": 740020, "ChestPreview": 740020, "ChestInitialLevelArray": [], "ChestInitialLevelArrayLength": 0, "Index": 19}
+  ]
+}

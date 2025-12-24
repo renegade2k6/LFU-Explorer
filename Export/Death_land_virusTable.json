@@ -1,0 +1,12 @@
+{
+  "table_name": "Death_land_virusTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "VirusLayers": 1, "BuffDes": 331749, "BuffArray": [29201, 300, 1], "BuffArrayLength": 3, "BuffName": 331761, "Index": 0},
+    {"Id": 2, "VirusLayers": 20, "BuffDes": 331750, "BuffArray": [29203, 10], "BuffArrayLength": 2, "BuffName": 331760, "Index": 1},
+    {"Id": 3, "VirusLayers": 40, "BuffDes": 331747, "BuffArray": [29202, 5], "BuffArrayLength": 2, "BuffName": 331762, "Index": 2},
+    {"Id": 4, "VirusLayers": 60, "BuffDes": 331749, "BuffArray": [29201, 300, 10], "BuffArrayLength": 3, "BuffName": 331761, "Index": 3},
+    {"Id": 5, "VirusLayers": 80, "BuffDes": 331749, "BuffArray": [29201, 300, 20], "BuffArrayLength": 3, "BuffName": 331761, "Index": 4},
+    {"Id": 6, "VirusLayers": 100, "BuffDes": 331747, "BuffArray": [29202, 10], "BuffArrayLength": 2, "BuffName": 331762, "Index": 5}
+  ]
+}

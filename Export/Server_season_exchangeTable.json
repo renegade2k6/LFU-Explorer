@@ -1,0 +1,32 @@
+{
+  "table_name": "Server_season_exchangeTable",
+  "row_count": 26,
+  "data": [
+    {"Id": 1, "Index": 0},
+    {"Id": 2, "Index": 1},
+    {"Id": 5, "Index": 2},
+    {"Id": 6, "Index": 3},
+    {"Id": 9, "Index": 4},
+    {"Id": 10, "Index": 5},
+    {"Id": 13, "Index": 6},
+    {"Id": 14, "Index": 7},
+    {"Id": 17, "Index": 8},
+    {"Id": 18, "Index": 9},
+    {"Id": 19, "Index": 10},
+    {"Id": 20, "Index": 11},
+    {"Id": 21, "Index": 12},
+    {"Id": 22, "Index": 13},
+    {"Id": 23, "Index": 14},
+    {"Id": 24, "Index": 15},
+    {"Id": 25, "Index": 16},
+    {"Id": 26, "Index": 17},
+    {"Id": 27, "Index": 18},
+    {"Id": 28, "Index": 19},
+    {"Id": 29, "Index": 20},
+    {"Id": 30, "Index": 21},
+    {"Id": 31, "Index": 22},
+    {"Id": 32, "Index": 23},
+    {"Id": 33, "Index": 24},
+    {"Id": 34, "Index": 25}
+  ]
+}

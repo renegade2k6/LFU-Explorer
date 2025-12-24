@@ -1,0 +1,13 @@
+{
+  "table_name": "Doomsday_bountyTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1, "Season": 0, "Group": 0, "Story": 0, "LevelGroup": 1001, "CustomPickPoolArray": [1], "CustomPickPoolArrayLength": 1, "CaptainReward": 81521, "MemberRewardArray": ["81521,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 0},
+    {"Id": 2, "Season": 1, "Group": 0, "Story": 0, "LevelGroup": 1002, "CustomPickPoolArray": [1, 2, 3], "CustomPickPoolArrayLength": 3, "CaptainReward": 81522, "MemberRewardArray": ["81522,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 1},
+    {"Id": 3, "Season": 2, "Group": 0, "Story": 0, "LevelGroup": 1003, "CustomPickPoolArray": [1, 2, 3, 4], "CustomPickPoolArrayLength": 4, "CaptainReward": 81523, "MemberRewardArray": ["81523,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 2},
+    {"Id": 4, "Season": 3, "Group": 0, "Story": 0, "LevelGroup": 1004, "CustomPickPoolArray": [1, 2, 3, 4, 5], "CustomPickPoolArrayLength": 5, "CaptainReward": 81524, "MemberRewardArray": ["81524,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 3},
+    {"Id": 5, "Season": 4, "Group": 0, "Story": 0, "LevelGroup": 1005, "CustomPickPoolArray": [1, 2, 3, 4, 5, 6], "CustomPickPoolArrayLength": 6, "CaptainReward": 81525, "MemberRewardArray": ["81525,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 4},
+    {"Id": 6, "Season": 5, "Group": 0, "Story": 0, "LevelGroup": 1005, "CustomPickPoolArray": [1, 2, 3, 4, 5, 6], "CustomPickPoolArrayLength": 6, "CaptainReward": 81525, "MemberRewardArray": ["81525,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 5},
+    {"Id": 7, "Season": 6, "Group": 0, "Story": 0, "LevelGroup": 1005, "CustomPickPoolArray": [1, 2, 3, 4, 5, 6], "CustomPickPoolArrayLength": 6, "CaptainReward": 81525, "MemberRewardArray": ["81525,10,9", "81526,90,90"], "MemberRewardArrayLength": 2, "Index": 6}
+  ]
+}

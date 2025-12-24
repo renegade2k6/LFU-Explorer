@@ -1,0 +1,17 @@
+{
+  "table_name": "Zenith_prestigeTable",
+  "row_count": 11,
+  "data": [
+    {"Id": 1001, "Level": 0, "NextId": 1002, "ExperienceRestype": 4011, "ExperienceNum": 1000, "Reward": 0, "Icon": "prestige_level0_1", "Index": 0},
+    {"Id": 1002, "Level": 1, "NextId": 1003, "ExperienceRestype": 4011, "ExperienceNum": 2000, "Reward": 2600001, "Icon": "prestige_level1_2", "Index": 1},
+    {"Id": 1003, "Level": 2, "NextId": 1004, "ExperienceRestype": 4011, "ExperienceNum": 2500, "Reward": 2600002, "Icon": "prestige_level2_3", "Index": 2},
+    {"Id": 1004, "Level": 3, "NextId": 1005, "ExperienceRestype": 4011, "ExperienceNum": 3000, "Reward": 2600003, "Icon": "prestige_level3_4", "Index": 3},
+    {"Id": 1005, "Level": 4, "NextId": 1006, "ExperienceRestype": 4011, "ExperienceNum": 3500, "Reward": 2600004, "Icon": "prestige_level4_5", "Index": 4},
+    {"Id": 1006, "Level": 5, "NextId": 1007, "ExperienceRestype": 4011, "ExperienceNum": 4000, "Reward": 2600005, "Icon": "prestige_level5_6", "Index": 5},
+    {"Id": 1007, "Level": 6, "NextId": 1008, "ExperienceRestype": 4011, "ExperienceNum": 4500, "Reward": 2600006, "Icon": "prestige_level6_7", "Index": 6},
+    {"Id": 1008, "Level": 7, "NextId": 1009, "ExperienceRestype": 4011, "ExperienceNum": 5000, "Reward": 2600007, "Icon": "prestige_level7_8", "Index": 7},
+    {"Id": 1009, "Level": 8, "NextId": 1010, "ExperienceRestype": 4011, "ExperienceNum": 5500, "Reward": 2600008, "Icon": "prestige_level8_9", "Index": 8},
+    {"Id": 1010, "Level": 9, "NextId": 1011, "ExperienceRestype": 4011, "ExperienceNum": 6000, "Reward": 2600009, "Icon": "prestige_level9_10", "Index": 9},
+    {"Id": 1011, "Level": 10, "NextId": 0, "ExperienceRestype": 4011, "ExperienceNum": 6500, "Reward": 2600010, "Icon": "prestige_level10", "Index": 10}
+  ]
+}

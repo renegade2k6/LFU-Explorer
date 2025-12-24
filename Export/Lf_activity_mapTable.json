@@ -1,0 +1,7 @@
+{
+  "table_name": "Lf_activity_mapTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "ActivityId": 10020, "MapId": 1, "Index": 0}
+  ]
+}

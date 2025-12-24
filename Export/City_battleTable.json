@@ -1,0 +1,7 @@
+{
+  "table_name": "City_battleTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "Story": 2, "RandomTargetLv": 3, "SeasonRuleArray": [21, 22, 23, 28, 24], "SeasonRuleArrayLength": 5, "RobLvLimit": 3, "RobPercent": 5, "Index": 0}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "table_name": "Zombiewar_propTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 10111, "GoodsId": 700112, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 2], "ShowtypeArrayLength": 2, "Showid": 1, "ShowFlag": 1, "Model": "CannonEnegy", "Voice": "", "Index": 0},
+    {"Id": 10112, "GoodsId": 700113, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 3], "ShowtypeArrayLength": 2, "Showid": 3, "ShowFlag": 1, "Model": "SnowBall", "Voice": "Effect/SnowBall_sound", "Index": 1},
+    {"Id": 10113, "GoodsId": 700111, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 1], "ShowtypeArrayLength": 2, "Showid": 0, "ShowFlag": 1, "Model": "Sleigh", "Voice": "Effect/Sleigh_sound", "Index": 2},
+    {"Id": 10114, "GoodsId": 700115, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 5], "ShowtypeArrayLength": 2, "Showid": 4, "ShowFlag": 0, "Model": "", "Voice": "", "Index": 3},
+    {"Id": 10115, "GoodsId": 700116, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 6], "ShowtypeArrayLength": 2, "Showid": 5, "ShowFlag": 0, "Model": "", "Voice": "", "Index": 4},
+    {"Id": 10116, "GoodsId": 700117, "CannonId": 0, "CannonLevel": 0, "UiId": 101, "ShowtypeArray": [105, 7], "ShowtypeArrayLength": 2, "Showid": 2, "ShowFlag": 1, "Model": "Bomb", "Voice": "Effect/Bomb_sound", "Index": 5}
+  ]
+}

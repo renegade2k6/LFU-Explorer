@@ -1,0 +1,12 @@
+{
+  "table_name": "Heros_guideTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 2004, "BuildArray": [408000], "BuildArrayLength": 1, "Description": "132971", "Index": 0},
+    {"Id": 2007, "BuildArray": [423000, 424000, 425000], "BuildArrayLength": 3, "Description": "132971", "Index": 1},
+    {"Id": 2008, "BuildArray": [438000], "BuildArrayLength": 1, "Description": "132971", "Index": 2},
+    {"Id": 2009, "BuildArray": [437000], "BuildArrayLength": 1, "Description": "132971", "Index": 3},
+    {"Id": 2013, "BuildArray": [418000], "BuildArrayLength": 1, "Description": "132971", "Index": 4},
+    {"Id": 2019, "BuildArray": [408000], "BuildArrayLength": 1, "Description": "132971", "Index": 5}
+  ]
+}

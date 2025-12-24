@@ -1,0 +1,9 @@
+{
+  "table_name": "MonthcardTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Exchange": 9007, "SubscriptionID": 9009, "GiftID": 9015, "Name": 320826, "GiftName": 311111, "VipLV": 10, "PVEeffectArray": [21, 50], "PVEeffectArrayLength": 2, "ExpireTime": 3, "Mail": 10136, "MonthcardNew": 0, "Repair": 2, "RandomRelocate": 1, "ExtraPrivilegeArray": [4, 5], "ExtraPrivilegeArrayLength": 2, "SubscriptionExtra": 50, "AppearanceArray": [400000, 500000], "AppearanceArrayLength": 2, "PurchaseReward": 0, "EffectIDArray": null, "EffectIDArrayLength": 0, "EffectIDDic": {}, "Index": 0},
+    {"Id": 2, "Exchange": 9001, "SubscriptionID": 9002, "GiftID": 9003, "Name": 700000121, "GiftName": 700000125, "VipLV": 10, "PVEeffectArray": [], "PVEeffectArrayLength": 0, "ExpireTime": 3, "Mail": 20056, "MonthcardNew": 1, "Repair": 1, "RandomRelocate": 0, "ExtraPrivilegeArray": [5], "ExtraPrivilegeArrayLength": 1, "SubscriptionExtra": 50, "AppearanceArray": [], "AppearanceArrayLength": 0, "PurchaseReward": 61101, "EffectIDArray": null, "EffectIDArrayLength": 0, "EffectIDDic": {}, "Index": 1},
+    {"Id": 3, "Exchange": 9004, "SubscriptionID": 9005, "GiftID": 9006, "Name": 700000122, "GiftName": 700000127, "VipLV": 10, "PVEeffectArray": [21, 50], "PVEeffectArrayLength": 2, "ExpireTime": 3, "Mail": 20057, "MonthcardNew": 1, "Repair": 1, "RandomRelocate": 1, "ExtraPrivilegeArray": [4, 5], "ExtraPrivilegeArrayLength": 2, "SubscriptionExtra": 50, "AppearanceArray": [400000, 500000], "AppearanceArrayLength": 2, "PurchaseReward": 0, "EffectIDArray": ["69;3", "68;3"], "EffectIDArrayLength": 2, "EffectIDDic": {"69": 3, "68": 3}, "Index": 2}
+  ]
+}

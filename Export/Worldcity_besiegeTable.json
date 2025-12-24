@@ -1,0 +1,8 @@
+{
+  "table_name": "Worldcity_besiegeTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 2, "ModelArray": [2, 1, 1, 1, 1, 2, 2, 2, 3, 3, 3, 1, 1, 1, 3, 2, 2, 1], "ModelArrayLength": 18, "Index": 0},
+    {"Id": 3, "ModelArray": [1, 2, 3, 2, 3, 3, 1, 2, 2, 2, 3, 1, 2, 1, 2, 1, 2, 2, 2, 3, 3, 3, 2, 1], "ModelArrayLength": 24, "Index": 1}
+  ]
+}

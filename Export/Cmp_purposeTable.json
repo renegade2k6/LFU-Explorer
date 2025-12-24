@@ -1,0 +1,8 @@
+{
+  "table_name": "Cmp_purposeTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "Name": 905103, "Purpose": "c1", "IsShow": 1, "VendorArray": ["s1"], "VendorArrayLength": 1, "Index": 0},
+    {"Id": 2, "Name": 905104, "Purpose": "c2", "IsShow": 1, "VendorArray": ["s2"], "VendorArrayLength": 1, "Index": 1}
+  ]
+}

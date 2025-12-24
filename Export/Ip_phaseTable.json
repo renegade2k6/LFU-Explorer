@@ -1,0 +1,12 @@
+{
+  "table_name": "Ip_phaseTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "Phase": 1, "PhaseName": 382117, "PhaseTime": "k1", "CgName": 382117, "GuideId": 24010101, "PhaseEndTime": "k2", "CgResource": "24050101", "CgPic": "img_rukou_01_ip_activity", "PhaseIcon": "img_wenzi_ip_activity", "UnlockDialog": 382144, "Index": 0},
+    {"Id": 2, "Phase": 2, "PhaseName": 382118, "PhaseTime": "k2", "CgName": 382118, "GuideId": 24020101, "PhaseEndTime": "k4", "CgResource": "24060101", "CgPic": "img_rukou_02_ip_activity", "PhaseIcon": "img_wenzi_04_ip_activity", "UnlockDialog": 382145, "Index": 1},
+    {"Id": 3, "Phase": 3, "PhaseName": 382119, "PhaseTime": "k4", "CgName": 382119, "GuideId": 24030101, "PhaseEndTime": "k5", "CgResource": "24070101", "CgPic": "img_rukou_03_ip_activity", "PhaseIcon": "img_wenzi_03_ip_activity", "UnlockDialog": 382146, "Index": 2},
+    {"Id": 4, "Phase": 4, "PhaseName": 382120, "PhaseTime": "k5", "CgName": 382120, "GuideId": 24040101, "PhaseEndTime": "k6", "CgResource": "24080101", "CgPic": "img_rukou_04_ip_activity", "PhaseIcon": "img_wenzi_02_ip_activity", "UnlockDialog": 382147, "Index": 3},
+    {"Id": 5, "Phase": 5, "PhaseName": 0, "PhaseTime": "k5", "CgName": 382121, "GuideId": 0, "PhaseEndTime": "k6", "CgResource": "24090101", "CgPic": "img_rukou_05_ip_activity", "PhaseIcon": "", "UnlockDialog": 0, "Index": 4},
+    {"Id": 6, "Phase": 6, "PhaseName": 900328, "PhaseTime": "k6", "CgName": 900328, "GuideId": 0, "PhaseEndTime": "k7", "CgResource": "24100101", "CgPic": "img_rukou_06_ip_activity", "PhaseIcon": "img_wenzi_02_ip_activity", "UnlockDialog": 901057, "Index": 5}
+  ]
+}

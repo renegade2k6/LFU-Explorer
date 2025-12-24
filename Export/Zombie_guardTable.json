@@ -1,0 +1,16 @@
+{
+  "table_name": "Zombie_guardTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 240001, "Season": 0, "FieldMonsterId": 240001, "DeadRatio": 40, "MineralAmount": 3, "Index": 0},
+    {"Id": 240002, "Season": 0, "FieldMonsterId": 240002, "DeadRatio": 40, "MineralAmount": 3, "Index": 1},
+    {"Id": 240003, "Season": 0, "FieldMonsterId": 240003, "DeadRatio": 40, "MineralAmount": 3, "Index": 2},
+    {"Id": 240004, "Season": 0, "FieldMonsterId": 240004, "DeadRatio": 40, "MineralAmount": 3, "Index": 3},
+    {"Id": 240005, "Season": 0, "FieldMonsterId": 240005, "DeadRatio": 40, "MineralAmount": 3, "Index": 4},
+    {"Id": 240006, "Season": 0, "FieldMonsterId": 240006, "DeadRatio": 40, "MineralAmount": 3, "Index": 5},
+    {"Id": 240007, "Season": 0, "FieldMonsterId": 240007, "DeadRatio": 40, "MineralAmount": 3, "Index": 6},
+    {"Id": 240008, "Season": 0, "FieldMonsterId": 240008, "DeadRatio": 40, "MineralAmount": 3, "Index": 7},
+    {"Id": 240009, "Season": 0, "FieldMonsterId": 240009, "DeadRatio": 40, "MineralAmount": 3, "Index": 8},
+    {"Id": 240010, "Season": 0, "FieldMonsterId": 240010, "DeadRatio": 40, "MineralAmount": 3, "Index": 9}
+  ]
+}

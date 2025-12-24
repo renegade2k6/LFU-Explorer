@@ -1,0 +1,11 @@
+{
+  "table_name": "Recordshop_musicTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "GoodsIdArray": [735006, 735011, 735016, 735021, 735026, 735031, 735036, 735041], "GoodsIdArrayLength": 8, "Isbuy": 0, "MakeConditionArray": [51500, 1], "MakeConditionArrayLength": 2, "BuyConditionArray": [], "BuyConditionArrayLength": 0, "PackidArray": [], "PackidArrayLength": 0, "Index": 0},
+    {"Id": 2, "GoodsIdArray": [735007, 735012, 735017, 735022, 735027, 735032, 735037, 735042], "GoodsIdArrayLength": 8, "Isbuy": 0, "MakeConditionArray": [51500, 5], "MakeConditionArrayLength": 2, "BuyConditionArray": [], "BuyConditionArrayLength": 0, "PackidArray": [], "PackidArrayLength": 0, "Index": 1},
+    {"Id": 3, "GoodsIdArray": [735008, 735013, 735018, 735023, 735028, 735033, 735038, 735043], "GoodsIdArrayLength": 8, "Isbuy": 0, "MakeConditionArray": [51500, 15], "MakeConditionArrayLength": 2, "BuyConditionArray": [51500, 15], "BuyConditionArrayLength": 2, "PackidArray": [], "PackidArrayLength": 0, "Index": 2},
+    {"Id": 4, "GoodsIdArray": [735009, 735014, 735019, 735024, 735029, 735034, 735039, 735044], "GoodsIdArrayLength": 8, "Isbuy": 1, "MakeConditionArray": [51500, 25], "MakeConditionArrayLength": 2, "BuyConditionArray": [51500, 25], "BuyConditionArrayLength": 2, "PackidArray": [900115, 900116, 900117, 900118, 900119, 900120, 900121, 900122], "PackidArrayLength": 8, "Index": 3},
+    {"Id": 5, "GoodsIdArray": [735010, 735015, 735020, 735025, 735030, 735035, 735040, 735045], "GoodsIdArrayLength": 8, "Isbuy": 1, "MakeConditionArray": [51500, 10], "MakeConditionArrayLength": 2, "BuyConditionArray": [51500, 28], "BuyConditionArrayLength": 2, "PackidArray": [900123, 900124, 900125, 900126, 900127, 900128, 900129, 900130], "PackidArrayLength": 8, "Index": 4}
+  ]
+}

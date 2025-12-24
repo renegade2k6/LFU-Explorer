@@ -1,0 +1,13 @@
+{
+  "table_name": "World_areaTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1, "Type": 1, "Num": 1, "Name": 602103051, "Desc": 602103061, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 0},
+    {"Id": 2, "Type": 1, "Num": 2, "Name": 602103052, "Desc": 602103062, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 1},
+    {"Id": 3, "Type": 1, "Num": 3, "Name": 602103053, "Desc": 602103063, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 2},
+    {"Id": 4, "Type": 1, "Num": 4, "Name": 602103054, "Desc": 602103064, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 3},
+    {"Id": 5, "Type": 2, "Num": 5, "Name": 602103055, "Desc": 602103065, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 4},
+    {"Id": 6, "Type": 2, "Num": 6, "Name": 602103056, "Desc": 602103065, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 5},
+    {"Id": 7, "Type": 2, "Num": 7, "Name": 602103057, "Desc": 602103060, "ThumbnailPosition": 0, "SelectEffect": "", "Index": 6}
+  ]
+}

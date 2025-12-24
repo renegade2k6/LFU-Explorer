@@ -1,0 +1,7 @@
+{
+  "table_name": "Alliance_recharge_raceTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 30001, "ActivityId": 190005, "Point": "735941;100|735942;200|735943;500000", "Index": 0}
+  ]
+}

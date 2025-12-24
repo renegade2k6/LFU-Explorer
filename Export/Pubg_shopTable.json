@@ -1,0 +1,33 @@
+{
+  "table_name": "Pubg_shopTable",
+  "row_count": 27,
+  "data": [
+    {"Id": 1001, "Team": 0, "GoodsArray": [441001, 1], "GoodsArrayLength": 2, "CostArray": [741003, 200000], "CostArrayLength": 2, "Limit": 1, "ForeverLimit": 1, "Index": 0},
+    {"Id": 1002, "Team": 0, "GoodsArray": [702130, 3], "GoodsArrayLength": 2, "CostArray": [741003, 1500], "CostArrayLength": 2, "Limit": 5, "ForeverLimit": 0, "Index": 1},
+    {"Id": 1003, "Team": 0, "GoodsArray": [800071, 1], "GoodsArrayLength": 2, "CostArray": [741003, 40000], "CostArrayLength": 2, "Limit": 1, "ForeverLimit": 1, "Index": 2},
+    {"Id": 1004, "Team": 0, "GoodsArray": [800072, 1], "GoodsArrayLength": 2, "CostArray": [741003, 25000], "CostArrayLength": 2, "Limit": 1, "ForeverLimit": 1, "Index": 3},
+    {"Id": 1005, "Team": 0, "GoodsArray": [800073, 1], "GoodsArrayLength": 2, "CostArray": [741003, 25000], "CostArrayLength": 2, "Limit": 1, "ForeverLimit": 1, "Index": 4},
+    {"Id": 1006, "Team": 0, "GoodsArray": [800074, 1], "GoodsArrayLength": 2, "CostArray": [741003, 25000], "CostArrayLength": 2, "Limit": 1, "ForeverLimit": 1, "Index": 5},
+    {"Id": 1007, "Team": 0, "GoodsArray": [200059, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1600], "CostArrayLength": 2, "Limit": 3, "ForeverLimit": 0, "Index": 6},
+    {"Id": 1008, "Team": 0, "GoodsArray": [200093, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1600], "CostArrayLength": 2, "Limit": 3, "ForeverLimit": 0, "Index": 7},
+    {"Id": 1009, "Team": 0, "GoodsArray": [240001, 100], "GoodsArrayLength": 2, "CostArray": [741003, 2000], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 8},
+    {"Id": 1010, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 9},
+    {"Id": 1011, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 10},
+    {"Id": 1012, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 11},
+    {"Id": 1013, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 12},
+    {"Id": 1014, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 13},
+    {"Id": 1015, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 14},
+    {"Id": 1016, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 15},
+    {"Id": 1017, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 16},
+    {"Id": 1018, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 17},
+    {"Id": 1019, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 18},
+    {"Id": 1020, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 19},
+    {"Id": 1021, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 20},
+    {"Id": 1022, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 21},
+    {"Id": 1023, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 22},
+    {"Id": 1024, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 23},
+    {"Id": 1025, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 24},
+    {"Id": 1026, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 25},
+    {"Id": 1027, "Team": 0, "GoodsArray": [200386, 1], "GoodsArrayLength": 2, "CostArray": [741003, 1875], "CostArrayLength": 2, "Limit": 50, "ForeverLimit": 0, "Index": 26}
+  ]
+}

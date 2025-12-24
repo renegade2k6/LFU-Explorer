@@ -1,0 +1,22 @@
+{
+  "table_name": "Activity_composeTable",
+  "row_count": 16,
+  "data": [
+    {"Id": 10001, "ComposeGroup": 10010, "Level": 1, "BaseItem": 204029, "Order": 1, "Index": 0},
+    {"Id": 10002, "ComposeGroup": 10010, "Level": 2, "BaseItem": 204030, "Order": 1, "Index": 1},
+    {"Id": 10003, "ComposeGroup": 10010, "Level": 3, "BaseItem": 204031, "Order": 1, "Index": 2},
+    {"Id": 10004, "ComposeGroup": 10010, "Level": 4, "BaseItem": 204032, "Order": 1, "Index": 3},
+    {"Id": 10005, "ComposeGroup": 10011, "Level": 1, "BaseItem": 204033, "Order": 2, "Index": 4},
+    {"Id": 10006, "ComposeGroup": 10011, "Level": 2, "BaseItem": 204034, "Order": 2, "Index": 5},
+    {"Id": 10007, "ComposeGroup": 10011, "Level": 3, "BaseItem": 204035, "Order": 2, "Index": 6},
+    {"Id": 10008, "ComposeGroup": 10011, "Level": 4, "BaseItem": 204036, "Order": 2, "Index": 7},
+    {"Id": 10009, "ComposeGroup": 10012, "Level": 1, "BaseItem": 204037, "Order": 3, "Index": 8},
+    {"Id": 10010, "ComposeGroup": 10012, "Level": 2, "BaseItem": 204038, "Order": 3, "Index": 9},
+    {"Id": 10011, "ComposeGroup": 10012, "Level": 3, "BaseItem": 204039, "Order": 3, "Index": 10},
+    {"Id": 10012, "ComposeGroup": 10012, "Level": 4, "BaseItem": 204040, "Order": 3, "Index": 11},
+    {"Id": 10013, "ComposeGroup": 10013, "Level": 1, "BaseItem": 204041, "Order": 4, "Index": 12},
+    {"Id": 10014, "ComposeGroup": 10013, "Level": 2, "BaseItem": 204042, "Order": 4, "Index": 13},
+    {"Id": 10015, "ComposeGroup": 10013, "Level": 3, "BaseItem": 204043, "Order": 4, "Index": 14},
+    {"Id": 10016, "ComposeGroup": 10013, "Level": 4, "BaseItem": 204044, "Order": 4, "Index": 15}
+  ]
+}

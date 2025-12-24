@@ -1,0 +1,12 @@
+{
+  "table_name": "TimeFly_serverEventTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 201, "Type": 1, "Para1": "1;2;3;4", "Time": 30, "Index": 0},
+    {"Id": 202, "Type": 2, "Para1": "403000;404000;405000;418000;419000;427000;428000;429000;431000;432000;452000;453000;454000;457000;460000;449000", "Time": 30, "Index": 1},
+    {"Id": 203, "Type": 8, "Para1": "", "Time": 30, "Index": 2},
+    {"Id": 204, "Type": 5, "Para1": "", "Time": 30, "Index": 3},
+    {"Id": 205, "Type": 6, "Para1": "1093", "Time": 30, "Index": 4},
+    {"Id": 206, "Type": 7, "Para1": "1094", "Time": 30, "Index": 5}
+  ]
+}

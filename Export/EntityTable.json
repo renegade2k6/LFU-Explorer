@@ -1,0 +1,33 @@
+{
+  "table_name": "EntityTable",
+  "row_count": 27,
+  "data": [
+    {"Id": "Ground", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/Ground/Ground", "Index": 0},
+    {"Id": "RoughTemplate", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/Rough/RoughTemplate", "Index": 1},
+    {"Id": "ZombieRoot", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/Ground/ZombieRoot", "Index": 2},
+    {"Id": "ActMatchGameMain_bg", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActSpringFestival_New/ActMatchGameMain_bg", "Index": 3},
+    {"Id": "RecyclePosterShop", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/Room/zlh/RoomBaseViewBg/RecyclePosterShop.prefab", "Index": 4},
+    {"Id": "HeroStatueList", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/Room/zlh/RoomBaseViewBg/HeroStatueList.prefab", "Index": 5},
+    {"Id": "HeroLink", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/Room/zlh/RoomBaseViewBg/HeroLink.prefab", "Index": 6},
+    {"Id": "HeroFetter", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/Room/zlh/RoomBaseViewBg/HeroFetter.prefab", "Index": 7},
+    {"Id": "ActBigPictureGiftPackBGHalloween", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGHalloween.prefab", "Index": 8},
+    {"Id": "ActBigPictureGiftPackBGChristmas", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGChristmas.prefab", "Index": 9},
+    {"Id": "ActBigPictureGiftPackBGDoom", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGDoom.prefab", "Index": 10},
+    {"Id": "ActBigPictureGiftPackBGBlackFriday", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGBlackFriday.prefab", "Index": 11},
+    {"Id": "ActBigPictureGiftPackBGDouble11", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGDouble11.prefab", "Index": 12},
+    {"Id": "ActBigPictureGiftPackBGChunjie2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGChunjie2025.prefab", "Index": 13},
+    {"Id": "BubbleForHeroWander", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/Room/BubbleForHeroWander.prefab", "Index": 14},
+    {"Id": "ActBigPictureGiftPackBGEaster2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGEaster2025.prefab", "Index": 15},
+    {"Id": "ActBigPictureGiftPackBGLaborDay2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGLaborDay2025.prefab", "Index": 16},
+    {"Id": "ActBigPictureGiftPackBGZhiMeng2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGZhiMeng2025.prefab", "Index": 17},
+    {"Id": "ActBigPictureGiftPackBGShouhuri", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGShouhuri.prefab", "Index": 18},
+    {"Id": "UIPanelWorldPointCity_mingpian_Autumn", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/World/UI2/InfoCards/UIPanelWorldPointCity_mingpian_Autumn.prefab", "Index": 19},
+    {"Id": "UIPanelFloatingCity_mingpian_Autumn", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/World/UI2/InfoCards/UIPanelFloatingCity_mingpian_Autumn.prefab", "Index": 20},
+    {"Id": "ActBigPictureGiftPackBG3rd2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBG3rd2025.prefab", "Index": 21},
+    {"Id": "ActBigPictureGiftPackBGQiXi2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGQiXi2025.prefab", "Index": 22},
+    {"Id": "ActBigPictureGiftPackBGMidAutumn2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/ActMidAutumn2025/ActBigPictureGiftPackBGMidAutumn2025.prefab", "Index": 23},
+    {"Id": "ActBigPictureGiftPackBGHalloween2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI/Activity/ActBgPrefab/ActBigPictureGiftPackBGHalloween2025.prefab", "Index": 24},
+    {"Id": "ActBigPictureGiftPackBGThanksgiving2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/1Template/ActBigPictureGiftPackBGThanksgiving2025.prefab", "Index": 25},
+    {"Id": "ActBigPictureGiftPackBGActChristmasActivities2025", "AssetType": 0, "AssetName": "Assets/Shelter/Prefabs/UI2/ActChristmasActivities2025/ActBigPictureGiftPackBGActChristmasActivities2025.prefab", "Index": 26}
+  ]
+}

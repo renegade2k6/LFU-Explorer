@@ -1,0 +1,31 @@
+{
+  "table_name": "Arena_team_stageTable",
+  "row_count": 25,
+  "data": [
+    {"Id": 101, "Point": 1, "Reset": 0, "IconShowArray": ["icon_jingjichang_jiangbei_01", "icon_jingjichang_shuzi_01"], "IconShowArrayLength": 2, "Dialog": 511510, "Index": 0},
+    {"Id": 102, "Point": 50, "Reset": 20, "IconShowArray": ["icon_jingjichang_jiangbei_01", "icon_jingjichang_shuzi_02"], "IconShowArrayLength": 2, "Dialog": 511510, "Index": 1},
+    {"Id": 103, "Point": 100, "Reset": 50, "IconShowArray": ["icon_jingjichang_jiangbei_01", "icon_jingjichang_shuzi_03"], "IconShowArrayLength": 2, "Dialog": 511510, "Index": 2},
+    {"Id": 104, "Point": 200, "Reset": 100, "IconShowArray": ["icon_jingjichang_jiangbei_01", "icon_jingjichang_shuzi_04"], "IconShowArrayLength": 2, "Dialog": 511510, "Index": 3},
+    {"Id": 105, "Point": 300, "Reset": 100, "IconShowArray": ["icon_jingjichang_jiangbei_01", "icon_jingjichang_shuzi_05"], "IconShowArrayLength": 2, "Dialog": 511510, "Index": 4},
+    {"Id": 106, "Point": 400, "Reset": 200, "IconShowArray": ["icon_jingjichang_jiangbei_02", "icon_jingjichang_shuzi_01"], "IconShowArrayLength": 2, "Dialog": 511511, "Index": 5},
+    {"Id": 107, "Point": 500, "Reset": 200, "IconShowArray": ["icon_jingjichang_jiangbei_02", "icon_jingjichang_shuzi_02"], "IconShowArrayLength": 2, "Dialog": 511511, "Index": 6},
+    {"Id": 108, "Point": 600, "Reset": 300, "IconShowArray": ["icon_jingjichang_jiangbei_02", "icon_jingjichang_shuzi_03"], "IconShowArrayLength": 2, "Dialog": 511511, "Index": 7},
+    {"Id": 109, "Point": 700, "Reset": 300, "IconShowArray": ["icon_jingjichang_jiangbei_02", "icon_jingjichang_shuzi_04"], "IconShowArrayLength": 2, "Dialog": 511511, "Index": 8},
+    {"Id": 110, "Point": 800, "Reset": 400, "IconShowArray": ["icon_jingjichang_jiangbei_02", "icon_jingjichang_shuzi_05"], "IconShowArrayLength": 2, "Dialog": 511511, "Index": 9},
+    {"Id": 111, "Point": 1000, "Reset": 500, "IconShowArray": ["icon_jingjichang_jiangbei_03", "icon_jingjichang_shuzi_01"], "IconShowArrayLength": 2, "Dialog": 511512, "Index": 10},
+    {"Id": 112, "Point": 1200, "Reset": 600, "IconShowArray": ["icon_jingjichang_jiangbei_03", "icon_jingjichang_shuzi_02"], "IconShowArrayLength": 2, "Dialog": 511512, "Index": 11},
+    {"Id": 113, "Point": 1400, "Reset": 700, "IconShowArray": ["icon_jingjichang_jiangbei_03", "icon_jingjichang_shuzi_03"], "IconShowArrayLength": 2, "Dialog": 511512, "Index": 12},
+    {"Id": 114, "Point": 1600, "Reset": 800, "IconShowArray": ["icon_jingjichang_jiangbei_03", "icon_jingjichang_shuzi_04"], "IconShowArrayLength": 2, "Dialog": 511512, "Index": 13},
+    {"Id": 115, "Point": 1800, "Reset": 900, "IconShowArray": ["icon_jingjichang_jiangbei_03", "icon_jingjichang_shuzi_05"], "IconShowArrayLength": 2, "Dialog": 511512, "Index": 14},
+    {"Id": 116, "Point": 2100, "Reset": 1000, "IconShowArray": ["icon_jingjichang_jiangbei_04", "icon_jingjichang_shuzi_01"], "IconShowArrayLength": 2, "Dialog": 511513, "Index": 15},
+    {"Id": 117, "Point": 2400, "Reset": 1200, "IconShowArray": ["icon_jingjichang_jiangbei_04", "icon_jingjichang_shuzi_02"], "IconShowArrayLength": 2, "Dialog": 511513, "Index": 16},
+    {"Id": 118, "Point": 2700, "Reset": 1300, "IconShowArray": ["icon_jingjichang_jiangbei_04", "icon_jingjichang_shuzi_03"], "IconShowArrayLength": 2, "Dialog": 511513, "Index": 17},
+    {"Id": 119, "Point": 3000, "Reset": 1500, "IconShowArray": ["icon_jingjichang_jiangbei_04", "icon_jingjichang_shuzi_04"], "IconShowArrayLength": 2, "Dialog": 511513, "Index": 18},
+    {"Id": 120, "Point": 3300, "Reset": 1600, "IconShowArray": ["icon_jingjichang_jiangbei_04", "icon_jingjichang_shuzi_05"], "IconShowArrayLength": 2, "Dialog": 511513, "Index": 19},
+    {"Id": 121, "Point": 3700, "Reset": 1800, "IconShowArray": ["icon_jingjichang_jiangbei_05", "icon_jingjichang_shuzi_01"], "IconShowArrayLength": 2, "Dialog": 511514, "Index": 20},
+    {"Id": 122, "Point": 4100, "Reset": 2000, "IconShowArray": ["icon_jingjichang_jiangbei_05", "icon_jingjichang_shuzi_02"], "IconShowArrayLength": 2, "Dialog": 511514, "Index": 21},
+    {"Id": 123, "Point": 4500, "Reset": 2200, "IconShowArray": ["icon_jingjichang_jiangbei_05", "icon_jingjichang_shuzi_03"], "IconShowArrayLength": 2, "Dialog": 511514, "Index": 22},
+    {"Id": 124, "Point": 4900, "Reset": 2400, "IconShowArray": ["icon_jingjichang_jiangbei_05", "icon_jingjichang_shuzi_04"], "IconShowArrayLength": 2, "Dialog": 511514, "Index": 23},
+    {"Id": 125, "Point": 5300, "Reset": 2600, "IconShowArray": ["icon_jingjichang_jiangbei_05", "icon_jingjichang_shuzi_05"], "IconShowArrayLength": 2, "Dialog": 511514, "Index": 24}
+  ]
+}

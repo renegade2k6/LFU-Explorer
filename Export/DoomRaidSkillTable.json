@@ -1,0 +1,15 @@
+{
+  "table_name": "DoomRaidSkillTable",
+  "row_count": 9,
+  "data": [
+    {"Id": 1, "Icon": "icon_moribenxi_cichang", "Name": 141101, "Description": 141201, "ConDescription": 141602, "Skill": 1801, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 0},
+    {"Id": 2, "Icon": "icon_moribenxi_dilei", "Name": 141102, "Description": 141202, "ConDescription": 141602, "Skill": 1201, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 1},
+    {"Id": 3, "Icon": "icon_moribenxi_shoulei", "Name": 141103, "Description": 141203, "ConDescription": 141602, "Skill": 1101, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 2},
+    {"Id": 4, "Icon": "icon_moribenxi_kongxi", "Name": 141104, "Description": 141204, "ConDescription": 141602, "Skill": 1501, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 3},
+    {"Id": 5, "Icon": "icon_moribenxi_juchi", "Name": 141105, "Description": 141205, "ConDescription": 141602, "Skill": 1901, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 4},
+    {"Id": 6, "Icon": "icon_moribenxi_paotai", "Name": 141106, "Description": 141206, "ConDescription": 141602, "Skill": 1601, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 5},
+    {"Id": 7, "Icon": "icon_moribenxi_zimudan", "Name": 141107, "Description": 141207, "ConDescription": 141602, "Skill": 1401, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 6},
+    {"Id": 8, "Icon": "icon_moribenxi_huojiandan", "Name": 141108, "Description": 141208, "ConDescription": 141602, "Skill": 1301, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 7},
+    {"Id": 9, "Icon": "icon_moribenxi_wurenji", "Name": 141109, "Description": 141209, "ConDescription": 141602, "Skill": 1701, "Gain": 0, "GainPara": 0, "IsFirstLevel": 0, "UnlockLevel": 0, "Index": 8}
+  ]
+}

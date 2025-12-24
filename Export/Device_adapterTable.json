@@ -1,0 +1,10 @@
+{
+  "table_name": "Device_adapterTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1, "GPUArray": null, "GPUArrayLength": 0, "IOSGPUArray": ["A4", "A5", "A5X", "A6", "A6X", "A7", "A8", "A8X", "A9", "A9X"], "IOSGPUArrayLength": 10, "Index": 0},
+    {"Id": 2, "GPUArray": ["Adreno2XX", "Adreno3XX", "Adreno4XX", "Adreno505", "Adreno506", "Mali4XX", "Mali6XX", "Mali8XX", "Mali7XX", "Mali720"], "GPUArrayLength": 10, "IOSGPUArray": ["A10", "A10X", ""], "IOSGPUArrayLength": 3, "Index": 1},
+    {"Id": 3, "GPUArray": ["Adreno508", "Adreno509", "Adreno51X", "Adreno53X", "Mali31", "Mali51", "Mali52", "Mali71", "PowerVR544", "PowerVR61XX", "PowerVR62XX", "PowerVR64XX", "PowerVR66XX", "PowerVR68XX", "PowerVR72XX", "PowerVR74XX", "PowerVR76XX", "PowerVR78XX"], "GPUArrayLength": 18, "IOSGPUArray": ["A11"], "IOSGPUArrayLength": 1, "Index": 2},
+    {"Id": 4, "GPUArray": ["Adreno54X", "Adreno6XX", "Mali68", "Mali7X", "PowerVR81XX", "PowerVR83XX", "PowerVR94XX", ""], "GPUArrayLength": 8, "IOSGPUArray": ["A12", "A12X", "A12Z", "A13", "A14", "A15"], "IOSGPUArrayLength": 6, "Index": 3}
+  ]
+}

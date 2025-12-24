@@ -1,0 +1,7 @@
+{
+  "table_name": "Bubble_tipsTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1001, "ActivityIdArray": [170201, 170064], "ActivityIdArrayLength": 2, "OrderArray": [100, 99], "OrderArrayLength": 2, "Time1": 1440, "Time2": 3, "Duration": 4, "SessionLimit": 2, "Time3": 2, "TotalLimit": 4, "Index": 0}
+  ]
+}

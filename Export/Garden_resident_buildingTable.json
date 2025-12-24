@@ -1,0 +1,26 @@
+{
+  "table_name": "Garden_resident_buildingTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "BuildingId": 1001901, "GoodId": 8000019, "PositionArray": [-0.52, -0.09, 0], "PositionArrayLength": 3, "RotationArray": [-8.2, -41.08, 5.2], "RotationArrayLength": 3, "ScaleArray": [0.28, 0.28, 0.28], "ScaleArrayLength": 3, "Index": 0},
+    {"Id": 2, "BuildingId": 1002001, "GoodId": 8000020, "PositionArray": [-1.07, 0, 0], "PositionArrayLength": 3, "RotationArray": [-22.94, 356.04, 2.6], "RotationArrayLength": 3, "ScaleArray": [0.25, 0.25, 0.25], "ScaleArrayLength": 3, "Index": 1},
+    {"Id": 3, "BuildingId": 1002101, "GoodId": 8000021, "PositionArray": [-1.1, 0, 0], "PositionArrayLength": 3, "RotationArray": [-10.72, 344.4, 3.9], "RotationArrayLength": 3, "ScaleArray": [0.2, 0.2, 0.2], "ScaleArrayLength": 3, "Index": 2},
+    {"Id": 4, "BuildingId": 1001601, "GoodId": 8000016, "PositionArray": [-0.54, 0.16, 0], "PositionArrayLength": 3, "RotationArray": [-15.2, -42.38, 14.2], "RotationArrayLength": 3, "ScaleArray": [0.3, 0.3, 0.3], "ScaleArrayLength": 3, "Index": 3},
+    {"Id": 5, "BuildingId": 1002601, "GoodId": 8000026, "PositionArray": [-0.89, 0.39, 0], "PositionArrayLength": 3, "RotationArray": [-8.51, -10.9, -1.3], "RotationArrayLength": 3, "ScaleArray": [0.4, 0.4, 0.4], "ScaleArrayLength": 3, "Index": 4},
+    {"Id": 16, "BuildingId": 1004601, "GoodId": 8000046, "PositionArray": [-0.5, -0.66, 0.5], "PositionArrayLength": 3, "RotationArray": [-24, -48.4, 24.4], "RotationArrayLength": 3, "ScaleArray": [0.17, 0.17, 0.17], "ScaleArrayLength": 3, "Index": 15},
+    {"Id": 17, "BuildingId": 1004701, "GoodId": 8000047, "PositionArray": [-1.3, 0, 0], "PositionArrayLength": 3, "RotationArray": [-22.94, 356.04, 2.6], "RotationArrayLength": 3, "ScaleArray": [0.18, 0.18, 0.18], "ScaleArrayLength": 3, "Index": 16},
+    {"Id": 18, "BuildingId": 1004801, "GoodId": 8000048, "PositionArray": [-0.43, 0.07, -0.21], "PositionArrayLength": 3, "RotationArray": [-19.9, -44.7, 22.8], "RotationArrayLength": 3, "ScaleArray": [0.35, 0.35, 0.35], "ScaleArrayLength": 3, "Index": 17},
+    {"Id": 19, "BuildingId": 1004901, "GoodId": 8000049, "PositionArray": [-0.48, -0.15, 0], "PositionArrayLength": 3, "RotationArray": [-15.2, -42.38, 14.2], "RotationArrayLength": 3, "ScaleArray": [0.35, 0.35, 0.35], "ScaleArrayLength": 3, "Index": 18},
+    {"Id": 20, "BuildingId": 1005001, "GoodId": 8000050, "PositionArray": [-0.45, 0.07, 0], "PositionArrayLength": 3, "RotationArray": [-23.85, -49.9, 25.7], "RotationArrayLength": 3, "ScaleArray": [0.3, 0.3, 0.3], "ScaleArrayLength": 3, "Index": 19},
+    {"Id": 6, "BuildingId": 1003501, "GoodId": 8000035, "PositionArray": [-0.47, -0.42, 0], "PositionArrayLength": 3, "RotationArray": [-20.51, -45.61, 20.8], "RotationArrayLength": 3, "ScaleArray": [0.28, 0.28, 0.28], "ScaleArrayLength": 3, "Index": 5},
+    {"Id": 7, "BuildingId": 1003601, "GoodId": 8000036, "PositionArray": [-1.07, 0, 0], "PositionArrayLength": 3, "RotationArray": [-22.94, 356.04, 2.6], "RotationArrayLength": 3, "ScaleArray": [0.25, 0.25, 0.25], "ScaleArrayLength": 3, "Index": 6},
+    {"Id": 8, "BuildingId": 1003701, "GoodId": 8000037, "PositionArray": [-0.52, 0.07, -0.21], "PositionArrayLength": 3, "RotationArray": [-19.9, -44.7, 22.8], "RotationArrayLength": 3, "ScaleArray": [0.2, 0.2, 0.2], "ScaleArrayLength": 3, "Index": 7},
+    {"Id": 9, "BuildingId": 1003801, "GoodId": 8000038, "PositionArray": [-0.54, 0.16, 0], "PositionArrayLength": 3, "RotationArray": [-15.2, -42.38, 14.2], "RotationArrayLength": 3, "ScaleArray": [0.3, 0.3, 0.3], "ScaleArrayLength": 3, "Index": 8},
+    {"Id": 10, "BuildingId": 1003901, "GoodId": 8000039, "PositionArray": [-0.61, 0.03, 0], "PositionArrayLength": 3, "RotationArray": [-30.93, -36.38, 21.69], "RotationArrayLength": 3, "ScaleArray": [0.3, 0.3, 0.3], "ScaleArrayLength": 3, "Index": 9},
+    {"Id": 11, "BuildingId": 1004001, "GoodId": 8000040, "PositionArray": [-0.5, -0.45, 0], "PositionArrayLength": 3, "RotationArray": [-20.51, -45.61, 20.8], "RotationArrayLength": 3, "ScaleArray": [0.17, 0.17, 0.17], "ScaleArrayLength": 3, "Index": 10},
+    {"Id": 12, "BuildingId": 1004101, "GoodId": 8000041, "PositionArray": [-1.3, 0, 0], "PositionArrayLength": 3, "RotationArray": [-22.94, 356.04, 2.6], "RotationArrayLength": 3, "ScaleArray": [0.18, 0.18, 0.18], "ScaleArrayLength": 3, "Index": 11},
+    {"Id": 13, "BuildingId": 1004201, "GoodId": 8000042, "PositionArray": [-0.43, 0.07, -0.21], "PositionArrayLength": 3, "RotationArray": [-19.9, -44.7, 22.8], "RotationArrayLength": 3, "ScaleArray": [0.35, 0.35, 0.35], "ScaleArrayLength": 3, "Index": 12},
+    {"Id": 14, "BuildingId": 1004301, "GoodId": 8000043, "PositionArray": [-0.48, -0.15, 0], "PositionArrayLength": 3, "RotationArray": [-15.2, -42.38, 14.2], "RotationArrayLength": 3, "ScaleArray": [0.7, 0.7, 0.7], "ScaleArrayLength": 3, "Index": 13},
+    {"Id": 15, "BuildingId": 1004401, "GoodId": 8000044, "PositionArray": [-0.5, 0.03, 0], "PositionArrayLength": 3, "RotationArray": [-31, -54.4, 389.88], "RotationArrayLength": 3, "ScaleArray": [0.3, 0.3, 0.3], "ScaleArrayLength": 3, "Index": 14}
+  ]
+}

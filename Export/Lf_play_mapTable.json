@@ -1,0 +1,11 @@
+{
+  "table_name": "Lf_play_mapTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "Rule": 3, "MapName": "yizhi_server.world", "MapRes": "Ruin1_GreateWorld", "MiniMap": "img_map_world_desert", "Eden": 0, "OffsetArray": [12, 15, 8, 20, 360], "OffsetArrayLength": 5, "MapSizeArray": [150, 150], "MapSizeArrayLength": 2, "FogColorArray": ["#CFAF7C", "#DEE57A"], "FogColorArrayLength": 2, "Index": 0},
+    {"Id": 2, "Rule": 6, "MapName": "worldcity_kuafu_server.world", "MapRes": "Ruin2_GreateWorld", "MiniMap": "img_map_world_desert", "Eden": 0, "OffsetArray": [12, 15, 8, 20, 360], "OffsetArrayLength": 5, "MapSizeArray": [150, 150], "MapSizeArrayLength": 2, "FogColorArray": ["#CFAF7C", "#DEE57A"], "FogColorArrayLength": 2, "Index": 1},
+    {"Id": 3, "Rule": 7, "MapName": "stronghold_war", "MapRes": "Ruin3_GreateWorld", "MiniMap": "", "Eden": 0, "OffsetArray": [12, 15, 8, 20, 46], "OffsetArrayLength": 5, "MapSizeArray": [150, 150], "MapSizeArrayLength": 2, "FogColorArray": null, "FogColorArrayLength": 0, "Index": 2},
+    {"Id": 5, "Rule": 11, "MapName": "pubg_server.world", "MapRes": "Ruin4_GreateWorld", "MiniMap": "", "Eden": 0, "OffsetArray": [12, 15, 8, 20, 360], "OffsetArrayLength": 5, "MapSizeArray": [200, 200], "MapSizeArrayLength": 2, "FogColorArray": ["#CFAF7C", "#DEE57A"], "FogColorArrayLength": 2, "Index": 3},
+    {"Id": 6, "Rule": 12, "MapName": "worldcity_qianqi_server.world", "MapRes": "Ruin5_GreateWorld", "MiniMap": "", "Eden": 0, "OffsetArray": [12, 15, 8, 20, 80], "OffsetArrayLength": 5, "MapSizeArray": [100, 100], "MapSizeArrayLength": 2, "FogColorArray": ["#CFAF7C", "#DEE57A"], "FogColorArrayLength": 2, "Index": 4}
+  ]
+}

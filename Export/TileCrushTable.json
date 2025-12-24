@@ -1,0 +1,14 @@
+{
+  "table_name": "TileCrushTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 1001, "Group": 1, "LevelName": 1001, "LevelRadom": 0, "Index": 0},
+    {"Id": 1002, "Group": 2, "LevelName": 1002, "LevelRadom": 30, "Index": 1},
+    {"Id": 1005, "Group": 2, "LevelName": 1005, "LevelRadom": 30, "Index": 2},
+    {"Id": 1003, "Group": 2, "LevelName": 1003, "LevelRadom": 40, "Index": 3},
+    {"Id": 1011, "Group": 1, "LevelName": 1011, "LevelRadom": 0, "Index": 4},
+    {"Id": 1012, "Group": 2, "LevelName": 1012, "LevelRadom": 30, "Index": 5},
+    {"Id": 1015, "Group": 2, "LevelName": 1015, "LevelRadom": 30, "Index": 6},
+    {"Id": 1013, "Group": 2, "LevelName": 1013, "LevelRadom": 40, "Index": 7}
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "table_name": "Great_war_rewardTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1001, "Season": 1, "Camp": 1, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 0},
+    {"Id": 1002, "Season": 1, "Camp": 1, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 1},
+    {"Id": 1003, "Season": 1, "Camp": 2, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 2},
+    {"Id": 1004, "Season": 1, "Camp": 2, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 3},
+    {"Id": 2001, "Season": 2, "Camp": 1, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 4},
+    {"Id": 2002, "Season": 2, "Camp": 1, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 5},
+    {"Id": 2003, "Season": 2, "Camp": 2, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 6},
+    {"Id": 2004, "Season": 2, "Camp": 2, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 7},
+    {"Id": 3001, "Season": 3, "Camp": 1, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 8},
+    {"Id": 3002, "Season": 3, "Camp": 1, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 9},
+    {"Id": 3003, "Season": 3, "Camp": 2, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 10},
+    {"Id": 3004, "Season": 3, "Camp": 2, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 11},
+    {"Id": 4001, "Season": 4, "Camp": 1, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 12},
+    {"Id": 4002, "Season": 4, "Camp": 1, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 13},
+    {"Id": 4003, "Season": 4, "Camp": 2, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 14},
+    {"Id": 4004, "Season": 4, "Camp": 2, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 15},
+    {"Id": 5001, "Season": 5, "Camp": 1, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 16},
+    {"Id": 5002, "Season": 5, "Camp": 1, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 17},
+    {"Id": 5003, "Season": 5, "Camp": 2, "Result": 1, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 18},
+    {"Id": 5004, "Season": 5, "Camp": 2, "Result": 2, "AllRewards": 3210001, "ScoreRewardArray": ["100;3210001", "200;3210001"], "ScoreRewardArrayLength": 2, "ScoreRewardDic": {"100": 3210001, "200": 3210001}, "Index": 19}
+  ]
+}

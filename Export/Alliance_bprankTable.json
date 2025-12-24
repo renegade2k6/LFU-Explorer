@@ -1,0 +1,11 @@
+{
+  "table_name": "Alliance_bprankTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "RankIcon": "icon_lmbp_Rank1", "RankName": 806000304, "RankRequest": 1000, "Index": 0},
+    {"Id": 2, "RankIcon": "icon_lmbp_Rank2", "RankName": 806000305, "RankRequest": 1000, "Index": 1},
+    {"Id": 3, "RankIcon": "icon_lmbp_Rank3", "RankName": 806000306, "RankRequest": 1000, "Index": 2},
+    {"Id": 4, "RankIcon": "icon_lmbp_Rank4", "RankName": 806000307, "RankRequest": 1000, "Index": 3},
+    {"Id": 5, "RankIcon": "icon_lmbp_Rank5", "RankName": 806000308, "RankRequest": 1000, "Index": 4}
+  ]
+}

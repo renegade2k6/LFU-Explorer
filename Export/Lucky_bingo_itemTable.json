@@ -1,0 +1,12 @@
+{
+  "table_name": "Lucky_bingo_itemTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 101, "IconName": "icon_luckyslot_seven", "PropNumArray": [3000, 8000, 20000], "PropNumArrayLength": 3, "Index": 0},
+    {"Id": 102, "IconName": "icon_luckyslot_lizi", "PropNumArray": [300, 800, 2000], "PropNumArrayLength": 3, "Index": 1},
+    {"Id": 103, "IconName": "icon_luckyslot_pingguo", "PropNumArray": [300, 800, 2000], "PropNumArrayLength": 3, "Index": 2},
+    {"Id": 104, "IconName": "icon_luckyslot_taozi", "PropNumArray": [300, 800, 2000], "PropNumArrayLength": 3, "Index": 3},
+    {"Id": 105, "IconName": "icon_luckyslot_yingtao", "PropNumArray": [300, 800, 2000], "PropNumArrayLength": 3, "Index": 4},
+    {"Id": 106, "IconName": "icon_luckyslot_chengzi", "PropNumArray": [300, 800, 2000], "PropNumArrayLength": 3, "Index": 5}
+  ]
+}

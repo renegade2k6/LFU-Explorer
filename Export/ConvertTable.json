@@ -1,0 +1,28 @@
+{
+  "table_name": "ConvertTable",
+  "row_count": 22,
+  "data": [
+    {"Id": 121, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 0},
+    {"Id": 122, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 1},
+    {"Id": 123, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 2},
+    {"Id": 124, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 3},
+    {"Id": 125, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 4},
+    {"Id": 126, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 5},
+    {"Id": 127, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 6},
+    {"Id": 128, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 7},
+    {"Id": 129, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 8},
+    {"Id": 130, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 1, "Index": 9},
+    {"Id": 131, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 1, "Index": 10},
+    {"Id": 132, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 11},
+    {"Id": 133, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 12},
+    {"Id": 134, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 13},
+    {"Id": 135, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 14},
+    {"Id": 136, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 15},
+    {"Id": 137, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 16},
+    {"Id": 138, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 17},
+    {"Id": 139, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 18},
+    {"Id": 140, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 0, "Index": 19},
+    {"Id": 141, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 1, "Index": 20},
+    {"Id": 142, "Group": 0, "DayTime": 0, "Reward1Array": [], "Reward1ArrayLength": 0, "Reward2Array": [], "Reward2ArrayLength": 0, "Reward3Array": [], "Reward3ArrayLength": 0, "Free": 0, "Show": 1, "Index": 21}
+  ]
+}

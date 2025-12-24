@@ -1,0 +1,21 @@
+{
+  "table_name": "DayActTable",
+  "row_count": 15,
+  "data": [
+    {"Id": 800001, "Type1": 1, "Type1Text": 173010, "Type2": 1, "Type2Text": 173049, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 0},
+    {"Id": 800002, "Type1": 1, "Type1Text": 173010, "Type2": 2, "Type2Text": 913143, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 1},
+    {"Id": 800003, "Type1": 1, "Type1Text": 173010, "Type2": 3, "Type2Text": 913144, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 2},
+    {"Id": 800004, "Type1": 2, "Type1Text": 173011, "Type2": 1, "Type2Text": 173050, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 3},
+    {"Id": 800005, "Type1": 2, "Type1Text": 173011, "Type2": 2, "Type2Text": 173053, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 4},
+    {"Id": 800006, "Type1": 2, "Type1Text": 173011, "Type2": 3, "Type2Text": 173061, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 5},
+    {"Id": 800007, "Type1": 3, "Type1Text": 173012, "Type2": 1, "Type2Text": 173052, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 6},
+    {"Id": 800008, "Type1": 3, "Type1Text": 173012, "Type2": 2, "Type2Text": 173060, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 7},
+    {"Id": 800009, "Type1": 3, "Type1Text": 173012, "Type2": 3, "Type2Text": 913145, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 8},
+    {"Id": 800010, "Type1": 4, "Type1Text": 173013, "Type2": 1, "Type2Text": 173058, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 9},
+    {"Id": 800011, "Type1": 4, "Type1Text": 173013, "Type2": 2, "Type2Text": 173059, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 10},
+    {"Id": 800012, "Type1": 4, "Type1Text": 173013, "Type2": 3, "Type2Text": 173054, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 11},
+    {"Id": 800013, "Type1": 5, "Type1Text": 173014, "Type2": 1, "Type2Text": 173057, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 12},
+    {"Id": 800014, "Type1": 5, "Type1Text": 173014, "Type2": 2, "Type2Text": 173051, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 13},
+    {"Id": 800015, "Type1": 5, "Type1Text": 173014, "Type2": 3, "Type2Text": 173063, "TaskIdArray": [], "TaskIdArrayLength": 0, "Index": 14}
+  ]
+}

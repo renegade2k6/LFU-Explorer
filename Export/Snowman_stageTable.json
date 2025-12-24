@@ -1,0 +1,24 @@
+{
+  "table_name": "Snowman_stageTable",
+  "row_count": 18,
+  "data": [
+    {"Id": 1001, "Resource": 36000, "Name": 907170, "Reward": 520001, "SnowmanImage": "img_feast_bg01", "Group": 1, "Index": 0},
+    {"Id": 1002, "Resource": 56500, "Name": 907171, "Reward": 520002, "SnowmanImage": "img_feast_bg01", "Group": 1, "Index": 1},
+    {"Id": 1003, "Resource": 85000, "Name": 907172, "Reward": 520003, "SnowmanImage": "img_feast_bg02", "Group": 1, "Index": 2},
+    {"Id": 1004, "Resource": 123000, "Name": 907173, "Reward": 520004, "SnowmanImage": "img_feast_bg03", "Group": 1, "Index": 3},
+    {"Id": 1005, "Resource": 155000, "Name": 907174, "Reward": 520005, "SnowmanImage": "img_feast_bg04", "Group": 1, "Index": 4},
+    {"Id": 1006, "Resource": 180000, "Name": 907175, "Reward": 520006, "SnowmanImage": "img_feast_bg05", "Group": 1, "Index": 5},
+    {"Id": 1007, "Resource": 7000, "Name": 370769, "Reward": 1550060, "SnowmanImage": "ui_snowman_01", "Group": 2, "Index": 6},
+    {"Id": 1008, "Resource": 11000, "Name": 370770, "Reward": 1550061, "SnowmanImage": "ui_snowman_01", "Group": 2, "Index": 7},
+    {"Id": 1009, "Resource": 16500, "Name": 370771, "Reward": 1550062, "SnowmanImage": "ui_snowman_02", "Group": 2, "Index": 8},
+    {"Id": 1010, "Resource": 24000, "Name": 370772, "Reward": 1550063, "SnowmanImage": "ui_snowman_03", "Group": 2, "Index": 9},
+    {"Id": 1011, "Resource": 30000, "Name": 370773, "Reward": 1550064, "SnowmanImage": "ui_snowman_04", "Group": 2, "Index": 10},
+    {"Id": 1012, "Resource": 35000, "Name": 370774, "Reward": 1550065, "SnowmanImage": "ui_snowman_05", "Group": 2, "Index": 11},
+    {"Id": 1101, "Resource": 7000, "Name": 370769, "Reward": 80507, "SnowmanImage": "", "Group": 3, "Index": 12},
+    {"Id": 1102, "Resource": 11000, "Name": 370770, "Reward": 80508, "SnowmanImage": "img_MidAutumn_cake_bg01", "Group": 3, "Index": 13},
+    {"Id": 1103, "Resource": 16500, "Name": 370771, "Reward": 80509, "SnowmanImage": "img_MidAutumn_cake_bg01", "Group": 3, "Index": 14},
+    {"Id": 1104, "Resource": 24000, "Name": 370772, "Reward": 80510, "SnowmanImage": "img_MidAutumn_cake_bg01", "Group": 3, "Index": 15},
+    {"Id": 1105, "Resource": 30000, "Name": 370773, "Reward": 80511, "SnowmanImage": "img_MidAutumn_cake_bg01", "Group": 3, "Index": 16},
+    {"Id": 1106, "Resource": 35000, "Name": 370774, "Reward": 80512, "SnowmanImage": "img_MidAutumn_cake_bg02", "Group": 3, "Index": 17}
+  ]
+}

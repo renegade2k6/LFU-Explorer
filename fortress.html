@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortress Skins | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .fortress-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 24px;
+            max-width: 1600px;
+            margin: 0 auto;
+        }
+
+        .fortress-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .fortress-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(74, 158, 255, 0.3);
+        }
+
+        /* Remove quality-based borders - all cards have same border */
+        .fortress-card:hover {
+            border-color: #4a9eff;
+        }
+
+        .fortress-card-header {
+            position: relative;
+            padding: 20px;
+            background: transparent;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fortress-icon {
+            width: 100%;
+            max-width: 180px;
+            min-width: 140px;
+            min-height: 140px;
+            height: auto;
+            display: block;
+            object-fit: contain;
+            padding: 8px;
+        }
+
+        .fortress-card-body {
+            padding: 16px;
+            border-top: 1px solid #2a2a4a;
+        }
+
+        .fortress-card-body h3 {
+            margin: 0 0 12px 0;
+            color: #e0e0ff;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .fortress-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+
+        .fortress-effects {
+            font-size: 11px;
+            color: #b0b0d0;
+            line-height: 1.6;
+            margin-top: 8px;
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .fortress-effects div {
+            margin: 2px 0;
+        }
+
+        .fortress-effects strong {
+            color: #a0a0c0;
+        }
+
+        .fortress-availability {
+            font-size: 11px;
+            color: #606080;
+            font-style: italic;
+            margin-top: 6px;
+            text-align: center;
+        }
+
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #4a9eff 0%, #9333ea 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .filter-section {
+            max-width: 1600px;
+            margin: 0 auto 24px;
+            padding: 0 24px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 8px;
+            color: #8080a0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            border-color: #4a9eff;
+            color: #4a9eff;
+        }
+
+        .filter-btn.active {
+            background: rgba(74, 158, 255, 0.2);
+            border-color: #4a9eff;
+            color: #4a9eff;
+        }
+
+        .filter-btn.active.quality-4-filter {
+            background: rgba(147, 51, 234, 0.2);
+            border-color: #9333ea;
+            color: #a855f7;
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>Fortress Skins</h1>
+            <p class="page-subtitle">Customize your fortress appearance with unique skins and effects</p>
+        </div>
+
+        <!-- Decor Sub-Navigation -->
+        <div style="background: rgba(20, 20, 35, 0.6); border-bottom: 1px solid rgba(74, 158, 255, 0.2); padding: 6px 0; overflow-x: auto; margin-bottom: 16px;">
+            <div style="display: flex; gap: 4px; justify-content: center; flex-wrap: nowrap; padding: 0 12px; max-width: 1600px; margin: 0 auto;">
+                <a href="decors.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">← All</a>
+                <a href="fortress.html" style="padding: 5px 10px; font-size: 12px; color: #4a9eff; background: rgba(74, 158, 255, 0.2); border: 1px solid rgba(74, 158, 255, 0.5); border-radius: 5px; text-decoration: none; font-weight: 600; white-space: nowrap;">🏰 Fortress</a>
+                <a href="universal-apc-skins.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🚗 APC</a>
+                <a href="player-frames.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🖼️ Frames</a>
+                <a href="peace-treaty.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🛡️ Peace</a>
+                <a href="wings.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">✨ Wings</a>
+                <a href="nameplates.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">📛 Nameplates</a>
+                <a href="chat-bubbles.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💬 Chat</a>
+                <a href="marching-trails.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🔥 Trails</a>
+                <a href="relocation-animations.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🌀 Relocation</a>
+                <a href="auras.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💫 Auras</a>
+                <a href="ornaments.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🎀 Ornaments</a>
+                <a href="profile-cards.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🃏 Cards</a>
+            </div>
+        </div>
+
+        <div class="filter-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Skins</button>
+                <button class="filter-btn" data-filter="quality-2">Common</button>
+                <button class="filter-btn quality-4-filter" data-filter="quality-4">Rare</button>
+                <button class="filter-btn" data-filter="available">Always Available</button>
+                <button class="filter-btn" data-filter="event">Event-Based</button>
+            </div>
+        </div>
+
+        <div class="fortress-grid" id="fortress-grid">
+            <!-- Cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        // Load localization, fortress skins data, and buff mapping
+        Promise.all([
+            fetch('Localization_LocalizationComponent_dictionary.json').then(r => r.json()),
+            fetch('Refrence/fortress_skins.json').then(r => r.json()),
+            fetch('Refrence/fortress_buff_mapping.json').then(r => r.json())
+        ]).then(([localization, fortressSkins, buffMapping]) => {
+            const locData = localization.data;
+            let currentFilter = 'all';
+
+            function getLocalizedText(id) {
+                return locData[id] || id;
+            }
+
+            function getQualityName(quality) {
+                if (quality === 2) return 'Common';
+                if (quality === 4) return 'Rare';
+                return `Quality ${quality}`;
+            }
+
+            function getAvailabilityText(isShow) {
+                if (isShow === '1') return 'Always Available';
+                if (isShow.startsWith('6;')) return 'Event-Based';
+                return 'Limited';
+            }
+
+            function parseBuffEffect(effectStr) {
+                if (!effectStr) return null;
+                const [buffId, level] = effectStr.split(';');
+                const baseBuff = buffMapping[buffId];
+                if (!baseBuff) return null;
+
+                // Parse the base percentage and multiply by level
+                const match = baseBuff.match(/([+-]?\d+)%/);
+                if (match && level && parseInt(level) > 1) {
+                    const basePercent = parseInt(match[1]);
+                    const newPercent = basePercent * parseInt(level);
+                    return baseBuff.replace(/[+-]?\d+%/, `+${newPercent}%`);
+                }
+                return baseBuff;
+            }
+
+            function getBuffsLists(skillEffectArray, skillEffect2Array) {
+                const equipBuffs = [];
+                const ownBuffs = [];
+
+                // SkillEffectArray = Equipping Attributes (active when equipped)
+                if (skillEffectArray && skillEffectArray.length > 0) {
+                    skillEffectArray.forEach(effect => {
+                        const buff = parseBuffEffect(effect);
+                        if (buff) equipBuffs.push(buff);
+                    });
+                }
+
+                // SkillEffect2Array = Owning Attributes (passive, just for owning)
+                if (skillEffect2Array && skillEffect2Array.length > 0) {
+                    skillEffect2Array.forEach(effect => {
+                        const buff = parseBuffEffect(effect);
+                        if (buff) ownBuffs.push(buff);
+                    });
+                }
+
+                return { equipBuffs, ownBuffs };
+            }
+
+            function renderFortressSkins(filter = 'all') {
+                let filteredSkins = fortressSkins;
+
+                if (filter === 'quality-2') {
+                    filteredSkins = fortressSkins.filter(s => s.Quality === 2);
+                } else if (filter === 'quality-4') {
+                    filteredSkins = fortressSkins.filter(s => s.Quality === 4);
+                } else if (filter === 'available') {
+                    filteredSkins = fortressSkins.filter(s => s.IsShow === '1');
+                } else if (filter === 'event') {
+                    filteredSkins = fortressSkins.filter(s => s.IsShow.startsWith('6;'));
+                }
+
+                const cardsHtml = filteredSkins.map(skin => {
+                    const name = getLocalizedText(skin.Name);
+                    const qualityName = getQualityName(skin.Quality);
+                    const availability = getAvailabilityText(skin.IsShow);
+                    const iconPath = `assets/Sprite/${skin.Picture}.png`;
+
+                    // Get buff lists
+                    const { equipBuffs, ownBuffs } = getBuffsLists(skin.SkillEffectArray, skin.SkillEffect2Array);
+
+                    let effectsHtml = '';
+
+                    if (equipBuffs.length > 0) {
+                        effectsHtml += '<div style="color: #4a9eff; font-weight: 600; margin-bottom: 4px; font-size: 11px;">Equipping Attributes:</div>';
+                        effectsHtml += equipBuffs.map(buff => `<div>• ${buff}</div>`).join('');
+                    }
+
+                    if (ownBuffs.length > 0) {
+                        if (effectsHtml) effectsHtml += '<div style="margin-top: 6px;"></div>';
+                        effectsHtml += '<div style="color: #9333ea; font-weight: 600; margin-bottom: 4px; font-size: 11px;">Owning Attributes:</div>';
+                        effectsHtml += ownBuffs.map(buff => `<div>• ${buff}</div>`).join('');
+                    }
+
+                    if (!effectsHtml) {
+                        effectsHtml = '<div style="color: #606080; font-style: italic;">No buffs</div>';
+                    }
+
+                    return `
+                        <div class="fortress-card">
+                            <div class="fortress-card-header">
+                                <img src="${iconPath}" alt="${name}" class="fortress-icon" loading="lazy" onerror="this.src='assets/Sprite/placeholder.png'">
+                            </div>
+                            <div class="fortress-card-body">
+                                <h3>${name}</h3>
+                                <div class="fortress-meta">
+                                    <div class="fortress-effects">${effectsHtml}</div>
+                                    <div class="fortress-availability">${availability}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                document.getElementById('fortress-grid').innerHTML = cardsHtml;
+            }
+
+            // Initial render
+            renderFortressSkins();
+
+            // Filter button handlers
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const filter = btn.getAttribute('data-filter');
+                    currentFilter = filter;
+                    renderFortressSkins(filter);
+                });
+            });
+
+        }).catch(error => {
+            console.error('Error loading fortress skins:', error);
+            document.getElementById('fortress-grid').innerHTML = `
+                <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: #ff6b6b;">
+                    <h3>Error Loading Fortress Skins</h3>
+                    <p>Unable to load fortress skins data. Please check the console for details.</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

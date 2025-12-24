@@ -1,0 +1,7 @@
+{
+  "table_name": "DD_HeroTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1001, "SkillArray": [], "SkillArrayLength": 0, "Hp": 50000, "Attack": 1000, "Entity": 3001001, "Name": 0, "Discription": 0, "Index": 0}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "table_name": "Honor_challengeTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1001, "Season": 0, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 0},
+    {"Id": 1002, "Season": 1, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 1},
+    {"Id": 1003, "Season": 2, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 2},
+    {"Id": 1004, "Season": 3, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 3},
+    {"Id": 1005, "Season": 4, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 4},
+    {"Id": 1006, "Season": 5, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 5},
+    {"Id": 1007, "Season": 6, "LevelRewardMail": 203224, "JoinKillReward": 631001, "JoinKillLimit": 20, "Index": 6}
+  ]
+}

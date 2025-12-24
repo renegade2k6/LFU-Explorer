@@ -1,0 +1,10 @@
+{
+  "table_name": "JailBreakUnlockTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1, "Cost": 224001, "MovieId": 3100032, "SoilId": 1076, "TipId": 141001, "PreUnlockArray": [], "PreUnlockArrayLength": 0, "RewardId": 0, "HeroId": 0, "Index": 0},
+    {"Id": 2, "Cost": 224002, "MovieId": 3100033, "SoilId": 1118, "TipId": 141002, "PreUnlockArray": [], "PreUnlockArrayLength": 0, "RewardId": 0, "HeroId": 0, "Index": 1},
+    {"Id": 3, "Cost": 224003, "MovieId": 3100034, "SoilId": 1227, "TipId": 141003, "PreUnlockArray": [], "PreUnlockArrayLength": 0, "RewardId": 0, "HeroId": 0, "Index": 2},
+    {"Id": 4, "Cost": 224004, "MovieId": 3100035, "SoilId": 1248, "TipId": 141004, "PreUnlockArray": [1, 2, 3], "PreUnlockArrayLength": 3, "RewardId": 600505, "HeroId": 2104, "Index": 3}
+  ]
+}

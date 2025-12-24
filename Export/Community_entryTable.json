@@ -1,0 +1,29 @@
+{
+  "table_name": "Community_entryTable",
+  "row_count": 23,
+  "data": [
+    {"Id": 1, "Pf": "cn_im30_lf", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 0},
+    {"Id": 2, "Pf": "cn_im30_700", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 1},
+    {"Id": 3, "Pf": "cn_im30_702", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 2},
+    {"Id": 4, "Pf": "cn_im30_706", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 3},
+    {"Id": 5, "Pf": "cn_im30_708", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 4},
+    {"Id": 6, "Pf": "cn_im30_800", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 5},
+    {"Id": 7, "Pf": "cn_im30_802", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 6},
+    {"Id": 8, "Pf": "cn_im30_804", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 7},
+    {"Id": 9, "Pf": "cn_im30_806", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 8},
+    {"Id": 10, "Pf": "ios_cn", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 9},
+    {"Id": 11, "Pf": "ios_vietnam", "ItemsArray": ["facebook_vi"], "ItemsArrayLength": 1, "Lang": "", "Index": 10},
+    {"Id": 12, "Pf": "google_vietnam", "ItemsArray": ["facebook_vi"], "ItemsArrayLength": 1, "Lang": "", "Index": 11},
+    {"Id": 13, "Pf": "google_japan", "ItemsArray": ["twitter_jp", "discord_jp"], "ItemsArrayLength": 2, "Lang": "", "Index": 12},
+    {"Id": 14, "Pf": "ios_japan", "ItemsArray": ["twitter_jp", "discord_jp"], "ItemsArrayLength": 2, "Lang": "", "Index": 13},
+    {"Id": 15, "Pf": "", "ItemsArray": ["facebook", "instagram", "discord", "youtube", "twitter"], "ItemsArrayLength": 5, "Lang": "en", "Index": 14},
+    {"Id": 16, "Pf": "", "ItemsArray": ["twitter_jp", "discord_jp"], "ItemsArrayLength": 2, "Lang": "ja", "Index": 15},
+    {"Id": 17, "Pf": "", "ItemsArray": ["facebook_tw", "bahamut", "discord"], "ItemsArrayLength": 3, "Lang": "zh_TW", "Index": 16},
+    {"Id": 18, "Pf": "", "ItemsArray": ["facebook_tw", "bahamut", "discord"], "ItemsArrayLength": 3, "Lang": "zh_CN", "Index": 17},
+    {"Id": 19, "Pf": "", "ItemsArray": ["navercafe", "discord", "facebook"], "ItemsArrayLength": 3, "Lang": "ko", "Index": 18},
+    {"Id": 20, "Pf": "cn_im30_704", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 19},
+    {"Id": 21, "Pf": "cn_im30_710", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 20},
+    {"Id": 22, "Pf": "cn_im30_714", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 21},
+    {"Id": 23, "Pf": "cn_im30_716", "ItemsArray": ["qq", "wechat", "douyin"], "ItemsArrayLength": 3, "Lang": "", "Index": 22}
+  ]
+}

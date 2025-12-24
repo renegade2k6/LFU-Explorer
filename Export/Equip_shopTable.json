@@ -1,0 +1,8 @@
+{
+  "table_name": "Equip_shopTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 101001, "ItemArray": [800093, 1], "ItemArrayLength": 2, "Cost": 800224, "Costnum": 50000, "Times": 1, "Index": 0},
+    {"Id": 101002, "ItemArray": [800094, 1], "ItemArrayLength": 2, "Cost": 800224, "Costnum": 50000, "Times": 2, "Index": 1}
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "table_name": "Ip_gameTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "Activityid": 203023, "Freetime": 2, "RewardBossArray": ["1,2901801", "2,2901801", "3,2901801"], "RewardBossArrayLength": 3, "RewardFinal": 2901802, "Stage": 1000, "ItemPayArray": [203107, 203108, 203109, 203110], "ItemPayArrayLength": 4, "ItemTime": 203111, "RewardShow": 2901801, "SkillArray": [10060002, 10046001, 10060001, 10060006], "SkillArrayLength": 4, "Index": 0},
+    {"Id": 2, "Activityid": 203123, "Freetime": 3, "RewardBossArray": ["1,2901811", "2,2901811", "3,2901811"], "RewardBossArrayLength": 3, "RewardFinal": 2901802, "Stage": 1000, "ItemPayArray": [203107, 203108, 203109, 203110], "ItemPayArrayLength": 4, "ItemTime": 203111, "RewardShow": 2901811, "SkillArray": [10060002, 10046001, 10060001, 10060006], "SkillArrayLength": 4, "Index": 1}
+  ]
+}

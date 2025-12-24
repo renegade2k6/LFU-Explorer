@@ -1,0 +1,11 @@
+{
+  "table_name": "Activity_compose_showTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 100001, "ActivityId": 150001, "ComposeGroupArray": [10010, 10011, 10012, 10013], "ComposeGroupArrayLength": 4, "ActivityGoods": 204028, "QuestActivity": 50023, "Index": 0},
+    {"Id": 100002, "ActivityId": 190001, "ComposeGroupArray": [10010, 10011, 10012, 10013], "ComposeGroupArrayLength": 4, "ActivityGoods": 204028, "QuestActivity": 50029, "Index": 1},
+    {"Id": 100003, "ActivityId": 190002, "ComposeGroupArray": [10010, 10011, 10012, 10013], "ComposeGroupArrayLength": 4, "ActivityGoods": 204028, "QuestActivity": 50030, "Index": 2},
+    {"Id": 100004, "ActivityId": 190003, "ComposeGroupArray": [10010, 10011, 10012, 10013], "ComposeGroupArrayLength": 4, "ActivityGoods": 204028, "QuestActivity": 50029, "Index": 3},
+    {"Id": 100005, "ActivityId": 190004, "ComposeGroupArray": [10010, 10011, 10012, 10013], "ComposeGroupArrayLength": 4, "ActivityGoods": 204028, "QuestActivity": 50030, "Index": 4}
+  ]
+}

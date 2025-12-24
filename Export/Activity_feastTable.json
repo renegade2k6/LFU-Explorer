@@ -1,0 +1,7 @@
+{
+  "table_name": "Activity_feastTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1001, "ExchangeArray": [800271, 800272, 800273, 800274, 800275, 800276], "ExchangeArrayLength": 6, "ShareReward": 10055008, "DishesArray": [101, 102, 103, 104, 105, 106], "DishesArrayLength": 6, "Goods": 800277, "Activityid": 274501, "Hotnum": 2, "PersonalRank": 274503, "AllianceRankActivity": 274504, "SpecialStoryArray": [86, 87], "SpecialStoryArrayLength": 2, "Active": 200, "ProductTypeArray": [300, 1], "ProductTypeArrayLength": 2, "Index": 0}
+  ]
+}

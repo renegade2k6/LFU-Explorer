@@ -1,0 +1,21 @@
+{
+  "table_name": "WorldBossEventTable",
+  "row_count": 15,
+  "data": [
+    {"Id": 100006, "Season": 0, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 0},
+    {"Id": 100007, "Season": 1, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 1},
+    {"Id": 100008, "Season": 2, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 2},
+    {"Id": 100009, "Season": 3, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 3},
+    {"Id": 100010, "Season": 4, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 4},
+    {"Id": 100011, "Season": 5, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 5},
+    {"Id": 100012, "Season": 10, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 6},
+    {"Id": 100013, "Season": 6, "RewardShowArray": [200063, 200335, 200355, 200383], "RewardShowArrayLength": 4, "Index": 7},
+    {"Id": 100016, "Season": 0, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 8},
+    {"Id": 100017, "Season": 1, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 9},
+    {"Id": 100018, "Season": 2, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 10},
+    {"Id": 100019, "Season": 3, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 11},
+    {"Id": 100020, "Season": 4, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 12},
+    {"Id": 100021, "Season": 5, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 13},
+    {"Id": 100022, "Season": 10, "RewardShowArray": [200063, 200334, 200354, 200382], "RewardShowArrayLength": 4, "Index": 14}
+  ]
+}

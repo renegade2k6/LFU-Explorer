@@ -1,0 +1,16 @@
+{
+  "table_name": "Policy_amendmentTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 10001, "Name": "365109", "Desc": 0, "Para": "20518;1;600", "Name1": "365110", "Desc1": 0, "Para1": "20082;1;600", "Name2": "", "Desc2": 0, "Para2": "", "Title": 1, "Index": 0},
+    {"Id": 10002, "Name": "365113", "Desc": 0, "Para": "20507;1;300", "Name1": "365114", "Desc1": 0, "Para1": "20508;1;300", "Name2": "", "Desc2": 0, "Para2": "", "Title": 2, "Index": 1},
+    {"Id": 10003, "Name": "365111", "Desc": 0, "Para": "20049;1;300", "Name1": "365112", "Desc1": 0, "Para1": "30002;5;2100", "Name2": "", "Desc2": 0, "Para2": "", "Title": 3, "Index": 2},
+    {"Id": 10004, "Name": "365118", "Desc": 0, "Para": "10010;5;150", "Name1": "365119", "Desc1": 0, "Para1": "37;5;150", "Name2": "", "Desc2": 0, "Para2": "", "Title": 4, "Index": 3},
+    {"Id": 10005, "Name": "365115", "Desc": 0, "Para": "20509;1;600", "Name1": "365117", "Desc1": 0, "Para1": "20510;1;600", "Name2": "365116", "Desc2": 0, "Para2": "20505;3;1800", "Title": 5, "Index": 4},
+    {"Id": 10006, "Name": "365136", "Desc": 0, "Para": "65;1;150", "Name1": "365137", "Desc1": 0, "Para1": "651;1;150", "Name2": "", "Desc2": 0, "Para2": "", "Title": 6, "Index": 5},
+    {"Id": 10007, "Name": "365154", "Desc": 0, "Para": "10135;1;150", "Name1": "365150", "Desc1": 0, "Para1": "10136;1;150", "Name2": "", "Desc2": 0, "Para2": "", "Title": 7, "Index": 6},
+    {"Id": 10008, "Name": "365156", "Desc": 0, "Para": "10086;5;150", "Name1": "365157", "Desc1": 0, "Para1": "891;5;150", "Name2": "365158", "Desc2": 0, "Para2": "10054;3;150", "Title": 8, "Index": 7},
+    {"Id": 10009, "Name": "365159", "Desc": 0, "Para": "69;2;150", "Name1": "", "Desc1": 0, "Para1": "", "Name2": "", "Desc2": 0, "Para2": "", "Title": 9, "Index": 8},
+    {"Id": 10010, "Name": "365115", "Desc": 0, "Para": "20509;1;600", "Name1": "365117", "Desc1": 0, "Para1": "20510;1;600", "Name2": "", "Desc2": 0, "Para2": "", "Title": 10, "Index": 9}
+  ]
+}

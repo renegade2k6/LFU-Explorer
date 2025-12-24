@@ -1,0 +1,30 @@
+{
+  "table_name": "DD_DropSkillTable",
+  "row_count": 24,
+  "data": [
+    {"Id": 1001, "GroupId": 13, "CombineArray": [33], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [20], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 0},
+    {"Id": 1002, "GroupId": 15, "CombineArray": [27], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [19], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 1},
+    {"Id": 1003, "GroupId": 22, "CombineArray": [31], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [36], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 2},
+    {"Id": 1004, "GroupId": 24, "CombineArray": [23], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [29], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 3},
+    {"Id": 1005, "GroupId": 25, "CombineArray": [26], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [18], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 4},
+    {"Id": 1006, "GroupId": 34, "CombineArray": [54], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [38], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 5},
+    {"Id": 1007, "GroupId": 39, "CombineArray": [50], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [16], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 6},
+    {"Id": 1008, "GroupId": 42, "CombineArray": [55], "CombineArrayLength": 1, "UnlockLevel": 0, "CombinationArray": [35], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 7},
+    {"Id": 1009, "GroupId": 33, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["13;5", "20;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 8},
+    {"Id": 1010, "GroupId": 27, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["15;5", "19;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 9},
+    {"Id": 1011, "GroupId": 31, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["22;5", "36;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 10},
+    {"Id": 1012, "GroupId": 23, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["24;5", "29;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 11},
+    {"Id": 1013, "GroupId": 26, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["25;5", "18;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 12},
+    {"Id": 1014, "GroupId": 54, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["34;5", "38;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 13},
+    {"Id": 1015, "GroupId": 50, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["39;5", "16;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 14},
+    {"Id": 1016, "GroupId": 55, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": ["42;5", "35;1"], "PreconditionArrayLength": 2, "IsSuperWeapon": 1, "Index": 15},
+    {"Id": 1017, "GroupId": 19, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [15], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 16},
+    {"Id": 1018, "GroupId": 16, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [39], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 17},
+    {"Id": 1019, "GroupId": 18, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [25], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 18},
+    {"Id": 1020, "GroupId": 20, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [13], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 19},
+    {"Id": 1021, "GroupId": 29, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [24], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 20},
+    {"Id": 1022, "GroupId": 35, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [42], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 21},
+    {"Id": 1023, "GroupId": 36, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [22], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 22},
+    {"Id": 1024, "GroupId": 38, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [34], "CombinationArrayLength": 1, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "Index": 23}
+  ]
+}

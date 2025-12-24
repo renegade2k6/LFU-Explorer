@@ -1,0 +1,16 @@
+{
+  "table_name": "Mini_game_centerTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 10001, "DayArray": ["1-3"], "DayArrayLength": 1, "ActivityId": 61023, "ActivityDesc": 400334, "ShowPicFg": "img_minigames_board01", "ShowPicBg": "img_minigames_board1", "ShowPicIcon": "icon_minigames_1", "MainActivityId": 239022, "Index": 0},
+    {"Id": 10002, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 203143, "ActivityDesc": 400334, "ShowPicFg": "img_minigames_board02", "ShowPicBg": "img_minigames_board2", "ShowPicIcon": "icon_minigames_2", "MainActivityId": 239022, "Index": 1},
+    {"Id": 10003, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 160127, "ActivityDesc": 400331, "ShowPicFg": "img_minigames_board03", "ShowPicBg": "img_minigames_board3", "ShowPicIcon": "icon_minigames_3", "MainActivityId": 239022, "Index": 2},
+    {"Id": 10004, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 61322, "ActivityDesc": 400332, "ShowPicFg": "img_minigames_board04", "ShowPicBg": "img_minigames_board4", "ShowPicIcon": "icon_minigames_4", "MainActivityId": 239022, "Index": 3},
+    {"Id": 10005, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 61123, "ActivityDesc": 400332, "ShowPicFg": "img_minigames_board05", "ShowPicBg": "img_minigames_board5", "ShowPicIcon": "icon_minigames_5", "MainActivityId": 239022, "Index": 4},
+    {"Id": 10006, "DayArray": ["2-2", "4-6"], "DayArrayLength": 2, "ActivityId": 61019, "ActivityDesc": 400334, "ShowPicFg": "img_minigames_board01", "ShowPicBg": "img_minigames_board1", "ShowPicIcon": "icon_minigames_1", "MainActivityId": 239018, "Index": 5},
+    {"Id": 10007, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 203139, "ActivityDesc": 400334, "ShowPicFg": "img_minigames_board02", "ShowPicBg": "img_minigames_board2", "ShowPicIcon": "icon_minigames_2", "MainActivityId": 239018, "Index": 6},
+    {"Id": 10008, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 160123, "ActivityDesc": 400331, "ShowPicFg": "img_minigames_board03", "ShowPicBg": "img_minigames_board3", "ShowPicIcon": "icon_minigames_3", "MainActivityId": 239018, "Index": 7},
+    {"Id": 10009, "DayArray": ["1-1", "3-3", "5-6"], "DayArrayLength": 3, "ActivityId": 61318, "ActivityDesc": 400332, "ShowPicFg": "img_minigames_board04", "ShowPicBg": "img_minigames_board4", "ShowPicIcon": "icon_minigames_4", "MainActivityId": 239018, "Index": 8},
+    {"Id": 10010, "DayArray": ["0-0"], "DayArrayLength": 1, "ActivityId": 61119, "ActivityDesc": 400332, "ShowPicFg": "img_minigames_board05", "ShowPicBg": "img_minigames_board5", "ShowPicIcon": "icon_minigames_5", "MainActivityId": 239018, "Index": 9}
+  ]
+}

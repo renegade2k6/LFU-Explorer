@@ -1,0 +1,27 @@
+{
+  "table_name": "Zombiewar_modeTable",
+  "row_count": 21,
+  "data": [
+    {"Id": 101101, "Type": 1, "Mode": "Zombie_poisongirl", "Size": 1, "Next": 0, "SpriteName": "", "Index": 0},
+    {"Id": 101102, "Type": 1, "Mode": "Zombie_tank", "Size": 2, "Next": 0, "SpriteName": "", "Index": 1},
+    {"Id": 101103, "Type": 1, "Mode": "Zombie_zomnum", "Size": 1, "Next": 0, "SpriteName": "", "Index": 2},
+    {"Id": 101104, "Type": 1, "Mode": "Zombie_tumour", "Size": 2, "Next": 0, "SpriteName": "", "Index": 3},
+    {"Id": 101201, "Type": 2, "Mode": "Cannon_Lv1", "Size": 0, "Next": 202, "SpriteName": "img_junei_paotai_lv1", "Index": 4},
+    {"Id": 101202, "Type": 2, "Mode": "Cannon_Lv2", "Size": 0, "Next": 203, "SpriteName": "img_junei_paotai_lv2", "Index": 5},
+    {"Id": 101203, "Type": 2, "Mode": "Cannon_Lv3", "Size": 0, "Next": 204, "SpriteName": "img_junei_paotai_lv3", "Index": 6},
+    {"Id": 101204, "Type": 2, "Mode": "Cannon_Lv4", "Size": 0, "Next": 205, "SpriteName": "img_junei_paotai_lv4", "Index": 7},
+    {"Id": 101205, "Type": 2, "Mode": "Cannon_Lv5", "Size": 0, "Next": 206, "SpriteName": "img_junei_paotai_lv5", "Index": 8},
+    {"Id": 101206, "Type": 2, "Mode": "Cannon_Lv6", "Size": 0, "Next": 207, "SpriteName": "img_junei_paotai_lv6", "Index": 9},
+    {"Id": 101207, "Type": 2, "Mode": "Cannon_Lv7", "Size": 0, "Next": 208, "SpriteName": "img_junei_paotai_lv7", "Index": 10},
+    {"Id": 101208, "Type": 2, "Mode": "Cannon_Lv8", "Size": 0, "Next": 209, "SpriteName": "img_junei_paotai_lv8", "Index": 11},
+    {"Id": 101209, "Type": 2, "Mode": "Cannon_Lv9", "Size": 0, "Next": 210, "SpriteName": "img_junei_paotai_lv9", "Index": 12},
+    {"Id": 101210, "Type": 2, "Mode": "Cannon_Lv10", "Size": 0, "Next": 0, "SpriteName": "img_junei_paotai_lv10", "Index": 13},
+    {"Id": 101301, "Type": 3, "Mode": "colorBall_Lv1", "Size": 0, "Next": 0, "SpriteName": "", "Index": 14},
+    {"Id": 101302, "Type": 3, "Mode": "colorBall_Lv2", "Size": 0, "Next": 0, "SpriteName": "", "Index": 15},
+    {"Id": 101303, "Type": 3, "Mode": "colorBall_Lv3", "Size": 0, "Next": 0, "SpriteName": "", "Index": 16},
+    {"Id": 101304, "Type": 3, "Mode": "colorBall_Lv4", "Size": 0, "Next": 0, "SpriteName": "", "Index": 17},
+    {"Id": 101305, "Type": 3, "Mode": "colorBall_Lv5", "Size": 0, "Next": 0, "SpriteName": "", "Index": 18},
+    {"Id": 101401, "Type": 4, "Mode": "Zombie_Box_red", "Size": 0, "Next": 0, "SpriteName": "", "Index": 19},
+    {"Id": 101402, "Type": 4, "Mode": "Zombie_Box_blue", "Size": 0, "Next": 0, "SpriteName": "", "Index": 20}
+  ]
+}

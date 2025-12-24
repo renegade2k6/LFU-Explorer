@@ -1,0 +1,7 @@
+{
+  "table_name": "Skin_showTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "SkinArray": ["700012", "700014", "700016", "700018", "700020"], "SkinArrayLength": 5, "SkinDic": {}, "Name": 181822, "Subtitle": 181826, "BgPic": "", "TimePopups": "", "DurationPopups": 0, "Index": 0}
+  ]
+}

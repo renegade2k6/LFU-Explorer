@@ -1,0 +1,30 @@
+{
+  "table_name": "DeviceTable",
+  "row_count": 24,
+  "data": [
+    {"Id": "smartisan_SM705", "ModeType": 1, "RenderLevel": 1, "Index": 0},
+    {"Id": "HUAWEI_MT7", "ModeType": 1, "RenderLevel": 1, "Index": 1},
+    {"Id": "samsung_G900", "ModeType": 1, "RenderLevel": 1, "Index": 2},
+    {"Id": "sm_G900", "ModeType": 1, "RenderLevel": 1, "Index": 3},
+    {"Id": "samsung_I95", "ModeType": 1, "RenderLevel": 2, "Index": 4},
+    {"Id": "sm_I95", "ModeType": 1, "RenderLevel": 2, "Index": 5},
+    {"Id": "OPPO_R9_Plusm", "ModeType": 1, "RenderLevel": 4, "Index": 6},
+    {"Id": "Xiaomi_MIX", "ModeType": 1, "RenderLevel": 4, "Index": 7},
+    {"Id": "Xiaomi_MI_4", "ModeType": 1, "RenderLevel": 3, "Index": 8},
+    {"Id": "Mali720", "ModeType": 3, "RenderLevel": 1, "Index": 9},
+    {"Id": "Mali_G71", "ModeType": 3, "RenderLevel": 4, "Index": 10},
+    {"Id": "PowerVR_544", "ModeType": 3, "RenderLevel": 2, "Index": 11},
+    {"Id": "PowerVR_6200", "ModeType": 3, "RenderLevel": 2, "Index": 12},
+    {"Id": "Adreno530", "ModeType": 3, "RenderLevel": 1, "Index": 13},
+    {"Id": "Adreno540", "ModeType": 3, "RenderLevel": 4, "Index": 14},
+    {"Id": "Vivante", "ModeType": 3, "RenderLevel": 1, "Index": 15},
+    {"Id": "Mali4XX", "ModeType": 4, "RenderLevel": 1, "Index": 16},
+    {"Id": "Mali6XX", "ModeType": 4, "RenderLevel": 2, "Index": 17},
+    {"Id": "Mali7XX", "ModeType": 4, "RenderLevel": 2, "Index": 18},
+    {"Id": "Mali8XX", "ModeType": 4, "RenderLevel": 2, "Index": 19},
+    {"Id": "Adreno2XX", "ModeType": 4, "RenderLevel": 1, "Index": 20},
+    {"Id": "Adreno3XX", "ModeType": 4, "RenderLevel": 2, "Index": 21},
+    {"Id": "Adreno4XX", "ModeType": 4, "RenderLevel": 3, "Index": 22},
+    {"Id": "Adreno5XX", "ModeType": 4, "RenderLevel": 4, "Index": 23}
+  ]
+}

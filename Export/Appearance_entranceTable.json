@@ -1,0 +1,23 @@
+{
+  "table_name": "Appearance_entranceTable",
+  "row_count": 17,
+  "data": [
+    {"Id": 10001, "Type": 1, "MainIcon": "icon_yeqian_chengbao", "Name": 280501, "UnlockLevel": 0, "Order": 4, "Group": 1002, "Index": 0},
+    {"Id": 10002, "Type": 2, "MainIcon": "icon_yeqian_mingpai", "Name": 280502, "UnlockLevel": 4, "Order": 5, "Group": 1002, "Index": 1},
+    {"Id": 10003, "Type": 3, "MainIcon": "icon_yeqian_qipao", "Name": 280505, "UnlockLevel": 0, "Order": 3, "Group": 1001, "Index": 2},
+    {"Id": 10004, "Type": 4, "MainIcon": "icon_yeqian_touxiangkuang", "Name": 280504, "UnlockLevel": 4, "Order": 2, "Group": 1001, "Index": 3},
+    {"Id": 10005, "Type": 5, "MainIcon": "icon_yeqian_che", "Name": 280503, "UnlockLevel": 4, "Order": 6, "Group": 1003, "Index": 4},
+    {"Id": 10006, "Type": 6, "MainIcon": "icon_yeqian_biaoqing", "Name": 319104, "UnlockLevel": 4, "Order": 7, "Group": 1003, "Index": 5},
+    {"Id": 10008, "Type": 8, "MainIcon": "icon_yeqian_guiji", "Name": 280593, "UnlockLevel": 4, "Order": 8, "Group": 1003, "Index": 6},
+    {"Id": 10009, "Type": 9, "MainIcon": "icon_yeqian_qiancheng", "Name": 280594, "UnlockLevel": 4, "Order": 9, "Group": 1002, "Index": 7},
+    {"Id": 10011, "Type": 11, "MainIcon": "icon_yeqian_chibang", "Name": 900651, "UnlockLevel": 4, "Order": 10, "Group": 1004, "Index": 8},
+    {"Id": 10013, "Type": 13, "MainIcon": "icon_yeqian_baohuzhao", "Name": 301807, "UnlockLevel": 4, "Order": 11, "Group": 1002, "Index": 9},
+    {"Id": 10014, "Type": 14, "MainIcon": "icon_yeqian_guanghuan", "Name": 120205, "UnlockLevel": 4, "Order": 12, "Group": 1004, "Index": 10},
+    {"Id": 10015, "Type": 15, "MainIcon": "icon_yeqian_guashi", "Name": 120206, "UnlockLevel": 4, "Order": 13, "Group": 1004, "Index": 11},
+    {"Id": 10016, "Type": 16, "MainIcon": "icon_yeqian_mingpiankuang", "Name": 120207, "UnlockLevel": 4, "Order": 14, "Group": 1002, "Index": 12},
+    {"Id": 10017, "Type": 17, "MainIcon": "icon_yeqian_touxiang", "Name": 280548, "UnlockLevel": 0, "Order": 1, "Group": 1001, "Index": 13},
+    {"Id": 10012, "Type": 12, "MainIcon": "icon_yeqian_zhanshoutuzhuang", "Name": 120210, "UnlockLevel": 4, "Order": 15, "Group": 1003, "Index": 14},
+    {"Id": 10018, "Type": 18, "MainIcon": "btn_zhuangyuan_baifang_xx", "Name": 805002001, "UnlockLevel": 4, "Order": 18, "Group": 1004, "Index": 15},
+    {"Id": 10019, "Type": 19, "MainIcon": "icon_yeqian_chenghao", "Name": 804000300, "UnlockLevel": 4, "Order": 19, "Group": 1002, "Index": 16}
+  ]
+}

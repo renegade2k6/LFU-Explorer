@@ -1,0 +1,26 @@
+{
+  "table_name": "AlliancelevelTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "Level": 1, "Num": 10000, "Maxlevel": 20, "Pic": "commonPackageLv1", "EffectArray": ["162;3", "60;5"], "EffectArrayLength": 2, "EffectDic": {"162": 3, "60": 5}, "Member": 60, "RewardID": 0, "Index": 0},
+    {"Id": 2, "Level": 2, "Num": 40000, "Maxlevel": 20, "Pic": "commonPackageLv2", "EffectArray": ["162;2", "60;5"], "EffectArrayLength": 2, "EffectDic": {"162": 2, "60": 5}, "Member": 60, "RewardID": 0, "Index": 1},
+    {"Id": 3, "Level": 3, "Num": 54500, "Maxlevel": 20, "Pic": "commonPackageLv3", "EffectArray": ["162;5", "60;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "60": 5}, "Member": 60, "RewardID": 0, "Index": 2},
+    {"Id": 4, "Level": 4, "Num": 61000, "Maxlevel": 20, "Pic": "commonPackageLv5", "EffectArray": ["162;5", "60;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "60": 5}, "Member": 60, "RewardID": 0, "Index": 3},
+    {"Id": 5, "Level": 5, "Num": 105500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;5", "60;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "60": 5}, "Member": 60, "RewardID": 0, "Index": 4},
+    {"Id": 6, "Level": 6, "Num": 112000, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;5", "78;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "78": 5}, "Member": 60, "RewardID": 0, "Index": 5},
+    {"Id": 7, "Level": 7, "Num": 118000, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;5", "78;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "78": 5}, "Member": 60, "RewardID": 0, "Index": 6},
+    {"Id": 8, "Level": 8, "Num": 124500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;5", "78;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "78": 5}, "Member": 60, "RewardID": 0, "Index": 7},
+    {"Id": 9, "Level": 9, "Num": 169500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;5", "78;5"], "EffectArrayLength": 2, "EffectDic": {"162": 5, "78": 5}, "Member": 60, "RewardID": 0, "Index": 8},
+    {"Id": 10, "Level": 10, "Num": 176000, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;10", "78;5"], "EffectArrayLength": 2, "EffectDic": {"162": 10, "78": 5}, "Member": 60, "RewardID": 0, "Index": 9},
+    {"Id": 11, "Level": 11, "Num": 184500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;10", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 10, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 10},
+    {"Id": 12, "Level": 12, "Num": 241000, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 11},
+    {"Id": 13, "Level": 13, "Num": 296500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 12},
+    {"Id": 14, "Level": 14, "Num": 328500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 13},
+    {"Id": 15, "Level": 15, "Num": 360500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 14},
+    {"Id": 16, "Level": 16, "Num": 382500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 15},
+    {"Id": 17, "Level": 17, "Num": 534500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 16},
+    {"Id": 18, "Level": 18, "Num": 556500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 17},
+    {"Id": 19, "Level": 19, "Num": 579000, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 18},
+    {"Id": 20, "Level": 20, "Num": 601500, "Maxlevel": 20, "Pic": "commonPackageLv7", "EffectArray": ["162;20", "21401;1", "21501;1"], "EffectArrayLength": 3, "EffectDic": {"162": 20, "21401": 1, "21501": 1}, "Member": 60, "RewardID": 0, "Index": 19}
+  ]
+}

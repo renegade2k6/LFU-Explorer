@@ -1,0 +1,11 @@
+{
+  "table_name": "Buildfortress_effectTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "EffectIdArray": ["61001;50", "61101;50", "63001;50", "63101;50"], "EffectIdArrayLength": 4, "EffectIdDic": {"61001": 50, "61101": 50, "63001": 50, "63101": 50}, "EffectText": 406224, "Index": 0},
+    {"Id": 2, "EffectIdArray": ["60001;50", "60101;50", "63001;50", "63101;50"], "EffectIdArrayLength": 4, "EffectIdDic": {"60001": 50, "60101": 50, "63001": 50, "63101": 50}, "EffectText": 406225, "Index": 1},
+    {"Id": 3, "EffectIdArray": ["62001;50", "62101;50", "63001;50", "63101;50"], "EffectIdArrayLength": 4, "EffectIdDic": {"62001": 50, "62101": 50, "63001": 50, "63101": 50}, "EffectText": 406226, "Index": 2},
+    {"Id": 4, "EffectIdArray": ["62001;50", "62101;50", "63001;50", "63101;50"], "EffectIdArrayLength": 4, "EffectIdDic": {"62001": 50, "62101": 50, "63001": 50, "63101": 50}, "EffectText": 0, "Index": 3},
+    {"Id": 5, "EffectIdArray": ["61001;50", "61101;50", "60001;50", "60101;50"], "EffectIdArrayLength": 4, "EffectIdDic": {"61001": 50, "61101": 50, "60001": 50, "60101": 50}, "EffectText": 0, "Index": 4}
+  ]
+}

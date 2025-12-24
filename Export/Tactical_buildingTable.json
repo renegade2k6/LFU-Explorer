@@ -1,0 +1,8 @@
+{
+  "table_name": "Tactical_buildingTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1001, "Level": 1, "Type": 1, "SeasonArray": [-1], "SeasonArrayLength": 1, "IsExpedition": 2, "EffectArray": ["20011", "50"], "EffectArrayLength": 2, "Radius": 15, "IsSuperposition": 0, "Wall": 300, "WallRecover": 0.0001, "DefendLimit": 3, "BuildLimit": 1, "BuildCostArray": [3005, 500], "BuildCostArrayLength": 2, "BuildTime": 120, "BuildRecycle": 600, "UnlockType": 1, "UnlockParam": 18, "Name": "319414", "TypeName": 319407, "Desc": 319422, "FuncDesc": 319415, "BuffIcon": "icon_medical_zyjs", "UIIcon": "image_dikuaiguanli_fieldHospita", "MapIcon": "image_dikuaiguanli_fieldHospita", "MapMod": "World_FieldHospital", "Order": 1, "EffectiveObject": 0, "DescInfo": 319416, "FuncDescInfo": 319423, "StoryArray": [1, 2, 3, 4, 5, 101], "StoryArrayLength": 6, "Tab": 1, "Index": 0},
+    {"Id": 2001, "Level": 1, "Type": 2, "SeasonArray": [-1], "SeasonArrayLength": 1, "IsExpedition": 1, "EffectArray": ["10824", "1"], "EffectArrayLength": 2, "Radius": 15, "IsSuperposition": 0, "Wall": 300, "WallRecover": 0.0001, "DefendLimit": 3, "BuildLimit": 1, "BuildCostArray": [3005, 500], "BuildCostArrayLength": 2, "BuildTime": 120, "BuildRecycle": 600, "UnlockType": 1, "UnlockParam": 8, "Name": "330279", "TypeName": 319407, "Desc": 330281, "FuncDesc": 330281, "BuffIcon": "icon_medical_zyjs", "UIIcon": "img_youqibin_xingbiao_01", "MapIcon": "img_youqibin_xingbiao_01", "MapMod": "World_RangerTower", "Order": 2, "EffectiveObject": 0, "DescInfo": 330280, "FuncDescInfo": 330280, "StoryArray": [], "StoryArrayLength": 0, "Tab": 1, "Index": 1}
+  ]
+}

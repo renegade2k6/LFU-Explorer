@@ -1,0 +1,13 @@
+{
+  "table_name": "Buff_displayTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 22001, "Type": 1, "TypeDes": 261076, "TypeIcon": "icon_expedition_qh_01", "Index": 0},
+    {"Id": 22101, "Type": 2, "TypeDes": 261077, "TypeIcon": "icon_expedition_qh_01", "Index": 1},
+    {"Id": 22801, "Type": 3, "TypeDes": 261078, "TypeIcon": "icon_expedition_qh_01", "Index": 2},
+    {"Id": 20108, "Type": 4, "TypeDes": 261093, "TypeIcon": "icon_expedition_qh_01", "Index": 3},
+    {"Id": 20107, "Type": 5, "TypeDes": 261092, "TypeIcon": "icon_expedition_qh_01", "Index": 4},
+    {"Id": 20106, "Type": 6, "TypeDes": 261091, "TypeIcon": "icon_expedition_qh_01", "Index": 5},
+    {"Id": 20105, "Type": 7, "TypeDes": 261090, "TypeIcon": "icon_expedition_qh_01", "Index": 6}
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "table_name": "Server_forces_rewardTable",
+  "row_count": 24,
+  "data": [
+    {"Id": 1, "Group": 1, "Level": 1, "ScoreLimit": 0, "WinReward": 1460128, "LoseReward": 1460136, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 0},
+    {"Id": 2, "Group": 1, "Level": 2, "ScoreLimit": 6000, "WinReward": 1460129, "LoseReward": 1460137, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 1},
+    {"Id": 3, "Group": 1, "Level": 3, "ScoreLimit": 12000, "WinReward": 1460130, "LoseReward": 1460138, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 2},
+    {"Id": 4, "Group": 1, "Level": 4, "ScoreLimit": 20000, "WinReward": 1460131, "LoseReward": 1460139, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 3},
+    {"Id": 5, "Group": 1, "Level": 5, "ScoreLimit": 30000, "WinReward": 1460132, "LoseReward": 1460140, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 4},
+    {"Id": 6, "Group": 1, "Level": 6, "ScoreLimit": 40000, "WinReward": 1460133, "LoseReward": 1460141, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 5},
+    {"Id": 7, "Group": 1, "Level": 7, "ScoreLimit": 50000, "WinReward": 1460134, "LoseReward": 1460142, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 6},
+    {"Id": 8, "Group": 1, "Level": 8, "ScoreLimit": 60000, "WinReward": 1460135, "LoseReward": 1460143, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 7},
+    {"Id": 9, "Group": 2, "Level": 1, "ScoreLimit": 0, "WinReward": 1460228, "LoseReward": 1460236, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 8},
+    {"Id": 10, "Group": 2, "Level": 2, "ScoreLimit": 6000, "WinReward": 1460229, "LoseReward": 1460237, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 9},
+    {"Id": 11, "Group": 2, "Level": 3, "ScoreLimit": 12000, "WinReward": 1460230, "LoseReward": 1460238, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 10},
+    {"Id": 12, "Group": 2, "Level": 4, "ScoreLimit": 20000, "WinReward": 1460231, "LoseReward": 1460239, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 11},
+    {"Id": 13, "Group": 2, "Level": 5, "ScoreLimit": 30000, "WinReward": 1460232, "LoseReward": 1460240, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 12},
+    {"Id": 14, "Group": 2, "Level": 6, "ScoreLimit": 40000, "WinReward": 1460233, "LoseReward": 1460241, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 13},
+    {"Id": 15, "Group": 2, "Level": 7, "ScoreLimit": 50000, "WinReward": 1460234, "LoseReward": 1460242, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 14},
+    {"Id": 16, "Group": 2, "Level": 8, "ScoreLimit": 60000, "WinReward": 1460235, "LoseReward": 1460243, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 15},
+    {"Id": 17, "Group": 3, "Level": 1, "ScoreLimit": 0, "WinReward": 1460228, "LoseReward": 1460236, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 16},
+    {"Id": 18, "Group": 3, "Level": 2, "ScoreLimit": 6000, "WinReward": 1460229, "LoseReward": 1460237, "WinPic": "icon_forces_level1_gold", "LosePic": "icon_forces_level1_silver", "Index": 17},
+    {"Id": 19, "Group": 3, "Level": 3, "ScoreLimit": 12000, "WinReward": 1460230, "LoseReward": 1460238, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 18},
+    {"Id": 20, "Group": 3, "Level": 4, "ScoreLimit": 20000, "WinReward": 1460231, "LoseReward": 1460239, "WinPic": "icon_forces_level2_gold", "LosePic": "icon_forces_level2_silver", "Index": 19},
+    {"Id": 21, "Group": 3, "Level": 5, "ScoreLimit": 30000, "WinReward": 1460232, "LoseReward": 1460240, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 20},
+    {"Id": 22, "Group": 3, "Level": 6, "ScoreLimit": 40000, "WinReward": 1460233, "LoseReward": 1460241, "WinPic": "icon_forces_level3_gold", "LosePic": "icon_forces_level3_silver", "Index": 21},
+    {"Id": 23, "Group": 3, "Level": 7, "ScoreLimit": 50000, "WinReward": 1460234, "LoseReward": 1460242, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 22},
+    {"Id": 24, "Group": 3, "Level": 8, "ScoreLimit": 60000, "WinReward": 1460235, "LoseReward": 1460243, "WinPic": "icon_forces_level4_gold", "LosePic": "icon_forces_level4_silver", "Index": 23}
+  ]
+}

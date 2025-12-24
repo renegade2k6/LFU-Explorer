@@ -1,0 +1,11 @@
+{
+  "table_name": "Lottery_rewardTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 101, "Type": 3, "GoodsArray": [444013, 1], "GoodsArrayLength": 2, "Num": 5, "Effect": "Assets/Shelter/Arts/Effects/UIEffect/prefab/effect_ActScratchTicket/effect_ActScratchTicketBigPrizeTicket_baohuzhao_qiuri.prefab", "Record": 1, "Color": 0, "Index": 0},
+    {"Id": 102, "Type": 2, "GoodsArray": [444015, 1], "GoodsArrayLength": 2, "Num": 10, "Effect": "Assets/Shelter/Arts/Effects/UIEffect/prefab/effect_ActScratchTicket/effect_ActScratchTicketNormalPrizeTicket_UIItemIconNew.prefab", "Record": 1, "Color": 3, "Index": 1},
+    {"Id": 103, "Type": 2, "GoodsArray": [770102, 1], "GoodsArrayLength": 2, "Num": 500, "Effect": "Assets/Shelter/Arts/Effects/UIEffect/prefab/effect_ActScratchTicket/effect_ActScratchTicketNormalPrizeTicket_UIItemIconNew.prefab", "Record": 1, "Color": 2, "Index": 2},
+    {"Id": 104, "Type": 2, "GoodsArray": [240002, 1], "GoodsArrayLength": 2, "Num": 20000, "Effect": "Assets/Shelter/Arts/Effects/UIEffect/prefab/effect_ActScratchTicket/effect_ActScratchTicketNormalPrizeTicket_UIItemIconNew.prefab", "Record": 0, "Color": 2, "Index": 3},
+    {"Id": 105, "Type": 1, "GoodsArray": [8220021, 1], "GoodsArrayLength": 2, "Num": -1, "Effect": "Assets/Shelter/Arts/Effects/UIEffect/prefab/effect_ActScratchTicket/effect_ActScratchTicketNormalPrizeTicket_UIItemIconNew.prefab", "Record": 0, "Color": 1, "Index": 4}
+  ]
+}

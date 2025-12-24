@@ -1,0 +1,12 @@
+{
+  "table_name": "TimeFlyTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1001, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 102, 108], "ClientEventArrayLength": 3, "Chapter": 1, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 0},
+    {"Id": 1002, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 103], "ClientEventArrayLength": 2, "Chapter": 2, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 1},
+    {"Id": 1003, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 104], "ClientEventArrayLength": 2, "Chapter": 3, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 2},
+    {"Id": 1004, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 105, 106], "ClientEventArrayLength": 3, "Chapter": 4, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 3},
+    {"Id": 1005, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 104], "ClientEventArrayLength": 2, "Chapter": 5, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 4},
+    {"Id": 1006, "ServerEventArray": [201, 202, 203, 204, 207], "ServerEventArrayLength": 5, "ClientEventArray": [101, 110, 110, 110], "ClientEventArrayLength": 4, "Chapter": -1, "Type": 0, "Para1": "", "PlaySpeed": 0, "StayTime": 0, "Zoom": 0, "Index": 5}
+  ]
+}

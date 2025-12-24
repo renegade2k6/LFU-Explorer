@@ -1,0 +1,23 @@
+{
+  "table_name": "Killactivity_taskTable",
+  "row_count": 17,
+  "data": [
+    {"Id": 1, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "100", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;15;200350", "7;30;200056"], "RewardArrayLength": 2, "Index": 0},
+    {"Id": 2, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "400", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;20;200350", "7;50;200056"], "RewardArrayLength": 2, "Index": 1},
+    {"Id": 3, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "800", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;25;200350", "7;70;200056"], "RewardArrayLength": 2, "Index": 2},
+    {"Id": 4, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "1000", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;30;200350", "7;100;200056"], "RewardArrayLength": 2, "Index": 3},
+    {"Id": 5, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "1400", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;35;200350", "7;150;200056"], "RewardArrayLength": 2, "Index": 4},
+    {"Id": 6, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "2000", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;40;200350", "7;300;200056"], "RewardArrayLength": 2, "Index": 5},
+    {"Id": 7, "ActivityId": 57001, "Type2": 6409, "Para1": "57001", "Para2": "2500", "IsAdd": 1, "Title": 901078, "RewardArray": ["7;1;200139", "7;500;200056"], "RewardArrayLength": 2, "Index": 6},
+    {"Id": 1001, "ActivityId": 254004, "Type2": 6409, "Para1": "254004", "Para2": "100", "IsAdd": 1, "Title": 0, "RewardArray": ["7;50;240001"], "RewardArrayLength": 1, "Index": 7},
+    {"Id": 1002, "ActivityId": 254004, "Type2": 6409, "Para1": "254004", "Para2": "500", "IsAdd": 1, "Title": 0, "RewardArray": ["7;100;240001"], "RewardArrayLength": 1, "Index": 8},
+    {"Id": 1003, "ActivityId": 254004, "Type2": 6409, "Para1": "254004", "Para2": "1000", "IsAdd": 1, "Title": 0, "RewardArray": ["7;2;240002"], "RewardArrayLength": 1, "Index": 9},
+    {"Id": 1004, "ActivityId": 254004, "Type2": 6409, "Para1": "254004", "Para2": "1500", "IsAdd": 1, "Title": 0, "RewardArray": ["7;1;250064"], "RewardArrayLength": 1, "Index": 10},
+    {"Id": 1005, "ActivityId": 254004, "Type2": 6409, "Para1": "254004", "Para2": "2000", "IsAdd": 1, "Title": 0, "RewardArray": ["7;1;800006"], "RewardArrayLength": 1, "Index": 11},
+    {"Id": 1101, "ActivityId": 274103, "Type2": 6409, "Para1": "274103", "Para2": "500", "IsAdd": 1, "Title": 0, "RewardArray": ["7;100;800189"], "RewardArrayLength": 1, "Index": 12},
+    {"Id": 1102, "ActivityId": 274103, "Type2": 6409, "Para1": "274103", "Para2": "1500", "IsAdd": 1, "Title": 0, "RewardArray": ["7;200;800189"], "RewardArrayLength": 1, "Index": 13},
+    {"Id": 1103, "ActivityId": 274103, "Type2": 6409, "Para1": "274103", "Para2": "2500", "IsAdd": 1, "Title": 0, "RewardArray": ["7;300;800189"], "RewardArrayLength": 1, "Index": 14},
+    {"Id": 1104, "ActivityId": 274103, "Type2": 6409, "Para1": "274103", "Para2": "5000", "IsAdd": 1, "Title": 0, "RewardArray": ["7;400;800189"], "RewardArrayLength": 1, "Index": 15},
+    {"Id": 1105, "ActivityId": 274103, "Type2": 6409, "Para1": "274103", "Para2": "9000", "IsAdd": 1, "Title": 0, "RewardArray": ["7;800;800189"], "RewardArrayLength": 1, "Index": 16}
+  ]
+}

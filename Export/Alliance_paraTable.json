@@ -1,0 +1,7 @@
+{
+  "table_name": "Alliance_paraTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 101, "UpRuleArray": ["4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20", "1;1;1;2;2;2;3;3;3;4;4;4;4;4;4;4;4"], "UpRuleArrayLength": 2, "DownRuleArray": ["4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20", "1;1;1;2;2;2;3;3;3;4;4;4;4;4;4;4;4"], "DownRuleArrayLength": 2, "UnlockItem": 742001, "Index": 0}
+  ]
+}

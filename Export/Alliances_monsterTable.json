@@ -1,0 +1,15 @@
+{
+  "table_name": "Alliances_monsterTable",
+  "row_count": 9,
+  "data": [
+    {"Id": 1001, "Quality": 1, "MonsterTeam": 975271, "UnlockingConditionsArray": [5, 1, 10], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710401, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 0},
+    {"Id": 1002, "Quality": 2, "MonsterTeam": 975272, "UnlockingConditionsArray": [10, 2, 10], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710402, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 1},
+    {"Id": 1003, "Quality": 3, "MonsterTeam": 975273, "UnlockingConditionsArray": [15, 3, 15], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710403, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 2},
+    {"Id": 1004, "Quality": 4, "MonsterTeam": 975274, "UnlockingConditionsArray": [15, 4, 20], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710404, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 3},
+    {"Id": 1005, "Quality": 5, "MonsterTeam": 975275, "UnlockingConditionsArray": [20, 5, 20], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710405, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 4},
+    {"Id": 1006, "Quality": 6, "MonsterTeam": 975276, "UnlockingConditionsArray": [20, 6, 25], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710406, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 5},
+    {"Id": 1007, "Quality": 7, "MonsterTeam": 975277, "UnlockingConditionsArray": [20, 7, 30], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710407, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 6},
+    {"Id": 1008, "Quality": 8, "MonsterTeam": 975278, "UnlockingConditionsArray": [20, 8, 30], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710408, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 7},
+    {"Id": 1009, "Quality": 9, "MonsterTeam": 975279, "UnlockingConditionsArray": [20, 9, 30], "UnlockingConditionsArrayLength": 3, "AlliancesMonsterReward": 9710409, "MonsterRewardMail": 203225, "AlliancesMonsterPhoto": "img_rongyao_tiaozhan_PICboss", "Index": 8}
+  ]
+}

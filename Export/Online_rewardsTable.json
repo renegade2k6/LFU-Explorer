@@ -1,0 +1,16 @@
+{
+  "table_name": "Online_rewardsTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 10001, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 1, "Experience": 0, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 0},
+    {"Id": 10002, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 2, "Experience": 20, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 1},
+    {"Id": 10003, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 3, "Experience": 60, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 2},
+    {"Id": 10004, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 4, "Experience": 120, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 3},
+    {"Id": 10005, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 5, "Experience": 180, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 4},
+    {"Id": 10006, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 6, "Experience": 260, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 5},
+    {"Id": 10007, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 7, "Experience": 360, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 6},
+    {"Id": 10008, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 8, "Experience": 480, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 7},
+    {"Id": 10009, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 9, "Experience": 620, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 8},
+    {"Id": 10010, "ActivityId": 240001, "ShowType": "1;Elk_Lv2_room", "Level": 10, "Experience": 780, "RewardPreviewArray": ["430019;1", "430017;1", "700841;100"], "RewardPreviewArrayLength": 3, "RewardPreviewDic": {"430019": 1, "430017": 1, "700841": 100}, "OnlineTime": 0, "GiftQuantity": 4, "Index": 9}
+  ]
+}

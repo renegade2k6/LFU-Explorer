@@ -1,0 +1,26 @@
+{
+  "table_name": "Death_land_camp_developTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "Name": 331348, "Icon": "icon_dl_camp_1", "Desc": 331366, "Stage": 1, "UnlockLevel": 0, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [125000, 10], "BuffArrayLength": 2, "Index": 0},
+    {"Id": 2, "Name": 331355, "Icon": "icon_dl_camp_8", "Desc": 331373, "Stage": 1, "UnlockLevel": 0, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [125100, 10], "BuffArrayLength": 2, "Index": 1},
+    {"Id": 3, "Name": 331362, "Icon": "icon_dl_camp_15", "Desc": 331380, "Stage": 1, "UnlockLevel": 0, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [10807, 5], "BuffArrayLength": 2, "Index": 2},
+    {"Id": 4, "Name": 331349, "Icon": "icon_dl_camp_2", "Desc": 331367, "Stage": 2, "UnlockLevel": 0, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29006, 50], "BuffArrayLength": 2, "Index": 3},
+    {"Id": 5, "Name": 331356, "Icon": "icon_dl_camp_9", "Desc": 331374, "Stage": 2, "UnlockLevel": 0, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29016, 30], "BuffArrayLength": 2, "Index": 4},
+    {"Id": 6, "Name": 331350, "Icon": "icon_dl_camp_3", "Desc": 331368, "Stage": 3, "UnlockLevel": 5, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29007, 10], "BuffArrayLength": 2, "Index": 5},
+    {"Id": 7, "Name": 331357, "Icon": "icon_dl_camp_10", "Desc": 331375, "Stage": 3, "UnlockLevel": 5, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29017, 10], "BuffArrayLength": 2, "Index": 6},
+    {"Id": 8, "Name": 331363, "Icon": "icon_dl_camp_16", "Desc": 331381, "Stage": 3, "UnlockLevel": 5, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [10808, 5], "BuffArrayLength": 2, "Index": 7},
+    {"Id": 9, "Name": 331351, "Icon": "icon_dl_camp_4", "Desc": 331369, "Stage": 4, "UnlockLevel": 5, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29002, 20], "BuffArrayLength": 2, "Index": 8},
+    {"Id": 10, "Name": 331358, "Icon": "icon_dl_camp_11", "Desc": 331376, "Stage": 4, "UnlockLevel": 5, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29018, 20], "BuffArrayLength": 2, "Index": 9},
+    {"Id": 11, "Name": 331348, "Icon": "icon_dl_camp_1", "Desc": 331366, "Stage": 5, "UnlockLevel": 10, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [125000, 10], "BuffArrayLength": 2, "Index": 10},
+    {"Id": 12, "Name": 331355, "Icon": "icon_dl_camp_8", "Desc": 331373, "Stage": 5, "UnlockLevel": 10, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [125100, 10], "BuffArrayLength": 2, "Index": 11},
+    {"Id": 13, "Name": 331362, "Icon": "icon_dl_camp_15", "Desc": 331380, "Stage": 5, "UnlockLevel": 10, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [10807, 10], "BuffArrayLength": 2, "Index": 12},
+    {"Id": 14, "Name": 331354, "Icon": "icon_dl_camp_7", "Desc": 331372, "Stage": 6, "UnlockLevel": 10, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29009, 3], "BuffArrayLength": 2, "Index": 13},
+    {"Id": 15, "Name": 331360, "Icon": "icon_dl_camp_13", "Desc": 331378, "Stage": 6, "UnlockLevel": 10, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29019, 1], "BuffArrayLength": 2, "Index": 14},
+    {"Id": 16, "Name": 331350, "Icon": "icon_dl_camp_3", "Desc": 331368, "Stage": 7, "UnlockLevel": 15, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29007, 10], "BuffArrayLength": 2, "Index": 15},
+    {"Id": 17, "Name": 331357, "Icon": "icon_dl_camp_10", "Desc": 331375, "Stage": 7, "UnlockLevel": 15, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29017, 10], "BuffArrayLength": 2, "Index": 16},
+    {"Id": 18, "Name": 331363, "Icon": "icon_dl_camp_16", "Desc": 331381, "Stage": 7, "UnlockLevel": 15, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [10808, 10], "BuffArrayLength": 2, "Index": 17},
+    {"Id": 19, "Name": 331361, "Icon": "icon_dl_camp_14", "Desc": 331379, "Stage": 8, "UnlockLevel": 15, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29020, 20], "BuffArrayLength": 2, "Index": 18},
+    {"Id": 20, "Name": 331364, "Icon": "icon_dl_camp_17", "Desc": 331382, "Stage": 8, "UnlockLevel": 15, "UnlockConditionArray": [100, 100], "UnlockConditionArrayLength": 2, "Time": 86400, "BuffArray": [29102, 50], "BuffArrayLength": 2, "Index": 19}
+  ]
+}

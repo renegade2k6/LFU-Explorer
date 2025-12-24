@@ -1,0 +1,7 @@
+{
+  "table_name": "Ad_movTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 101, "AdkeyCampaign": "LF_skipcg_0301", "Moviexml": "AD1_", "Index": 0}
+  ]
+}

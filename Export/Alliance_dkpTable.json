@@ -1,0 +1,24 @@
+{
+  "table_name": "Alliance_dkpTable",
+  "row_count": 18,
+  "data": [
+    {"Id": 1, "TaskDes": "306048", "DkpDes": "306046|100;150", "Icon": "icon_jungong_gongji", "DkpType": 0, "Index": 0},
+    {"Id": 2, "TaskDes": "306049", "DkpDes": "306046|100;150", "Icon": "icon_jungong_chegnshi", "DkpType": 0, "Index": 1},
+    {"Id": 3, "TaskDes": "306050", "DkpDes": "306044|5", "Icon": "icon_jungong_architecture", "DkpType": 0, "Index": 2},
+    {"Id": 4, "TaskDes": "306051|100", "DkpDes": "306044|5", "Icon": "icon_jungong_pohuaizhi", "DkpType": 0, "Index": 3},
+    {"Id": 5, "TaskDes": "306052|4;5", "DkpDes": "306054|1", "Icon": "icon_jungong_bingzhong", "DkpType": 0, "Index": 4},
+    {"Id": 6, "TaskDes": "306052|6;10", "DkpDes": "306054|5", "Icon": "icon_jungong_bingzhong", "DkpType": 0, "Index": 5},
+    {"Id": 7, "TaskDes": "308421", "DkpDes": "306045|5", "Icon": "icon_jungong_zhanlingdikuai1", "DkpType": 0, "Index": 6},
+    {"Id": 8, "TaskDes": "306055", "DkpDes": "306044|20", "Icon": "icon_jungong_gongji", "DkpType": 0, "Index": 7},
+    {"Id": 9, "TaskDes": "306056", "DkpDes": "306044|20", "Icon": "icon_jungong_chegnshi", "DkpType": 0, "Index": 8},
+    {"Id": 10, "TaskDes": "396084", "DkpDes": "", "Icon": "", "DkpType": 0, "Index": 9},
+    {"Id": 11, "TaskDes": "396085", "DkpDes": "306046|10;30", "Icon": "icon_jungong_chegnshi", "DkpType": 0, "Index": 10},
+    {"Id": 12, "TaskDes": "396086", "DkpDes": "306046|100;150", "Icon": "icon_jungong_zhanlingdikuai1", "DkpType": 0, "Index": 11},
+    {"Id": 13, "TaskDes": "396472", "DkpDes": "306044|50", "Icon": "icon_jungong_bingzhong", "DkpType": 2, "Index": 12},
+    {"Id": 14, "TaskDes": "396473", "DkpDes": "306044|100", "Icon": "icon_jungong_bingzhong", "DkpType": 2, "Index": 13},
+    {"Id": 15, "TaskDes": "396474", "DkpDes": "306046|0;6000", "Icon": "icon_jungong_architecture", "DkpType": 2, "Index": 14},
+    {"Id": 16, "TaskDes": "396475", "DkpDes": "306044|80", "Icon": "icon_jungong_gongji", "DkpType": 2, "Index": 15},
+    {"Id": 17, "TaskDes": "396476", "DkpDes": "306046|0;1750", "Icon": "icon_jungong_chegnshi", "DkpType": 2, "Index": 16},
+    {"Id": 18, "TaskDes": "396477", "DkpDes": "306046|0;60000", "Icon": "icon_jungong_pohuaizhi", "DkpType": 2, "Index": 17}
+  ]
+}

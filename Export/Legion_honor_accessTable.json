@@ -1,0 +1,12 @@
+{
+  "table_name": "Legion_honor_accessTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "Story": 1, "From": 321008, "Pic": "p1", "RewardTextArray": [321011, 321011, 321011, 321011, 321011, 321011, 321011, 321011], "RewardTextArrayLength": 8, "RewardLvArray": [1, 2, 3, 4, 5, 6, 7, 8], "RewardLvArrayLength": 8, "RewardGoods": 200025, "RewardNumTextArray": [1, 1, 1, 2, 2, 3, 3, 3], "RewardNumTextArrayLength": 8, "Type": 1, "Index": 0},
+    {"Id": 2, "Story": 1, "From": 321009, "Pic": "p2", "RewardTextArray": [321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012], "RewardTextArrayLength": 10, "RewardLvArray": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "RewardLvArrayLength": 10, "RewardGoods": 200025, "RewardNumTextArray": [50, 50, 50, 100, 100, 150, 150, 150, 150, 150], "RewardNumTextArrayLength": 10, "Type": 2, "Index": 1},
+    {"Id": 3, "Story": 1, "From": 321010, "Pic": "p3", "RewardTextArray": [321013, 321013, 321013, 321013, 321013, 321013], "RewardTextArrayLength": 6, "RewardLvArray": [1, 2, 3, 4, 5, 6], "RewardLvArrayLength": 6, "RewardGoods": 200025, "RewardNumTextArray": [5, 10, 30, 30, 30, 30], "RewardNumTextArrayLength": 6, "Type": 3, "Index": 2},
+    {"Id": 7, "Story": 101, "From": 321008, "Pic": "p1", "RewardTextArray": [321011, 321011, 321011, 321011, 321011, 321011, 321011, 321011], "RewardTextArrayLength": 8, "RewardLvArray": [1, 2, 3, 4, 5, 6, 7, 8], "RewardLvArrayLength": 8, "RewardGoods": 200025, "RewardNumTextArray": [1, 1, 1, 2, 2, 3, 3, 3], "RewardNumTextArrayLength": 8, "Type": 1, "Index": 3},
+    {"Id": 8, "Story": 101, "From": 321009, "Pic": "p2", "RewardTextArray": [321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012, 321012], "RewardTextArrayLength": 10, "RewardLvArray": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "RewardLvArrayLength": 10, "RewardGoods": 200025, "RewardNumTextArray": [50, 50, 50, 100, 100, 150, 150, 150, 150, 150], "RewardNumTextArrayLength": 10, "Type": 2, "Index": 4},
+    {"Id": 9, "Story": 101, "From": 321010, "Pic": "p3", "RewardTextArray": [321013, 321013, 321013, 321013, 321013, 321013], "RewardTextArrayLength": 6, "RewardLvArray": [1, 2, 3, 4, 5, 6], "RewardLvArrayLength": 6, "RewardGoods": 200025, "RewardNumTextArray": [5, 10, 30, 30, 30, 30], "RewardNumTextArrayLength": 6, "Type": 3, "Index": 5}
+  ]
+}

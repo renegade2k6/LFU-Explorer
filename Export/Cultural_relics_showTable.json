@@ -1,0 +1,11 @@
+{
+  "table_name": "Cultural_relics_showTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "GroupArray": [704011, 20], "GroupArrayLength": 2, "Index": 0},
+    {"Id": 2, "GroupArray": [704011, 20], "GroupArrayLength": 2, "Index": 1},
+    {"Id": 3, "GroupArray": [704011, 20], "GroupArrayLength": 2, "Index": 2},
+    {"Id": 4, "GroupArray": [704011, 20], "GroupArrayLength": 2, "Index": 3},
+    {"Id": 5, "GroupArray": [704011, 20], "GroupArrayLength": 2, "Index": 4}
+  ]
+}

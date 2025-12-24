@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal APC Skins | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #ffd700 0%, #ff9800 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .universal-skins-section {
+            max-width: 1400px;
+            margin: 24px auto;
+            padding: 24px;
+        }
+
+        .universal-skins-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .universal-skin-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #3a3a5a;
+            border-radius: 12px;
+            padding: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .universal-skin-card:hover {
+            transform: translateY(-4px);
+            border-color: #ffd700;
+            box-shadow: 0 8px 24px rgba(255, 215, 0, 0.3);
+        }
+
+        .universal-skin-card.quality-5 {
+            border-color: #ffd700;
+        }
+
+        .universal-skin-card.quality-5:hover {
+            border-color: #ffeb3b;
+            box-shadow: 0 8px 24px rgba(255, 215, 0, 0.5);
+        }
+
+        .universal-skin-card.quality-4 {
+            border-color: #9333ea;
+        }
+
+        .universal-skin-card.quality-4:hover {
+            border-color: #a855f7;
+            box-shadow: 0 8px 24px rgba(147, 51, 234, 0.5);
+        }
+
+        .skin-image-container {
+            position: relative;
+            width: 100%;
+            height: 180px;
+            margin-bottom: 12px;
+            background: linear-gradient(135deg, rgba(30, 30, 50, 0.8), rgba(20, 20, 35, 0.9));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .universal-skin-card img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            padding: 10px;
+        }
+
+        .image-placeholder {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 2px dashed #3a3a5a;
+            border-radius: 8px;
+        }
+
+        .image-placeholder span {
+            font-size: 4em;
+            opacity: 0.3;
+        }
+
+        .universal-skin-card h3 {
+            color: #ffd700;
+            margin: 0 0 12px 0;
+            font-size: 18px;
+            font-weight: 600;
+            text-align: center;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .skin-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .skin-quality-badge {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .quality-4 .skin-quality-badge {
+            background: linear-gradient(135deg, rgba(147, 51, 234, 0.2), rgba(147, 51, 234, 0.1));
+            color: #a855f7;
+            border: 1px solid rgba(147, 51, 234, 0.4);
+        }
+
+        .quality-5 .skin-quality-badge {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.2), rgba(255, 215, 0, 0.1));
+            color: #ffd700;
+            border: 1px solid rgba(255, 215, 0, 0.4);
+        }
+
+        .skin-description {
+            color: #b8c5d6;
+            font-size: 13px;
+            line-height: 1.5;
+            margin: 8px 0;
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            min-height: 60px;
+        }
+
+        .skin-buffs {
+            background: rgba(100, 149, 237, 0.15);
+            border: 1px solid rgba(100, 149, 237, 0.3);
+            border-radius: 6px;
+            padding: 10px;
+            margin-top: 8px;
+            font-size: 12px;
+            color: #87ceeb;
+        }
+
+        .skin-buffs strong {
+            color: #4a9eff;
+            display: block;
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 900px) {
+            .universal-skins-grid {
+                grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link active" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <div class="page-title-section">
+            <h1>Universal APC Skins</h1>
+            <p class="page-subtitle">Apply decorative skins to any APC in your collection</p>
+        </div>
+
+        <!-- Decor Sub-Navigation -->
+        <div style="background: rgba(20, 20, 35, 0.6); border-bottom: 1px solid rgba(74, 158, 255, 0.2); padding: 6px 0; overflow-x: auto; margin-bottom: 16px;">
+            <div style="display: flex; gap: 4px; justify-content: center; flex-wrap: nowrap; padding: 0 12px; max-width: 1600px; margin: 0 auto;">
+                <a href="decors.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">← All</a>
+                <a href="fortress.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🏰 Fortress</a>
+                <a href="universal-apc-skins.html" style="padding: 5px 10px; font-size: 12px; color: #4a9eff; background: rgba(74, 158, 255, 0.2); border: 1px solid rgba(74, 158, 255, 0.5); border-radius: 5px; text-decoration: none; font-weight: 600; white-space: nowrap;">🚗 APC</a>
+                <a href="player-frames.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🖼️ Frames</a>
+                <a href="peace-treaty.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🛡️ Peace</a>
+                <a href="wings.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">✨ Wings</a>
+                <a href="nameplates.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">📛 Nameplates</a>
+                <a href="chat-bubbles.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💬 Chat</a>
+                <a href="marching-trails.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🔥 Trails</a>
+                <a href="relocation-animations.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🌀 Relocation</a>
+                <a href="auras.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💫 Auras</a>
+                <a href="ornaments.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🎀 Ornaments</a>
+                <a href="profile-cards.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🃏 Cards</a>
+            </div>
+        </div>
+
+        <div class="universal-skins-section">
+            <div id="universal-skins-grid" class="universal-skins-grid"></div>
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        let universalSkinsData = [];
+
+        async function loadUniversalSkins() {
+            try {
+                const response = await fetch('Refrence/universal_apc_skins.json');
+                universalSkinsData = await response.json();
+                displayUniversalSkins();
+            } catch (error) {
+                console.error('Error loading universal skins:', error);
+                document.getElementById('universal-skins-grid').innerHTML = '<p style="color: #ff6b6b; text-align: center; padding: 40px;">Error loading universal skins data</p>';
+            }
+        }
+
+        function displayUniversalSkins() {
+            const grid = document.getElementById('universal-skins-grid');
+
+            // Build all HTML at once to prevent flickering
+            const cardsHtml = universalSkinsData.map(skin => {
+                const qualityClass = `quality-${skin.Quality}`;
+                const qualityLabel = skin.Quality === 5 ? 'Epic' : 'Elite';
+
+                return `
+                    <div class="universal-skin-card ${qualityClass}">
+                        <div class="skin-image-container">
+                            <img src="${skin.Icon}"
+                                 alt="${skin.Name}"
+                                 loading="lazy"
+                                 onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="image-placeholder" style="display: none;">
+                                <span>🎨</span>
+                            </div>
+                        </div>
+                        <h3>${skin.Name}</h3>
+                        <div class="skin-meta">
+                            <div class="skin-quality-badge">${qualityLabel}</div>
+                            <div class="skin-description">${skin.Description}</div>
+                            <div class="skin-buffs">
+                                <strong>Buffs</strong>
+                                ${skin.BuffSummary}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            // Set all HTML at once (single reflow)
+            grid.innerHTML = cardsHtml;
+        }
+
+        // Initialize the page
+        loadUniversalSkins();
+    </script>
+</body>
+</html>

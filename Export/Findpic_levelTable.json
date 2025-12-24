@@ -1,0 +1,16 @@
+{
+  "table_name": "Findpic_levelTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "QuestArray": ["382017:6", "382006:4", "382014:2"], "QuestArrayLength": 3, "Time": 60, "MostQuest": 1, "GroupId": 1, "Index": 0},
+    {"Id": 2, "QuestArray": ["382008:6", "382023:8", "382033:2", "382016:4"], "QuestArrayLength": 4, "Time": 60, "MostQuest": 2, "GroupId": 2, "Index": 1},
+    {"Id": 3, "QuestArray": ["382010:6", "382025:4", "382029:4", "382032:8"], "QuestArrayLength": 4, "Time": 60, "MostQuest": 2, "GroupId": 3, "Index": 2},
+    {"Id": 4, "QuestArray": ["382017:6", "382015:4", "382031:4", "382023:8", "382019:4", "382024:4"], "QuestArrayLength": 6, "Time": 60, "MostQuest": 2, "GroupId": 4, "Index": 3},
+    {"Id": 5, "QuestArray": ["382006:4", "382007:6", "382032:8", "382029:6", "382014:4", "382008:8"], "QuestArrayLength": 6, "Time": 60, "MostQuest": 2, "GroupId": 5, "Index": 4},
+    {"Id": 6, "QuestArray": ["382017:6", "382010:6", "382031:4", "382023:8", "382026:2", "382009:8"], "QuestArrayLength": 6, "Time": 80, "MostQuest": 2, "GroupId": 6, "Index": 5},
+    {"Id": 7, "QuestArray": ["382006:4", "382014:6", "382015:4", "382016:4", "382029:4", "382033:4", "382019:4", "382024:4"], "QuestArrayLength": 8, "Time": 80, "MostQuest": 3, "GroupId": 7, "Index": 6},
+    {"Id": 8, "QuestArray": ["382008:8", "382031:6", "382021:8", "382013:4", "382023:8", "382025:4", "382007:8", "382026:2"], "QuestArrayLength": 8, "Time": 90, "MostQuest": 3, "GroupId": 8, "Index": 7},
+    {"Id": 9, "QuestArray": ["382010:8", "382012:8", "382015:8", "382016:8", "382032:8", "382033:8", "382024:8", "382009:8", "382014:8"], "QuestArrayLength": 9, "Time": 90, "MostQuest": 3, "GroupId": 9, "Index": 8},
+    {"Id": 10, "QuestArray": ["382017:8", "382006:8", "382007:8", "382029:8", "382031:8", "382019:8", "382020:8", "382023:8", "382009:8", "382014:8"], "QuestArrayLength": 10, "Time": 100, "MostQuest": 3, "GroupId": 10, "Index": 9}
+  ]
+}

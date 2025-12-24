@@ -1,0 +1,9 @@
+{
+  "table_name": "Festival_iconTable",
+  "row_count": 3,
+  "data": [
+    {"Id": "Xmas2021", "MainpageAvatar": "ui_Xmas2021_mainpage_avatar", "MainpageEventcenter": "ui_Xmas2021_mainpage_eventcenter", "MainpagePackevententrance": "ui_Xmas2021_mainpage_packevententrance", "MainpageGlobe": "ui_Xmas2021_mainpage_globe", "MainpageQuest": "ui_Xmas2021_mainpage_quest", "MainpageQuesticon": "ui_Xmas2021_mainpage_questicon", "MainpageMenuup": "ui_Xmas2021_mainpage_menuup", "MainpageMenuicon": "ui_Xmas2021_mainpage_menuicon", "MainpageBottomLeft": "ui_Xmas2021_mainpage_bottom_left", "MainpageBottomRight": "ui_Xmas2021_mainpage_bottom_right", "Index": 0},
+    {"Id": "Xmas2022", "MainpageAvatar": "ui_Xmas2021_mainpage_avatar", "MainpageEventcenter": "ui_Xmas2021_mainpage_eventcenter", "MainpagePackevententrance": "ui_Xmas2021_mainpage_packevententrance", "MainpageGlobe": "ui_Xmas2021_mainpage_globe", "MainpageQuest": "ui_Xmas2021_mainpage_quest", "MainpageQuesticon": "ui_Xmas2021_mainpage_questicon", "MainpageMenuup": "ui_Xmas2021_mainpage_menuup", "MainpageMenuicon": "ui_Xmas2021_mainpage_menuicon", "MainpageBottomLeft": "ui_Xmas2021_mainpage_bottom_left", "MainpageBottomRight": "ui_Xmas2021_mainpage_bottom_right", "Index": 1},
+    {"Id": "Xwsj2024", "MainpageAvatar": "ui_Xmas2021_mainpage_packevententrance", "MainpageEventcenter": "img_halloween_zjm_atmosphere01", "MainpagePackevententrance": "ui_Xmas2021_mainpage_packevententrance", "MainpageGlobe": "ui_Xmas2021_mainpage_packevententrance", "MainpageQuest": "img_halloween_zjm_atmosphere06", "MainpageQuesticon": "ui_Xmas2021_mainpage_packevententrance", "MainpageMenuup": "img_halloween_zjm_atmosphere05", "MainpageMenuicon": "ui_Xmas2021_mainpage_packevententrance", "MainpageBottomLeft": "img_halloween_zjm_atmosphere02", "MainpageBottomRight": "img_halloween_zjm_atmosphere04", "Index": 2}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "table_name": "Alliance_prize_quizTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 100001, "OpenTimeArray": ["01:00", "09:00", "17:00"], "OpenTimeArrayLength": 3, "OpenWeekArray": [1, 2, 3, 4, 5], "OpenWeekArrayLength": 5, "OpenPrepare": 120, "QuizShow": 5, "QuizAnswer": 50, "QuizAnswerShow": 5, "QuizEndShow": 30, "QuizNormalRewardShow": 2, "QuizLuckyRewardShow": 1, "QuizNum": 5, "QuizChart": "0;alliance_quiz_1|1;alliance_quiz_s1|2;alliance_quiz_s2|3;alliance_quiz_s3", "RewardTypeArray": [1, 2], "RewardTypeArrayLength": 2, "RewardNumArray": [2, 1], "RewardNumArrayLength": 2, "RewardContentArray": ["1500001;1500002;1500003;1500004;1500005", "1500006;1500007"], "RewardContentArrayLength": 2, "RewardPlayerArray": [0, 3], "RewardPlayerArrayLength": 2, "RewardTypeAllArray": [1, 2], "RewardTypeAllArrayLength": 2, "RewardNumAllArray": [2, 1], "RewardNumAllArrayLength": 2, "RewardContentAllArray": ["1500001;1500002;1500003;1500004;1500005", "1500008"], "RewardContentAllArrayLength": 2, "RewardPlayerAllArray": [3, 3], "RewardPlayerAllArrayLength": 2, "RewardCrossMailArray": [180020, 180021], "RewardCrossMailArrayLength": 2, "Index": 0}
+  ]
+}

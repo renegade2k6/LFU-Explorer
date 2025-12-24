@@ -1,0 +1,27 @@
+{
+  "table_name": "Zy_transitionTable",
+  "row_count": 21,
+  "data": [
+    {"Id": 700000, "BuildingType": 700000, "BuildingGoodId": 770000, "ZyBuildingType": 1000900, "GoodId": 8000009, "Num": 1, "Index": 0},
+    {"Id": 701000, "BuildingType": 701000, "BuildingGoodId": 770001, "ZyBuildingType": 1002300, "GoodId": 8000023, "Num": 1, "Index": 1},
+    {"Id": 702000, "BuildingType": 702000, "BuildingGoodId": 770002, "ZyBuildingType": 1000100, "GoodId": 8000001, "Num": 1, "Index": 2},
+    {"Id": 703000, "BuildingType": 703000, "BuildingGoodId": 770003, "ZyBuildingType": 1000200, "GoodId": 8000002, "Num": 1, "Index": 3},
+    {"Id": 704000, "BuildingType": 704000, "BuildingGoodId": 770004, "ZyBuildingType": 1000300, "GoodId": 8000003, "Num": 1, "Index": 4},
+    {"Id": 705000, "BuildingType": 705000, "BuildingGoodId": 770101, "ZyBuildingType": 1000400, "GoodId": 8000004, "Num": 1, "Index": 5},
+    {"Id": 706000, "BuildingType": 706000, "BuildingGoodId": 770102, "ZyBuildingType": 1000500, "GoodId": 8000005, "Num": 1, "Index": 6},
+    {"Id": 707000, "BuildingType": 707000, "BuildingGoodId": 770103, "ZyBuildingType": 1000600, "GoodId": 8000006, "Num": 1, "Index": 7},
+    {"Id": 708000, "BuildingType": 708000, "BuildingGoodId": 770104, "ZyBuildingType": 1000700, "GoodId": 8000007, "Num": 1, "Index": 8},
+    {"Id": 709000, "BuildingType": 709000, "BuildingGoodId": 770201, "ZyBuildingType": 1000800, "GoodId": 8000008, "Num": 1, "Index": 9},
+    {"Id": 710000, "BuildingType": 710000, "BuildingGoodId": 770202, "ZyBuildingType": 1001000, "GoodId": 8000010, "Num": 1, "Index": 10},
+    {"Id": 711000, "BuildingType": 711000, "BuildingGoodId": 770203, "ZyBuildingType": 1001100, "GoodId": 8000011, "Num": 1, "Index": 11},
+    {"Id": 712000, "BuildingType": 712000, "BuildingGoodId": 770204, "ZyBuildingType": 1001200, "GoodId": 8000012, "Num": 1, "Index": 12},
+    {"Id": 713000, "BuildingType": 713000, "BuildingGoodId": 770205, "ZyBuildingType": 1001300, "GoodId": 8000013, "Num": 1, "Index": 13},
+    {"Id": 714000, "BuildingType": 714000, "BuildingGoodId": 770206, "ZyBuildingType": 1001400, "GoodId": 8000014, "Num": 1, "Index": 14},
+    {"Id": 715000, "BuildingType": 715000, "BuildingGoodId": 770207, "ZyBuildingType": 1001500, "GoodId": 8000015, "Num": 1, "Index": 15},
+    {"Id": 716000, "BuildingType": 716000, "BuildingGoodId": 770208, "ZyBuildingType": 1001600, "GoodId": 8000016, "Num": 1, "Index": 16},
+    {"Id": 717000, "BuildingType": 717000, "BuildingGoodId": 770209, "ZyBuildingType": 1001700, "GoodId": 8000017, "Num": 1, "Index": 17},
+    {"Id": 718000, "BuildingType": 718000, "BuildingGoodId": 770210, "ZyBuildingType": 1001800, "GoodId": 8000018, "Num": 1, "Index": 18},
+    {"Id": 719000, "BuildingType": 719000, "BuildingGoodId": 770211, "ZyBuildingType": 1001900, "GoodId": 8000019, "Num": 1, "Index": 19},
+    {"Id": 720000, "BuildingType": 720000, "BuildingGoodId": 770212, "ZyBuildingType": 1002000, "GoodId": 8000020, "Num": 1, "Index": 20}
+  ]
+}

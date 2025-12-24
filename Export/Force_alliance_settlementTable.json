@@ -1,0 +1,9 @@
+{
+  "table_name": "Force_alliance_settlementTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Story": 3, "Name": 329049, "GradeArray": [1, 1], "GradeArrayLength": 2, "Priority": 1, "AllianceRewardArray": ["7012;1", "7013;2", "7014;5"], "AllianceRewardArrayLength": 3, "AllianceRewardDic": {"7012": 1, "7013": 2, "7014": 5}, "ConditionDes": 329052, "Index": 0},
+    {"Id": 2, "Story": 3, "Name": 329050, "GradeArray": [2, 1], "GradeArrayLength": 2, "Priority": 2, "AllianceRewardArray": ["7032;1", "7033:2", "7034;5"], "AllianceRewardArrayLength": 3, "AllianceRewardDic": {"7032": 1, "7034": 5}, "ConditionDes": 329053, "Index": 1},
+    {"Id": 3, "Story": 3, "Name": 329051, "GradeArray": [3, 1], "GradeArrayLength": 2, "Priority": 3, "AllianceRewardArray": ["7052;1", "7053;2", "7054;5"], "AllianceRewardArrayLength": 3, "AllianceRewardDic": {"7052": 1, "7053": 2, "7054": 5}, "ConditionDes": 329054, "Index": 2}
+  ]
+}

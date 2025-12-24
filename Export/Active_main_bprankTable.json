@@ -1,0 +1,9 @@
+{
+  "table_name": "Active_main_bprankTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 10001, "Type": 26, "Description": 370403, "Gotype": 6124, "Go": 1, "Order": 1, "Index": 0},
+    {"Id": 10002, "Type": 23, "Description": 135082, "Gotype": 4, "Go": 0, "Order": 0, "Index": 1},
+    {"Id": 10003, "Type": 6217, "Description": 328203, "Gotype": 6142, "Go": 0, "Order": 0, "Index": 2}
+  ]
+}

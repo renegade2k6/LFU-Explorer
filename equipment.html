@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .equipment-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .equipment-set {
+            background: rgba(20, 20, 35, 0.95);
+            border-radius: 12px;
+            padding: 16px;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .set-header {
+            display: grid;
+            grid-template-columns: 80px 1fr;
+            gap: 14px;
+            margin-bottom: 16px;
+            align-items: start;
+        }
+
+        .set-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            border: 2px solid rgba(255, 215, 0, 0.5);
+            object-fit: contain;
+            background: linear-gradient(135deg, rgba(30, 30, 50, 0.8), rgba(20, 20, 35, 0.9));
+            padding: 8px;
+        }
+
+        .set-info {
+            display: flex;
+            flex-direction: column;
+            min-height: 80px;
+        }
+
+        .set-info h2 {
+            color: #ffd700;
+            margin: 0 0 8px 0;
+            font-size: 1.2em;
+            line-height: 1.2;
+            min-height: 1.2em;
+        }
+
+        .set-bonuses {
+            flex: 1;
+        }
+
+        .set-bonuses p {
+            margin: 3px 0;
+            color: #e0e0ff;
+            font-size: 0.8em;
+            line-height: 1.3;
+        }
+
+        .set-bonuses strong {
+            color: #ffd700;
+        }
+
+        .set-items {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            margin-top: auto;
+        }
+
+        .equipment-item {
+            background: rgba(10, 10, 25, 0.8);
+            border-radius: 6px;
+            padding: 6px;
+            text-align: center;
+            transition: transform 0.2s;
+            border: 1px solid rgba(255, 215, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .equipment-item:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 12px rgba(255, 215, 0, 0.4);
+            border-color: rgba(255, 215, 0, 0.6);
+        }
+
+        .equipment-item img {
+            width: 56px;
+            height: 56px;
+            object-fit: contain;
+            margin-bottom: 4px;
+            flex-shrink: 0;
+        }
+
+        .item-name {
+            display: block;
+            font-size: 0.7em;
+            color: #ddd;
+            word-wrap: break-word;
+            line-height: 1.1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .equipment-grid {
+                grid-template-columns: 1fr;
+                padding: 12px;
+                gap: 16px;
+            }
+
+            .page-title-section h1 {
+                font-size: 32px;
+            }
+
+            .page-subtitle {
+                font-size: 16px;
+            }
+
+            .set-header {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+
+            .set-info {
+                min-height: auto;
+            }
+
+            .set-items {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .equipment-item img {
+                width: 48px;
+                height: 48px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link active" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>Equipment Sets</h1>
+            <p class="page-subtitle">Discover equipment sets with bonuses and complete item collections</p>
+        </div>
+
+        <div style="max-width: 1400px; margin: 0 auto 20px; padding: 0 20px;">
+            <input type="search" id="equipment-search" placeholder="Search equipment sets..."
+                   style="width: 100%; padding: 12px 20px; font-size: 16px; border: 2px solid rgba(255, 215, 0, 0.3);
+                          border-radius: 8px; background: rgba(20, 20, 35, 0.95); color: #e0e0ff;
+                          transition: border-color 0.3s ease; outline: none;"
+                   onfocus="this.style.borderColor='rgba(255, 215, 0, 0.6)'"
+                   onblur="this.style.borderColor='rgba(255, 215, 0, 0.3)'">
+        </div>
+
+        <div class="equipment-grid" id="equipment-container"></div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        let allEquipmentSets = [];
+        let searchQuery = '';
+
+        async function loadEquipment() {
+            try {
+                const response = await fetch('Refrence/book_equipment_sets_list.json');
+                const allSets = await response.json();
+
+                // Remove duplicate sets by name, preferring sets with images
+                const setsMap = new Map();
+
+                allSets.forEach(set => {
+                    const existing = setsMap.get(set.Name);
+                    // Keep this set if: no existing set, OR existing has no image but this one does
+                    if (!existing || (!existing.Image && set.Image)) {
+                        setsMap.set(set.Name, set);
+                    }
+                });
+
+                allEquipmentSets = Array.from(setsMap.values());
+                renderEquipment();
+            } catch (error) {
+                console.error('Error loading equipment:', error);
+                document.getElementById('equipment-container').innerHTML = '<p style="color: #ff6b6b; text-align: center; padding: 40px;">Error loading equipment data</p>';
+            }
+        }
+
+        function renderEquipment() {
+            const grid = document.getElementById('equipment-container');
+            grid.innerHTML = '';
+
+            // Filter sets based on search query
+            const filteredSets = allEquipmentSets.filter(set => {
+                if (!searchQuery) return true;
+                return set.Name.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                       set.Bonus2.toLowerCase().includes(searchQuery.toLowerCase()) ||
+                       set.Bonus4.toLowerCase().includes(searchQuery.toLowerCase());
+            });
+
+            if (filteredSets.length === 0) {
+                grid.innerHTML = '<p style="color: #a3b4d6; text-align: center; padding: 40px; grid-column: 1 / -1;">No equipment sets found</p>';
+                return;
+            }
+
+            filteredSets.forEach(set => {
+                const setCard = document.createElement('div');
+                setCard.className = 'equipment-set';
+                setCard.innerHTML = `
+                    <div class="set-header">
+                        <img src="${set.Image}" alt="${set.Name}" class="set-icon" onerror="this.style.display='none'">
+                        <div class="set-info">
+                            <h2>${set.Name}</h2>
+                            <div class="set-bonuses">
+                                <p><strong>2-Piece:</strong> ${set.Bonus2}</p>
+                                <p><strong>4-Piece:</strong> ${set.Bonus4}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="set-items">
+                        ${(() => {
+                            // Show only one item per type
+                            const uniqueTypes = new Map();
+                            set.Items.forEach(item => {
+                                if (!uniqueTypes.has(item.Type)) {
+                                    uniqueTypes.set(item.Type, item);
+                                }
+                            });
+                            return Array.from(uniqueTypes.values()).map(item => `
+                                <div class="equipment-item">
+                                    <img src="${item.Icon}" alt="${item.Name}" loading="lazy" onerror="this.src='assets/Sprite/icon_default.png'">
+                                    <span class="item-name">${item.Name}</span>
+                                </div>
+                            `).join('');
+                        })()}
+                    </div>
+                `;
+                grid.appendChild(setCard);
+            });
+        }
+
+        // Add search functionality
+        document.getElementById('equipment-search').addEventListener('input', (e) => {
+            searchQuery = e.target.value;
+            renderEquipment();
+        });
+
+        loadEquipment();
+    </script>
+</body>
+</html>

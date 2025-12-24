@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes Collection | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        /* Compact modal layout to fit without scrollbars */
+        .hero-detail-page .modal-content {
+            max-height: 90vh !important;
+            overflow-y: auto !important;
+        }
+
+        .hero-detail-page {
+            margin: 20px auto !important;
+            padding: 0 !important;
+        }
+
+        .hero-detail-container {
+            background: rgba(20, 20, 35, 0.95);
+            border-radius: 12px;
+            padding: 24px;
+            border: 2px solid rgba(100, 149, 237, 0.3);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-detail-page .hero-detail-header {
+            grid-template-columns: 200px 1fr !important;
+            gap: 16px !important;
+            margin-bottom: 16px !important;
+        }
+
+        .hero-detail-page .hero-portrait-large {
+            padding: 12px !important;
+        }
+
+        .hero-detail-page .hero-info {
+            padding: 20px !important;
+        }
+
+        .hero-detail-page .hero-info h1 {
+            font-size: 2rem !important;
+            margin: 0 0 12px 0 !important;
+        }
+
+        .hero-detail-page .hero-stats h2,
+        .hero-detail-page .hero-skills h2 {
+            font-size: 1.1rem !important;
+            margin: 0 0 10px 0 !important;
+        }
+
+        .hero-detail-page .stats-grid {
+            gap: 8px !important;
+        }
+
+        .hero-detail-page .stat-item {
+            padding: 8px 12px !important;
+        }
+
+        .hero-detail-page .stat-label {
+            font-size: 0.65rem !important;
+            margin-bottom: 4px !important;
+        }
+
+        .hero-detail-page .stat-value {
+            font-size: 1.1rem !important;
+        }
+
+        .hero-detail-page .hero-stats,
+        .hero-detail-page .hero-skills {
+            padding: 0 !important;
+            margin-bottom: 20px !important;
+            background: transparent !important;
+            border: none !important;
+        }
+
+        .hero-detail-page .hero-stats:last-child,
+        .hero-detail-page .hero-skills:last-child {
+            margin-bottom: 0 !important;
+        }
+
+        .hero-detail-page .skills-grid {
+            gap: 12px !important;
+            display: grid !important;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)) !important;
+        }
+
+        .hero-detail-page .skill-item {
+            padding: 12px !important;
+            display: flex !important;
+            flex-direction: row !important;
+            align-items: flex-start !important;
+        }
+
+        .hero-detail-page .skill-icon {
+            width: 56px !important;
+            height: 56px !important;
+            padding: 6px !important;
+            margin-right: 10px !important;
+            flex-shrink: 0 !important;
+        }
+
+        .hero-detail-page .skill-info {
+            flex: 1 !important;
+        }
+
+        .hero-detail-page .skill-name {
+            font-size: 0.75rem !important;
+            margin: 0 0 4px 0 !important;
+        }
+
+        .hero-detail-page .skill-desc {
+            font-size: 0.7rem !important;
+            line-height: 1.4 !important;
+        }
+
+        .hero-detail-page .back-link {
+            margin-bottom: 16px !important;
+            display: inline-block !important;
+        }
+
+        .hero-detail-page .hero-detail-header {
+            margin-bottom: 20px !important;
+        }
+
+        /* Mobile responsive */
+        @media (max-width: 768px) {
+            .page-title-section h1 {
+                font-size: 32px;
+            }
+
+            .page-subtitle {
+                font-size: 16px;
+            }
+
+            .hero-detail-container {
+                padding: 16px;
+            }
+
+            .hero-detail-page .hero-detail-header {
+                grid-template-columns: 1fr !important;
+                text-align: center;
+            }
+
+            .hero-detail-page .hero-portrait-large {
+                margin: 0 auto;
+                max-width: 200px;
+            }
+
+            .hero-detail-page .hero-info h1 {
+                font-size: 1.5rem !important;
+            }
+
+            .hero-detail-page .stats-grid {
+                flex-wrap: wrap;
+                gap: 8px !important;
+            }
+
+            .hero-detail-page .stat-item {
+                flex: 1 1 calc(50% - 8px);
+                min-width: 120px;
+            }
+
+            .hero-detail-page .skills-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .hero-detail-page .skill-item {
+                max-width: none !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>Heroes Collection</h1>
+            <p class="page-subtitle">Browse all playable heroes with detailed stats, skills, and attributes</p>
+        </div>
+
+        <!-- Filters -->
+        <div class="hero-filters">
+            <div class="search-container">
+                <input type="search" id="hero-search" placeholder="Search heroes by name..." aria-label="Search heroes">
+            </div>
+
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="camp-0">Solari</button>
+                <button class="filter-tab" data-filter="camp-1">Minutemen</button>
+                <button class="filter-tab" data-filter="camp-2">Vindicators</button>
+                <button class="filter-tab" data-filter="camp-3">Wildlings</button>
+                <button class="filter-tab" data-filter="camp-4">Watchers</button>
+                <button class="filter-tab" data-filter="camp-6">Lawbringers</button>
+                <button class="filter-tab" data-filter="camp-7">Wreakers</button>
+                <button class="filter-tab" data-filter="camp-8">The Boys</button>
+            </div>
+
+            <div class="filter-tabs role-filters" style="display: none;">
+                <button class="filter-tab role-tab" data-role="all">All Roles</button>
+                <button class="filter-tab role-tab" data-role="tank">🛡️ Tank</button>
+                <button class="filter-tab role-tab" data-role="dps">⚔️ DPS</button>
+                <button class="filter-tab role-tab" data-role="support">💚 Support</button>
+                <button class="filter-tab role-tab" data-role="production">🔧 Production</button>
+            </div>
+        </div>
+
+        <!-- Hero Grid -->
+        <div id="hero-list" class="hero-grid" aria-live="polite">
+            <p style="color: #78c8ff;">Loading heroes...</p>
+        </div>
+
+        <!-- Detail Modal -->
+        <div id="hero-detail" class="modal" style="display:none">
+            <div class="modal-backdrop" onclick="closeDetail()"></div>
+            <div class="modal-content markdown-body hero-detail-page">
+                <button class="modal-close" onclick="closeDetail()" aria-label="Close">&times;</button>
+                <div id="detail-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    
+    <script>
+        const campNames = {
+            0: 'The Solari',
+            1: 'The Minutemen',
+            2: 'The Vindicators',
+            3: 'The Wildlings',
+            4: 'The Watchers',
+            5: 'Neutral',
+            6: 'The Lawbringers',
+            7: 'The Wreakers',
+            8: 'The Boys'
+        };
+
+        const campIcons = {
+            0: 'ICON_HERO_yangcheng_jianshe.png',
+            1: 'ICON_HERO_yangcheng_yiyongjun.png',
+            2: 'ICON_HERO_yangcheng_fuchouzhe.png',
+            3: null, // The Wildlings - no icon in files
+            4: 'ICON_HERO_yangcheng_shouwangzhe.png',
+            5: 'ICON_HERO_zhongli.png',
+            6: 'ICON_HERO_yangcheng_shen.png',
+            7: 'ICON_HERO_yangcheng_mo.png'
+        };
+
+        // Role mappings - production roles for fortress workers, combat roles for battle
+        const roleData = {
+            1107: { role: 'tank', name: 'Tank', icon: 'ICON_sanlei_01.png' },
+            1113: { role: 'tank', name: 'Tank', icon: 'ICON_sanlei_03.png' },
+            1114: { role: 'dps', name: 'Fighter', icon: 'ICON_sanlei_05.png' },
+            1115: { role: 'dps', name: 'Assassin', icon: 'ICON_erlei_07.png' },
+            1116: { role: 'dps', name: 'Marksman', icon: 'ICON_sanlei_06.png' },
+            1118: { role: 'support', name: 'Support', icon: 'ICON_erlei_12.png' },
+            1119: { role: 'support', name: 'Healer', icon: 'ICON_erlei_11.png' },
+            1120: { role: 'support', name: 'Buffer', icon: 'ICON_erlei_10.png' },
+            1121: { role: 'production', name: 'Gatherer', icon: 'ICON_erlei_15.png' },
+            1129: { role: 'production', name: 'Developer', icon: 'ICON_silei_01.png' },
+            1255: { role: 'production', name: 'Builder', icon: 'ICON_erlei_12.png' },
+            1257: { role: 'production', name: 'Researcher', icon: 'ICON_sanlei_05.png' },
+            1256: { role: 'production', name: 'Crafter', icon: 'ICON_erlei_06.png' },
+            1258: { role: 'production', name: 'Trader', icon: 'ICON_erlei_07.png' },
+            1260: { role: 'production', name: 'Logistics', icon: 'ICON_silei_03.png' }
+        };
+
+        function getHeroRoles(hero) {
+            if (!hero.Label1Array || hero.Label1ArrayLength === 0) return [];
+            
+            const roles = hero.Label1Array
+                .map(label => roleData[label])
+                .filter(Boolean);
+            
+            // Solari (Camp 0) heroes are fortress workers, not combat units
+            // Don't show production roles for them since that's their primary function
+            if (hero.Camp === 0) {
+                return roles.filter(r => r.role !== 'production');
+            }
+            
+            return roles;
+        }
+
+        let heroesData = [];
+        let skillsData = {};
+        let localizationData = {};
+        let currentFilters = { camp: 'all', role: 'all', search: '' };
+
+        // Load localization data first
+        fetch('Localization_LocalizationComponent_dictionary.json')
+            .then(r => r.json())
+            .then(data => {
+                // The localization file has structure: { "name": "...", "count": ..., "data": { "id": "text" } }
+                localizationData = data.data || {};
+                console.log('Loaded', Object.keys(localizationData).length, 'localization entries');
+                return fetch('Export/SkillTable.json');
+            })
+            .then(r => r.json())
+            .then(data => {
+                // Index skills by ID for quick lookup
+                data.data.forEach(skill => {
+                    skillsData[skill.Id] = skill;
+                });
+                return fetch('Export/HeroesTable.json');
+            })
+            .then(r => r.json())
+            .then(data => {
+                // Filter: Only playable heroes (Handbook === 1) and exclude Neutral camp (Camp !== 5)
+                heroesData = data.data.filter(h => h.Handbook === 1 && h.Camp !== 5);
+                renderHeroes();
+                
+                if (window.location.hash) {
+                    const id = parseInt(window.location.hash.slice(1));
+                    if (id) showDetail(id);
+                }
+            })
+            .catch(err => {
+                document.getElementById('hero-list').innerHTML = 
+                    '<p style="color: #ff6b6b;">Error loading heroes. Please run: python -m http.server 8000</p>';
+                console.error('Error:', err);
+            });
+
+        function getHeroRoles(hero) {
+            if (!hero.Label1Array || hero.Label1ArrayLength === 0) return [];
+            const roles = hero.Label1Array
+                .map(label => roleData[label])
+                .filter(Boolean);
+            return roles;
+        }
+
+        function getRarityClass(quality) {
+            const rarityClasses = {
+                1: 'common',      // Gray
+                2: 'uncommon',    // Green
+                3: 'rare',        // Blue
+                4: 'epic',        // Purple
+                5: 'legendary'    // Orange
+            };
+            return rarityClasses[quality] || 'common';
+        }
+
+        function renderHeroes() {
+            const grid = document.getElementById('hero-list');
+            
+            let filtered = heroesData.filter(hero => {
+                // Camp filter
+                if (currentFilters.camp !== 'all') {
+                    const campId = parseInt(currentFilters.camp.replace('camp-', ''));
+                    if (hero.Camp !== campId) return false;
+                }
+
+                // Role filter
+                if (currentFilters.role !== 'all') {
+                    const roles = getHeroRoles(hero);
+                    if (!roles.some(r => r.role === currentFilters.role)) return false;
+                }
+
+                // Search filter
+                if (currentFilters.search) {
+                    // We'll match by hero ID for now (names are localized)
+                    if (!hero.Id.toString().includes(currentFilters.search)) return false;
+                }
+
+                return true;
+            });
+
+            if (filtered.length === 0) {
+                grid.innerHTML = '<p style="color: #a3b4d6;">No heroes match your filters.</p>';
+                return;
+            }
+
+            grid.innerHTML = filtered.map(hero => {
+                const campName = campNames[hero.Camp] || 'Unknown';
+                const campIcon = campIcons[hero.Camp];
+                const quality = hero.QualityMin || 1;
+                const rarityClass = getRarityClass(quality);
+                const heroName = localizationData[hero.Name] || `Hero ${hero.Id}`;
+
+                return `
+                    <div class="hero-card ${rarityClass}" onclick="showDetail(${hero.Id})" data-camp="${hero.Camp}">
+                        <div class="hero-card-header">
+                            <img class="hero-portrait" src="assets/Sprite/${hero.TujianIcon}.png" alt="${heroName}" loading="lazy">
+                        </div>
+                        <div class="hero-card-body">
+                            <h3 class="hero-name">${heroName}</h3>
+                            <div class="hero-faction">
+                                ${campIcon ? `<img src="assets/Sprite/${campIcon}" class="faction-icon-small" alt="${campName}">` : ''}
+                                <span>${campName}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function showDetail(heroId) {
+            console.log('Opening hero:', heroId);
+            const hero = heroesData.find(h => h.Id === heroId);
+            if (!hero) {
+                console.error('Hero not found:', heroId);
+                return;
+            }
+
+            const campName = campNames[hero.Camp] || 'Unknown';
+            const campIcon = campIcons[hero.Camp];
+            const quality = hero.QualityMin || 1;
+            const rarityClass = getRarityClass(quality);
+            const heroName = localizationData[hero.Name] || `Hero ${hero.Id}`;
+
+            // Add dark theme class
+            document.body.classList.add('hero-detail-page');
+
+            const detailHtml = `
+                <a href="#" onclick="closeDetail(); return false;" class="back-link">&larr; Back to Heroes</a>
+
+                <div class="hero-detail-container">
+                <header class="hero-detail-header">
+                    <div class="hero-portrait-large">
+                        <img src="assets/Sprite/${hero.TujianIcon}.png" alt="${heroName}">
+                        <div class="hero-rarity-badge-large ${rarityClass}">${'★'.repeat(hero.Rarity)}</div>
+                    </div>
+                    <div class="hero-info">
+                        <h1>${heroName}</h1>
+                        <div class="hero-meta">
+                            <span class="badge badge-faction">
+                                ${campIcon ? `<img src="assets/Sprite/${campIcon}" alt="${campName}">` : ''}
+                                ${campName}
+                            </span>
+                        </div>
+                    </div>
+                </header>
+
+                <section class="hero-stats">
+                    <h2>Max Stats (Level 100)</h2>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-label">Strength</div>
+                            <div class="stat-value">${hero.StrengthDic['100']}</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Agility</div>
+                            <div class="stat-value">${hero.AgilityDic['100']}</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Intelligence</div>
+                            <div class="stat-value">${hero.IntelligenceDic['100']}</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Endurance</div>
+                            <div class="stat-value">${hero.EnduranceDic['100']}</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-label">Luck</div>
+                            <div class="stat-value">${hero.LuckDic['100']}</div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="hero-skills">
+                    <h2>Skills</h2>
+                    <div class="skills-grid">
+                        ${hero.SkillArray && hero.SkillArrayLength > 0 ? hero.SkillArray.map(skillId => {
+                            const skill = skillsData[skillId];
+                            if (!skill) return '';
+                            
+                            const skillName = localizationData[skill.Name] || `Skill ${skillId}`;
+                            let skillDesc = localizationData[skill.Des] || `Localization: ${skill.Des}`;
+
+                            // Replace {0}, {1}, {2} etc with values from EffectNumArray
+                            // Format: "48%;12%/55%;13.6%/60%;15.2%/68%;16.8%/80%;20%"
+                            // This is 5 level pairs, each with 2 stats separated by semicolon
+                            // {0} = first stat across 5 levels: 48/55/60/68/80%
+                            // {1} = second stat across 5 levels: 12/13.6/15.2/16.8/20%
+                            if (skill.EffectNumArray && skill.EffectNumArrayLength > 0) {
+                                const effectStr = skill.EffectNumArray.join('/');
+
+                                // Split into level pairs: ["48%;12%", "55%;13.6%", ...]
+                                const levelPairs = effectStr.split('/');
+
+                                if (levelPairs.length === 5) {
+                                    // Extract values for each placeholder
+                                    const statsPerLevel = levelPairs[0].split(';').length;
+
+                                    for (let statIndex = 0; statIndex < statsPerLevel; statIndex++) {
+                                        const placeholder = `{${statIndex}}`;
+                                        if (skillDesc.includes(placeholder)) {
+                                            // Extract this stat's values across all 5 levels
+                                            const values = levelPairs.map(pair => {
+                                                const stats = pair.split(';');
+                                                return stats[statIndex] || '';
+                                            }).filter(v => v);
+
+                                            const replacement = values.join('/');
+                                            skillDesc = skillDesc.replace(new RegExp(`\\{${statIndex}\\}`, 'g'), replacement);
+                                        }
+                                    }
+                                }
+                            }
+                            
+                            return `
+                                <div class="skill-item">
+                                    <img src="assets/Sprite/${skill.Icon}.png" class="skill-icon" alt="${skillName}" loading="lazy">
+                                    <div class="skill-info">
+                                        <div class="skill-name">${skillName}</div>
+                                        <div class="skill-desc">${skillDesc}</div>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('') : '<p style="color: #a3b4d6;">No skills</p>'}
+                    </div>
+                </section>
+                </div>
+            `;
+
+            document.getElementById('detail-content').innerHTML = detailHtml;
+            document.getElementById('hero-detail').style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+            window.location.hash = heroId;
+        }
+
+        function closeDetail() {
+            console.log('Closing hero detail');
+            document.body.classList.remove('hero-detail-page');
+            document.getElementById('hero-detail').style.display = 'none';
+            document.body.style.overflow = '';
+            history.pushState("", document.title, window.location.pathname);
+        }
+
+        // Filter tabs
+        document.querySelectorAll('.filter-tab:not(.role-tab)').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.filter-tab:not(.role-tab)').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentFilters.camp = tab.dataset.filter;
+                renderHeroes();
+            });
+        });
+
+        document.querySelectorAll('.role-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.role-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentFilters.role = tab.dataset.role;
+                renderHeroes();
+            });
+        });
+
+        // Search
+        document.getElementById('hero-search').addEventListener('input', (e) => {
+            currentFilters.search = e.target.value.toLowerCase();
+            renderHeroes();
+        });
+
+        window.addEventListener('popstate', () => {
+            if (!window.location.hash) closeDetail();
+        });
+    </script>
+    <script src="back-to-top.js" defer></script>
+</body>
+</html>

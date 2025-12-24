@@ -1,0 +1,10 @@
+{
+  "table_name": "Double_advancementTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 2001, "Hero1IdArray": [], "Hero1IdArrayLength": 0, "QualityArray": ["4;4", "5;4", "5;5", "6;5", "7;6"], "QualityArrayLength": 5, "RewardArray": [70041, 70042, 70043, 70044, 70045], "RewardArrayLength": 5, "RecruitFront": "img_qianqi_shangye_01", "HeroIdArray": [2412, 2401], "HeroIdArrayLength": 2, "Index": 0},
+    {"Id": 2002, "Hero1IdArray": [], "Hero1IdArrayLength": 0, "QualityArray": ["4;4", "5;4", "5;5", "6;5", "7;6"], "QualityArrayLength": 5, "RewardArray": [70046, 70047, 70048, 70049, 70050], "RewardArrayLength": 5, "RecruitFront": "img_qianqi_shangye_03", "HeroIdArray": [2201, 2200], "HeroIdArrayLength": 2, "Index": 1},
+    {"Id": 2003, "Hero1IdArray": [], "Hero1IdArrayLength": 0, "QualityArray": ["4;4", "5;4", "5;5", "6;5", "7;6"], "QualityArrayLength": 5, "RewardArray": [70051, 70052, 70053, 70054, 70055], "RewardArrayLength": 5, "RecruitFront": "img_qianqi_shangye_04", "HeroIdArray": [2300, 2301], "HeroIdArrayLength": 2, "Index": 2},
+    {"Id": 2004, "Hero1IdArray": [], "Hero1IdArrayLength": 0, "QualityArray": ["4;4", "5;4", "5;5", "6;5", "7;6"], "QualityArrayLength": 5, "RewardArray": [70056, 70057, 70058, 70059, 70060], "RewardArrayLength": 5, "RecruitFront": "img_qianqi_shangye_02", "HeroIdArray": [2100, 2101], "HeroIdArrayLength": 2, "Index": 3}
+  ]
+}

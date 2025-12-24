@@ -1,0 +1,16 @@
+{
+  "table_name": "Street_pveTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1001, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 1001, "WinReward": 690001, "Index": 0},
+    {"Id": 1002, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 1003, "WinReward": 690003, "Index": 1},
+    {"Id": 1003, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 1005, "WinReward": 690005, "Index": 2},
+    {"Id": 1004, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 1006, "WinReward": 690006, "Index": 3},
+    {"Id": 1005, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100001, "WinReward": 700001, "Index": 4},
+    {"Id": 1006, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100002, "WinReward": 700002, "Index": 5},
+    {"Id": 1007, "Level": 1, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100003, "WinReward": 700003, "Index": 6},
+    {"Id": 1008, "Level": 2, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100004, "WinReward": 700004, "Index": 7},
+    {"Id": 1009, "Level": 2, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100005, "WinReward": 700005, "Index": 8},
+    {"Id": 1010, "Level": 3, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "Army": 100006, "WinReward": 700006, "Index": 9}
+  ]
+}

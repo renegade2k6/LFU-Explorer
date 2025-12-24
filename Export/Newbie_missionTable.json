@@ -1,0 +1,26 @@
+{
+  "table_name": "Newbie_missionTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "Condition": 1, "Name": 370684, "Detail": 700000010, "Icon": "btn_qianqifufei_ad1", "MissionDesc": 700000013, "UnlockTips": 700000012, "GotoParam": 40125, "Index": 0},
+    {"Id": 2, "Condition": 1, "Name": 320297, "Detail": 0, "Icon": "btn_qianqifufei_ad3", "MissionDesc": 700000014, "UnlockTips": 700000018, "GotoParam": 1004, "Index": 1},
+    {"Id": 3, "Condition": 1000, "Name": 173000, "Detail": 700000010, "Icon": "btn_qianqifufei_ad2", "MissionDesc": 700000015, "UnlockTips": 700000012, "GotoParam": 0, "Index": 2},
+    {"Id": 4, "Condition": 1, "Name": 150774, "Detail": 700000010, "Icon": "btn_qianqifufei_ad5", "MissionDesc": 700000016, "UnlockTips": 700000019, "GotoParam": 30106, "Index": 3},
+    {"Id": 5, "Condition": 1, "Name": 370684, "Detail": 700000010, "Icon": "btn_qianqifufei_ad1", "MissionDesc": 700000013, "UnlockTips": 700000012, "GotoParam": 40125, "Index": 4},
+    {"Id": 6, "Condition": 1, "Name": 320297, "Detail": 0, "Icon": "btn_qianqifufei_ad3", "MissionDesc": 700000014, "UnlockTips": 700000018, "GotoParam": 1004, "Index": 5},
+    {"Id": 7, "Condition": 1000, "Name": 173000, "Detail": 700000010, "Icon": "btn_qianqifufei_ad2", "MissionDesc": 700000015, "UnlockTips": 700000012, "GotoParam": 0, "Index": 6},
+    {"Id": 8, "Condition": 1, "Name": 150774, "Detail": 700000010, "Icon": "btn_qianqifufei_ad5", "MissionDesc": 700000016, "UnlockTips": 700000019, "GotoParam": 30106, "Index": 7},
+    {"Id": 9, "Condition": 1, "Name": 370684, "Detail": 700000010, "Icon": "btn_qianqifufei_ad1", "MissionDesc": 700000013, "UnlockTips": 700000012, "GotoParam": 40125, "Index": 8},
+    {"Id": 10, "Condition": 1, "Name": 320297, "Detail": 0, "Icon": "btn_qianqifufei_ad3", "MissionDesc": 700000014, "UnlockTips": 700000018, "GotoParam": 1004, "Index": 9},
+    {"Id": 11, "Condition": 1000, "Name": 173000, "Detail": 700000010, "Icon": "btn_qianqifufei_ad2", "MissionDesc": 700000015, "UnlockTips": 700000012, "GotoParam": 0, "Index": 10},
+    {"Id": 12, "Condition": 1, "Name": 700000121, "Detail": 700000010, "Icon": "btn_qianqifufei_ad4", "MissionDesc": 700000017, "UnlockTips": 700000021, "GotoParam": 9001, "Index": 11},
+    {"Id": 13, "Condition": 1, "Name": 370684, "Detail": 700000010, "Icon": "btn_qianqifufei_ad1", "MissionDesc": 700000013, "UnlockTips": 700000012, "GotoParam": 40125, "Index": 12},
+    {"Id": 14, "Condition": 1, "Name": 320297, "Detail": 0, "Icon": "btn_qianqifufei_ad3", "MissionDesc": 700000014, "UnlockTips": 700000018, "GotoParam": 1004, "Index": 13},
+    {"Id": 15, "Condition": 1000, "Name": 173000, "Detail": 700000010, "Icon": "btn_qianqifufei_ad2", "MissionDesc": 700000015, "UnlockTips": 700000012, "GotoParam": 0, "Index": 14},
+    {"Id": 16, "Condition": 1, "Name": 150774, "Detail": 700000010, "Icon": "btn_qianqifufei_ad5", "MissionDesc": 700000016, "UnlockTips": 700000019, "GotoParam": 30103, "Index": 15},
+    {"Id": 17, "Condition": 1, "Name": 370684, "Detail": 700000010, "Icon": "btn_qianqifufei_ad1", "MissionDesc": 700000013, "UnlockTips": 700000012, "GotoParam": 40125, "Index": 16},
+    {"Id": 18, "Condition": 1, "Name": 320297, "Detail": 0, "Icon": "btn_qianqifufei_ad3", "MissionDesc": 700000014, "UnlockTips": 700000018, "GotoParam": 1004, "Index": 17},
+    {"Id": 19, "Condition": 1000, "Name": 173000, "Detail": 700000010, "Icon": "btn_qianqifufei_ad2", "MissionDesc": 700000015, "UnlockTips": 700000012, "GotoParam": 0, "Index": 18},
+    {"Id": 20, "Condition": 5, "Name": 700000022, "Detail": 0, "Icon": "btn_qianqifufei_nate", "MissionDesc": 700000023, "UnlockTips": 700000024, "GotoParam": 30103, "Index": 19}
+  ]
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Frames | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #ff6b9d 0%, #c44569 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0 0 8px 0;
+        }
+
+        .page-note {
+            color: #ffd700;
+            font-size: 14px;
+            font-style: italic;
+            margin: 0;
+        }
+
+        .filter-section {
+            max-width: 1400px;
+            margin: 0 auto 24px;
+            padding: 0 24px;
+        }
+
+        .filter-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 10px 20px;
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 8px;
+            color: #8080a0;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .filter-btn:hover {
+            border-color: #ff6b9d;
+            color: #ff6b9d;
+        }
+
+        .filter-btn.active {
+            background: rgba(255, 107, 157, 0.2);
+            border-color: #ff6b9d;
+            color: #ff6b9d;
+        }
+
+        .frames-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+            gap: 20px;
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .frame-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #2a2a4a;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .frame-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(255, 107, 157, 0.3);
+        }
+
+        .frame-card.prestige {
+            border-color: #9333ea;
+        }
+
+        .frame-card.prestige:hover {
+            border-color: #a855f7;
+            box-shadow: 0 8px 24px rgba(147, 51, 234, 0.4);
+        }
+
+        .frame-card.alliance {
+            border-color: #4a9eff;
+        }
+
+        .frame-card.alliance:hover {
+            border-color: #6bb6ff;
+            box-shadow: 0 8px 24px rgba(74, 158, 255, 0.4);
+        }
+
+        .frame-card.vip {
+            border-color: #ff8c00;
+        }
+
+        .frame-card.vip:hover {
+            border-color: #ffa500;
+            box-shadow: 0 8px 24px rgba(255, 140, 0, 0.4);
+        }
+
+        .frame-card.special {
+            border-color: #00ff9f;
+        }
+
+        .frame-card.special:hover {
+            border-color: #00ffcc;
+            box-shadow: 0 8px 24px rgba(0, 255, 159, 0.4);
+        }
+
+        .frame-card-header {
+            position: relative;
+            padding: 20px;
+            background: transparent;
+            min-height: 180px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .frame-icon {
+            width: 100%;
+            max-width: 140px;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .frame-card-body {
+            padding: 16px;
+            border-top: 1px solid #2a2a4a;
+        }
+
+        .frame-card-body h3 {
+            margin: 0 0 12px 0;
+            color: #e0e0ff;
+            font-size: 16px;
+            font-weight: 600;
+            text-align: center;
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .frame-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .frame-category-badge {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .prestige .frame-category-badge {
+            background: linear-gradient(135deg, rgba(147, 51, 234, 0.2), rgba(147, 51, 234, 0.1));
+            color: #a855f7;
+            border: 1px solid rgba(147, 51, 234, 0.4);
+        }
+
+        .alliance .frame-category-badge {
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.2), rgba(74, 158, 255, 0.1));
+            color: #4a9eff;
+            border: 1px solid rgba(74, 158, 255, 0.4);
+        }
+
+        .vip .frame-category-badge {
+            background: linear-gradient(135deg, rgba(255, 140, 0, 0.2), rgba(255, 140, 0, 0.1));
+            color: #ff8c00;
+            border: 1px solid rgba(255, 140, 0, 0.4);
+        }
+
+        .special .frame-category-badge {
+            background: linear-gradient(135deg, rgba(0, 255, 159, 0.2), rgba(0, 255, 159, 0.1));
+            color: #00ff9f;
+            border: 1px solid rgba(0, 255, 159, 0.4);
+        }
+
+        .event .frame-category-badge {
+            background: linear-gradient(135deg, rgba(255, 107, 157, 0.2), rgba(255, 107, 157, 0.1));
+            color: #ff6b9d;
+            border: 1px solid rgba(255, 107, 157, 0.4);
+        }
+
+        .frame-availability {
+            font-size: 11px;
+            color: #606080;
+            font-style: italic;
+            margin-top: 6px;
+            text-align: center;
+        }
+
+        .frame-description {
+            font-size: 11px;
+            color: #b0b0d0;
+            line-height: 1.5;
+            margin-top: 8px;
+            padding: 8px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            min-height: 50px;
+        }
+
+        .cosmetic-note {
+            background: rgba(255, 215, 0, 0.1);
+            border: 1px solid rgba(255, 215, 0, 0.3);
+            padding: 8px;
+            border-radius: 6px;
+            margin-top: 8px;
+            font-size: 11px;
+            color: #ffd700;
+            text-align: center;
+        }
+
+        @media (max-width: 900px) {
+            .frames-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link active" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <div class="page-title-section">
+            <h1>Player Frames</h1>
+            <p class="page-subtitle">Decorative profile frames and achievement indicators</p>
+            <p class="page-note">✨ Cosmetic Only - No Gameplay Buffs</p>
+        </div>
+
+        <!-- Decor Sub-Navigation -->
+        <div style="background: rgba(20, 20, 35, 0.6); border-bottom: 1px solid rgba(74, 158, 255, 0.2); padding: 6px 0; overflow-x: auto; margin-bottom: 16px;">
+            <div style="display: flex; gap: 4px; justify-content: center; flex-wrap: nowrap; padding: 0 12px; max-width: 1600px; margin: 0 auto;">
+                <a href="decors.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">← All</a>
+                <a href="fortress.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🏰 Fortress</a>
+                <a href="universal-apc-skins.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🚗 APC</a>
+                <a href="player-frames.html" style="padding: 5px 10px; font-size: 12px; color: #4a9eff; background: rgba(74, 158, 255, 0.2); border: 1px solid rgba(74, 158, 255, 0.5); border-radius: 5px; text-decoration: none; font-weight: 600; white-space: nowrap;">🖼️ Frames</a>
+                <a href="peace-treaty.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🛡️ Peace</a>
+                <a href="wings.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">✨ Wings</a>
+                <a href="nameplates.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">📛 Nameplates</a>
+                <a href="chat-bubbles.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💬 Chat</a>
+                <a href="marching-trails.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🔥 Trails</a>
+                <a href="relocation-animations.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🌀 Relocation</a>
+                <a href="auras.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💫 Auras</a>
+                <a href="ornaments.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🎀 Ornaments</a>
+                <a href="profile-cards.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🃏 Cards</a>
+            </div>
+        </div>
+        <div class="filter-section">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">All Frames</button>
+                <button class="filter-btn" data-filter="event">Event Frames</button>
+                <button class="filter-btn" data-filter="prestige">Prestige Ranks</button>
+                <button class="filter-btn" data-filter="alliance">Alliance Status</button>
+                <button class="filter-btn" data-filter="vip">VIP Frames</button>
+                <button class="filter-btn" data-filter="special">Special Frames</button>
+            </div>
+        </div>
+
+        <div class="frames-grid" id="frames-grid">
+            <!-- Cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        // Load localization and player frames data
+        Promise.all([
+            fetch('Localization_LocalizationComponent_dictionary.json').then(r => r.json()),
+            fetch('Refrence/player_frames.json').then(r => r.json())
+        ]).then(([localization, playerFrames]) => {
+            const locData = localization.data;
+            let currentFilter = 'all';
+
+            function getLocalizedText(id) {
+                return locData[id] || id;
+            }
+
+            function getCategoryName(frame) {
+                const id = frame.Id;
+
+                // Prestige Frames: 300101-300110
+                if (id >= 300101 && id <= 300110) return 'Prestige';
+
+                // Alliance Frames: 300014-300016, 300026
+                if ([300014, 300015, 300016, 300026].includes(id)) return 'Alliance';
+
+                // VIP Frames: 300012, 300020
+                if ([300012, 300020].includes(id)) return 'VIP';
+
+                // Special Frame: 300113
+                if (id === 300113) return 'Special';
+
+                // Default to Event
+                return 'Event';
+            }
+
+            function getCategoryClass(category) {
+                return category.toLowerCase();
+            }
+
+            function getAvailabilityText(isShow) {
+                if (isShow === '1') return 'Always Available';
+                if (isShow === '2') return 'Limited/Hidden';
+                if (isShow && isShow.startsWith('6;')) return 'Event-Based';
+                return 'Status Indicator';
+            }
+
+            function renderFrames(filter = 'all') {
+                let filteredFrames = playerFrames;
+
+                if (filter === 'event') {
+                    filteredFrames = playerFrames.filter(f => getCategoryName(f) === 'Event');
+                } else if (filter === 'prestige') {
+                    filteredFrames = playerFrames.filter(f => getCategoryName(f) === 'Prestige');
+                } else if (filter === 'alliance') {
+                    filteredFrames = playerFrames.filter(f => getCategoryName(f) === 'Alliance');
+                } else if (filter === 'vip') {
+                    filteredFrames = playerFrames.filter(f => getCategoryName(f) === 'VIP');
+                } else if (filter === 'special') {
+                    filteredFrames = playerFrames.filter(f => getCategoryName(f) === 'Special');
+                }
+
+                const cardsHtml = filteredFrames.map(frame => {
+                    const name = getLocalizedText(frame.Name);
+                    const description = getLocalizedText(frame.Description);
+                    const category = getCategoryName(frame);
+                    const categoryClass = getCategoryClass(category);
+                    const availability = getAvailabilityText(frame.IsShow);
+                    const iconPath = `assets/Sprite/${frame.Picture}.png`;
+
+                    return `
+                        <div class="frame-card ${categoryClass}">
+                            <div class="frame-card-header">
+                                <img src="${iconPath}" alt="${name}" class="frame-icon" loading="lazy">
+                            </div>
+                            <div class="frame-card-body">
+                                <h3>${name}</h3>
+                                <div class="frame-meta">
+                                    <div class="frame-category-badge">${category}</div>
+                                    <div class="frame-description">${description}</div>
+                                    <div class="frame-availability">${availability}</div>
+                                    <div class="cosmetic-note">Cosmetic Only</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                document.getElementById('frames-grid').innerHTML = cardsHtml;
+            }
+
+            // Initial render
+            renderFrames();
+
+            // Filter button handlers
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+                    btn.classList.add('active');
+                    const filter = btn.getAttribute('data-filter');
+                    currentFilter = filter;
+                    renderFrames(filter);
+                });
+            });
+
+        }).catch(error => {
+            console.error('Error loading player frames:', error);
+            document.getElementById('frames-grid').innerHTML = `
+                <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: #ff6b6b;">
+                    <h3>Error Loading Player Frames</h3>
+                    <p>Unable to load player frames data. Please check the console for details.</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

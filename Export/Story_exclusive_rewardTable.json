@@ -1,0 +1,7 @@
+{
+  "table_name": "Story_exclusive_rewardTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "Story": 101, "RewardIDArray": ["7,450043", "7,800020", "7,240002", "7,700867"], "RewardIDArrayLength": 4, "PrePic": "banner_story6_07", "Pic": "banner_story6_06", "Dialog": 606000350, "Index": 0}
+  ]
+}

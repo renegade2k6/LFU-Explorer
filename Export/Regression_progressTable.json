@@ -1,0 +1,11 @@
+{
+  "table_name": "Regression_progressTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1001, "Progress": 20, "RewardFree": 2610003, "RewardPay": 2610007, "Index": 0},
+    {"Id": 1002, "Progress": 40, "RewardFree": 2610004, "RewardPay": 2610008, "Index": 1},
+    {"Id": 1003, "Progress": 60, "RewardFree": 2610005, "RewardPay": 2610009, "Index": 2},
+    {"Id": 1004, "Progress": 80, "RewardFree": 2610006, "RewardPay": 2610010, "Index": 3},
+    {"Id": 1005, "Progress": 100, "RewardFree": 0, "RewardPay": 0, "Index": 4}
+  ]
+}

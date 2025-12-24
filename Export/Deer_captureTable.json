@@ -1,0 +1,16 @@
+{
+  "table_name": "Deer_captureTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "Health": 1, "NormalProb": 0.6, "RareProb": 0.3, "StateDesc": 137080, "TextColor": "#4c7c1e", "StandbyAction": 0, "Index": 0},
+    {"Id": 2, "Health": 2, "NormalProb": 0.55, "RareProb": 0.27, "StateDesc": 137080, "TextColor": "#4c7c1e", "StandbyAction": 0, "Index": 1},
+    {"Id": 3, "Health": 3, "NormalProb": 0.5, "RareProb": 0.24, "StateDesc": 137080, "TextColor": "#4c7c1e", "StandbyAction": 0, "Index": 2},
+    {"Id": 4, "Health": 4, "NormalProb": 0.45, "RareProb": 0.21, "StateDesc": 137079, "TextColor": "#8e7c19", "StandbyAction": 0, "Index": 3},
+    {"Id": 5, "Health": 5, "NormalProb": 0.4, "RareProb": 0.18, "StateDesc": 137079, "TextColor": "#8e7c19", "StandbyAction": 0, "Index": 4},
+    {"Id": 6, "Health": 6, "NormalProb": 0.35, "RareProb": 0.15, "StateDesc": 137079, "TextColor": "#8e7c19", "StandbyAction": 0, "Index": 5},
+    {"Id": 7, "Health": 7, "NormalProb": 0.3, "RareProb": 0.12, "StateDesc": 137078, "TextColor": "#a47119", "StandbyAction": 0, "Index": 6},
+    {"Id": 8, "Health": 8, "NormalProb": 0.25, "RareProb": 0.1, "StateDesc": 137078, "TextColor": "#a47119", "StandbyAction": 0, "Index": 7},
+    {"Id": 9, "Health": 9, "NormalProb": 0.2, "RareProb": 0.08, "StateDesc": 137077, "TextColor": "#bf2e2e", "StandbyAction": 0, "Index": 8},
+    {"Id": 10, "Health": 10, "NormalProb": 0.15, "RareProb": 0.05, "StateDesc": 137077, "TextColor": "#bf2e2e", "StandbyAction": 0, "Index": 9}
+  ]
+}

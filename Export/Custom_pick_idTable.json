@@ -1,0 +1,12 @@
+{
+  "table_name": "Custom_pick_idTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "AlliancesGiftId": 920103, "TriggerGiftId": 920003, "QuestWishProp": 270218, "VehicleId": 3, "ModifiedCarBg": "img_morixuanshang_BG_che02", "ModifiedCarImage": "icon_gaizhuangche_04", "PrivilegeCardIdFirst": 920201, "PrivilegeCardIdNormal": 920301, "Index": 0},
+    {"Id": 2, "AlliancesGiftId": 920104, "TriggerGiftId": 920004, "QuestWishProp": 270217, "VehicleId": 5, "ModifiedCarBg": "img_morixuanshang_BG_che06", "ModifiedCarImage": "icon_gaizhuangche_05", "PrivilegeCardIdFirst": 920202, "PrivilegeCardIdNormal": 920302, "Index": 1},
+    {"Id": 3, "AlliancesGiftId": 920105, "TriggerGiftId": 920005, "QuestWishProp": 270212, "VehicleId": 2, "ModifiedCarBg": "img_morixuanshang_BG_che01", "ModifiedCarImage": "icon_gaizhuangche_02", "PrivilegeCardIdFirst": 920203, "PrivilegeCardIdNormal": 920303, "Index": 2},
+    {"Id": 4, "AlliancesGiftId": 920106, "TriggerGiftId": 920006, "QuestWishProp": 270216, "VehicleId": 6, "ModifiedCarBg": "img_morixuanshang_BG_che03", "ModifiedCarImage": "icon_gaizhuangche_07", "PrivilegeCardIdFirst": 920204, "PrivilegeCardIdNormal": 920304, "Index": 3},
+    {"Id": 5, "AlliancesGiftId": 920107, "TriggerGiftId": 920007, "QuestWishProp": 270213, "VehicleId": 9, "ModifiedCarBg": "img_morixuanshang_BG_che05", "ModifiedCarImage": "icon_gaizhuangche_08", "PrivilegeCardIdFirst": 920205, "PrivilegeCardIdNormal": 920305, "Index": 4},
+    {"Id": 6, "AlliancesGiftId": 920108, "TriggerGiftId": 920008, "QuestWishProp": 270215, "VehicleId": 7, "ModifiedCarBg": "img_morixuanshang_BG_che04", "ModifiedCarImage": "icon_gaizhuangche_06", "PrivilegeCardIdFirst": 920206, "PrivilegeCardIdNormal": 920306, "Index": 5}
+  ]
+}

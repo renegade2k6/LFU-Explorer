@@ -1,0 +1,31 @@
+{
+  "table_name": "ZombiewalkTable",
+  "row_count": 25,
+  "data": [
+    {"Id": 660002, "ModelArray": ["Zombie_mine_pve"], "ModelArrayLength": 1, "QuantityArray": [2], "QuantityArrayLength": 1, "Index": 0},
+    {"Id": 660004, "ModelArray": ["Zombie_mine_pve"], "ModelArrayLength": 1, "QuantityArray": [2], "QuantityArrayLength": 1, "Index": 1},
+    {"Id": 660010, "ModelArray": ["Tankzombie_world", "Zombie_mine_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 2},
+    {"Id": 660011, "ModelArray": ["Zombie_poisongirl_pve", "Zomnum_woman_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 3},
+    {"Id": 660021, "ModelArray": ["Zombie_poisongirl_pve", "Swoopzombie_woman_pve", "Zombie_tumour_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 4},
+    {"Id": 660009, "ModelArray": ["Zombie_mine_pve", "Zombies_man_world"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 5},
+    {"Id": 660022, "ModelArray": ["Zombie_butcher_pve"], "ModelArrayLength": 1, "QuantityArray": [1], "QuantityArrayLength": 1, "Index": 6},
+    {"Id": 660005, "ModelArray": ["Zombie_mine_pve", "Zomnum_woman_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 7},
+    {"Id": 660007, "ModelArray": ["Zombie_mine_pve", "Swoopzombie_woman_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 8},
+    {"Id": 660006, "ModelArray": ["Zombies_man_world", "Zombies_man_world"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 9},
+    {"Id": 660012, "ModelArray": ["Zombies_man_world", "Swoopzombie_woman_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 10},
+    {"Id": 660020, "ModelArray": ["Zombie_butcher_pve", "Zombies_man_world", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 11},
+    {"Id": 660019, "ModelArray": ["Zombie_tumour_pve", "Swoopzombie_woman_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 12},
+    {"Id": 660013, "ModelArray": ["Zombie_mine_pve", "Zomnum_woman_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 13},
+    {"Id": 660014, "ModelArray": ["Zombie_tumour_pve", "Zombie_mine_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 14},
+    {"Id": 660024, "ModelArray": ["Zombie_tumour_pve", "Swoopzombie_woman_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 15},
+    {"Id": 660025, "ModelArray": ["Zombie_tumour_pve", "Zombie_tumour_pve", "Tyrant_world"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 16},
+    {"Id": 660023, "ModelArray": ["Zombies_man_world", "Zombie_poisongirl_pve", "Swoopzombie_woman_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 17},
+    {"Id": 660015, "ModelArray": ["Zombie_mine_pve", "Tankzombie_world"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 18},
+    {"Id": 660017, "ModelArray": ["Zombie_mine_pve", "Zombies_man_world", "Tankzombie_world"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 19},
+    {"Id": 660026, "ModelArray": ["Zomnum_woman_pve", "Zombie_poisongirl_pve", "Zomnum_woman_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 20},
+    {"Id": 660016, "ModelArray": ["Zombie_mine_pve", "Zombie_tumour_pve", "Tyrant_world"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 21},
+    {"Id": 660027, "ModelArray": ["Zombie_tumour_pve", "Zombie_butcher_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 3, "QuantityArray": [1, 1, 1], "QuantityArrayLength": 3, "Index": 22},
+    {"Id": 660008, "ModelArray": ["Zombie_mine_pve", "Zomnum_woman_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 23},
+    {"Id": 660018, "ModelArray": ["Zombie_mine_pve", "Zombie_poisongirl_pve"], "ModelArrayLength": 2, "QuantityArray": [1, 1], "QuantityArrayLength": 2, "Index": 24}
+  ]
+}

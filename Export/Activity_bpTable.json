@@ -1,0 +1,7 @@
+{
+  "table_name": "Activity_bpTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "AdvanceCardArray": [], "AdvanceCardArrayLength": 0, "MasterCard": 0, "ExpArray": [203115, 100], "ExpArrayLength": 2, "ExtraCostArray": ["1;2104", "5;2105", "12;2106"], "ExtraCostArrayLength": 3, "ExtraCostDic": {"1": 2104, "5": 2105, "12": 2106}, "BpType": 1, "NormalAwardPreviewArray": ["goods,700851,72", "goods,210397,35", "goods,200402,30", "goods,200056,300"], "NormalAwardPreviewArrayLength": 4, "AdvanceAwardPreviewArray": ["goods,410126,1", "goods,700851,60", "goods,210397,70", "goods,700843,50", "goods,700846,1", "goods,240001,600"], "AdvanceAwardPreviewArrayLength": 6, "AdvanceCardDesc": 382284, "MasterCardDescArray": [382285, 382287], "MasterCardDescArrayLength": 2, "SeasonTitle": 308212, "Icon": "ui_saijizhanling_rukou", "Name": 308220, "Desc": 382286, "Desc2": 308497, "EntryLevel": 8, "Index": 0}
+  ]
+}

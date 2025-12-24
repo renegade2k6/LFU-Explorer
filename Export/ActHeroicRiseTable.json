@@ -1,0 +1,12 @@
+{
+  "table_name": "ActHeroicRiseTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 20001, "Name": "370501", "Reward": 1510001, "ActivityID": 80000, "RankMin": 1, "RankMax": 1, "Index": 0},
+    {"Id": 20002, "Name": "370502", "Reward": 1510002, "ActivityID": 80000, "RankMin": 2, "RankMax": 2, "Index": 1},
+    {"Id": 20003, "Name": "370503", "Reward": 1510003, "ActivityID": 80000, "RankMin": 3, "RankMax": 3, "Index": 2},
+    {"Id": 20004, "Name": "370504", "Reward": 1510004, "ActivityID": 80000, "RankMin": 4, "RankMax": 10, "Index": 3},
+    {"Id": 20005, "Name": "370505", "Reward": 1510005, "ActivityID": 80000, "RankMin": 11, "RankMax": 50, "Index": 4},
+    {"Id": 20006, "Name": "370506", "Reward": 1510006, "ActivityID": 80000, "RankMin": 51, "RankMax": 150, "Index": 5}
+  ]
+}

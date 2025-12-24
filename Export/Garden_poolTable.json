@@ -1,0 +1,20 @@
+{
+  "table_name": "Garden_poolTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 3001, "Jackpot": 1, "Goods": 8000030, "Amount": 1, "ShowRate": 200, "Index": 0},
+    {"Id": 3002, "Jackpot": 0, "Goods": 8000031, "Amount": 1, "ShowRate": 500, "Index": 1},
+    {"Id": 3003, "Jackpot": 0, "Goods": 8000032, "Amount": 1, "ShowRate": 500, "Index": 2},
+    {"Id": 3004, "Jackpot": 0, "Goods": 8000033, "Amount": 1, "ShowRate": 1000, "Index": 3},
+    {"Id": 3005, "Jackpot": 0, "Goods": 8000034, "Amount": 1, "ShowRate": 1000, "Index": 4},
+    {"Id": 3006, "Jackpot": 0, "Goods": 8000045, "Amount": 1, "ShowRate": 2000, "Index": 5},
+    {"Id": 3007, "Jackpot": 0, "Goods": 200383, "Amount": 1, "ShowRate": 800, "Index": 6},
+    {"Id": 3008, "Jackpot": 0, "Goods": 200384, "Amount": 1, "ShowRate": 400, "Index": 7},
+    {"Id": 3009, "Jackpot": 0, "Goods": 200334, "Amount": 1, "ShowRate": 800, "Index": 8},
+    {"Id": 3010, "Jackpot": 0, "Goods": 200335, "Amount": 1, "ShowRate": 400, "Index": 9},
+    {"Id": 3011, "Jackpot": 0, "Goods": 200354, "Amount": 1, "ShowRate": 800, "Index": 10},
+    {"Id": 3012, "Jackpot": 0, "Goods": 200355, "Amount": 1, "ShowRate": 400, "Index": 11},
+    {"Id": 3013, "Jackpot": 0, "Goods": 200211, "Amount": 1, "ShowRate": 800, "Index": 12},
+    {"Id": 3014, "Jackpot": 0, "Goods": 200212, "Amount": 1, "ShowRate": 400, "Index": 13}
+  ]
+}

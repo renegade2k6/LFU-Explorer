@@ -1,0 +1,25 @@
+{
+  "table_name": "MailTable",
+  "row_count": 19,
+  "data": [
+    {"Id": 10001, "Title": 310021, "Subtitle": 310022, "Message": 310023, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 0},
+    {"Id": 10002, "Title": 310043, "Subtitle": 310044, "Message": 310045, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 1},
+    {"Id": 10003, "Title": 310030, "Subtitle": 310031, "Message": 310032, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 2},
+    {"Id": 10004, "Title": 310027, "Subtitle": 310028, "Message": 310029, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 3},
+    {"Id": 10005, "Title": 310033, "Subtitle": 310034, "Message": 310035, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 4},
+    {"Id": 10006, "Title": 310024, "Subtitle": 310025, "Message": 310026, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 5},
+    {"Id": 10011, "Title": 320164, "Subtitle": 320165, "Message": 320166, "Type": 66, "Reward": 0, "Para1": "", "Time": 0, "Index": 6},
+    {"Id": 10013, "Title": 310055, "Subtitle": 310061, "Message": 310057, "Type": 32, "Reward": 0, "Para1": "", "Time": 0, "Index": 7},
+    {"Id": 10014, "Title": 310055, "Subtitle": 310062, "Message": 310058, "Type": 32, "Reward": 0, "Para1": "", "Time": 0, "Index": 8},
+    {"Id": 10015, "Title": 310055, "Subtitle": 310063, "Message": 310059, "Type": 32, "Reward": 0, "Para1": "", "Time": 0, "Index": 9},
+    {"Id": 10016, "Title": 310055, "Subtitle": 310064, "Message": 310060, "Type": 32, "Reward": 0, "Para1": "", "Time": 0, "Index": 10},
+    {"Id": 10017, "Title": 310065, "Subtitle": 310066, "Message": 310067, "Type": 101, "Reward": 0, "Para1": "", "Time": 0, "Index": 11},
+    {"Id": 10018, "Title": 310068, "Subtitle": 310069, "Message": 310070, "Type": 102, "Reward": 0, "Para1": "", "Time": 0, "Index": 12},
+    {"Id": 10019, "Title": 310071, "Subtitle": 310072, "Message": 310073, "Type": 103, "Reward": 0, "Para1": "3", "Time": 0, "Index": 13},
+    {"Id": 10023, "Title": 310087, "Subtitle": 310088, "Message": 310089, "Type": 104, "Reward": 0, "Para1": "", "Time": 0, "Index": 14},
+    {"Id": 10024, "Title": 310090, "Subtitle": 0, "Message": 310091, "Type": 105, "Reward": 0, "Para1": "", "Time": 0, "Index": 15},
+    {"Id": 10025, "Title": 310092, "Subtitle": 0, "Message": 310093, "Type": 106, "Reward": 0, "Para1": "", "Time": 0, "Index": 16},
+    {"Id": 10026, "Title": 310094, "Subtitle": 0, "Message": 310095, "Type": 3, "Reward": 0, "Para1": "", "Time": 0, "Index": 17},
+    {"Id": 70002, "Title": 280129, "Subtitle": 0, "Message": 156020, "Type": 2, "Reward": 0, "Para1": "", "Time": 0, "Index": 18}
+  ]
+}

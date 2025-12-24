@@ -1,0 +1,22 @@
+{
+  "table_name": "Vip_shopTable",
+  "row_count": 16,
+  "data": [
+    {"Id": 701, "ResId": 200056, "Quantity": 200, "VipLevel": 5, "CurrencyType": 1, "Price": 200, "Times": 1, "Order": 1, "Refresh": 2, "Discount": 50, "Index": 0},
+    {"Id": 702, "ResId": 200338, "Quantity": 1, "VipLevel": 5, "CurrencyType": 1, "Price": 2000, "Times": 10, "Order": 2, "Refresh": 2, "Discount": 35, "Index": 1},
+    {"Id": 703, "ResId": 200358, "Quantity": 1, "VipLevel": 5, "CurrencyType": 1, "Price": 1800, "Times": 10, "Order": 3, "Refresh": 2, "Discount": 35, "Index": 2},
+    {"Id": 704, "ResId": 221009, "Quantity": 1, "VipLevel": 5, "CurrencyType": 1, "Price": 80, "Times": 10, "Order": 3, "Refresh": 2, "Discount": 20, "Index": 3},
+    {"Id": 1001, "ResId": 200215, "Quantity": 1, "VipLevel": 10, "CurrencyType": 1, "Price": 180, "Times": 10, "Order": 1, "Refresh": 2, "Discount": 20, "Index": 4},
+    {"Id": 1002, "ResId": 221003, "Quantity": 2, "VipLevel": 10, "CurrencyType": 1, "Price": 60, "Times": 10, "Order": 2, "Refresh": 2, "Discount": 40, "Index": 5},
+    {"Id": 1003, "ResId": 221009, "Quantity": 1, "VipLevel": 10, "CurrencyType": 1, "Price": 80, "Times": 10, "Order": 3, "Refresh": 2, "Discount": 20, "Index": 6},
+    {"Id": 1004, "ResId": 20240631, "Quantity": 1, "VipLevel": 10, "CurrencyType": 2, "Price": 9.99, "Times": 1, "Order": 4, "Refresh": 2, "Discount": 30, "Index": 7},
+    {"Id": 1301, "ResId": 38002, "Quantity": 1, "VipLevel": 13, "CurrencyType": 2, "Price": 19.99, "Times": 1, "Order": 1, "Refresh": 2, "Discount": 50, "Index": 8},
+    {"Id": 1302, "ResId": 38003, "Quantity": 1, "VipLevel": 13, "CurrencyType": 2, "Price": 24.99, "Times": 1, "Order": 2, "Refresh": 2, "Discount": 30, "Index": 9},
+    {"Id": 1304, "ResId": 200002, "Quantity": 1, "VipLevel": 13, "CurrencyType": 1, "Price": 2700, "Times": 1, "Order": 3, "Refresh": 2, "Discount": 20, "Index": 10},
+    {"Id": 1305, "ResId": 210504, "Quantity": 10, "VipLevel": 13, "CurrencyType": 1, "Price": 800, "Times": 5, "Order": 4, "Refresh": 2, "Discount": 20, "Index": 11},
+    {"Id": 2001, "ResId": 38004, "Quantity": 1, "VipLevel": 16, "CurrencyType": 2, "Price": 9.99, "Times": 1, "Order": 1, "Refresh": 2, "Discount": 40, "Index": 12},
+    {"Id": 2002, "ResId": 221010, "Quantity": 2, "VipLevel": 16, "CurrencyType": 1, "Price": 300, "Times": 1, "Order": 2, "Refresh": 2, "Discount": 25, "Index": 13},
+    {"Id": 2003, "ResId": 240002, "Quantity": 1, "VipLevel": 16, "CurrencyType": 1, "Price": 1000, "Times": 1, "Order": 3, "Refresh": 2, "Discount": 30, "Index": 14},
+    {"Id": 2004, "ResId": 210504, "Quantity": 10, "VipLevel": 16, "CurrencyType": 1, "Price": 800, "Times": 5, "Order": 4, "Refresh": 2, "Discount": 20, "Index": 15}
+  ]
+}

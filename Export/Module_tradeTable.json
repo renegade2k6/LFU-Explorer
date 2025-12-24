@@ -1,0 +1,23 @@
+{
+  "table_name": "Module_tradeTable",
+  "row_count": 17,
+  "data": [
+    {"Id": 61001, "ItemArray": [700914, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 1, "Order": 1001, "Index": 0},
+    {"Id": 61002, "ItemArray": [800020, 3], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 10, "Order": 1002, "Index": 1},
+    {"Id": 61003, "ItemArray": [800010, 3], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 5, "Order": 1003, "Index": 2},
+    {"Id": 61004, "ItemArray": [800009, 4], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 5, "Order": 1004, "Index": 3},
+    {"Id": 61005, "ItemArray": [800012, 7], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 4, "Order": 1005, "Index": 4},
+    {"Id": 61006, "ItemArray": [800011, 7], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 4, "Order": 1006, "Index": 5},
+    {"Id": 61007, "ItemArray": [800013, 7], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 2, "Order": 1007, "Index": 6},
+    {"Id": 61008, "ItemArray": [702123, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 400, "Order": 1008, "Index": 7},
+    {"Id": 61009, "ItemArray": [702122, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 200, "Order": 1009, "Index": 8},
+    {"Id": 61010, "ItemArray": [702121, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 100, "Order": 1010, "Index": 9},
+    {"Id": 61011, "ItemArray": [702120, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 50, "Order": 1011, "Index": 10},
+    {"Id": 61012, "ItemArray": [702112, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 50, "Order": 1012, "Index": 11},
+    {"Id": 61013, "ItemArray": [702111, 1], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 4, "Order": 1013, "Index": 12},
+    {"Id": 61014, "ItemArray": [702110, 2], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 1, "Order": 1014, "Index": 13},
+    {"Id": 61015, "ItemArray": [702130, 5], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 4, "Order": 1015, "Index": 14},
+    {"Id": 61016, "ItemArray": [702124, 5], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 2, "Order": 1016, "Index": 15},
+    {"Id": 61017, "ItemArray": [702001, 5], "ItemArrayLength": 2, "Num": 99, "PriceType": 732004, "Price": 2, "Order": 1017, "Index": 16}
+  ]
+}

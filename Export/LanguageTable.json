@@ -1,0 +1,24 @@
+{
+  "table_name": "LanguageTable",
+  "row_count": 18,
+  "data": [
+    {"Id": 1001, "LangMa": "zh_CN", "LangId": 136192, "Mark": 1, "Index": 0},
+    {"Id": 1002, "LangMa": "en", "LangId": 136193, "Mark": 1, "Index": 1},
+    {"Id": 1003, "LangMa": "de", "LangId": 136194, "Mark": 1, "Index": 2},
+    {"Id": 1004, "LangMa": "ar", "LangId": 136195, "Mark": 1, "Index": 3},
+    {"Id": 1005, "LangMa": "fr", "LangId": 136196, "Mark": 1, "Index": 4},
+    {"Id": 1006, "LangMa": "ja", "LangId": 136197, "Mark": 1, "Index": 5},
+    {"Id": 1007, "LangMa": "nl", "LangId": 136198, "Mark": 1, "Index": 6},
+    {"Id": 1008, "LangMa": "it", "LangId": 136199, "Mark": 1, "Index": 7},
+    {"Id": 1009, "LangMa": "es", "LangId": 136200, "Mark": 1, "Index": 8},
+    {"Id": 1010, "LangMa": "ko", "LangId": 136208, "Mark": 1, "Index": 9},
+    {"Id": 1011, "LangMa": "pt", "LangId": 136202, "Mark": 1, "Index": 10},
+    {"Id": 1016, "LangMa": "ru", "LangId": 136203, "Mark": 1, "Index": 11},
+    {"Id": 1017, "LangMa": "pl", "LangId": 136204, "Mark": 1, "Index": 12},
+    {"Id": 1018, "LangMa": "tr", "LangId": 136205, "Mark": 1, "Index": 13},
+    {"Id": 1024, "LangMa": "ro", "LangId": 136206, "Mark": 1, "Index": 14},
+    {"Id": 1026, "LangMa": "th", "LangId": 136207, "Mark": 1, "Index": 15},
+    {"Id": 1027, "LangMa": "id", "LangId": 136201, "Mark": 1, "Index": 16},
+    {"Id": 1028, "LangMa": "zh_TW", "LangId": 136143, "Mark": 1, "Index": 17}
+  ]
+}

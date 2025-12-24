@@ -1,0 +1,8 @@
+{
+  "table_name": "Alliance_recharge_questTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 20001, "Activity": 190005, "Type": 1, "QuestId": "1900001", "Index": 0},
+    {"Id": 20002, "Activity": 190005, "Type": 2, "QuestId": "1900002|1900003|1900004|1900005|1900006", "Index": 1}
+  ]
+}

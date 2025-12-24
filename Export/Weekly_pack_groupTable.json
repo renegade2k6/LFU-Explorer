@@ -1,0 +1,26 @@
+{
+  "table_name": "Weekly_pack_groupTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1012, "Type": 1, "ExchangeArray": ["24083123;5", "24083124;10", "24083125;20", "24083126;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083123": 5, "24083124": 10, "24083125": 20, "24083126": 30}, "Order": 100, "Index": 11},
+    {"Id": 1001, "Type": 1, "ExchangeArray": ["24083100;1"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083100": 1}, "Order": 9999, "Index": 0},
+    {"Id": 1006, "Type": 1, "ExchangeArray": ["24083131;5", "24083132;10", "24083133;20", "24083134;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083131": 5, "24083132": 10, "24083133": 20, "24083134": 30}, "Order": 100, "Index": 5},
+    {"Id": 1002, "Type": 1, "ExchangeArray": ["24083111;5", "24083112;10", "24083113;20", "24083114;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083111": 5, "24083112": 10, "24083113": 20, "24083114": 30}, "Order": 9, "Index": 1},
+    {"Id": 1010, "Type": 1, "ExchangeArray": ["24083105;1", "24083106;2", "24083107;5", "24083108;10"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083105": 1, "24083106": 2, "24083107": 5, "24083108": 10}, "Order": 10, "Index": 9},
+    {"Id": 1009, "Type": 1, "ExchangeArray": ["24083136;5", "24083137;8", "24083138;15", "24083139;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083136": 5, "24083137": 8, "24083138": 15, "24083139": 30}, "Order": 100, "Index": 8},
+    {"Id": 1003, "Type": 1, "ExchangeArray": ["24083115;5", "24083116;10", "24083117;20", "24083118;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083115": 5, "24083116": 10, "24083117": 20, "24083118": 30}, "Order": 8, "Index": 2},
+    {"Id": 1008, "Type": 1, "ExchangeArray": ["24083109;20", "24083110;30"], "ExchangeArrayLength": 2, "ExchangeDic": {"24083109": 20, "24083110": 30}, "Order": 100, "Index": 7},
+    {"Id": 1004, "Type": 1, "ExchangeArray": ["24083119;5", "24083120;10", "24083121;20", "24083122;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083119": 5, "24083120": 10, "24083121": 20, "24083122": 30}, "Order": 7, "Index": 3},
+    {"Id": 1007, "Type": 1, "ExchangeArray": ["24083127;5", "24083128;10", "24083129;20", "24083130;30"], "ExchangeArrayLength": 4, "ExchangeDic": {"24083127": 5, "24083128": 10, "24083129": 20, "24083130": 30}, "Order": 100, "Index": 6},
+    {"Id": 1005, "Type": 1, "ExchangeArray": ["24083135;5", "24083136;10"], "ExchangeArrayLength": 2, "ExchangeDic": {"24083135": 5, "24083136": 10}, "Order": 100, "Index": 4},
+    {"Id": 1011, "Type": 1, "ExchangeArray": ["24083141;20", "24083142;30"], "ExchangeArrayLength": 2, "ExchangeDic": {"24083141": 20, "24083142": 30}, "Order": 100, "Index": 10},
+    {"Id": 2008, "Type": 2, "ExchangeArray": ["24083104;30"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083104": 30}, "Order": 100, "Index": 19},
+    {"Id": 2001, "Type": 2, "ExchangeArray": ["24083003;10"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083003": 10}, "Order": 99, "Index": 12},
+    {"Id": 2004, "Type": 2, "ExchangeArray": ["24083004;10"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083004": 10}, "Order": 96, "Index": 15},
+    {"Id": 2002, "Type": 2, "ExchangeArray": ["24083007;20"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083007": 20}, "Order": 98, "Index": 13},
+    {"Id": 2006, "Type": 2, "ExchangeArray": ["24083002;10"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083002": 10}, "Order": 93, "Index": 17},
+    {"Id": 2005, "Type": 2, "ExchangeArray": ["24083006;20"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083006": 20}, "Order": 95, "Index": 16},
+    {"Id": 2007, "Type": 2, "ExchangeArray": ["24083008;10"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083008": 10}, "Order": 92, "Index": 18},
+    {"Id": 2003, "Type": 2, "ExchangeArray": ["24083001;20"], "ExchangeArrayLength": 1, "ExchangeDic": {"24083001": 20}, "Order": 97, "Index": 14}
+  ]
+}

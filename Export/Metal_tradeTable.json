@@ -1,0 +1,17 @@
+{
+  "table_name": "Metal_tradeTable",
+  "row_count": 11,
+  "data": [
+    {"Id": 1, "StockPercentage": 0, "SellPrice": 45, "BuyPrice": 50, "StateDesc": 140264, "TextColorArray": [255, 126, 0], "TextColorArrayLength": 3, "Index": 0},
+    {"Id": 2, "StockPercentage": 10, "SellPrice": 42, "BuyPrice": 46, "StateDesc": 140364, "TextColorArray": [254, 255, 146], "TextColorArrayLength": 3, "Index": 1},
+    {"Id": 3, "StockPercentage": 20, "SellPrice": 38, "BuyPrice": 42, "StateDesc": 140265, "TextColorArray": [155, 255, 223], "TextColorArrayLength": 3, "Index": 2},
+    {"Id": 4, "StockPercentage": 30, "SellPrice": 38, "BuyPrice": 42, "StateDesc": 140265, "TextColorArray": [155, 255, 223], "TextColorArrayLength": 3, "Index": 3},
+    {"Id": 5, "StockPercentage": 40, "SellPrice": 32, "BuyPrice": 35, "StateDesc": 140266, "TextColorArray": [193, 255, 215], "TextColorArrayLength": 3, "Index": 4},
+    {"Id": 6, "StockPercentage": 50, "SellPrice": 32, "BuyPrice": 35, "StateDesc": 140266, "TextColorArray": [193, 255, 215], "TextColorArrayLength": 3, "Index": 5},
+    {"Id": 7, "StockPercentage": 60, "SellPrice": 25, "BuyPrice": 28, "StateDesc": 140365, "TextColorArray": [141, 255, 149], "TextColorArrayLength": 3, "Index": 6},
+    {"Id": 8, "StockPercentage": 70, "SellPrice": 25, "BuyPrice": 28, "StateDesc": 140365, "TextColorArray": [141, 255, 149], "TextColorArrayLength": 3, "Index": 7},
+    {"Id": 9, "StockPercentage": 80, "SellPrice": 20, "BuyPrice": 22, "StateDesc": 140267, "TextColorArray": [99, 221, 0], "TextColorArrayLength": 3, "Index": 8},
+    {"Id": 10, "StockPercentage": 90, "SellPrice": 20, "BuyPrice": 22, "StateDesc": 140267, "TextColorArray": [99, 221, 0], "TextColorArrayLength": 3, "Index": 9},
+    {"Id": 11, "StockPercentage": 100, "SellPrice": 20, "BuyPrice": 22, "StateDesc": 140268, "TextColorArray": [29, 174, 1], "TextColorArrayLength": 3, "Index": 10}
+  ]
+}

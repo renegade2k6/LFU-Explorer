@@ -1,0 +1,13 @@
+{
+  "table_name": "Meme_groupTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1001, "Group": 1, "MainIcon": "meme_num1", "MemesArray": [1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1050], "MemesArrayLength": 13, "Name": "319104", "Description": "319105", "GoodsListArray": [500001, 500002, 500003, 500004, 500005, 500006, 500007, 500008, 500009, 500010, 500011, 500012, 50050], "GoodsListArrayLength": 13, "IsShowArray": [1], "IsShowArrayLength": 1, "Order": 1, "Index": 0},
+    {"Id": 1002, "Group": 2, "MainIcon": "meme_num13", "MemesArray": [1013, 1014, 1015, 1016, 1017], "MemesArrayLength": 5, "Name": "319120", "Description": "319121", "GoodsListArray": [500013, 500014, 500015, 500016, 500017], "GoodsListArrayLength": 5, "IsShowArray": [1], "IsShowArrayLength": 1, "Order": 2, "Index": 1},
+    {"Id": 1003, "Group": 3, "MainIcon": "meme_num18", "MemesArray": [1018, 1019, 1023, 1024, 1025, 1026], "MemesArrayLength": 6, "Name": "364088", "Description": "319105", "GoodsListArray": [500018, 500019, 500023, 500024, 500025, 500026], "GoodsListArrayLength": 6, "IsShowArray": [1], "IsShowArrayLength": 1, "Order": 3, "Index": 2},
+    {"Id": 1004, "Group": 4, "MainIcon": "emoji_surprise", "MemesArray": [1027, 1028, 1029, 1030, 1031, 1032], "MemesArrayLength": 6, "Name": "364088", "Description": "319105", "GoodsListArray": [500027, 500028, 500029, 500030, 500031, 500032], "GoodsListArrayLength": 6, "IsShowArray": [1], "IsShowArrayLength": 1, "Order": 4, "Index": 3},
+    {"Id": 1005, "Group": 5, "MainIcon": "emoji_starlight_cute", "MemesArray": [1033, 1034, 1035, 1036, 1037, 1038], "MemesArrayLength": 6, "Name": "", "Description": "", "GoodsListArray": [500033, 500034, 500035, 500036, 500037, 500038], "GoodsListArrayLength": 6, "IsShowArray": [2], "IsShowArrayLength": 1, "Order": 5, "Index": 4},
+    {"Id": 1006, "Group": 6, "MainIcon": "emoji_homelander_proud", "MemesArray": [1039, 1040, 1041, 1042, 1043, 1044, 1045, 1046, 1047, 1048, 1049], "MemesArrayLength": 11, "Name": "364088", "Description": "319105", "GoodsListArray": [500039, 500040, 500041, 500042, 500043, 500044, 500045, 500046, 500047, 500048, 500049], "GoodsListArrayLength": 11, "IsShowArray": [2], "IsShowArrayLength": 1, "Order": 6, "Index": 5},
+    {"Id": 1007, "Group": 7, "MainIcon": "meme_festivals", "MemesArray": [1051], "MemesArrayLength": 1, "Name": "805000845", "Description": "319105", "GoodsListArray": [500051], "GoodsListArrayLength": 1, "IsShowArray": [1], "IsShowArrayLength": 1, "Order": 6, "Index": 6}
+  ]
+}

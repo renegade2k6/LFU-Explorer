@@ -1,0 +1,14 @@
+{
+  "table_name": "City_order_scoreTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 1, "ScoreType": 1, "MinRank": 1, "MaxRank": 1, "RewardID": 746001, "RewardNum": 8000, "Index": 0},
+    {"Id": 2, "ScoreType": 1, "MinRank": 2, "MaxRank": 5, "RewardID": 746001, "RewardNum": 5000, "Index": 1},
+    {"Id": 3, "ScoreType": 1, "MinRank": 6, "MaxRank": 10, "RewardID": 746001, "RewardNum": 3000, "Index": 2},
+    {"Id": 4, "ScoreType": 1, "MinRank": 11, "MaxRank": 20, "RewardID": 746001, "RewardNum": 1000, "Index": 3},
+    {"Id": 5, "ScoreType": 2, "MinRank": 1, "MaxRank": 1, "RewardID": 746001, "RewardNum": 8000, "Index": 4},
+    {"Id": 6, "ScoreType": 2, "MinRank": 2, "MaxRank": 5, "RewardID": 746001, "RewardNum": 5000, "Index": 5},
+    {"Id": 7, "ScoreType": 2, "MinRank": 6, "MaxRank": 10, "RewardID": 746001, "RewardNum": 3000, "Index": 6},
+    {"Id": 8, "ScoreType": 2, "MinRank": 11, "MaxRank": 20, "RewardID": 746001, "RewardNum": 1000, "Index": 7}
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "table_name": "DoomRaidGameConfigTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Key": "soundSkillIdList", "Value": "10004001;10005001;10006001", "Index": 0},
+    {"Id": 2, "Key": "soundSkillInterval", "Value": "0.1", "Index": 1},
+    {"Id": 3, "Key": "pauseBgSwitch", "Value": "img_moribenxi_zanting_2", "Index": 2}
+  ]
+}

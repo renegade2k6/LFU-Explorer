@@ -1,0 +1,18 @@
+{
+  "table_name": "RemainsTable",
+  "row_count": 12,
+  "data": [
+    {"Id": 1, "Name": "323103", "Season": 4, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [4039, 4246, 4346], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 0, "Index": 0},
+    {"Id": 2, "Name": "323104", "Season": 4, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [4138, 4240, 4245], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 0, "Index": 1},
+    {"Id": 4, "Name": "323103", "Season": 5, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [5209, 5210, 5211], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 0, "Index": 2},
+    {"Id": 5, "Name": "323104", "Season": 5, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [5212, 5213, 5214], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 0, "Index": 3},
+    {"Id": 6, "Name": "323103", "Season": 7, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [7093, 7233, 7234], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 1, "Index": 4},
+    {"Id": 7, "Name": "323104", "Season": 7, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [7087, 7088, 7089], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 1, "Index": 5},
+    {"Id": 8, "Name": "323103", "Season": 6, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [6094, 6095, 6096], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 0, "Index": 6},
+    {"Id": 9, "Name": "323104", "Season": 6, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [6097, 6098, 6099], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 0, "Index": 7},
+    {"Id": 10, "Name": "323103", "Season": -1, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [11137, 11131, 11125], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 5, "Index": 8},
+    {"Id": 11, "Name": "323104", "Season": -1, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [11117, 11118, 11119], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 5, "Index": 9},
+    {"Id": 12, "Name": "323103", "Season": -1, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [14093, 14233, 14234], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_02", "Story": 101, "Index": 10},
+    {"Id": 13, "Name": "323104", "Season": -1, "CostArray": [4010, 1], "CostArrayLength": 2, "RewardArray": null, "RewardArrayLength": 0, "MapPosArray": [14087, 14088, 14089], "MapPosArrayLength": 3, "NumberLimit": 150, "Pic": "ui_s4_img_03", "Story": 101, "Index": 11}
+  ]
+}

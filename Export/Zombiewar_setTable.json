@@ -1,0 +1,8 @@
+{
+  "table_name": "Zombiewar_setTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1001, "Num": 2, "CollectNodeNum": 3, "Useprop": "700111:-1|700112:-1;2;1|700113:-1;1|700115:-1;3|700117:-1", "RankUi": "UIActMergeCannonRank", "RewardUi": "UIActMergeCannonAward", "UiId": 101, "GiftIdArray": ["401;2110001", "402;2110002"], "GiftIdArrayLength": 2, "GiftIdDic": {"401": 2110001, "402": 2110002}, "GiftRateArray": ["7,200059,5,0.0217;7,200059,3,0.1087;7,240002,3,0.2174;7,210504,15,0.3261;7,221010,8,0.3261", "7,200056,100,0.1429;7,221007,2,0.2857;7,200214,1,0.2857;7,200384,1,0.2857"], "GiftRateArrayLength": 2, "PassFloor": 217, "Index": 0},
+    {"Id": 1002, "Num": 3, "CollectNodeNum": 3, "Useprop": "700111:-1|700112:-1;2;1|700113:-1;1|700115:-1;3|700117:-1", "RankUi": "UIActMergeCannonRank", "RewardUi": "UIActMergeCannonAward", "UiId": 101, "GiftIdArray": ["401;2110021", "402;2110022"], "GiftIdArrayLength": 2, "GiftIdDic": {"401": 2110021, "402": 2110022}, "GiftRateArray": ["7,200059,5,0.0217;7,200059,3,0.1087;7,240001,300,0.2174;7,732001,200,0.3261;7,732002,30,0.3261", "7,200056,100,0.1429;7,200059,2,0.2857;7,732001,100,0.2857;7,732002,15,0.2857"], "GiftRateArrayLength": 2, "PassFloor": 217, "Index": 1}
+  ]
+}

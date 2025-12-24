@@ -1,0 +1,8 @@
+{
+  "table_name": "Serve_launch_timeTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "Type": 1, "FirstWaitTime": 3600, "RecurringWaitTime": 3600, "FirstWaitText": 606000402, "RecurringWaitText": 606000405, "Index": 0},
+    {"Id": 2, "Type": 2, "FirstWaitTime": 10800, "RecurringWaitTime": 3600, "FirstWaitText": 606000401, "RecurringWaitText": 606000404, "Index": 1}
+  ]
+}

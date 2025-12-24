@@ -1,0 +1,12 @@
+{
+  "table_name": "Heroevent_scheduleTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 600000, "Name": "370028", "Type": 1, "Para1": "80000", "Day": 1, "Order": 1, "Score": 1, "Index": 0},
+    {"Id": 600001, "Name": "370026", "Type": 1, "Para1": "80001", "Day": 2, "Order": 1, "Score": 2, "Index": 1},
+    {"Id": 600002, "Name": "370024", "Type": 1, "Para1": "80002", "Day": 3, "Order": 1, "Score": 2, "Index": 2},
+    {"Id": 600003, "Name": "370029", "Type": 1, "Para1": "80003", "Day": 4, "Order": 1, "Score": 2, "Index": 3},
+    {"Id": 600004, "Name": "370025", "Type": 1, "Para1": "80004", "Day": 5, "Order": 1, "Score": 2, "Index": 4},
+    {"Id": 600005, "Name": "361032", "Type": 1, "Para1": "80005", "Day": 6, "Order": 1, "Score": 2, "Index": 5}
+  ]
+}

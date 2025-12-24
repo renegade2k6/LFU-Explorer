@@ -1,0 +1,10 @@
+{
+  "table_name": "CrypticsignalTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 1001, "IntelligenceLockArray": ["1;310001", "2;310002", "3;310003", "4;310004", "5;310005", "6;310006", "7;310007"], "IntelligenceLockArrayLength": 7, "IntelligenceLockDic": {"1": 310001, "2": 310002, "3": 310003, "4": 310004, "5": 310005, "6": 310006, "7": 310007}, "PuzzleDialogArray": ["1;314291", "1;314292", "1;314293", "1;314294", "1;314295", "1;314296", "2;36000"], "PuzzleDialogArrayLength": 7, "PuzzleGoods": 700811, "GotoActive": 180002, "IntroStory": 0, "Index": 0},
+    {"Id": 1002, "IntelligenceLockArray": ["1;320001", "2;320002", "3;320003", "4;320004", "5;320005", "6;320006", "7;320007"], "IntelligenceLockArrayLength": 7, "IntelligenceLockDic": {"1": 320001, "2": 320002, "3": 320003, "4": 320004, "5": 320005, "6": 320006, "7": 320007}, "PuzzleDialogArray": ["2;38000", "1;0", "1;0", "2;38100", "1;0", "1;0", "2;38200"], "PuzzleDialogArrayLength": 7, "PuzzleGoods": 700861, "GotoActive": 203018, "IntroStory": 0, "Index": 1},
+    {"Id": 1003, "IntelligenceLockArray": ["2;320001", "4;320002", "6;320003"], "IntelligenceLockArrayLength": 3, "IntelligenceLockDic": {"2": 320001, "4": 320002, "6": 320003}, "PuzzleDialogArray": ["2;38800", "2;38900", "2;39000"], "PuzzleDialogArrayLength": 3, "PuzzleGoods": 702301, "GotoActive": 203018, "IntroStory": 38700, "Index": 2},
+    {"Id": 1004, "IntelligenceLockArray": ["2;320004", "4;320005", "6;320006"], "IntelligenceLockArrayLength": 3, "IntelligenceLockDic": {"2": 320004, "4": 320005, "6": 320006}, "PuzzleDialogArray": ["2;39100", "2;39200", "2;39300"], "PuzzleDialogArrayLength": 3, "PuzzleGoods": 702302, "GotoActive": 203018, "IntroStory": 39007, "Index": 3}
+  ]
+}

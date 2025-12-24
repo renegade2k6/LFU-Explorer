@@ -1,0 +1,12 @@
+{
+  "table_name": "Zy_buildingrefreshTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "ZyBuildId": 3000101, "Index": 0},
+    {"Id": 2, "ZyBuildId": 3000201, "Index": 1},
+    {"Id": 3, "ZyBuildId": 3000301, "Index": 2},
+    {"Id": 4, "ZyBuildId": 3000401, "Index": 3},
+    {"Id": 5, "ZyBuildId": 3000301, "Index": 4},
+    {"Id": 6, "ZyBuildId": 3000401, "Index": 5}
+  ]
+}

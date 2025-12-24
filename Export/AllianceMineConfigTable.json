@@ -1,0 +1,11 @@
+{
+  "table_name": "AllianceMineConfigTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1001, "Level": 1, "LevelReward": 81401, "CollectionRewardArray": ["200330;1", "200350;1"], "CollectionRewardArrayLength": 2, "CollectionRewardDic": {"200330": 1, "200350": 1}, "MineName": 603100656, "MineTips": 603100655, "Expenditure": 0, "Index": 0},
+    {"Id": 1002, "Level": 2, "LevelReward": 81402, "CollectionRewardArray": ["200330;2", "200350;2"], "CollectionRewardArrayLength": 2, "CollectionRewardDic": {"200330": 2, "200350": 2}, "MineName": 603100657, "MineTips": 603100655, "Expenditure": 500, "Index": 1},
+    {"Id": 1003, "Level": 3, "LevelReward": 81403, "CollectionRewardArray": ["200330;3", "200350;3"], "CollectionRewardArrayLength": 2, "CollectionRewardDic": {"200330": 3, "200350": 3}, "MineName": 603100658, "MineTips": 603100655, "Expenditure": 1000, "Index": 2},
+    {"Id": 1004, "Level": 4, "LevelReward": 81404, "CollectionRewardArray": ["200330;4", "200350;4"], "CollectionRewardArrayLength": 2, "CollectionRewardDic": {"200330": 4, "200350": 4}, "MineName": 603100659, "MineTips": 603100655, "Expenditure": 1500, "Index": 3},
+    {"Id": 1005, "Level": 5, "LevelReward": 81405, "CollectionRewardArray": ["200330;5", "200350;5"], "CollectionRewardArrayLength": 2, "CollectionRewardDic": {"200330": 5, "200350": 5}, "MineName": 603100660, "MineTips": 603100655, "Expenditure": 2000, "Index": 4}
+  ]
+}

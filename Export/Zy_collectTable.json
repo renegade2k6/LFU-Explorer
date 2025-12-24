@@ -1,0 +1,8 @@
+{
+  "table_name": "Zy_collectTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 2, "BuildingsArray": [1500100, 1500200, 1500300, 1500400, 1500500], "BuildingsArrayLength": 5, "BuildingNum": 8, "Name": 805002162, "Des": 805002163, "Picture": "img_tj_kl", "BuildingPosutionArray": ["1500500;2;2", "1500400;0;6", "1500300;0;4", "1500400;0;2", "1500100;0;0", "1500400;2;0", "1500200;4;0", "1500400;6;0"], "BuildingPosutionArrayLength": 8, "BuildingSizeArray": [8, 8], "BuildingSizeArrayLength": 2, "Effect2": "effect_zhuangyuan_all", "IsShow": 1, "Order": 2, "PositionArray": [0, 0, 0], "PositionArrayLength": 3, "RotationArray": [0, 0, 0], "RotationArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "Effect1": "effect_ActDecorateFortress_ActivityLotto", "Index": 0},
+    {"Id": 3, "BuildingsArray": [1003000, 1003100, 1003200, 1003300, 1003400], "BuildingsArrayLength": 5, "BuildingNum": 8, "Name": 805002208, "Des": 805002209, "Picture": "img_shayu_banner", "BuildingPosutionArray": ["1003000;2;2", "1003400;0;6", "1003200;0;4", "1003400;0;2", "1003100;0;0", "1003400;2;0", "1003300;4;0", "1003400;6;0"], "BuildingPosutionArrayLength": 8, "BuildingSizeArray": [8, 8], "BuildingSizeArrayLength": 2, "Effect2": "effect_zhuangyuan_shenhaibaozang_all", "IsShow": 1, "Order": 2, "PositionArray": [0, 0, 0], "PositionArrayLength": 3, "RotationArray": [0, 0, 0], "RotationArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "Effect1": "effect_ActDecorateFortress_shenhaibaozang", "Index": 1}
+  ]
+}

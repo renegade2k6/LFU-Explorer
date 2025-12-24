@@ -1,0 +1,11 @@
+{
+  "table_name": "Appearance_auraTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "Name": 805000644, "Picture": "icon_waixian_guanghuan_chengbao", "DisplayResource": "effect_world_guangquan_01", "Range": 4, "Priority": 1, "EffectArray": ["21401;3", "21501;3", "21801;3"], "EffectArrayLength": 3, "EffectDic": {"21401": 3, "21501": 3, "21801": 3}, "RotArray": [0, -45, 0], "RotArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "CloseVersion": "24.1201.001", "Index": 0},
+    {"Id": 2, "Name": 805000838, "Picture": "item_guangquan_zcm2501", "DisplayResource": "effect_guangquan_zcm2501", "Range": 4, "Priority": 3, "EffectArray": ["21601;3", "21701;3", "21801;3"], "EffectArrayLength": 3, "EffectDic": {"21601": 3, "21701": 3, "21801": 3}, "RotArray": [0, -45, 0], "RotArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "CloseVersion": "", "Index": 1},
+    {"Id": 4, "Name": 805000843, "Picture": "item_guangquan_xiaochou2504", "DisplayResource": "effect_guangquan_xiaochou2504", "Range": 4, "Priority": 5, "EffectArray": ["21701;3", "21501;3", "21801;3"], "EffectArrayLength": 3, "EffectDic": {"21701": 3, "21501": 3, "21801": 3}, "RotArray": [0, -45, 0], "RotArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "CloseVersion": "", "Index": 2},
+    {"Id": 5, "Name": 805000848, "Picture": "item_guangquan_wukong2505", "DisplayResource": "effect_PlayerCity_wukong2505_guangquan", "Range": 4, "Priority": 6, "EffectArray": ["21401;3", "21501;3", "21801;3"], "EffectArrayLength": 3, "EffectDic": {"21401": 3, "21501": 3, "21801": 3}, "RotArray": [0, -45, 0], "RotArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "CloseVersion": "", "Index": 3},
+    {"Id": 3, "Name": 805000687, "Picture": "item_guangquan_rxjj2411", "DisplayResource": "effect_world_guangquan_01", "Range": 4, "Priority": 7, "EffectArray": ["21401;3", "21501;3", "21801;3"], "EffectArrayLength": 3, "EffectDic": {"21401": 3, "21501": 3, "21801": 3}, "RotArray": [0, -45, 0], "RotArrayLength": 3, "ScaleArray": [1, 1, 1], "ScaleArrayLength": 3, "CloseVersion": "", "Index": 4}
+  ]
+}

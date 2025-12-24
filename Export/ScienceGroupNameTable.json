@@ -1,0 +1,12 @@
+{
+  "table_name": "ScienceGroupNameTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 2001, "Name": "200855", "Order": 1, "ScienceGroupArray": [10101], "ScienceGroupArrayLength": 1, "ShowTypeseasonArray": [], "ShowTypeseasonArrayLength": 0, "CloseVersion": "", "Index": 0},
+    {"Id": 2002, "Name": "200856", "Order": 3, "ScienceGroupArray": [10103, 10105, 10109, 10112], "ScienceGroupArrayLength": 4, "ShowTypeseasonArray": [], "ShowTypeseasonArrayLength": 0, "CloseVersion": "", "Index": 1},
+    {"Id": 2003, "Name": "200857", "Order": 5, "ScienceGroupArray": [10106, 10104, 10114, 10120, 10121], "ScienceGroupArrayLength": 5, "ShowTypeseasonArray": [], "ShowTypeseasonArrayLength": 0, "CloseVersion": "", "Index": 2},
+    {"Id": 2004, "Name": "200858", "Order": 6, "ScienceGroupArray": [10110, 10111, 10113, 10119, 10124], "ScienceGroupArrayLength": 5, "ShowTypeseasonArray": [], "ShowTypeseasonArrayLength": 0, "CloseVersion": "", "Index": 3},
+    {"Id": 2005, "Name": "200859", "Order": 2, "ScienceGroupArray": [10100, 10102], "ScienceGroupArrayLength": 2, "ShowTypeseasonArray": [], "ShowTypeseasonArrayLength": 0, "CloseVersion": "", "Index": 4},
+    {"Id": 2006, "Name": "201193", "Order": 7, "ScienceGroupArray": [10108, 10115, 10116, 10117, 10118, 10122], "ScienceGroupArrayLength": 6, "ShowTypeseasonArray": [1, 0], "ShowTypeseasonArrayLength": 2, "CloseVersion": "", "Index": 5}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "table_name": "Alliance_positionTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 1, "Icon": "ICON_lianmeng_zhanshen_da", "Name": 136147, "NameColor": "#b35014", "BattleOrder": 0, "UnlockInfluence": 0, "ZCoinMultiplier": 0.075, "RankLimit": "4", "Effect": "20518;2", "DisplayRow": 1, "DisplayRowFinal": 1, "Description": 603100719, "Index": 0},
+    {"Id": 2, "Icon": "ICON_lianmeng_shengnv_da", "Name": 136148, "NameColor": "#b35014", "BattleOrder": 0, "UnlockInfluence": 0, "ZCoinMultiplier": 0.075, "RankLimit": "4", "Effect": "60;5", "DisplayRow": 1, "DisplayRowFinal": 1, "Description": 603100720, "Index": 1},
+    {"Id": 3, "Icon": "ICON_lianmeng_dujun_da", "Name": 136149, "NameColor": "#b35014", "BattleOrder": 0, "UnlockInfluence": 0, "ZCoinMultiplier": 0.075, "RankLimit": "4", "Effect": "21701;3", "DisplayRow": 1, "DisplayRowFinal": 1, "Description": 603100721, "Index": 2},
+    {"Id": 4, "Icon": "ICON_lianmeng_waijiaoguan_da", "Name": 136146, "NameColor": "#b35014", "BattleOrder": 0, "UnlockInfluence": 0, "ZCoinMultiplier": 0.075, "RankLimit": "4", "Effect": "10224;100", "DisplayRow": 1, "DisplayRowFinal": 1, "Description": 603100718, "Index": 3},
+    {"Id": 11, "Icon": "icon_shili_xianqu", "Name": 140101, "NameColor": "#58648c", "BattleOrder": 0, "UnlockInfluence": 200, "ZCoinMultiplier": 0.04, "RankLimit": "1|2|3|4|5", "Effect": "60;5", "DisplayRow": 2, "DisplayRowFinal": 4, "Description": 0, "Index": 4},
+    {"Id": 12, "Icon": "icon_shili_xianqu", "Name": 140101, "NameColor": "#58648c", "BattleOrder": 0, "UnlockInfluence": 200, "ZCoinMultiplier": 0.04, "RankLimit": "1|2|3|4|5", "Effect": "60;5", "DisplayRow": 2, "DisplayRowFinal": 4, "Description": 0, "Index": 5},
+    {"Id": 13, "Icon": "icon_shili_xianqu", "Name": 140101, "NameColor": "#58648c", "BattleOrder": 0, "UnlockInfluence": 200, "ZCoinMultiplier": 0.04, "RankLimit": "1|2|3|4|5", "Effect": "60;5", "DisplayRow": 2, "DisplayRowFinal": 4, "Description": 0, "Index": 6},
+    {"Id": 21, "Icon": "icon_shili_caiji", "Name": 140102, "NameColor": "#8c588a", "BattleOrder": 1, "UnlockInfluence": 400, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "651;5", "DisplayRow": 3, "DisplayRowFinal": 3, "Description": 0, "Index": 7},
+    {"Id": 31, "Icon": "icon_shili_yunshudashi", "Name": 140103, "NameColor": "#8c588a", "BattleOrder": 2, "UnlockInfluence": 600, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "10010;5", "DisplayRow": 3, "DisplayRowFinal": 3, "Description": 0, "Index": 8},
+    {"Id": 41, "Icon": "icon_shili_gongjiang", "Name": 140104, "NameColor": "#8c588a", "BattleOrder": 3, "UnlockInfluence": 800, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "10181;10", "DisplayRow": 3, "DisplayRowFinal": 3, "Description": 0, "Index": 9},
+    {"Id": 51, "Icon": "icon_shili_fangyudashi", "Name": 140105, "NameColor": "#8c588a", "BattleOrder": 4, "UnlockInfluence": 1000, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "21601;3", "DisplayRow": 3, "DisplayRowFinal": 3, "Description": 0, "Index": 10},
+    {"Id": 61, "Icon": "icon_shili_zhanshudashi", "Name": 140106, "NameColor": "#b35014", "BattleOrder": 5, "UnlockInfluence": 1500, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "20525;-2", "DisplayRow": 4, "DisplayRowFinal": 2, "Description": 0, "Index": 11},
+    {"Id": 71, "Icon": "icon_shili_nvwusheng", "Name": 140107, "NameColor": "#b35014", "BattleOrder": 6, "UnlockInfluence": 3000, "ZCoinMultiplier": 0.05, "RankLimit": "1|2|3|4|5", "Effect": "60;5", "DisplayRow": 4, "DisplayRowFinal": 2, "Description": 0, "Index": 12},
+    {"Id": 81, "Icon": "icon_shili_dayuanshuai", "Name": 140108, "NameColor": "#b35014", "BattleOrder": 7, "UnlockInfluence": 6000, "ZCoinMultiplier": 0.08, "RankLimit": "1|2|3|4|5", "Effect": "20518;3", "DisplayRow": 4, "DisplayRowFinal": 2, "Description": 0, "Index": 13}
+  ]
+}

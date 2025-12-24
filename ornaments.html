@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ornaments | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 32px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 12px 0;
+            font-size: 42px;
+            background: linear-gradient(135deg, #ec4899 0%, #f472b6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 24px;
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .item-card {
+            background: rgba(20, 20, 35, 0.95);
+            border: 2px solid #ec4899;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .item-card:hover {
+            transform: translateY(-4px);
+            border-color: #f472b6;
+            box-shadow: 0 8px 24px rgba(236, 72, 153, 0.4);
+        }
+
+        .item-card-header {
+            position: relative;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.1), rgba(244, 114, 182, 0.05));
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .item-icon {
+            width: 100%;
+            max-width: 160px;
+            height: auto;
+            display: block;
+            object-fit: contain;
+        }
+
+        .item-card-body {
+            padding: 16px;
+            border-top: 1px solid rgba(236, 72, 153, 0.3);
+        }
+
+        .item-card-body h3 {
+            margin: 0 0 12px 0;
+            color: #ec4899;
+            font-size: 17px;
+            font-weight: 600;
+            text-align: center;
+            min-height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .item-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .quality-badge {
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            font-weight: 600;
+            text-align: center;
+            background: linear-gradient(135deg, rgba(236, 72, 153, 0.2), rgba(236, 72, 153, 0.1));
+            color: #ec4899;
+            border: 1px solid rgba(236, 72, 153, 0.4);
+        }
+
+        .item-effects {
+            font-size: 11px;
+            color: #b0b0d0;
+            line-height: 1.6;
+            margin-top: 8px;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 6px;
+            border: 1px solid rgba(236, 72, 153, 0.1);
+        }
+
+        .item-effects div {
+            margin: 3px 0;
+        }
+
+        .item-effects strong {
+            color: #ec4899;
+            display: block;
+            margin-bottom: 4px;
+            font-size: 12px;
+        }
+
+        .buff-item {
+            color: #4a9eff;
+        }
+
+        .buff-item-passive {
+            color: #9333ea;
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link active" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <div class="page-title-section">
+            <h1>Ornaments</h1>
+            <p class="page-subtitle">Decorative hanging ornaments to embellish your fortress</p>
+        </div>
+
+        <!-- Decor Sub-Navigation -->
+        <div style="background: rgba(20, 20, 35, 0.6); border-bottom: 1px solid rgba(74, 158, 255, 0.2); padding: 6px 0; overflow-x: auto; margin-bottom: 16px;">
+            <div style="display: flex; gap: 4px; justify-content: center; flex-wrap: nowrap; padding: 0 12px; max-width: 1600px; margin: 0 auto;">
+                <a href="decors.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">← All</a>
+                <a href="fortress.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🏰 Fortress</a>
+                <a href="universal-apc-skins.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🚗 APC</a>
+                <a href="player-frames.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🖼️ Frames</a>
+                <a href="peace-treaty.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🛡️ Peace</a>
+                <a href="wings.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">✨ Wings</a>
+                <a href="nameplates.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">📛 Nameplates</a>
+                <a href="chat-bubbles.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💬 Chat</a>
+                <a href="marching-trails.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🔥 Trails</a>
+                <a href="relocation-animations.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🌀 Relocation</a>
+                <a href="auras.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">💫 Auras</a>
+                <a href="ornaments.html" style="padding: 5px 10px; font-size: 12px; color: #4a9eff; background: rgba(74, 158, 255, 0.2); border: 1px solid rgba(74, 158, 255, 0.5); border-radius: 5px; text-decoration: none; font-weight: 600; white-space: nowrap;">🎀 Ornaments</a>
+                <a href="profile-cards.html" style="padding: 5px 10px; font-size: 12px; color: #8080a0; background: rgba(20, 20, 35, 0.8); border: 1px solid rgba(74, 158, 255, 0.2); border-radius: 5px; text-decoration: none; transition: all 0.3s ease; white-space: nowrap;" onmouseover="this.style.borderColor='rgba(74, 158, 255, 0.5)'; this.style.color='#4a9eff'" onmouseout="this.style.borderColor='rgba(74, 158, 255, 0.2)'; this.style.color='#8080a0'">🃏 Cards</a>
+            </div>
+        </div>
+        <div class="items-grid" id="items-grid">
+            <!-- Cards will be inserted here by JavaScript -->
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+    <script>
+        Promise.all([
+            fetch('Localization_LocalizationComponent_dictionary.json').then(r => r.json()),
+            fetch('Refrence/ornaments.json').then(r => r.json()),
+            fetch('Refrence/fortress_buff_mapping.json').then(r => r.json())
+        ]).then(([localization, items, buffMapping]) => {
+            const locData = localization.data;
+
+            function getLocalizedText(id) {
+                return locData[id] || id;
+            }
+
+            function getQualityName(quality) {
+                if (quality === 0) return 'Event Item';
+                const qualities = {
+                    1: 'Common',
+                    2: 'Uncommon',
+                    3: 'Rare',
+                    4: 'Epic',
+                    5: 'Legendary'
+                };
+                return qualities[quality] || `Quality ${quality}`;
+            }
+
+            function parseBuffEffect(effectStr) {
+                if (!effectStr) return null;
+                const [buffId, level] = effectStr.split(';');
+                const baseBuff = buffMapping[buffId];
+                if (!baseBuff) return null;
+
+                const match = baseBuff.match(/([+-]?\d+)%/);
+                if (match && level && parseInt(level) > 1) {
+                    const basePercent = parseInt(match[1]);
+                    const newPercent = basePercent * parseInt(level);
+                    return baseBuff.replace(/[+-]?\d+%/, `+${newPercent}%`);
+                }
+                return baseBuff;
+            }
+
+            function formatBuffs(skillEffectArray, skillEffect2Array) {
+                let buffsHtml = '';
+
+                if (skillEffectArray && skillEffectArray.length > 0) {
+                    buffsHtml += '<strong>Active Buffs:</strong>';
+                    skillEffectArray.forEach(effectStr => {
+                        const buff = parseBuffEffect(effectStr);
+                        if (buff) buffsHtml += `<div class="buff-item">• ${buff}</div>`;
+                    });
+                }
+
+                if (skillEffect2Array && skillEffect2Array.length > 0) {
+                    if (buffsHtml) buffsHtml += '<div style="margin-top: 6px;"></div>';
+                    buffsHtml += '<strong>Passive Buffs:</strong>';
+                    skillEffect2Array.forEach(effectStr => {
+                        const buff = parseBuffEffect(effectStr);
+                        if (buff) buffsHtml += `<div class="buff-item-passive">• ${buff}</div>`;
+                    });
+                }
+
+                if (!buffsHtml) {
+                    buffsHtml = '<div style="color: #606080; font-style: italic;">No buffs</div>';
+                }
+
+                return buffsHtml;
+            }
+
+            function renderItems() {
+                const cardsHtml = items.map(item => {
+                    const name = getLocalizedText(item.Name);
+                    const description = getLocalizedText(item.Description);
+                    const qualityName = getQualityName(item.Quality);
+                    const iconPath = `assets/Sprite/${item.Picture}.png`;
+                    const buffsHtml = formatBuffs(item.SkillEffectArray, item.SkillEffect2Array);
+
+                    return `
+                        <div class="item-card">
+                            <div class="item-card-header">
+                                <img src="${iconPath}" alt="${name}" class="item-icon" loading="lazy">
+                            </div>
+                            <div class="item-card-body">
+                                <h3>${name}</h3>
+                                <div class="item-meta">
+                                    <div class="quality-badge">${qualityName}</div>
+                                    <div class="item-effects">${buffsHtml}</div>
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                document.getElementById('items-grid').innerHTML = cardsHtml;
+            }
+
+            renderItems();
+
+        }).catch(error => {
+            console.error('Error loading items:', error);
+            document.getElementById('items-grid').innerHTML = `
+                <div style="grid-column: 1 / -1; text-align: center; padding: 40px; color: #ff6b6b;">
+                    <h3>Error Loading Ornaments</h3>
+                    <p>Unable to load ornaments data. Please check the console for details.</p>
+                </div>
+            `;
+        });
+    </script>
+</body>
+</html>

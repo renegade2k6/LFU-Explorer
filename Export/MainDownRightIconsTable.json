@@ -1,0 +1,11 @@
+{
+  "table_name": "MainDownRightIconsTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "Url": "Assets/Shelter/Prefabs/UI/Activity/ActItem/UIEntranceHonorChallenge.prefab", "Order": 100, "Name": "UIEntranceHonorChallenge", "Index": 0},
+    {"Id": 2, "Url": "Assets/Shelter/Prefabs/UI2/MainUI/btnMainSceneUpgrade.prefab", "Order": 101, "Name": "UIEntranceMainSceneUpgrade", "Index": 1},
+    {"Id": 3, "Url": "Assets/Shelter/Prefabs/UI/Activity/ActItem/UIEntranceAlliedSiege.prefab", "Order": 102, "Name": "UIEntranceAlliedSiege", "Index": 2},
+    {"Id": 4, "Url": "Assets/Shelter/Prefabs/UI/Activity/ActItem/UIEntranceQuickTreatment.prefab", "Order": 1, "Name": "UIEntranceQuickTreatment", "Index": 3},
+    {"Id": 5, "Url": "Assets/Shelter/Prefabs/UI/Activity/ActItem/UIEntranceBattleRoyale.prefab", "Order": 103, "Name": "UIEntranceBattleRoyale", "Index": 4}
+  ]
+}

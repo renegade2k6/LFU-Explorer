@@ -1,0 +1,7 @@
+{
+  "table_name": "Building_constTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "Value": 401000, "Index": 0}
+  ]
+}

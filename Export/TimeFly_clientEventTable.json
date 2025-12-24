@@ -1,0 +1,16 @@
+{
+  "table_name": "TimeFly_clientEventTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 101, "Type": 1, "Para1": "DayNight1", "PlaySpeed": 1, "StayTime": 0, "Zoom": 0, "Index": 0},
+    {"Id": 102, "Type": 5, "Para1": "1093", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 1},
+    {"Id": 103, "Type": 2, "Para1": "448000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 2},
+    {"Id": 104, "Type": 2, "Para1": "454000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 3},
+    {"Id": 105, "Type": 2, "Para1": "460000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 4},
+    {"Id": 106, "Type": 2, "Para1": "457000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 5},
+    {"Id": 107, "Type": 2, "Para1": "408000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 6},
+    {"Id": 108, "Type": 6, "Para1": "1094", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 7},
+    {"Id": 109, "Type": 2, "Para1": "403000", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 8},
+    {"Id": 110, "Type": 7, "Para1": "403000,10|404000,10|405000,10|418000,10|419000,10|427000,10|428000,10|431000,10|432000,10|452000,10|453000,10|454000,10|457000,10|460000,10", "PlaySpeed": 1, "StayTime": 1, "Zoom": -18, "Index": 9}
+  ]
+}

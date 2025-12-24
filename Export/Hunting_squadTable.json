@@ -1,0 +1,31 @@
+{
+  "table_name": "Hunting_squadTable",
+  "row_count": 25,
+  "data": [
+    {"Id": 1001, "Level": 1, "TimeBack": 0, "Base1": 1, "Para1": "200", "Base2": 10, "Para2": "140", "Base3": 14, "Para3": "80", "Base4": 17, "Para4": "60", "Index": 0},
+    {"Id": 1002, "Level": 2, "TimeBack": 0, "Base1": 1, "Para1": "250", "Base2": 10, "Para2": "175", "Base3": 14, "Para3": "100", "Base4": 17, "Para4": "75", "Index": 1},
+    {"Id": 1003, "Level": 3, "TimeBack": 3, "Base1": 1, "Para1": "300", "Base2": 10, "Para2": "210", "Base3": 14, "Para3": "120", "Base4": 17, "Para4": "90", "Index": 2},
+    {"Id": 1004, "Level": 4, "TimeBack": 3, "Base1": 1, "Para1": "350", "Base2": 10, "Para2": "245", "Base3": 14, "Para3": "140", "Base4": 17, "Para4": "105", "Index": 3},
+    {"Id": 1005, "Level": 5, "TimeBack": 3, "Base1": 1, "Para1": "400", "Base2": 10, "Para2": "280", "Base3": 14, "Para3": "160", "Base4": 17, "Para4": "120", "Index": 4},
+    {"Id": 1006, "Level": 6, "TimeBack": 3, "Base1": 1, "Para1": "450", "Base2": 10, "Para2": "315", "Base3": 14, "Para3": "180", "Base4": 17, "Para4": "135", "Index": 5},
+    {"Id": 1007, "Level": 7, "TimeBack": 5, "Base1": 1, "Para1": "500", "Base2": 10, "Para2": "350", "Base3": 14, "Para3": "200", "Base4": 17, "Para4": "150", "Index": 6},
+    {"Id": 1008, "Level": 8, "TimeBack": 5, "Base1": 1, "Para1": "550", "Base2": 10, "Para2": "385", "Base3": 14, "Para3": "220", "Base4": 17, "Para4": "165", "Index": 7},
+    {"Id": 1009, "Level": 9, "TimeBack": 5, "Base1": 1, "Para1": "600", "Base2": 10, "Para2": "420", "Base3": 14, "Para3": "240", "Base4": 17, "Para4": "180", "Index": 8},
+    {"Id": 1010, "Level": 10, "TimeBack": 5, "Base1": 1, "Para1": "650", "Base2": 10, "Para2": "455", "Base3": 14, "Para3": "260", "Base4": 17, "Para4": "195", "Index": 9},
+    {"Id": 1011, "Level": 11, "TimeBack": 10, "Base1": 1, "Para1": "700", "Base2": 10, "Para2": "490", "Base3": 14, "Para3": "280", "Base4": 17, "Para4": "210", "Index": 10},
+    {"Id": 1012, "Level": 12, "TimeBack": 10, "Base1": 1, "Para1": "750", "Base2": 10, "Para2": "525", "Base3": 14, "Para3": "300", "Base4": 17, "Para4": "225", "Index": 11},
+    {"Id": 1013, "Level": 13, "TimeBack": 10, "Base1": 1, "Para1": "800", "Base2": 10, "Para2": "560", "Base3": 14, "Para3": "320", "Base4": 17, "Para4": "240", "Index": 12},
+    {"Id": 1014, "Level": 14, "TimeBack": 10, "Base1": 1, "Para1": "900", "Base2": 10, "Para2": "630", "Base3": 14, "Para3": "360", "Base4": 17, "Para4": "270", "Index": 13},
+    {"Id": 1015, "Level": 15, "TimeBack": 15, "Base1": 1, "Para1": "1000", "Base2": 10, "Para2": "700", "Base3": 14, "Para3": "400", "Base4": 17, "Para4": "300", "Index": 14},
+    {"Id": 1016, "Level": 16, "TimeBack": 15, "Base1": 1, "Para1": "1100", "Base2": 10, "Para2": "770", "Base3": 14, "Para3": "440", "Base4": 17, "Para4": "330", "Index": 15},
+    {"Id": 1017, "Level": 17, "TimeBack": 15, "Base1": 1, "Para1": "1200", "Base2": 10, "Para2": "840", "Base3": 14, "Para3": "480", "Base4": 17, "Para4": "360", "Index": 16},
+    {"Id": 1018, "Level": 18, "TimeBack": 20, "Base1": 1, "Para1": "1300", "Base2": 10, "Para2": "910", "Base3": 14, "Para3": "520", "Base4": 17, "Para4": "390", "Index": 17},
+    {"Id": 1019, "Level": 19, "TimeBack": 20, "Base1": 1, "Para1": "1400", "Base2": 10, "Para2": "980", "Base3": 14, "Para3": "560", "Base4": 17, "Para4": "420", "Index": 18},
+    {"Id": 1020, "Level": 20, "TimeBack": 20, "Base1": 1, "Para1": "1500", "Base2": 10, "Para2": "1050", "Base3": 14, "Para3": "600", "Base4": 17, "Para4": "450", "Index": 19},
+    {"Id": 1021, "Level": 21, "TimeBack": 25, "Base1": 1, "Para1": "1600", "Base2": 10, "Para2": "1120", "Base3": 14, "Para3": "640", "Base4": 17, "Para4": "480", "Index": 20},
+    {"Id": 1022, "Level": 22, "TimeBack": 25, "Base1": 1, "Para1": "1700", "Base2": 10, "Para2": "1190", "Base3": 14, "Para3": "680", "Base4": 17, "Para4": "510", "Index": 21},
+    {"Id": 1023, "Level": 23, "TimeBack": 25, "Base1": 1, "Para1": "1800", "Base2": 10, "Para2": "1260", "Base3": 14, "Para3": "720", "Base4": 17, "Para4": "540", "Index": 22},
+    {"Id": 1024, "Level": 24, "TimeBack": 30, "Base1": 1, "Para1": "1900", "Base2": 10, "Para2": "1330", "Base3": 14, "Para3": "760", "Base4": 17, "Para4": "570", "Index": 23},
+    {"Id": 1025, "Level": 25, "TimeBack": 40, "Base1": 1, "Para1": "2000", "Base2": 10, "Para2": "1400", "Base3": 14, "Para3": "800", "Base4": 17, "Para4": "600", "Index": 24}
+  ]
+}

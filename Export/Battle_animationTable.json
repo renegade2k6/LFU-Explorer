@@ -1,0 +1,12 @@
+{
+  "table_name": "Battle_animationTable",
+  "row_count": 6,
+  "data": [
+    {"Id": "animation_1", "Name": "103426", "SkillIdArray": [101008, 101009], "SkillIdArrayLength": 2, "Index": 0},
+    {"Id": "animation_2", "Name": "320023", "SkillIdArray": [101043], "SkillIdArrayLength": 1, "Index": 1},
+    {"Id": "animation_3", "Name": "80000181", "SkillIdArray": [101036, 101037], "SkillIdArrayLength": 2, "Index": 2},
+    {"Id": "animation_4", "Name": "80000182", "SkillIdArray": [101034, 101035], "SkillIdArrayLength": 2, "Index": 3},
+    {"Id": "animation_5", "Name": "80000183", "SkillIdArray": [101038, 101039], "SkillIdArrayLength": 2, "Index": 4},
+    {"Id": "animation_6", "Name": "79011100", "SkillIdArray": [101041], "SkillIdArrayLength": 1, "Index": 5}
+  ]
+}

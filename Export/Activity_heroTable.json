@@ -1,0 +1,20 @@
+{
+  "table_name": "Activity_heroTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 101, "Type": 1, "QuestIdArray": [2410, 2107, 2108, 2204, 2403, 2307, 2207], "QuestIdArrayLength": 7, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [203111, 203112, 203113], "RewardArrayLength": 3, "Index": 0},
+    {"Id": 102, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [203211, 203212, 203213], "RewardArrayLength": 3, "Index": 1},
+    {"Id": 103, "Type": 3, "QuestIdArray": [2103, 2407, 2406, 2208], "QuestIdArrayLength": 4, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [203311, 203312, 203313], "RewardArrayLength": 3, "Index": 2},
+    {"Id": 201, "Type": 1, "QuestIdArray": [2410, 2107, 2108, 2204, 2403, 2307, 2207], "QuestIdArrayLength": 7, "TargetArray": [80, 100, 150], "TargetArrayLength": 3, "RewardArray": [203121, 203122, 203123], "RewardArrayLength": 3, "Index": 3},
+    {"Id": 202, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [80, 100, 150], "TargetArrayLength": 3, "RewardArray": [203221, 203222, 203223], "RewardArrayLength": 3, "Index": 4},
+    {"Id": 203, "Type": 3, "QuestIdArray": [2103, 2407, 2406, 2208], "QuestIdArrayLength": 4, "TargetArray": [80, 100, 150], "TargetArrayLength": 3, "RewardArray": [203321, 203322, 203323], "RewardArrayLength": 3, "Index": 5},
+    {"Id": 301, "Type": 1, "QuestIdArray": [2410, 2107, 2108, 2204, 2403, 2307, 2207], "QuestIdArrayLength": 7, "TargetArray": [140, 180, 240], "TargetArrayLength": 3, "RewardArray": [4250001, 4250002, 4250003], "RewardArrayLength": 3, "Index": 6},
+    {"Id": 302, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [140, 180, 240], "TargetArrayLength": 3, "RewardArray": [4200238, 4200239, 4200240], "RewardArrayLength": 3, "Index": 7},
+    {"Id": 303, "Type": 3, "QuestIdArray": [2103, 2407, 2406, 2208], "QuestIdArrayLength": 4, "TargetArray": [140, 180, 240], "TargetArrayLength": 3, "RewardArray": [203331, 203332, 203333], "RewardArrayLength": 3, "Index": 8},
+    {"Id": 502, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [4200238, 4200239, 4200240], "RewardArrayLength": 3, "Index": 9},
+    {"Id": 503, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [4200238, 4200239, 4200240], "RewardArrayLength": 3, "Index": 10},
+    {"Id": 504, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [30, 60, 90], "TargetArrayLength": 3, "RewardArray": [4200238, 4200239, 4200240], "RewardArrayLength": 3, "Index": 11},
+    {"Id": 601, "Type": 2, "QuestIdArray": [2410, 2107, 2108, 2204, 2403, 2307, 2207], "QuestIdArrayLength": 7, "TargetArray": [120, 240, 360], "TargetArrayLength": 3, "RewardArray": [4230001, 4230002, 4230003], "RewardArrayLength": 3, "Index": 12},
+    {"Id": 602, "Type": 2, "QuestIdArray": [2018, 2012, 2023, 2024, 2026, 2017, 2011, 2010, 2002, 2005, 2030], "QuestIdArrayLength": 11, "TargetArray": [120, 240, 360], "TargetArrayLength": 3, "RewardArray": [4200238, 4200239, 4200240], "RewardArrayLength": 3, "Index": 13}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "table_name": "AllianceBossActivityTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 100001, "Season": 0, "BossGroup": 10001, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 0},
+    {"Id": 100002, "Season": 1, "BossGroup": 10002, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 1},
+    {"Id": 100003, "Season": 2, "BossGroup": 10003, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 2},
+    {"Id": 100004, "Season": 3, "BossGroup": 10004, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 3},
+    {"Id": 100005, "Season": 4, "BossGroup": 10005, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 4},
+    {"Id": 100006, "Season": 5, "BossGroup": 10006, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 5},
+    {"Id": 100007, "Season": -1, "BossGroup": 10007, "BossTurn": 15, "RewardTimesArray": ["1", "80013", "2", "80014", "3", "80015"], "RewardTimesArrayLength": 6, "MapReward": 80016, "Index": 6}
+  ]
+}

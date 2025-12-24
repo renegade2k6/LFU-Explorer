@@ -1,0 +1,9 @@
+{
+  "table_name": "BuildingStateTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1001, "BuildingId": 436000, "NpcId": 2015, "NpcDialogArray": [130628, 130630], "NpcDialogArrayLength": 2, "StayTimeArray": [50, 80], "StayTimeArrayLength": 2, "ClikcMovie": 98010101, "WayPoint": "", "ClickTips": 0, "Index": 0},
+    {"Id": 1002, "BuildingId": 408000, "NpcId": 2018, "NpcDialogArray": [9200401, 9200402], "NpcDialogArrayLength": 2, "StayTimeArray": [20, 60], "StayTimeArrayLength": 2, "ClikcMovie": 0, "WayPoint": "S2", "ClickTips": 1, "Index": 1},
+    {"Id": 1003, "BuildingId": 408001, "NpcId": 2209, "NpcDialogArray": [9200403, 9200404], "NpcDialogArrayLength": 2, "StayTimeArray": [50, 80], "StayTimeArrayLength": 2, "ClikcMovie": 0, "WayPoint": "S1", "ClickTips": 1, "Index": 2}
+  ]
+}

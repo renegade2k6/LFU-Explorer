@@ -1,0 +1,100 @@
+{
+  "2503": {
+    "id": 2503,
+    "name": "Demon's Flame",
+    "icon": "assets/Sprite/icon_peijian_17.png",
+    "quality": 3,
+    "effects": [
+      "STR/INT: 22%",
+      "ATK: 4.4%",
+      "WPN DMG Bonus: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 820053,
+    "power": 3000
+  },
+  "2603": {
+    "id": 2603,
+    "name": "Neon Rear Wing",
+    "icon": "assets/Sprite/icon_peijian_18.png",
+    "quality": 3,
+    "effects": [
+      "STR/INT: 22%",
+      "ATK: 4.4%",
+      "WPN DMG Bonus: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 820063,
+    "power": 3000
+  },
+  "2703": {
+    "id": 2703,
+    "name": "The Boys Turret Module",
+    "icon": "assets/Sprite/icon_peijian_theboys.png",
+    "quality": 3,
+    "effects": [
+      "STR/INT: 22%",
+      "ATK: 4.4%",
+      "WPN DMG Bonus: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 820073,
+    "power": 3000
+  },
+  "3403": {
+    "id": 3403,
+    "name": "Iron Barrier",
+    "icon": "assets/Sprite/icon_peijian_15.png",
+    "quality": 3,
+    "effects": [
+      "AGI: 22%",
+      "DEF: 4.4%",
+      "WPN DMG Mitigation: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 830043,
+    "power": 3000
+  },
+  "4403": {
+    "id": 4403,
+    "name": "Extra Large Trunk",
+    "icon": "assets/Sprite/icon_peijian_13.png",
+    "quality": 3,
+    "effects": [
+      "VIT: 22%",
+      "HP: 4.4%",
+      "TAC DMG Mitigation: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 840043,
+    "power": 3000
+  },
+  "4503": {
+    "id": 4503,
+    "name": "Potential Energy Barrier",
+    "icon": "assets/Sprite/icon_peijian_16.png",
+    "quality": 3,
+    "effects": [
+      "VIT: 22%",
+      "HP: 4.4%",
+      "TAC DMG Mitigation: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 840053,
+    "power": 3000
+  },
+  "4603": {
+    "id": 4603,
+    "name": "Frame of Melody",
+    "icon": "assets/Sprite/icon_peijian_beetle.png",
+    "quality": 3,
+    "effects": [
+      "VIT: 22%",
+      "HP: 4.4%",
+      "TAC DMG Mitigation: 3%"
+    ],
+    "skillDescription": "Modified APC upgraded to level 20",
+    "skillId": 840063,
+    "power": 3000
+  }
+}

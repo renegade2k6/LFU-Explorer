@@ -1,0 +1,9 @@
+{
+  "table_name": "MainTipsConfigTable",
+  "row_count": 3,
+  "data": [
+    {"Id": "ItemQuickUse", "Priority": 5000, "Layer": "0", "IsBlock": true, "RelativeRightBottomPosArray": [110, 110], "RelativeRightBottomPosArrayLength": 2, "RelativePosKey": "", "AddSortingOrder": 0, "Index": 0},
+    {"Id": "AllianceMemberDigShare", "Priority": 5050, "Layer": "9000", "IsBlock": true, "RelativeRightBottomPosArray": [110, 110], "RelativeRightBottomPosArrayLength": 2, "RelativePosKey": "", "AddSortingOrder": 9000, "Index": 1},
+    {"Id": "SuggestionHeroPopWindow", "Priority": 6000, "Layer": "9200", "IsBlock": true, "RelativeRightBottomPosArray": [110, 110], "RelativeRightBottomPosArrayLength": 2, "RelativePosKey": "", "AddSortingOrder": 9200, "Index": 2}
+  ]
+}

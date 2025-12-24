@@ -1,0 +1,13 @@
+{
+  "table_name": "Food_supplyTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 4002, "Name": "100301", "Time": 720, "ProductArray": [203002, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 1},
+    {"Id": 4004, "Name": "100302", "Time": 360, "ProductArray": [200290, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 3},
+    {"Id": 4003, "Name": "100300", "Time": 720, "ProductArray": [203004, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 2},
+    {"Id": 4005, "Name": "100903", "Time": 720, "ProductArray": [203030, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 4},
+    {"Id": 4001, "Name": "180800", "Time": 720, "ProductArray": [203026, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 0},
+    {"Id": 4006, "Name": "180841", "Time": 720, "ProductArray": [203041, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 5},
+    {"Id": 4007, "Name": "180800", "Time": 400, "ProductArray": [203026, 1], "ProductArrayLength": 2, "SourceArray": null, "SourceArrayLength": 0, "SourceDic": {}, "Index": 6}
+  ]
+}

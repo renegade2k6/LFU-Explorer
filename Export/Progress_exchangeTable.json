@@ -1,0 +1,7 @@
+{
+  "table_name": "Progress_exchangeTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 2001, "IsKeyArray": [0, 0, 0, 0, 0, 0, 1, 1], "IsKeyArrayLength": 8, "Index": 0}
+  ]
+}

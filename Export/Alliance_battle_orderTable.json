@@ -1,0 +1,16 @@
+{
+  "table_name": "Alliance_battle_orderTable",
+  "row_count": 10,
+  "data": [
+    {"Id": 1, "BattleOrderEffect": "65;20", "Cost": 20, "PrepareTime": 30, "DurationTime": 720, "BattleOrderName": 140121, "Desc": 140141, "Icon": "icon_zhanshucaiji", "NeedPercentSign": "1", "SubType": 0, "Index": 0},
+    {"Id": 2, "BattleOrderEffect": "78;20", "Cost": 20, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140122, "Desc": 140142, "Icon": "icon_zhanshufuzhong", "NeedPercentSign": "1", "SubType": 0, "Index": 1},
+    {"Id": 3, "BattleOrderEffect": "33165;30", "Cost": 20, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140123, "Desc": 140143, "Icon": "icon_zhanshuqiancheng", "NeedPercentSign": "0", "SubType": 0, "Index": 2},
+    {"Id": 4, "BattleOrderEffect": "10808;-5", "Cost": 25, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140124, "Desc": 140144, "Icon": "icon_fanghuzhao", "NeedPercentSign": "1", "SubType": 0, "Index": 3},
+    {"Id": 5, "BattleOrderEffect": "10807;5", "Cost": 25, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140125, "Desc": 140145, "Icon": "icon_zhanshuzengshang", "NeedPercentSign": "1", "SubType": 0, "Index": 4},
+    {"Id": 6, "BattleOrderEffect": "20011;5", "Cost": 30, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140126, "Desc": 140146, "Icon": "icon_zhandihuihu", "NeedPercentSign": "1", "SubType": 0, "Index": 5},
+    {"Id": 7, "BattleOrderEffect": "20012;5", "Cost": 30, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 140127, "Desc": 140147, "Icon": "icon_shashang", "NeedPercentSign": "1", "SubType": 0, "Index": 6},
+    {"Id": 8, "BattleOrderEffect": "10807;6", "Cost": 20, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 365119, "Desc": 140145, "Icon": "icon_zhanshuzengshang", "NeedPercentSign": "1", "SubType": 1, "Index": 7},
+    {"Id": 9, "BattleOrderEffect": "10808;-6", "Cost": 20, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 365144, "Desc": 140144, "Icon": "icon_fanghuzhao", "NeedPercentSign": "1", "SubType": 1, "Index": 8},
+    {"Id": 10, "BattleOrderEffect": "78;25", "Cost": 20, "PrepareTime": 30, "DurationTime": 60, "BattleOrderName": 365137, "Desc": 140142, "Icon": "icon_zhanshufuzhong", "NeedPercentSign": "1", "SubType": 1, "Index": 9}
+  ]
+}

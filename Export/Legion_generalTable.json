@@ -1,0 +1,7 @@
+{
+  "table_name": "Legion_generalTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1, "Pmlimit": 3, "Selecttime": 172800, "Coolingtime": 86400, "Stoptime": 604800, "StoptimeClient": 7, "CityTransfer": 3, "CityReceive": 3, "Index": 0}
+  ]
+}

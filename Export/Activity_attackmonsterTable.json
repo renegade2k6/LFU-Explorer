@@ -1,0 +1,14 @@
+{
+  "table_name": "Activity_attackmonsterTable",
+  "row_count": 8,
+  "data": [
+    {"Id": 11001, "ActivityId": 262005, "AttackConsumeArray": [800048, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [1001, 1002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 0},
+    {"Id": 11002, "ActivityId": 273010, "AttackConsumeArray": [800147, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [2001, 2002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 1},
+    {"Id": 11003, "ActivityId": 274202, "AttackConsumeArray": [800204, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [3001, 3002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 2},
+    {"Id": 11004, "ActivityId": 274402, "AttackConsumeArray": [800217, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [4001, 4002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 3},
+    {"Id": 11005, "ActivityId": 274802, "AttackConsumeArray": [800253, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [5001, 5002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 4},
+    {"Id": 11006, "ActivityId": 275102, "AttackConsumeArray": [800270, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [6001, 6002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 5},
+    {"Id": 11079, "ActivityId": 274690, "AttackConsumeArray": [801237910, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [9001, 9002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 6},
+    {"Id": 11080, "ActivityId": 10160033, "AttackConsumeArray": [8240005, 20], "AttackConsumeArrayLength": 2, "AttackPower": 10, "ProgressRewardArray": ["8|0-99", "76137"], "ProgressRewardArrayLength": 2, "MonsteridArray": [10001, 10002], "MonsteridArrayLength": 2, "AutomaticUnlock": 50, "Index": 7}
+  ]
+}

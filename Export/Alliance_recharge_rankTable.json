@@ -1,0 +1,26 @@
+{
+  "table_name": "Alliance_recharge_rankTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 40001, "Position": 0, "Rank": 1, "Index": 0},
+    {"Id": 40002, "Position": 0, "Rank": 2, "Index": 1},
+    {"Id": 40003, "Position": 0, "Rank": 3, "Index": 2},
+    {"Id": 40004, "Position": 0, "Rank": 4, "Index": 3},
+    {"Id": 40005, "Position": 1, "Rank": 1, "Index": 4},
+    {"Id": 40006, "Position": 1, "Rank": 2, "Index": 5},
+    {"Id": 40007, "Position": 1, "Rank": 3, "Index": 6},
+    {"Id": 40008, "Position": 1, "Rank": 4, "Index": 7},
+    {"Id": 40009, "Position": 2, "Rank": 1, "Index": 8},
+    {"Id": 40010, "Position": 2, "Rank": 2, "Index": 9},
+    {"Id": 40011, "Position": 2, "Rank": 3, "Index": 10},
+    {"Id": 40012, "Position": 2, "Rank": 4, "Index": 11},
+    {"Id": 40013, "Position": 3, "Rank": 1, "Index": 12},
+    {"Id": 40014, "Position": 3, "Rank": 2, "Index": 13},
+    {"Id": 40015, "Position": 3, "Rank": 3, "Index": 14},
+    {"Id": 40016, "Position": 3, "Rank": 4, "Index": 15},
+    {"Id": 40017, "Position": 4, "Rank": 1, "Index": 16},
+    {"Id": 40018, "Position": 4, "Rank": 2, "Index": 17},
+    {"Id": 40019, "Position": 4, "Rank": 3, "Index": 18},
+    {"Id": 40020, "Position": 4, "Rank": 4, "Index": 19}
+  ]
+}

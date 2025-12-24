@@ -1,0 +1,234 @@
+[
+  {
+    "DescriptionID": "805100221",
+    "Name": "Rainbow's Witness",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_qixijie2508.png",
+    "Description": "Say it out loud with the rainbow as the witness of your love. Use it to change the appearance of the APC into [Rainbow's Witness].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805100105",
+    "Name": "Ice Track #7",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_zhounianfree.png",
+    "Description": "Use it to change the appearance of the APC into [Ice Track #7].",
+    "BuffSummary": "+1% WPN DEF, +1% TAC DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805100072",
+    "Name": "Mech Dog - Flash",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_zhounian2507.png",
+    "Description": "Use it to change the appearance of the APC into [Mech Dog - Flash].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805100015",
+    "Name": "Bunny Express",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_fuhuojie.png",
+    "Description": "Use it to change the appearance of the APC into [Bunny Express].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805000959",
+    "Name": "Eagle's Claw",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_juben12502.png",
+    "Description": "Use it to change the appearance of the APC into [Eagle's Claw].",
+    "BuffSummary": "Cosmetic only",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805000825",
+    "Name": "Bull Chariot",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_jingjichang2503.png",
+    "Description": "Use it to change the appearance of the APC into [Bull Chariot].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805000801",
+    "Name": "Pixel Guards",
+    "Icon": "assets/Sprite/icon_gaizhuangche_xiangsu2502.png",
+    "Description": "Use it to change the appearance of the APC into [Pixel Guards].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805000777",
+    "Name": "Springly Dragon Boat",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_cj_2025.png",
+    "Description": "Use it to change the appearance of the APC into [Springly Dragon Boat].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805000741",
+    "Name": "Christmas Parade",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_Christmas_2024.png",
+    "Description": "Use it to change the appearance of the APC into [Christmas Parade].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "181785",
+    "Name": "Bigfoot",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_annive2023.png",
+    "Description": "Use it to change the appearance of the APC into the [Bigfoot].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "181857",
+    "Name": "Forerunner Motorcycle",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_butcher.png",
+    "Description": "Use it to change the appearance of the APC into the [Forerunner Motorcycle].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "181954",
+    "Name": "Pumpkin Phantom",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_wanshengjie2.png",
+    "Description": "Use it to change the appearance of the APC into the [Pumpkin Phantom].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "182040",
+    "Name": "Polestar Express",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_Christmas_2023.png",
+    "Description": "Use it to change the appearance of the APC into the [Polestar Express].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "280574",
+    "Name": "Reindeer Sleigh",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_shengdan.png",
+    "Description": "Use it to change the appearance of the APC into the [Reindeer Sleigh].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "330169",
+    "Name": "Daybreak",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Gw1.png",
+    "Description": "Use it to change the appearance of the APC into [Daybreak]. The ancient chariot powered by top-notch techs is shrouded by a golden light. It's one of the key secrets in Oasis.",
+    "BuffSummary": "Cosmetic only",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "330170",
+    "Name": "Silver Phantom",
+    "Icon": "assets/Sprite/icon_gaizhuangche_liebiao_Gw2.png",
+    "Description": "Use it to change the appearance of the APC into [Silver Phantom]. An ancient chariot found in Oasis...",
+    "BuffSummary": "Cosmetic only",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "182195",
+    "Name": "Party Yacht",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_zhounianqing2024_01.png",
+    "Description": "Use it to change the appearance of the APC into the [Party Yacht].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "182198",
+    "Name": "Duck Homie",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_zhounianqing2024_02.png",
+    "Description": "Use it to change the appearance of the APC into the [Duck Homie].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "913082",
+    "Name": "Steam Tank",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_ironwasteland_2024.png",
+    "Description": "Use it to change the appearance of the APC into [Steam Tank].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "182202",
+    "Name": "New Order",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_juben1.png",
+    "Description": "Use it to change the appearance of the APC into [New Order].",
+    "BuffSummary": "+1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "809100021",
+    "Name": "Lantern-Lit Dragon Boat",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_autumn_2024.png",
+    "Description": "Use it to change the appearance of the APC into [Lantern-Lit Dragon Boat].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "809100024",
+    "Name": "Lunar Rover",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_aerospace_202409.png",
+    "Description": "Use it to change the appearance of the APC into [Lunar Rover].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805000516",
+    "Name": "Heavy Armor",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_chariot_202409.png",
+    "Description": "Use it to change the appearance of the APC into [Heavy Armor].",
+    "BuffSummary": "+1% WPN DEF, +1% TAC DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805000526",
+    "Name": "Desert Taxi",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_poorcar_202409.png",
+    "Description": "Use it to change the appearance of the APC into [Desert Taxi].",
+    "BuffSummary": "+1% WPN DEF, +1% TAC DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805000595",
+    "Name": "Pumpkin Spiderling",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_halloween_2024.png",
+    "Description": "Use it to change the appearance of the APC into [Pumpkin Spiderling].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805000659",
+    "Name": "Run, Turkey! Run!",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_armoredvehicle_202411.png",
+    "Description": "Use it to change the appearance of the APC into [\"Run, Turkey! Run!\"].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805000668",
+    "Name": "Mountain Mover",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_huoji2411.png",
+    "Description": "Use it to change the appearance of the APC into [Mountain Mover].",
+    "BuffSummary": "+1% WPN DEF, +1% TAC DEF",
+    "Quality": 4
+  },
+  {
+    "DescriptionID": "805100518",
+    "Name": "Sweet Trickster",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_wansheng2510.png",
+    "Description": "Trick or treat! Use it to change the APC appearance into [Sweet Trickster].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  },
+  {
+    "DescriptionID": "805100318",
+    "Name": "Moon Palace Explorer",
+    "Icon": "assets/Sprite/img_waixian_gaizhuangche_zhongqiu2509.png",
+    "Description": "Explore the Moon Palace on this Mid-Autumn Festival! Use it to change the APC appearance into [Moon Palace Explorer].",
+    "BuffSummary": "+1% WPN ATK, +1% TAC ATK, +1% WPN DEF, +1% TAC DEF",
+    "Quality": 5
+  }
+]

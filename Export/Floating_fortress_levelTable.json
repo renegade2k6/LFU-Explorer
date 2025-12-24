@@ -1,0 +1,11 @@
+{
+  "table_name": "Floating_fortress_levelTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 101, "Level": 1, "LevelBottom": "daben_icon_jididengj_2", "IsUpgradeShow": 1, "UpgradePanelsArray": [2001, 2002, 2003, 2005, 2006, 2007, 2008], "UpgradePanelsArrayLength": 7, "Index": 0},
+    {"Id": 102, "Level": 2, "LevelBottom": "daben_icon_jididengj_3", "IsUpgradeShow": 1, "UpgradePanelsArray": [2009, 2010, 2011], "UpgradePanelsArrayLength": 3, "Index": 1},
+    {"Id": 103, "Level": 3, "LevelBottom": "daben_icon_jididengj_4", "IsUpgradeShow": 1, "UpgradePanelsArray": [2013], "UpgradePanelsArrayLength": 1, "Index": 2},
+    {"Id": 104, "Level": 4, "LevelBottom": "daben_icon_jididengj_5", "IsUpgradeShow": 1, "UpgradePanelsArray": [2012], "UpgradePanelsArrayLength": 1, "Index": 3},
+    {"Id": 105, "Level": 5, "LevelBottom": "daben_icon_jididengj_6", "IsUpgradeShow": 1, "UpgradePanelsArray": [2004], "UpgradePanelsArrayLength": 1, "Index": 4}
+  ]
+}

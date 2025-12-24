@@ -1,0 +1,10 @@
+{
+  "table_name": "Activity_banquet_rewardTable",
+  "row_count": 4,
+  "data": [
+    {"Id": 101, "Name": 803018059, "Pic": "icon_SYHD_JL_cake04", "Reward": 10055017, "Time": 6, "RewardRateArray": ["0-0,200063_25_0.76;200150_2_0.12;200059_2_0.12", "1-99,250064_1_0.04;704427_1000_0.24;704428_300_0.24;800020_5_0.08;200063_25_0.4"], "RewardRateArrayLength": 2, "ExchangeArray": [6806, 6811, 6816], "ExchangeArrayLength": 3, "Index": 0},
+    {"Id": 102, "Name": 803018058, "Pic": "icon_SYHD_JL_cake03", "Reward": 10055016, "Time": 5, "RewardRateArray": ["0-0,210504_3_0.3;200059_1_0.1;200063_10_0.6", "1-99,704427_400_0.25;704428_100_0.25;800020_3_0.13;200063_15_0.37"], "RewardRateArrayLength": 2, "ExchangeArray": [6805, 6810, 6815], "ExchangeArrayLength": 3, "Index": 1},
+    {"Id": 103, "Name": 803018057, "Pic": "icon_SYHD_JL_cake02", "Reward": 10055015, "Time": 3, "RewardRateArray": ["0-0,210504_2_0.36;200063_4_0.27;200056_100_0.1;240001_10_0.27", "1-99,704427_200_0.25;704428_50_0.25;800020_2_0.13;200063_10_0.37"], "RewardRateArrayLength": 2, "ExchangeArray": [6804, 6809, 6814], "ExchangeArrayLength": 3, "Index": 2},
+    {"Id": 104, "Name": 803018056, "Pic": "icon_SYHD_JL_cake01", "Reward": 10055014, "Time": 3, "RewardRateArray": ["0-0,200063_3_0.36;240001_5_0.36;200056_100_0.1;200030_10_0.18", "1-99,704427_100_0.27;704428_20_0.27;240001_10_0.1;200063_5_0.36"], "RewardRateArrayLength": 2, "ExchangeArray": [6802, 6803, 6807, 6808, 6812, 6813], "ExchangeArrayLength": 6, "Index": 3}
+  ]
+}

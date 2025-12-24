@@ -1,0 +1,9 @@
+{
+  "table_name": "Vehicle_saleTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "Name": 460091, "Pic": "img_repairactivity_board3", "CostArray": [270201, 100], "CostArrayLength": 2, "RewardArray": [271003, 1], "RewardArrayLength": 2, "Car": 4, "PicCar": "img_repairactivity_car3", "CarEffect": "FX_Car_repair_Item03", "DescriptionArray": [460159, 460162], "DescriptionArrayLength": 2, "Index": 0},
+    {"Id": 2, "Name": 460089, "Pic": "img_repairactivity_board2", "CostArray": [270201, 500], "CostArrayLength": 2, "RewardArray": [271001, 1], "RewardArrayLength": 2, "Car": 2, "PicCar": "img_repairactivity_car1", "CarEffect": "FX_Car_repair_Item01", "DescriptionArray": [460160, 460163], "DescriptionArrayLength": 2, "Index": 1},
+    {"Id": 3, "Name": 460090, "Pic": "img_repairactivity_board2", "CostArray": [270201, 500], "CostArrayLength": 2, "RewardArray": [271002, 1], "RewardArrayLength": 2, "Car": 3, "PicCar": "img_repairactivity_car2", "CarEffect": "FX_Car_repair_Item02", "DescriptionArray": [460161, 460164], "DescriptionArrayLength": 2, "Index": 2}
+  ]
+}

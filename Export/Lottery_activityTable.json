@@ -1,0 +1,7 @@
+{
+  "table_name": "Lottery_activityTable",
+  "row_count": 1,
+  "data": [
+    {"Id": 1001, "GoodsArray": [800057, 1], "GoodsArrayLength": 2, "Limit": 40, "Max": 5, "Index": 0}
+  ]
+}

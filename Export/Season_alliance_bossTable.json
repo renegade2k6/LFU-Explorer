@@ -1,0 +1,26 @@
+{
+  "table_name": "Season_alliance_bossTable",
+  "row_count": 20,
+  "data": [
+    {"Id": 1, "Type": 1, "DamageTotal": 5000000, "Reward": 323201, "Index": 0},
+    {"Id": 2, "Type": 1, "DamageTotal": 10000000, "Reward": 323202, "Index": 1},
+    {"Id": 3, "Type": 1, "DamageTotal": 20000000, "Reward": 323203, "Index": 2},
+    {"Id": 4, "Type": 1, "DamageTotal": 50000000, "Reward": 323204, "Index": 3},
+    {"Id": 5, "Type": 1, "DamageTotal": 100000000, "Reward": 323205, "Index": 4},
+    {"Id": 6, "Type": 1, "DamageTotal": 200000000, "Reward": 323206, "Index": 5},
+    {"Id": 7, "Type": 1, "DamageTotal": 300000000, "Reward": 323207, "Index": 6},
+    {"Id": 8, "Type": 1, "DamageTotal": 500000000, "Reward": 323208, "Index": 7},
+    {"Id": 9, "Type": 1, "DamageTotal": 1000000000, "Reward": 323209, "Index": 8},
+    {"Id": 10, "Type": 1, "DamageTotal": 1500000000, "Reward": 323210, "Index": 9},
+    {"Id": 11, "Type": 1, "DamageTotal": 2000000000, "Reward": 323211, "Index": 10},
+    {"Id": 12, "Type": 1, "DamageTotal": 0, "Reward": 323212, "Index": 11},
+    {"Id": 13, "Type": 1, "DamageTotal": 0, "Reward": 323213, "Index": 12},
+    {"Id": 14, "Type": 1, "DamageTotal": 0, "Reward": 323214, "Index": 13},
+    {"Id": 15, "Type": 1, "DamageTotal": 0, "Reward": 323215, "Index": 14},
+    {"Id": 16, "Type": 1, "DamageTotal": 0, "Reward": 323216, "Index": 15},
+    {"Id": 17, "Type": 1, "DamageTotal": 0, "Reward": 323217, "Index": 16},
+    {"Id": 18, "Type": 1, "DamageTotal": 0, "Reward": 323218, "Index": 17},
+    {"Id": 19, "Type": 1, "DamageTotal": 0, "Reward": 323219, "Index": 18},
+    {"Id": 20, "Type": 1, "DamageTotal": 0, "Reward": 323220, "Index": 19}
+  ]
+}

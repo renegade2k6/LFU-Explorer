@@ -1,0 +1,8 @@
+{
+  "table_name": "DoomRaidChapterRewardsTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "Chapter": 1, "TreasureArray": [1, 2], "TreasureArrayLength": 2, "StarsRequireArray": [4, 9], "StarsRequireArrayLength": 2, "Index": 0},
+    {"Id": 2, "Chapter": 2, "TreasureArray": [1, 2], "TreasureArrayLength": 2, "StarsRequireArray": [4, 9], "StarsRequireArrayLength": 2, "Index": 1}
+  ]
+}

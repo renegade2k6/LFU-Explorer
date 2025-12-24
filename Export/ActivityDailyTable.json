@@ -1,0 +1,15 @@
+{
+  "table_name": "ActivityDailyTable",
+  "row_count": 9,
+  "data": [
+    {"Id": 101, "Type": 1, "ActivityType": 375, "ActivityID": 273034, "RewardArray": ["30;10052603", "60;10052604", "100;10052605", "150;10052606", "200;10052607"], "RewardArrayLength": 5, "RewardDic": {"30": 10052603, "60": 10052604, "100": 10052605, "150": 10052606, "200": 10052607}, "ShowType": 1, "Index": 0},
+    {"Id": 102, "Type": 2, "ActivityType": 0, "ActivityID": 0, "RewardArray": ["200;81502,81502,81502,81502,81502,81502"], "RewardArrayLength": 1, "RewardDic": {"200": 0}, "ShowType": 1, "Index": 1},
+    {"Id": 273036, "Type": 1, "ActivityType": 375, "ActivityID": 273036, "RewardArray": ["30;10052610", "60;10052611", "100;10052612", "150;10052613", "200;10052614"], "RewardArrayLength": 5, "RewardDic": {"30": 10052610, "60": 10052611, "100": 10052612, "150": 10052613, "200": 10052614}, "ShowType": 1, "Index": 2},
+    {"Id": 273038, "Type": 1, "ActivityType": 375, "ActivityID": 273038, "RewardArray": ["30;10052610", "60;10052611", "100;10052612", "150;10052613", "200;10052614"], "RewardArrayLength": 5, "RewardDic": {"30": 10052610, "60": 10052611, "100": 10052612, "150": 10052613, "200": 10052614}, "ShowType": 1, "Index": 3},
+    {"Id": 273040, "Type": 1, "ActivityType": 375, "ActivityID": 273040, "RewardArray": ["30;10052707", "60;10052708", "100;10052709", "150;10052710", "200;10052711"], "RewardArrayLength": 5, "RewardDic": {"30": 10052707, "60": 10052708, "100": 10052709, "150": 10052710, "200": 10052711}, "ShowType": 1, "Index": 4},
+    {"Id": 274501, "Type": 1, "ActivityType": 377, "ActivityID": 274501, "RewardArray": ["30;10055036", "60;10055037", "100;10055038", "150;10055039", "200;10055040"], "RewardArrayLength": 5, "RewardDic": {"30": 10055036, "60": 10055037, "100": 10055038, "150": 10055039, "200": 10055040}, "ShowType": 1, "Index": 5},
+    {"Id": 273044, "Type": 1, "ActivityType": 375, "ActivityID": 273044, "RewardArray": ["30;10053116", "60;10053117", "100;10053118", "150;10053119", "200;10053120"], "RewardArrayLength": 5, "RewardDic": {"30": 10053116, "60": 10053117, "100": 10053118, "150": 10053119, "200": 10053120}, "ShowType": 1, "Index": 6},
+    {"Id": 273046, "Type": 1, "ActivityType": 375, "ActivityID": 273046, "RewardArray": ["30;10053396", "60;10053397", "100;10053398", "150;10053399", "200;10053400"], "RewardArrayLength": 5, "RewardDic": {"30": 10053396, "60": 10053397, "100": 10053398, "150": 10053399, "200": 10053400}, "ShowType": 1, "Index": 7},
+    {"Id": 103, "Type": 3, "ActivityType": 0, "ActivityID": 0, "RewardArray": ["60;10059000", "150;10059001"], "RewardArrayLength": 2, "RewardDic": {"60": 10059000, "150": 10059001}, "ShowType": 1, "Index": 8}
+  ]
+}

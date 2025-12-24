@@ -1,0 +1,19 @@
+{
+  "table_name": "Cultural_relics_evoTable",
+  "row_count": 13,
+  "data": [
+    {"Id": 400101, "Group": 4001, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "993001;1", "Camp": -1, "Army": 3, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600029", "ShowNum": "15%", "Index": 0},
+    {"Id": 400201, "Group": 4002, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "994001;1", "Camp": -1, "Army": -1, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600030", "ShowNum": "20%;15%", "Index": 1},
+    {"Id": 400301, "Group": 4003, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "995001;1", "Camp": -1, "Army": 1, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600031", "ShowNum": "20%;10%", "Index": 2},
+    {"Id": 400401, "Group": 4004, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "996001;1", "Camp": -1, "Army": -1, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600032", "ShowNum": "50%;50%", "Index": 3},
+    {"Id": 400501, "Group": 4005, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "997001;1", "Camp": -1, "Army": -1, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600033", "ShowNum": "5%", "Index": 4},
+    {"Id": 400601, "Group": 4006, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "998001;1", "Camp": -1, "Army": 3, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600034", "ShowNum": "15%", "Index": 5},
+    {"Id": 400701, "Group": 4007, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "999001;1", "Camp": -1, "Army": 2, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600035", "ShowNum": "15%", "Index": 6},
+    {"Id": 400801, "Group": 4008, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1000001;1", "Camp": -1, "Army": 3, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600036", "ShowNum": "10%", "Index": 7},
+    {"Id": 400901, "Group": 4009, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1001001;1", "Camp": -1, "Army": 2, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600037", "ShowNum": "10%", "Index": 8},
+    {"Id": 401001, "Group": 4010, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1002001;1", "Camp": -1, "Army": 2, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "809600038", "ShowNum": "15%", "Index": 9},
+    {"Id": 401101, "Group": 4011, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1003001;1", "Camp": -1, "Army": 3, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "810210185", "ShowNum": "15%", "Index": 10},
+    {"Id": 401201, "Group": 4012, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1004001;1", "Camp": -1, "Army": 2, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "810210186", "ShowNum": "15%", "Index": 11},
+    {"Id": 401301, "Group": 4013, "CostArray": ["331005;1"], "CostArrayLength": 1, "CostDic": {"331005": 1}, "Type": 1, "Para": "1005001;1", "Camp": -1, "Army": -1, "Power": 100000, "LevelMax": 0, "Point": 10000, "ShowDes": "810210187", "ShowNum": "20%;3", "Index": 12}
+  ]
+}

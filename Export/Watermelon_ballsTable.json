@@ -1,0 +1,19 @@
+{
+  "table_name": "Watermelon_ballsTable",
+  "row_count": 13,
+  "data": [
+    {"Id": 1, "Type": 1, "Level": 1, "Random": 20, "Randomball": 20, "PointC": 0, "PointEnd": 1, "Name": "img_syntheticcells_cell01", "Size": 0.35, "Synthesis": 1, "Index": 0},
+    {"Id": 2, "Type": 1, "Level": 2, "Random": 20, "Randomball": 20, "PointC": 1, "PointEnd": 2, "Name": "img_syntheticcells_cell02", "Size": 0.51, "Synthesis": 1, "Index": 1},
+    {"Id": 3, "Type": 1, "Level": 3, "Random": 25, "Randomball": 20, "PointC": 2, "PointEnd": 3, "Name": "img_syntheticcells_cell03", "Size": 0.71, "Synthesis": 1, "Index": 2},
+    {"Id": 4, "Type": 1, "Level": 4, "Random": 25, "Randomball": 20, "PointC": 3, "PointEnd": 4, "Name": "img_syntheticcells_cell04", "Size": 0.78, "Synthesis": 1, "Index": 3},
+    {"Id": 5, "Type": 1, "Level": 5, "Random": 10, "Randomball": 20, "PointC": 4, "PointEnd": 5, "Name": "img_syntheticcells_cell05", "Size": 1, "Synthesis": 1, "Index": 4},
+    {"Id": 6, "Type": 1, "Level": 6, "Random": 0, "Randomball": 0, "PointC": 5, "PointEnd": 6, "Name": "img_syntheticcells_cell06", "Size": 1.2, "Synthesis": 1, "Index": 5},
+    {"Id": 7, "Type": 1, "Level": 7, "Random": 0, "Randomball": 0, "PointC": 6, "PointEnd": 7, "Name": "img_syntheticcells_cell07", "Size": 1.4, "Synthesis": 1, "Index": 6},
+    {"Id": 8, "Type": 1, "Level": 8, "Random": 0, "Randomball": 0, "PointC": 7, "PointEnd": 8, "Name": "img_syntheticcells_cell08", "Size": 1.66, "Synthesis": 1, "Index": 7},
+    {"Id": 9, "Type": 1, "Level": 9, "Random": 0, "Randomball": 0, "PointC": 8, "PointEnd": 9, "Name": "img_syntheticcells_cell09", "Size": 2, "Synthesis": 1, "Index": 8},
+    {"Id": 10, "Type": 1, "Level": 10, "Random": 0, "Randomball": 0, "PointC": 9, "PointEnd": 10, "Name": "img_syntheticcells_cell10", "Size": 2.4, "Synthesis": 1, "Index": 9},
+    {"Id": 11, "Type": 1, "Level": 11, "Random": 0, "Randomball": 0, "PointC": 11, "PointEnd": 11, "Name": "img_syntheticcells_cell11", "Size": 2.65, "Synthesis": 0, "Index": 10},
+    {"Id": 12, "Type": 2, "Level": 0, "Random": 0, "Randomball": 0, "PointC": 0, "PointEnd": 0, "Name": "img_syntheticcells_cell13", "Size": 0.71, "Synthesis": 1, "Index": 11},
+    {"Id": 13, "Type": 3, "Level": 0, "Random": 0, "Randomball": 0, "PointC": 0, "PointEnd": 0, "Name": "img_syntheticcells_cell12", "Size": 1, "Synthesis": 1, "Index": 12}
+  ]
+}

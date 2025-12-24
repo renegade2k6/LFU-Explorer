@@ -1,0 +1,12 @@
+{
+  "table_name": "Alliance_heroesTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 1, "Date": 1, "Hero1Array": [2003, 200301], "Hero1ArrayLength": 2, "Hero2Array": [2010, 201002], "Hero2ArrayLength": 2, "Hero3Array": [2410, 241002], "Hero3ArrayLength": 2, "Index": 0},
+    {"Id": 2, "Date": 2, "Hero1Array": [2030, 203003], "Hero1ArrayLength": 2, "Hero2Array": [2005, 200501], "Hero2ArrayLength": 2, "Hero3Array": [2017, 201702], "Hero3ArrayLength": 2, "Index": 1},
+    {"Id": 3, "Date": 3, "Hero1Array": [2011, 201103], "Hero1ArrayLength": 2, "Hero2Array": [2009, 200903], "Hero2ArrayLength": 2, "Hero3Array": [2013, 201302], "Hero3ArrayLength": 2, "Index": 2},
+    {"Id": 4, "Date": 4, "Hero1Array": [2032, 203201], "Hero1ArrayLength": 2, "Hero2Array": [2027, 202703], "Hero2ArrayLength": 2, "Hero3Array": [2006, 200602], "Hero3ArrayLength": 2, "Index": 3},
+    {"Id": 5, "Date": 5, "Hero1Array": [2007, 200703], "Hero1ArrayLength": 2, "Hero2Array": [2031, 203101], "Hero2ArrayLength": 2, "Hero3Array": [2029, 202901], "Hero3ArrayLength": 2, "Index": 4},
+    {"Id": 6, "Date": 6, "Hero1Array": [2008, 200802], "Hero1ArrayLength": 2, "Hero2Array": [2103, 210303], "Hero2ArrayLength": 2, "Hero3Array": [2005, 200502], "Hero3ArrayLength": 2, "Index": 5}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "table_name": "Alliance_chatgiftTable",
+  "row_count": 6,
+  "data": [
+    {"Id": 10004, "Type": 2, "Num": 10, "Para1": "", "Cointype": 3005, "Coinnum": 80, "Name": "138209", "Desc": 138206, "Index": 0},
+    {"Id": 11001, "Type": 4, "Num": 20, "Para1": "", "Cointype": 3005, "Coinnum": 200, "Name": "138209", "Desc": 138534, "Index": 1},
+    {"Id": 12001, "Type": 5, "Num": 50, "Para1": "", "Cointype": 3005, "Coinnum": 1000, "Name": "138209", "Desc": 720651, "Index": 2},
+    {"Id": 20001, "Type": 6, "Num": 12, "Para1": "", "Cointype": 3005, "Coinnum": 100, "Name": "906524", "Desc": 906524, "Index": 3},
+    {"Id": 20002, "Type": 6, "Num": 12, "Para1": "", "Cointype": 3005, "Coinnum": 100, "Name": "906814", "Desc": 906814, "Index": 4},
+    {"Id": 20003, "Type": 6, "Num": 12, "Para1": "", "Cointype": 3005, "Coinnum": 100, "Name": "907375", "Desc": 907375, "Index": 5}
+  ]
+}

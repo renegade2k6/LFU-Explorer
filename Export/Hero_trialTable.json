@@ -1,0 +1,8 @@
+{
+  "table_name": "Hero_trialTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 2202, "TriggerArray": [2, 66604025], "TriggerArrayLength": 2, "InterfaceArray": [2], "InterfaceArrayLength": 1, "DeleteArray": [3], "DeleteArrayLength": 1, "Order": 1, "Index": 0},
+    {"Id": 2412, "TriggerArray": [2, 66604025], "TriggerArrayLength": 2, "InterfaceArray": [2], "InterfaceArrayLength": 1, "DeleteArray": [2, 40125], "DeleteArrayLength": 2, "Order": 2, "Index": 1}
+  ]
+}

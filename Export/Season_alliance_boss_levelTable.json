@@ -1,0 +1,21 @@
+{
+  "table_name": "Season_alliance_boss_levelTable",
+  "row_count": 15,
+  "data": [
+    {"Id": 1, "SummonsTimes": 1, "Resist": 10, "Army": 267001, "Index": 0},
+    {"Id": 2, "SummonsTimes": 2, "Resist": 20, "Army": 267001, "Index": 1},
+    {"Id": 3, "SummonsTimes": 3, "Resist": 30, "Army": 267001, "Index": 2},
+    {"Id": 4, "SummonsTimes": 4, "Resist": 40, "Army": 267002, "Index": 3},
+    {"Id": 5, "SummonsTimes": 5, "Resist": 50, "Army": 267002, "Index": 4},
+    {"Id": 6, "SummonsTimes": 6, "Resist": 60, "Army": 267002, "Index": 5},
+    {"Id": 7, "SummonsTimes": 7, "Resist": 70, "Army": 267003, "Index": 6},
+    {"Id": 8, "SummonsTimes": 8, "Resist": 80, "Army": 267003, "Index": 7},
+    {"Id": 9, "SummonsTimes": 9, "Resist": 90, "Army": 267003, "Index": 8},
+    {"Id": 10, "SummonsTimes": 10, "Resist": 100, "Army": 267004, "Index": 9},
+    {"Id": 11, "SummonsTimes": 11, "Resist": 110, "Army": 267004, "Index": 10},
+    {"Id": 12, "SummonsTimes": 12, "Resist": 120, "Army": 267004, "Index": 11},
+    {"Id": 13, "SummonsTimes": 13, "Resist": 130, "Army": 267005, "Index": 12},
+    {"Id": 14, "SummonsTimes": 14, "Resist": 140, "Army": 267005, "Index": 13},
+    {"Id": 15, "SummonsTimes": 15, "Resist": 150, "Army": 267005, "Index": 14}
+  ]
+}

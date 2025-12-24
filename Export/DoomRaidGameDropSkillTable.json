@@ -1,0 +1,18 @@
+{
+  "table_name": "DoomRaidGameDropSkillTable",
+  "row_count": 12,
+  "data": [
+    {"Id": 1025, "GroupId": 1101, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 0},
+    {"Id": 1026, "GroupId": 1201, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 1},
+    {"Id": 1027, "GroupId": 1301, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 2},
+    {"Id": 1028, "GroupId": 1401, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 1, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 3},
+    {"Id": 1029, "GroupId": 1501, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 4},
+    {"Id": 1030, "GroupId": 1601, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 1, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 5},
+    {"Id": 1031, "GroupId": 1701, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 1, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 6},
+    {"Id": 1032, "GroupId": 1801, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 7},
+    {"Id": 1033, "GroupId": 1901, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 1, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 15, "Index": 8},
+    {"Id": 1034, "GroupId": 11101, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 20, "Index": 9},
+    {"Id": 1035, "GroupId": 11201, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 20, "Index": 10},
+    {"Id": 1036, "GroupId": 11301, "CombineArray": [], "CombineArrayLength": 0, "UnlockLevel": 0, "CombinationArray": [], "CombinationArrayLength": 0, "PreconditionArray": null, "PreconditionArrayLength": 0, "IsSuperWeapon": 0, "WeaponWeight": 20, "Index": 11}
+  ]
+}

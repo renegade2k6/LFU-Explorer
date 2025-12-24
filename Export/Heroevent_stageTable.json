@@ -1,0 +1,13 @@
+{
+  "table_name": "Heroevent_stageTable",
+  "row_count": 7,
+  "data": [
+    {"Id": 1, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [370096, 200301, 131320, 370516, 120234, 370096], "ActStyleArrayLength": 6, "Index": 0},
+    {"Id": 2, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [200301, 131320, 370516, 120234, 370096, 200301], "ActStyleArrayLength": 6, "Index": 1},
+    {"Id": 3, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [131320, 370516, 120234, 370096, 200301, 131320], "ActStyleArrayLength": 6, "Index": 2},
+    {"Id": 4, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [370516, 120234, 370096, 200301, 131320, 370516], "ActStyleArrayLength": 6, "Index": 3},
+    {"Id": 5, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [120234, 370096, 200301, 131320, 370516, 120234], "ActStyleArrayLength": 6, "Index": 4},
+    {"Id": 6, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [370096, 200301, 131320, 370516, 120234, 370096], "ActStyleArrayLength": 6, "Index": 5},
+    {"Id": 7, "StageTimeArray": [240, 240, 240, 240, 240, 240], "StageTimeArrayLength": 6, "ActStyleArray": [200301, 131320, 370516, 120234, 370096, 200301], "ActStyleArrayLength": 6, "Index": 6}
+  ]
+}

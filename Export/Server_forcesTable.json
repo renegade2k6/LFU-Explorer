@@ -1,0 +1,9 @@
+{
+  "table_name": "Server_forcesTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "DurationWeeks": 5, "RewardGroup": 1, "BuffGroup": 1, "UpperLimit": 75000, "Index": 0},
+    {"Id": 2, "DurationWeeks": 5, "RewardGroup": 2, "BuffGroup": 2, "UpperLimit": 75000, "Index": 1},
+    {"Id": 3, "DurationWeeks": 5, "RewardGroup": 3, "BuffGroup": 3, "UpperLimit": 70000, "Index": 2}
+  ]
+}

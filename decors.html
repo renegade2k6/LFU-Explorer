@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decors | LFU Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .page-title-section {
+            text-align: center;
+            padding: 40px 24px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .page-title-section h1 {
+            margin: 0 0 16px 0;
+            font-size: 48px;
+            font-family: 'Orbitron', sans-serif;
+            background: linear-gradient(135deg, #4a9eff 0%, #9333ea 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .page-subtitle {
+            color: #8080a0;
+            font-size: 18px;
+            margin: 0;
+            font-family: 'Rajdhani', sans-serif;
+        }
+
+        .decor-sections {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 24px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .decor-category-card {
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.08) 0%, rgba(147, 51, 234, 0.08) 100%);
+            border: 2px solid rgba(74, 158, 255, 0.3);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 180px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .decor-category-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.1) 0%, rgba(147, 51, 234, 0.1) 100%);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 0;
+        }
+
+        .decor-category-card:hover::before {
+            opacity: 1;
+        }
+
+        .decor-category-card:hover {
+            transform: translateY(-8px);
+            border-color: rgba(74, 158, 255, 0.6);
+            box-shadow: 0 12px 40px rgba(74, 158, 255, 0.3);
+        }
+
+        .decor-category-card .icon {
+            font-size: 48px;
+            margin-bottom: 12px;
+            filter: drop-shadow(0 4px 12px rgba(74, 158, 255, 0.4));
+            position: relative;
+            z-index: 1;
+        }
+
+        .decor-category-card h2 {
+            color: #e0e0ff;
+            font-size: 20px;
+            font-family: 'Orbitron', sans-serif;
+            margin: 0 0 8px 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .decor-category-card p {
+            color: #a0a0c0;
+            font-size: 13px;
+            line-height: 1.4;
+            margin: 0;
+            font-family: 'Rajdhani', sans-serif;
+            position: relative;
+            z-index: 1;
+        }
+
+        .decor-category-card .count-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, rgba(74, 158, 255, 0.3), rgba(147, 51, 234, 0.3));
+            border: 1px solid rgba(74, 158, 255, 0.5);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 700;
+            color: #4a9eff;
+            margin-top: 8px;
+            position: relative;
+            z-index: 1;
+        }
+
+        @media (max-width: 900px) {
+            .decor-sections {
+                grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .decor-sections {
+                grid-template-columns: 1fr;
+                padding: 12px;
+            }
+
+            .decor-category-card {
+                min-height: 150px;
+            }
+
+            .decor-category-card .icon {
+                font-size: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <div>
+                    <h1>LFU Explorer</h1>
+                    <p class="subtitle">Your reference for most things 'Last Fortress Underground'</p>
+                </div>
+            </div>
+        </header>
+
+        <nav class="nav-bar" aria-label="Main">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="heroes.html">Heroes</a>
+            <a class="nav-link" href="equipment.html">Equipment</a>
+            <a class="nav-link" href="apc.html">APCs</a>
+            <a class="nav-link" href="warmachine.html">War Machines</a>
+            <a class="nav-link active" href="decors.html">Decors</a>
+            <a class="nav-link" href="relics.html">Relics</a>
+        </nav>
+
+        <!-- Patreon CTA -->
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date! Your support enables continuous improvements and new features.</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" rel="noopener noreferrer"
+               style="background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; padding: 12px 32px; border-radius: 8px; text-decoration: none; font-weight: 700; font-size: 16px; transition: all 0.3s ease; white-space: nowrap; box-shadow: 0 4px 12px rgba(255, 66, 77, 0.3); font-family: 'Rajdhani', sans-serif;"
+               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 16px rgba(255, 66, 77, 0.5)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 12px rgba(255, 66, 77, 0.3)'">
+                Become a Patron
+            </a>
+        </div>
+
+        <div class="page-title-section">
+            <h1>Decors Collection</h1>
+            <p class="page-subtitle">Customize your fortress, APCs, and profile with unique skins and decorations</p>
+        </div>
+
+        <div class="decor-sections">
+            <a href="fortress.html" class="decor-category-card">
+                <div class="icon">🏰</div>
+                <h2>Fortress Skins</h2>
+                <p>Customize your fortress appearance with unique skins featuring special buffs and visual effects</p>
+                <span class="count-badge">91 Skins Available</span>
+            </a>
+
+            <a href="universal-apc-skins.html" class="decor-category-card">
+                <div class="icon">🚗</div>
+                <h2>Universal APC Skins</h2>
+                <p>Apply decorative skins to any APC vehicle with universal compatibility and unique designs</p>
+                <span class="count-badge">30 Universal Skins</span>
+            </a>
+
+            <a href="player-frames.html" class="decor-category-card">
+                <div class="icon">🖼️</div>
+                <h2>Player Frames</h2>
+                <p>Decorative profile frames showing prestige ranks, alliance status, and event achievements</p>
+                <span class="count-badge">120 Frames Available</span>
+            </a>
+
+            <a href="peace-treaty.html" class="decor-category-card">
+                <div class="icon">🛡️</div>
+                <h2>Peace Treaty</h2>
+                <p>Protective shield decorations that enhance your fortress defense</p>
+                <span class="count-badge">9 Items</span>
+            </a>
+
+            <a href="wings.html" class="decor-category-card">
+                <div class="icon">✨</div>
+                <h2>Wings</h2>
+                <p>Decorative wing ornaments with powerful enhancement effects</p>
+                <span class="count-badge">15 Items</span>
+            </a>
+
+            <a href="nameplates.html" class="decor-category-card">
+                <div class="icon">📛</div>
+                <h2>Nameplates</h2>
+                <p>Decorative name display plates to customize your identity</p>
+                <span class="count-badge">48 Items</span>
+            </a>
+
+            <a href="chat-bubbles.html" class="decor-category-card">
+                <div class="icon">💬</div>
+                <h2>Chat Bubbles</h2>
+                <p>Decorative speech bubble frames for your chat messages</p>
+                <span class="count-badge">62 Items</span>
+            </a>
+
+            <a href="marching-trails.html" class="decor-category-card">
+                <div class="icon">🔥</div>
+                <h2>Marching Trails</h2>
+                <p>Visual trail effects that follow your troops on the map</p>
+                <span class="count-badge">19 Items</span>
+            </a>
+
+            <a href="relocation-animations.html" class="decor-category-card">
+                <div class="icon">🌀</div>
+                <h2>Relocation Animations</h2>
+                <p>Visual effects displayed when relocating your fortress</p>
+                <span class="count-badge">16 Items</span>
+            </a>
+
+            <a href="auras.html" class="decor-category-card">
+                <div class="icon">💫</div>
+                <h2>Auras</h2>
+                <p>Luminous halo effects that surround your fortress</p>
+                <span class="count-badge">11 Items</span>
+            </a>
+
+            <a href="ornaments.html" class="decor-category-card">
+                <div class="icon">🎀</div>
+                <h2>Ornaments</h2>
+                <p>Decorative hanging ornaments to embellish your fortress</p>
+                <span class="count-badge">23 Items</span>
+            </a>
+
+            <a href="profile-cards.html" class="decor-category-card">
+                <div class="icon">🃏</div>
+                <h2>Profile Cards</h2>
+                <p>Customizable card backgrounds for your player profile</p>
+                <span class="count-badge">16 Items</span>
+            </a>
+        </div>
+    </div>
+
+    <button id="back-to-top" aria-label="Back to top" title="Back to top">↑</button>
+    <script src="back-to-top.js" defer></script>
+</body>
+</html>

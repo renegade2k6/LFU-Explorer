@@ -1,0 +1,8 @@
+{
+  "table_name": "SnowmanTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "ActivityId": 160011, "Type": 2, "ItemArray": [8, 9, 10, 11], "ItemArrayLength": 4, "Stage": 1, "StealLimit": 0, "StealScoreLimit": 800, "StealCount": 3, "StealBase": 0, "StealProtect": 200, "WarehouseSetLimit": 3, "WarehouseSetCd": 3600, "ScoreLimit": 700, "MarchLimit": 1, "MarchMaxTime": 0, "MarchSpeedItem": 737001, "MarchSpeedRate": 50, "RepatriateItem": 737002, "RewardDelay": 0, "RewardInterval": 3600, "RewardId": 520007, "RewardCount": 20, "RewardLimit": 4, "DanceDuration": 0, "RecordCount": 100, "RuleInfoArray": [62, 63], "RuleInfoArrayLength": 2, "AllianceRankType": 0, "PersonalRankType": 0, "RepatriateMail": 0, "FinishMail": 0, "TimedMail": 0, "StealMail": 0, "ReissueMail": 0, "MarchSpeedBasic": 0, "Index": 0},
+    {"Id": 2, "ActivityId": 267001, "Type": 2, "ItemArray": [8, 9, 10, 11], "ItemArrayLength": 4, "Stage": 3, "StealLimit": 0, "StealScoreLimit": 800, "StealCount": 3, "StealBase": 0, "StealProtect": 200, "WarehouseSetLimit": 3, "WarehouseSetCd": 3600, "ScoreLimit": 700, "MarchLimit": 1, "MarchMaxTime": 0, "MarchSpeedItem": 800062, "MarchSpeedRate": 50, "RepatriateItem": 800063, "RewardDelay": 0, "RewardInterval": 3600, "RewardId": 80506, "RewardCount": 40, "RewardLimit": 4, "DanceDuration": 0, "RecordCount": 100, "RuleInfoArray": [70, 69], "RuleInfoArrayLength": 2, "AllianceRankType": 0, "PersonalRankType": 0, "RepatriateMail": 0, "FinishMail": 0, "TimedMail": 0, "StealMail": 0, "ReissueMail": 0, "MarchSpeedBasic": 0, "Index": 1}
+  ]
+}

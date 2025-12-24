@@ -1,0 +1,8 @@
+{
+  "table_name": "Sunflower_questTable",
+  "row_count": 2,
+  "data": [
+    {"Id": 1, "Type": 1, "Name": 329149, "Reward1": 0, "Reward2": 0, "Reward1Special": "", "Reward2Special": "", "Reward1Show": "223101_1000", "Reward2Show": "223102_3|200303_3", "HighReward1": 0, "HighReward2": 0, "HighReward1Special": "", "HighReward2Special": "", "HighReward1Show": "223101_1500", "HighReward2Show": "223102_5|200303_6", "Mail1": 0, "Mail2": 0, "Target": 1, "Index": 0},
+    {"Id": 2, "Type": 2, "Name": 329150, "Reward1": 0, "Reward2": 0, "Reward1Special": "", "Reward2Special": "", "Reward1Show": "223101_1000", "Reward2Show": "223102_3|200303_3", "HighReward1": 0, "HighReward2": 0, "HighReward1Special": "", "HighReward2Special": "", "HighReward1Show": "223101_1500", "HighReward2Show": "223102_5|200303_6", "Mail1": 0, "Mail2": 0, "Target": 1, "Index": 1}
+  ]
+}

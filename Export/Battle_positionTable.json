@@ -1,0 +1,11 @@
+{
+  "table_name": "Battle_positionTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1, "Type": 0, "No1": 1, "No2": 10, "No3": 20, "No4": 50, "No5": 100, "No6": 150, "No7": 200, "Para": "", "Index": 0},
+    {"Id": 3, "Type": 1, "No1": 1, "No2": 4, "No3": 8, "No4": 16, "No5": 25, "No6": 35, "No7": 50, "Para": "0|6", "Index": 1},
+    {"Id": 4, "Type": 1, "No1": 1, "No2": 5, "No3": 12, "No4": 20, "No5": 35, "No6": 50, "No7": 100, "Para": "7|14", "Index": 2},
+    {"Id": 5, "Type": 1, "No1": 1, "No2": 10, "No3": 20, "No4": 50, "No5": 100, "No6": 200, "No7": 200, "Para": "15|20", "Index": 3},
+    {"Id": 6, "Type": 1, "No1": 1, "No2": 15, "No3": 30, "No4": 60, "No5": 120, "No6": 240, "No7": 300, "Para": "21|30", "Index": 4}
+  ]
+}

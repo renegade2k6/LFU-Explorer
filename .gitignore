@@ -1,0 +1,10 @@
+# Deploy folder - keep everything
+# This folder contains the optimized deployment package
+
+# Don't ignore anything in deploy
+!*
+
+# But ignore OS files
+.DS_Store
+Thumbs.db
+Desktop.ini

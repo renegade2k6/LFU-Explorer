@@ -1,0 +1,19 @@
+{
+  "table_name": "City_battle_questTable",
+  "row_count": 13,
+  "data": [
+    {"Id": 4, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_19", "Desc": 328202, "Type": 6259, "Para2": "3", "Reward": 3200001, "Para1": "", "Para3": "", "Index": 1},
+    {"Id": 5, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_7", "Desc": 173046, "Type": 112, "Para2": "30", "Reward": 3200001, "Para1": "1", "Para3": "", "Index": 2},
+    {"Id": 6, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_27", "Desc": 173095, "Type": 24, "Para2": "1000", "Reward": 3200001, "Para1": "", "Para3": "", "Index": 3},
+    {"Id": 17, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_5", "Desc": 328257, "Type": 6198, "Para2": "50", "Reward": 3200002, "Para1": "", "Para3": "", "Index": 12},
+    {"Id": 11, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_4", "Desc": 328251, "Type": 6262, "Para2": "1", "Reward": 3200002, "Para1": "", "Para3": "", "Index": 6},
+    {"Id": 14, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_22", "Desc": 328254, "Type": 6221, "Para2": "5", "Reward": 3200002, "Para1": "5|7|13|25", "Para3": "", "Index": 9},
+    {"Id": 3, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_25", "Desc": 328201, "Type": 6258, "Para2": "1", "Reward": 3200001, "Para1": "", "Para3": "", "Index": 0},
+    {"Id": 7, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_16", "Desc": 328206, "Type": 110, "Para2": "1", "Reward": 3200001, "Para1": "200427;200428;200429;200432;200433;200703;200704;200709", "Para3": "", "Index": 4},
+    {"Id": 8, "Group": 1, "Sort": 1, "Name": 0, "Icon": "icon_zhanling_14", "Desc": 328207, "Type": 6261, "Para2": "1", "Reward": 3200001, "Para1": "", "Para3": "", "Index": 5},
+    {"Id": 12, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_21", "Desc": 328252, "Type": 6194, "Para2": "10", "Reward": 3200002, "Para1": "1", "Para3": "4", "Index": 7},
+    {"Id": 13, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_15", "Desc": 328253, "Type": 110, "Para2": "1", "Reward": 3200002, "Para1": "200705", "Para3": "", "Index": 8},
+    {"Id": 15, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_12", "Desc": 328255, "Type": 6118, "Para2": "1000", "Reward": 3200002, "Para1": "203006", "Para3": "", "Index": 10},
+    {"Id": 16, "Group": 3, "Sort": 2, "Name": 0, "Icon": "icon_zhanling_13", "Desc": 328256, "Type": 6118, "Para2": "1000", "Reward": 3200002, "Para1": "203007", "Para3": "", "Index": 11}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "table_name": "Hero_skillTable",
+  "row_count": 14,
+  "data": [
+    {"Id": 600001, "Name": "151100", "Des": "151101", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10083, "EffectNumArray": [10, 20, 30, 40, 50], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 0},
+    {"Id": 600002, "Name": "151102", "Des": "151103", "Type": 2, "Condition": 409000, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10083, "EffectNumArray": [10, 20, 30, 40, 50], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 1},
+    {"Id": 600003, "Name": "151104", "Des": "151105", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10050, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 2},
+    {"Id": 600004, "Name": "151106", "Des": "151107", "Type": 2, "Condition": 403000, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 3},
+    {"Id": 600005, "Name": "151108", "Des": "151109", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 4},
+    {"Id": 600006, "Name": "151110", "Des": "151111", "Type": 2, "Condition": 404000, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 5},
+    {"Id": 600007, "Name": "151112", "Des": "151113", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 6},
+    {"Id": 600008, "Name": "151114", "Des": "151115", "Type": 2, "Condition": 405000, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 7},
+    {"Id": 600009, "Name": "151116", "Des": "151117", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 8},
+    {"Id": 600010, "Name": "151118", "Des": "151119", "Type": 2, "Condition": 406000, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 9},
+    {"Id": 600011, "Name": "151120", "Des": "151121", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 10},
+    {"Id": 600012, "Name": "151122", "Des": "151123", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 11},
+    {"Id": 600013, "Name": "151124", "Des": "151125", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 12},
+    {"Id": 600014, "Name": "151126", "Des": "151127", "Type": 1, "Condition": 0, "LevelArray": [1, 2, 3, 4, 5], "LevelArrayLength": 5, "Effect": 10090, "EffectNumArray": [0, 0, 0, 0, 0], "EffectNumArrayLength": 5, "PowerArray": [0, 0, 0, 0, 0], "PowerArrayLength": 5, "Index": 13}
+  ]
+}

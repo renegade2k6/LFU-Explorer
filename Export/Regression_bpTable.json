@@ -1,0 +1,11 @@
+{
+  "table_name": "Regression_bpTable",
+  "row_count": 5,
+  "data": [
+    {"Id": 1001, "Day": 1, "Name": 173010, "TaskIdArray": [321001, 321006, 321007, 321008, 321009, 321010, 321011, 321012, 321013, 321014, 321015], "TaskIdArrayLength": 11, "ExperienceArray": [5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "ExperienceArrayLength": 11, "Index": 0},
+    {"Id": 1002, "Day": 2, "Name": 173011, "TaskIdArray": [321002, 321026, 321027, 321028, 321029, 321030, 321031, 321037, 321038, 321039, 321040], "TaskIdArrayLength": 11, "ExperienceArray": [5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "ExperienceArrayLength": 11, "Index": 1},
+    {"Id": 1003, "Day": 3, "Name": 173012, "TaskIdArray": [321003, 321050, 321051, 321052, 321053, 321054, 321055, 321056, 321057, 321058, 321059], "TaskIdArrayLength": 11, "ExperienceArray": [5, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3], "ExperienceArrayLength": 11, "Index": 2},
+    {"Id": 1004, "Day": 4, "Name": 173013, "TaskIdArray": [321004, 321041, 321042, 321043, 321044, 321045, 321046, 321047, 321048, 321049], "TaskIdArrayLength": 10, "ExperienceArray": [5, 3, 3, 3, 3, 3, 3, 3, 3, 3], "ExperienceArrayLength": 10, "Index": 3},
+    {"Id": 1005, "Day": 5, "Name": 173014, "TaskIdArray": [321005, 321061, 321062, 321063, 321064, 321065, 321066, 321067, 321068, 321069], "TaskIdArrayLength": 10, "ExperienceArray": [5, 3, 3, 3, 3, 3, 3, 3, 3, 3], "ExperienceArrayLength": 10, "Index": 4}
+  ]
+}

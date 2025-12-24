@@ -1,0 +1,33 @@
+{
+  "table_name": "Reclaim_pveTable",
+  "row_count": 27,
+  "data": [
+    {"Id": 100201, "Army": 102021, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10020211_0_0"], "TriggerEventArrayLength": 1, "Index": 2},
+    {"Id": 100202, "Army": 102022, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10020307_0_0"], "TriggerEventArrayLength": 1, "Index": 3},
+    {"Id": 100203, "Army": 102023, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10020610_0_0"], "TriggerEventArrayLength": 1, "Index": 4},
+    {"Id": 100401, "Army": 102041, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10040303_0_0"], "TriggerEventArrayLength": 1, "Index": 9},
+    {"Id": 100402, "Army": 102042, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10040403_0_0"], "TriggerEventArrayLength": 1, "Index": 10},
+    {"Id": 100403, "Army": 102043, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10040503_0_0"], "TriggerEventArrayLength": 1, "Index": 11},
+    {"Id": 100301, "Army": 102031, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10030304_0"], "TriggerEventArrayLength": 1, "Index": 5},
+    {"Id": 100302, "Army": 102032, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10030308_0"], "TriggerEventArrayLength": 1, "Index": 6},
+    {"Id": 100303, "Army": 102033, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10030602_0"], "TriggerEventArrayLength": 1, "Index": 7},
+    {"Id": 100304, "Army": 102034, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10030610_0"], "TriggerEventArrayLength": 1, "Index": 8},
+    {"Id": 100101, "Army": 102011, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10010210_0_0", "5,10010209_1"], "TriggerEventArrayLength": 2, "Index": 12},
+    {"Id": 100102, "Army": 102012, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10010310_0_0", "5,10010309_1"], "TriggerEventArrayLength": 2, "Index": 13},
+    {"Id": 100103, "Army": 102013, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10010410_0_0", "5,10010409_1"], "TriggerEventArrayLength": 2, "Index": 14},
+    {"Id": 100104, "Army": 102014, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10010510_0_0", "5,10010509_1"], "TriggerEventArrayLength": 2, "Index": 15},
+    {"Id": 100105, "Army": 102015, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10010803_0_0"], "TriggerEventArrayLength": 1, "Index": 16},
+    {"Id": 100501, "Army": 102051, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050108_0_0"], "TriggerEventArrayLength": 1, "Index": 17},
+    {"Id": 100502, "Army": 102052, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050114_0_0"], "TriggerEventArrayLength": 1, "Index": 18},
+    {"Id": 100503, "Army": 102053, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050302_0_0"], "TriggerEventArrayLength": 1, "Index": 19},
+    {"Id": 100504, "Army": 102054, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050308_0_0"], "TriggerEventArrayLength": 1, "Index": 20},
+    {"Id": 100505, "Army": 102055, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050320_0_0"], "TriggerEventArrayLength": 1, "Index": 21},
+    {"Id": 100506, "Army": 102056, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050502_0_0"], "TriggerEventArrayLength": 1, "Index": 22},
+    {"Id": 100507, "Army": 102057, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050902_0_0"], "TriggerEventArrayLength": 1, "Index": 23},
+    {"Id": 100508, "Army": 102058, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050908_0_0"], "TriggerEventArrayLength": 1, "Index": 24},
+    {"Id": 100509, "Army": 102059, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10050915_0_0"], "TriggerEventArrayLength": 1, "Index": 25},
+    {"Id": 100601, "Army": 102031, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": ["4,10060108_2_0"], "TriggerEventArrayLength": 1, "Index": 26},
+    {"Id": 199901, "Army": 101040, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": null, "TriggerEventArrayLength": 0, "Index": 0},
+    {"Id": 199902, "Army": 101041, "PlayerArmyNum": 10, "PlayerArmyLvl": 1, "BattleGround": "BattleGround900", "TriggerEventArray": null, "TriggerEventArrayLength": 0, "Index": 1}
+  ]
+}

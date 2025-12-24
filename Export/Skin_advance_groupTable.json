@@ -1,0 +1,9 @@
+{
+  "table_name": "Skin_advance_groupTable",
+  "row_count": 3,
+  "data": [
+    {"Id": 1, "GroupId": 1, "SkinRequireArray": [100056, 100057, 100058], "SkinRequireArrayLength": 3, "SkinSkill": 1001, "SkinIconArray": ["ICON_Fireworks_Advanced_2024", "ICON_Palace_Advanced_2024", "ICON_Celebration_Advanced_2024"], "SkinIconArrayLength": 3, "StartTime": "2024/6/5 00:00:00", "EndTime": "2024/6/20 00:00:00", "GroupName": 802000602, "GroupPic": "img_pfjj_bg01", "IsShow": "1", "Index": 0},
+    {"Id": 2, "GroupId": 2, "SkinRequireArray": [1100006, 1100005, 1100004], "SkinRequireArrayLength": 3, "SkinSkill": 1002, "SkinIconArray": ["icon_pendant_kbzy_plus", "icon_pendant_kbzy3_plus", "icon_pendant_kbzy2_plus"], "SkinIconArrayLength": 3, "StartTime": "2024/10/31 00:00:00", "EndTime": "2024/11/30 00:00:00", "GroupName": 802000606, "GroupPic": "img_pfjj_bg02", "IsShow": "1", "Index": 1},
+    {"Id": 3, "GroupId": 3, "SkinRequireArray": [1400008, 1400009, 1400010], "SkinRequireArrayLength": 3, "SkinSkill": 1003, "SkinIconArray": ["icon_halo_bingxuepro_2506", "icon_halo_sciencepro_2506", "icon_halo_autumnpro_2506"], "SkinIconArrayLength": 3, "StartTime": "2025/07/02 00:00:00", "EndTime": "2025/08/01 00:00:00", "GroupName": 802000613, "GroupPic": "img_pfjj_bg03", "IsShow": "1", "Index": 2}
+  ]
+}
