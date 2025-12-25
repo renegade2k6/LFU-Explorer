@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>🌳 Landscape System | LFU Explorer</title>
+    <link rel="icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../theme-fix.css">
+    <link rel="stylesheet" href="../guides-dropdown.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        .guide-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .guide-content {
+            background: rgba(255,255,255,0.03);
+            border: 2px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 40px;
+        }
+        .guide-content h1 {
+            color: #10b981;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 32px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .guide-content h2 {
+            color: #10b981;
+            font-family: 'Orbitron', sans-serif;
+            border-bottom: 2px solid #10b981;
+            padding-bottom: 10px;
+            margin-top: 50px;
+            margin-bottom: 25px;
+            font-size: 26px;
+        }
+        .guide-content h3 {
+            color: #60a5fa;
+            font-family: 'Orbitron', sans-serif;
+            margin-top: 35px;
+            margin-bottom: 20px;
+            font-size: 20px;
+        }
+        .guide-content table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(0,0,0,0.3);
+            border-radius: 12px;
+            margin: 25px 0;
+            overflow: hidden;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+        }
+        .guide-content th {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.3) 0%, rgba(16, 185, 129, 0.2) 100%);
+            color: #10b981;
+            padding: 12px 16px;
+            font-family: 'Orbitron', sans-serif;
+            text-align: left;
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .guide-content td {
+            padding: 12px 16px;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            color: #e0e0ff;
+            vertical-align: middle;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        .guide-content td:first-child {
+            width: 60px;
+            text-align: center;
+        }
+        .guide-content td img {
+            max-width: 50px;
+            max-height: 50px;
+            border-radius: 8px;
+            display: block;
+            margin: 0 auto;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+            border: 2px solid rgba(96, 165, 250, 0.3);
+            transition: all 0.3s ease;
+        }
+        .guide-content td img:hover {
+            transform: scale(1.2);
+            box-shadow: 0 5px 15px rgba(96, 165, 250, 0.6);
+            border-color: rgba(96, 165, 250, 0.8);
+        }
+        .guide-content tr:last-child td {
+            border-bottom: none;
+        }
+        .guide-content ul {
+            color: #e0e0ff;
+            line-height: 1.9;
+            margin: 20px 0;
+            padding-left: 25px;
+        }
+        .guide-content p {
+            color: #e0e0ff;
+            line-height: 1.7;
+            margin: 15px 0;
+            font-size: 15px;
+        }
+        .guide-content li {
+            margin: 10px 0;
+            font-size: 15px;
+        }
+        .guide-content strong {
+            color: #93c5fd;
+            font-weight: 600;
+        }
+        .guide-content hr {
+            border: none;
+            border-top: 2px solid rgba(16, 185, 129, 0.3);
+            margin: 40px 0;
+            box-shadow: 0 1px 0 rgba(96, 165, 250, 0.1);
+        }
+        .guide-content em {
+            color: #c4b5fd;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <header class="app-header">
+            <div class="header-content">
+                <h1>🌳 Landscape System</h1>
+                <p class="subtitle">Complete game system documentation</p>
+            </div>
+        </header>
+        <nav class="nav-bar" aria-label="Main" style="max-width: 1200px; margin: 20px auto; padding: 0;">
+            <a class="nav-link" href="../index.html">Home</a>
+            <a class="nav-link" href="../heroes.html">Heroes</a>
+            <a class="nav-link" href="../equipment.html">Equipment</a>
+            <a class="nav-link" href="../apc.html">APCs</a>
+            <a class="nav-link" href="../warmachine.html">War Machines</a>
+            <a class="nav-link" href="../decors.html">Decors</a>
+            <a class="nav-link" href="../relics.html">Relics</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-toggle nav-link">
+                    Guides
+                    <span class="nav-dropdown-arrow">▼</span>
+                </button>
+                <div class="nav-dropdown-content">
+                    <a href="manor.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">🏰</span>
+                        Manor System
+                    </a>
+                    <a href="landscape.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">🌳</span>
+                        Landscape System
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
+            <div style="flex: 1; min-width: 200px;">
+                <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
+                <p style="color: #e0e0ff; margin: 0; font-size: 14px; line-height: 1.4;">Help keep LFU Explorer free and up-to-date!</p>
+            </div>
+            <a href="https://www.patreon.com/renegade2k6UK" target="_blank" style="padding: 10px 24px; background: linear-gradient(135deg, #ff424d 0%, #f96854 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 700; font-family: 'Orbitron', sans-serif; font-size: 14px; transition: all 0.3s; white-space: nowrap; border: 2px solid rgba(255,255,255,0.2);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 16px rgba(255,66,77,0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='none'">Become a Patron</a>
+        </div>
+        <div class="guide-container">
+            <div class="guide-content"><h1>Landscape System</h1>
+<h2>System Overview</h2>
+<p>The Landscape System allows players to decorate their manor with 297 unique landscape decorations across 27 distinct categories. Each decoration can be upgraded through 11 levels (0-10), with visual evolution occurring at key progression points.</p>
+<h3>Core Statistics</h3>
+<ul>
+<li><strong>Total Landscape Decorations</strong>: 297</li>
+<li><strong>Landscape Categories</strong>: 27</li>
+<li><strong>Levels Per Item</strong>: 11 (0-10)</li>
+<li><strong>Visual Evolution Tiers</strong>: 3 tiers</li>
+</ul>
+<h3>System Features</h3>
+<ul>
+<li><strong>Visual Upgrades</strong>: Models evolve at Level 5 (tier 2) and Level 10 (tier 3)</li>
+<li><strong>Manor Building Requirement</strong>: "Please build the Manor first"</li>
+<li><strong>Upgrade System</strong>: Each decoration progresses through 11 levels with increasing stats</li>
+<li><strong>Bonus Effects</strong>: Decorations provide combat stat bonuses that take effect immediately when placed</li>
+<li><strong>Bonus Caps</strong>: Each decoration type has a maximum bonus limit; higher-level decorations take priority</li>
+</ul>
+<hr />
+<h2>Featured Decorations</h2>
+<p>Showcase of popular landscape decorations with their 3-tier visual evolution.</p>
+<h3>Cactus</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Levels</th>
+<th>Icon</th>
+<th>Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>0-4</td>
+<td><img alt="Cactus Tier 1" src="../assets/Sprite/item_jingguan_xianrenzhang01.png" /></td>
+<td>Initial desert plant appearance</td>
+</tr>
+<tr>
+<td><strong>Enhanced</strong></td>
+<td>5-9</td>
+<td><img alt="Cactus Tier 2" src="../assets/Sprite/item_jingguan_xianrenzhang02.png" /></td>
+<td>Larger with blooming flowers</td>
+</tr>
+<tr>
+<td><strong>Maximum</strong></td>
+<td>10</td>
+<td><img alt="Cactus Tier 3" src="../assets/Sprite/item_jingguan_xianrenzhang03.png" /></td>
+<td>Majestic multi-armed cactus</td>
+</tr>
+</tbody>
+</table>
+<h3>Fortune Cat</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Levels</th>
+<th>Icon</th>
+<th>Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>0-4</td>
+<td><img alt="Fortune Cat Tier 1" src="../assets/Sprite/item_jingguan_zhaocaimao01.png" /></td>
+<td>Small beckoning cat statue</td>
+</tr>
+<tr>
+<td><strong>Enhanced</strong></td>
+<td>5-9</td>
+<td><img alt="Fortune Cat Tier 2" src="../assets/Sprite/item_jingguan_zhaocaimao02.png" /></td>
+<td>Golden ornate cat with coins</td>
+</tr>
+<tr>
+<td><strong>Maximum</strong></td>
+<td>10</td>
+<td><img alt="Fortune Cat Tier 3" src="../assets/Sprite/item_jingguan_zhaocaimao03.png" /></td>
+<td>Grand prosperity cat shrine</td>
+</tr>
+</tbody>
+</table>
+<h3>Robot</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Levels</th>
+<th>Icon</th>
+<th>Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>0-4</td>
+<td><img alt="Robot Tier 1" src="../assets/Sprite/item_jingguan_jiqiren01.png" /></td>
+<td>Simple mechanical guardian</td>
+</tr>
+<tr>
+<td><strong>Enhanced</strong></td>
+<td>5-9</td>
+<td><img alt="Robot Tier 2" src="../assets/Sprite/item_jingguan_jiqiren02.png" /></td>
+<td>Advanced combat unit</td>
+</tr>
+<tr>
+<td><strong>Maximum</strong></td>
+<td>10</td>
+<td><img alt="Robot Tier 3" src="../assets/Sprite/item_jingguan_jiqiren03.png" /></td>
+<td>Elite mech warrior</td>
+</tr>
+</tbody>
+</table>
+<h3>Mechanical Tyrannosaurus</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Levels</th>
+<th>Icon</th>
+<th>Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>0-4</td>
+<td><img alt="Mech T-Rex Tier 1" src="../assets/Sprite/item_jingguan_jixiebaolong01.png" /></td>
+<td>Small robotic dinosaur</td>
+</tr>
+<tr>
+<td><strong>Enhanced</strong></td>
+<td>5-9</td>
+<td><img alt="Mech T-Rex Tier 2" src="../assets/Sprite/item_jingguan_jixiebaolong02.png" /></td>
+<td>Armed battle tyrannosaurus</td>
+</tr>
+<tr>
+<td><strong>Maximum</strong></td>
+<td>10</td>
+<td><img alt="Mech T-Rex Tier 3" src="../assets/Sprite/item_jingguan_jixiebaolong03.png" /></td>
+<td>Towering war machine beast</td>
+</tr>
+</tbody>
+</table>
+<h3>Leo (Zodiac)</h3>
+<table>
+<thead>
+<tr>
+<th>Tier</th>
+<th>Levels</th>
+<th>Icon</th>
+<th>Visual</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>0-4</td>
+<td><img alt="Leo Tier 1" src="../assets/Sprite/item_jingguan_shizizuo01.png" /></td>
+<td>Constellation outline</td>
+</tr>
+<tr>
+<td><strong>Enhanced</strong></td>
+<td>5-9</td>
+<td><img alt="Leo Tier 2" src="../assets/Sprite/item_jingguan_shizizuo02.png" /></td>
+<td>Glowing celestial lion</td>
+</tr>
+<tr>
+<td><strong>Maximum</strong></td>
+<td>10</td>
+<td><img alt="Leo Tier 3" src="../assets/Sprite/item_jingguan_shizizuo03.png" /></td>
+<td>Majestic cosmic guardian</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Complete Landscape Catalog</h2>
+<p>Visual showcase and stat progression for all 27 decoration categories (sorted by power, lowest to highest).</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Decoration</th>
+<th>Lv 0 Stats</th>
+<th>Lv 10 Stats</th>
+<th>Power</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Default/Mushroom" src="../assets/Sprite/item_jingguan_mogu.png" /></td>
+<td><strong>Default/Mushroom</strong></td>
+<td>0.1</td>
+<td>1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Huoji" src="../assets/Sprite/item_jingguan_huoji01.png" /></td>
+<td><strong>Huoji</strong></td>
+<td>0.1, 0.1</td>
+<td>1, 1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Poshu" src="../assets/Sprite/item_jingguan_dishu01.png" /></td>
+<td><strong>Poshu</strong></td>
+<td>0.1, 0.1</td>
+<td>1, 1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Diamond" src="../assets/Sprite/item_jingguan_diamond.png" /></td>
+<td><strong>Diamond</strong></td>
+<td>0.1, 0.1</td>
+<td>1, 1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Christmas Tree" src="../assets/Sprite/item_jingguan_shengdanshu.png" /></td>
+<td><strong>Christmas Tree</strong></td>
+<td>0.1</td>
+<td>1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Spring Festival" src="../assets/Sprite/item_jingguan_chunjie.png" /></td>
+<td><strong>Spring Festival</strong></td>
+<td>0.1, 0.1</td>
+<td>1, 1</td>
+<td>25 &gt; 319</td>
+</tr>
+<tr>
+<td><img alt="Cactus" src="../assets/Sprite/item_jingguan_xianrenzhang01.png" /></td>
+<td><strong>Cactus</strong></td>
+<td>0.3, 0</td>
+<td>6, 1</td>
+<td>100 &gt; 1275</td>
+</tr>
+<tr>
+<td><img alt="Tree Person" src="../assets/Sprite/item_jingguan_shuren01.png" /></td>
+<td><strong>Tree Person</strong></td>
+<td>0.2, 0</td>
+<td>4, 1</td>
+<td>100 &gt; 1275</td>
+</tr>
+<tr>
+<td><img alt="Gemini" src="../assets/Sprite/item_jingguan_shuangzizuo01.png" /></td>
+<td><strong>Gemini</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Crystal Ball" src="../assets/Sprite/item_jingguan_shiujingqiu01.png" /></td>
+<td><strong>Crystal Ball</strong></td>
+<td>0.5, 0</td>
+<td>5, 3</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Aries" src="../assets/Sprite/item_jingguan_baiyangzuo01.png" /></td>
+<td><strong>Aries</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Leo" src="../assets/Sprite/item_jingguan_shizizuo01.png" /></td>
+<td><strong>Leo</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Virgo" src="../assets/Sprite/item_jingguan_chunvzuo01.png" /></td>
+<td><strong>Virgo</strong></td>
+<td>1, 0</td>
+<td>10, 4</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Scorpio" src="../assets/Sprite/item_jingguan_tianxiezuo01.png" /></td>
+<td><strong>Scorpio</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Fountain" src="../assets/Sprite/item_jingguan_penquan01.png" /></td>
+<td><strong>Fountain</strong></td>
+<td>5, 300</td>
+<td>22, 2700</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Fortune Cat" src="../assets/Sprite/item_jingguan_zhaocaimao01.png" /></td>
+<td><strong>Fortune Cat</strong></td>
+<td>0.5, 0</td>
+<td>5, 3</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Star Guard/Alien" src="../assets/Sprite/item_jingguan_yixinglaike01.png" /></td>
+<td><strong>Star Guard/Alien</strong></td>
+<td>0.5, 0</td>
+<td>5, 3</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Mechanical Tyrannosaurus" src="../assets/Sprite/item_jingguan_jixiebaolong01.png" /></td>
+<td><strong>Mechanical Tyrannosaurus</strong></td>
+<td>0, 0.5</td>
+<td>3, 5</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Robot" src="../assets/Sprite/item_jingguan_jiqiren01.png" /></td>
+<td><strong>Robot</strong></td>
+<td>0, 0.5</td>
+<td>3, 5</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Snake" src="../assets/Sprite/item_jingguan_she01.png" /></td>
+<td><strong>Snake</strong></td>
+<td>0, 0.5</td>
+<td>2, 5</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Sagittarius" src="../assets/Sprite/item_jingguan_sheshouzuo01.png" /></td>
+<td><strong>Sagittarius</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Libra" src="../assets/Sprite/item_jingguan_tianchengzuo01.png" /></td>
+<td><strong>Libra</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Capricorn" src="../assets/Sprite/item_jingguan_mojiezuo01.png" /></td>
+<td><strong>Capricorn</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Aquarius" src="../assets/Sprite/item_jingguan_shuipingzuo01.png" /></td>
+<td><strong>Aquarius</strong></td>
+<td>0, 0.5</td>
+<td>2, 5</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Pisces" src="../assets/Sprite/item_jingguan_shuangyuzuo01.png" /></td>
+<td><strong>Pisces</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Taurus" src="../assets/Sprite/item_jingguan_jinniuzuo01.png" /></td>
+<td><strong>Taurus</strong></td>
+<td>0, 1</td>
+<td>4, 10</td>
+<td>2500 &gt; 31880</td>
+</tr>
+<tr>
+<td><img alt="Cancer" src="../assets/Sprite/item_jingguan_juxiezuo01.png" /></td>
+<td><strong>Cancer</strong></td>
+<td>0.4, 0</td>
+<td>4, 2</td>
+<td>2500 &gt; 31880</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Progression System</h2>
+<h3>Level Structure</h3>
+<p>Each landscape decoration follows a standardized 11-level progression (0-10):</p>
+<ul>
+<li><strong>Early Game (Levels 0-4)</strong>: Base visual model (_01 variant)</li>
+<li><strong>Mid Game (Levels 5-9)</strong>: Enhanced visual model (_02 variant)</li>
+<li><strong>End Game (Level 10)</strong>: Maximum visual model (_03 variant)</li>
+</ul>
+<h3>Visual Evolution Points</h3>
+<table>
+<thead>
+<tr>
+<th>Level Milestone</th>
+<th>Model Change</th>
+<th>Impact</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Level 0-4</td>
+<td>Base Model (_01)</td>
+<td>Initial decoration appearance</td>
+</tr>
+<tr>
+<td>Level 5</td>
+<td>Enhanced Model (_02)</td>
+<td>First visual upgrade</td>
+</tr>
+<tr>
+<td>Level 10</td>
+<td>Maximum Model (_03)</td>
+<td>Final visual tier, maximum prestige</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Exception Categories</strong>: Some decorations (Default, Poshu, Huoji, Christmas, Spring Festival, Diamond) maintain the same model across all levels.</p>
+<hr /></div></div><script src="../back-to-top.js"></script>
+    </div>
+</body>
+</html>
