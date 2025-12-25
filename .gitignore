@@ -13,11 +13,10 @@
 !.gitkeep
 
 # ============================================================================
-# DEPLOYMENT (keep this folder)
+# DEPLOYMENT
 # ============================================================================
-# The deploy folder contains the optimized deployment package
-# This is what gets uploaded to hosting (GitHub Pages, Netlify, etc.)
-!/deploy/
+# Deployment happens to F:/Github/LFU-Explorer (separate git repository)
+# No local deploy folder needed in working directory
 
 # ============================================================================
 # ANALYSIS & TEMPORARY FILES
@@ -138,4 +137,5 @@ config.local
 # Export/ - Contains exported game data needed by the website
 # Localization_LocalizationComponent_dictionary.json - Required for text translations
 # *.html, *.css, *.js - Required website files
-# deploy/ - Optimized deployment package with only used assets
+# tools/ - Build scripts and generators
+# Deployment is to F:/Github/LFU-Explorer (separate repository)
