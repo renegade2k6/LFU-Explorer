@@ -5,26 +5,42 @@
 }
 
 .nav-dropdown-toggle {
+    /* Core button resets */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    /* Layout matching .nav-link exactly */
     display: inline-block;
     padding: 12px 24px;
-    background: rgba(30, 40, 80, 0.4);
+    margin: 0;
     border: 2px solid rgba(74, 158, 255, 0.3);
     border-radius: 12px;
-    text-decoration: none;
+
+    /* Background and color */
+    background: rgba(30, 40, 80, 0.4);
     color: #b8c5d6;
+
+    /* Typography - match .nav-link exactly */
     font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
     font-size: 1.05em;
+    font-weight: 600;
     letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+
+    /* Positioning */
     position: relative;
-    overflow: hidden;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    /* Button-specific resets to match anchor tags */
-    margin: 0;
     vertical-align: middle;
-    line-height: normal;
+
+    /* Visual effects */
+    overflow: hidden;
+    cursor: pointer;
     box-sizing: border-box;
+
+    /* Transitions */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-dropdown-toggle::before {
