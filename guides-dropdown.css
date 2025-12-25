@@ -20,6 +20,11 @@
     overflow: hidden;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    /* Button-specific resets to match anchor tags */
+    margin: 0;
+    vertical-align: middle;
+    line-height: normal;
+    box-sizing: border-box;
 }
 
 .nav-dropdown-toggle::before {
