@@ -342,14 +342,15 @@
         };
 
         const campIcons = {
-            0: 'ICON_HERO_yangcheng_jianshe.png',
-            1: 'ICON_HERO_yangcheng_yiyongjun.png',
-            2: 'ICON_HERO_yangcheng_fuchouzhe.png',
-            3: null, // The Wildlings - no icon in files
-            4: 'ICON_HERO_yangcheng_shouwangzhe.png',
-            5: 'ICON_HERO_zhongli.png',
-            6: 'ICON_HERO_yangcheng_shen.png',
-            7: 'ICON_HERO_yangcheng_mo.png'
+            0: 'Solari.png',
+            1: 'Minutemen.png',
+            2: 'Vindicators.png',
+            3: 'Wildlings.png',
+            4: 'Watchers.png',
+            5: null, // Neutral - no faction icon
+            6: 'Lawbringers.png',
+            7: 'Wreakers.png',
+            8: 'Spacetime.png'
         };
 
         // Role mappings - production roles for fortress workers, combat roles for battle
@@ -490,7 +491,7 @@
                         <div class="hero-card-body">
                             <h3 class="hero-name">${heroName}</h3>
                             <div class="hero-faction">
-                                ${campIcon ? `<img src="assets/Sprite/${campIcon}" class="faction-icon-small" alt="${campName}">` : ''}
+                                ${campIcon ? `<img src="assets/factions/${campIcon}" class="faction-icon-small" alt="${campName}">` : ''}
                                 <span>${campName}</span>
                             </div>
                         </div>
@@ -529,7 +530,7 @@
                         <h1>${heroName}</h1>
                         <div class="hero-meta">
                             <span class="badge badge-faction">
-                                ${campIcon ? `<img src="assets/Sprite/${campIcon}" alt="${campName}">` : ''}
+                                ${campIcon ? `<img src="assets/factions/${campIcon}" alt="${campName}">` : ''}
                                 ${campName}
                             </span>
                         </div>
