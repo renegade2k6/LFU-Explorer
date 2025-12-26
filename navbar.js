@@ -54,22 +54,10 @@
                     <span class="nav-dropdown-arrow">▼</span>
                 </button>
                 <div class="nav-dropdown-content">
-                    <a href="${prefix}guides/manor.html" class="nav-dropdown-item">
-                        <span class="nav-dropdown-item-icon">🏰</span>
-                        Manor System
-                    </a>
-                    <a href="${prefix}guides/landscape.html" class="nav-dropdown-item">
-                        <span class="nav-dropdown-item-icon">🌳</span>
-                        Landscape System
-                    </a>
-                    <a href="${prefix}guides/war-room.html" class="nav-dropdown-item">
-                        <span class="nav-dropdown-item-icon">⚔️</span>
-                        War Room / Spiritual Link
-                    </a>
-                    <a href="${prefix}guides/apc-guide.html" class="nav-dropdown-item">
-                        <span class="nav-dropdown-item-icon">🚗</span>
-                        APC System
-                    </a>
+                    <a href="${prefix}guides/manor.html" class="nav-dropdown-item">Manor System</a>
+                    <a href="${prefix}guides/landscape.html" class="nav-dropdown-item">Landscape System</a>
+                    <a href="${prefix}guides/war-room.html" class="nav-dropdown-item">War Room / Spiritual Link</a>
+                    <a href="${prefix}guides/apc-guide.html" class="nav-dropdown-item">APC System</a>
                 </div>
             </div>
         </nav>
