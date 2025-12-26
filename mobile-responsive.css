@@ -1,0 +1,705 @@
+/* =============================================================================
+   Mobile Responsive Enhancements for LFU Explorer
+
+   Breakpoints:
+   - 320px: Small phones
+   - 480px: Medium phones
+   - 768px: Tablets and large phones
+   - 1024px: Small tablets/laptops
+============================================================================= */
+
+/* =============================================================================
+   Base Mobile Optimizations (All Mobile Devices)
+============================================================================= */
+
+/* Ensure proper touch scrolling on iOS */
+body {
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Minimum touch target size (44x44px per WCAG 2.1) */
+@media (max-width: 768px) {
+    a, button, input, select, textarea {
+        min-height: 44px;
+        min-width: 44px;
+    }
+
+    /* Ensure interactive elements have enough spacing */
+    .nav-link, .nav-dropdown-toggle {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* =============================================================================
+   Navigation - Mobile First
+============================================================================= */
+
+@media (max-width: 768px) {
+    .nav-bar {
+        gap: 8px;
+        padding: 12px 8px;
+        row-gap: 8px;
+    }
+
+    .nav-link, .nav-dropdown-toggle {
+        padding: 10px 16px;
+        font-size: 0.95em;
+        white-space: nowrap;
+    }
+
+    /* Full width dropdown on mobile */
+    .nav-dropdown {
+        width: 100%;
+    }
+
+    .nav-dropdown-toggle {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-dropdown-content {
+        left: 0;
+        right: 0;
+        width: 100%;
+        min-width: unset;
+    }
+}
+
+/* Small phones - Compact navigation */
+@media (max-width: 480px) {
+    .nav-bar {
+        gap: 6px;
+        padding: 10px 6px;
+    }
+
+    .nav-link, .nav-dropdown-toggle {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
+
+/* =============================================================================
+   Headers and Titles
+============================================================================= */
+
+@media (max-width: 768px) {
+    .app-header h1,
+    .header-content h1 {
+        font-size: 2rem !important;
+    }
+
+    .page-title-section h1 {
+        font-size: 2rem !important;
+    }
+
+    .page-subtitle,
+    .subtitle {
+        font-size: 0.95rem;
+    }
+
+    .hero-title {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .app-header h1,
+    .header-content h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .page-title-section h1 {
+        font-size: 1.6rem !important;
+    }
+
+    .page-subtitle,
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    .hero-title {
+        font-size: 1.5rem !important;
+    }
+}
+
+/* =============================================================================
+   Grid Layouts - Responsive Columns
+============================================================================= */
+
+@media (max-width: 768px) {
+    /* Hero grids */
+    .hero-grid {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)) !important;
+        gap: 12px !important;
+    }
+
+    /* Card grids */
+    .cards-grid,
+    .card-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)) !important;
+        gap: 16px !important;
+    }
+
+    /* Category grids */
+    .category-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* Features grid */
+    .features-grid {
+        grid-template-columns: 1fr !important;
+        gap: 16px !important;
+    }
+
+    /* Stats dashboard */
+    .stats-dashboard {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+
+    /* Set grids */
+    .set-grid {
+        grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)) !important;
+        gap: 12px !important;
+    }
+
+    /* Items grid */
+    .items-grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)) !important;
+        gap: 12px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Single column on very small screens for major content */
+    .hero-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+
+    .cards-grid,
+    .card-grid {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+
+    .set-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+}
+
+/* =============================================================================
+   Tables - Horizontal Scroll on Mobile
+============================================================================= */
+
+@media (max-width: 768px) {
+    .data-table-wrapper,
+    .table-wrapper {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        margin: 16px -12px;
+        padding: 0 12px;
+    }
+
+    table {
+        min-width: 600px;
+        font-size: 0.9rem;
+    }
+
+    table th,
+    table td {
+        padding: 8px 6px !important;
+        white-space: nowrap;
+    }
+
+    /* Markdown tables */
+    .markdown-body table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 480px) {
+    table {
+        font-size: 0.85rem;
+    }
+
+    table th,
+    table td {
+        padding: 6px 4px !important;
+    }
+}
+
+/* =============================================================================
+   Modals and Popups - Full Screen on Mobile
+============================================================================= */
+
+@media (max-width: 768px) {
+    .modal-content,
+    .hero-detail-page .modal-content {
+        max-width: 95vw !important;
+        max-height: 95vh !important;
+        margin: 20px auto !important;
+        padding: 16px !important;
+    }
+
+    .hero-detail-container {
+        padding: 16px !important;
+    }
+
+    .hero-detail-header {
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+
+    .hero-detail-page .hero-detail-header {
+        grid-template-columns: 1fr !important;
+        text-align: center !important;
+    }
+
+    .hero-portrait-large {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .hero-info {
+        text-align: center;
+    }
+
+    .hero-badges {
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal-content,
+    .hero-detail-page .modal-content {
+        max-width: 100vw !important;
+        max-height: 100vh !important;
+        margin: 0 !important;
+        padding: 12px !important;
+        border-radius: 0 !important;
+    }
+
+    .hero-portrait-large {
+        max-width: 160px;
+    }
+}
+
+/* =============================================================================
+   Hero Cards - Optimized for Mobile
+============================================================================= */
+
+@media (max-width: 768px) {
+    .hero-card {
+        padding: 10px !important;
+    }
+
+    .hero-card-header {
+        padding: 8px !important;
+    }
+
+    .hero-portrait {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .hero-card-body {
+        padding: 10px 8px !important;
+    }
+
+    .hero-name {
+        font-size: 1rem !important;
+    }
+
+    .hero-faction {
+        font-size: 0.85rem;
+    }
+
+    .faction-icon-small {
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-card {
+        padding: 8px !important;
+    }
+
+    .hero-name {
+        font-size: 0.9rem !important;
+    }
+
+    .hero-faction {
+        font-size: 0.8rem;
+    }
+}
+
+/* =============================================================================
+   Skills and Stats - Mobile Layout
+============================================================================= */
+
+@media (max-width: 768px) {
+    .hero-skills-list {
+        grid-template-columns: 1fr !important;
+        gap: 12px !important;
+    }
+
+    .skill-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .stat-grid,
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 10px !important;
+    }
+
+    .skill-card {
+        padding: 12px !important;
+    }
+
+    .skill-icon {
+        width: 48px !important;
+        height: 48px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .stat-grid,
+    .stats-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* =============================================================================
+   Markdown Content - Mobile Optimized
+============================================================================= */
+
+@media (max-width: 768px) {
+    .markdown-body {
+        padding: 16px 12px !important;
+        margin: 12px 8px !important;
+        font-size: 0.95rem;
+    }
+
+    .markdown-body h1 {
+        font-size: 1.8rem !important;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.5rem !important;
+    }
+
+    .markdown-body h3 {
+        font-size: 1.3rem !important;
+    }
+
+    .markdown-body h4 {
+        font-size: 1.1rem !important;
+    }
+
+    .markdown-body img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+
+    .markdown-body pre {
+        font-size: 0.85rem;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+}
+
+@media (max-width: 480px) {
+    .markdown-body {
+        padding: 12px 10px !important;
+        margin: 10px 6px !important;
+        font-size: 0.9rem;
+    }
+
+    .markdown-body h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .markdown-body h2 {
+        font-size: 1.3rem !important;
+    }
+
+    .markdown-body h3 {
+        font-size: 1.15rem !important;
+    }
+
+    .markdown-body pre {
+        font-size: 0.8rem;
+    }
+}
+
+/* =============================================================================
+   Search and Filters - Mobile Layout
+============================================================================= */
+
+@media (max-width: 768px) {
+    .search-container {
+        flex-direction: column;
+        gap: 12px;
+        padding: 12px;
+    }
+
+    .search-bar,
+    .filter-group {
+        width: 100% !important;
+    }
+
+    input[type="search"],
+    input[type="text"] {
+        font-size: 16px !important; /* Prevents zoom on iOS */
+    }
+
+    .filter-buttons {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+
+    .filter-btn {
+        padding: 8px 12px;
+        font-size: 0.9rem;
+    }
+}
+
+/* =============================================================================
+   Patreon CTA - Mobile Optimized
+============================================================================= */
+
+@media (max-width: 768px) {
+    [style*="background: linear-gradient(135deg, rgba(255, 66, 77"] {
+        flex-direction: column !important;
+        text-align: center !important;
+        padding: 12px 16px !important;
+        gap: 12px !important;
+    }
+}
+
+/* =============================================================================
+   Back to Top Button - Mobile Position
+============================================================================= */
+
+@media (max-width: 768px) {
+    #back-to-top {
+        width: 48px !important;
+        height: 48px !important;
+        font-size: 24px !important;
+        right: 16px !important;
+        bottom: 16px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    #back-to-top {
+        width: 44px !important;
+        height: 44px !important;
+        font-size: 20px !important;
+        right: 12px !important;
+        bottom: 12px !important;
+    }
+}
+
+/* =============================================================================
+   Equipment and Item Cards - Mobile Optimized
+============================================================================= */
+
+@media (max-width: 768px) {
+    .set-card,
+    .item-card,
+    .category-card {
+        padding: 12px !important;
+    }
+
+    .set-card h3,
+    .item-card h3,
+    .category-card h3 {
+        font-size: 1rem !important;
+    }
+
+    .set-card img,
+    .item-card img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+}
+
+/* =============================================================================
+   Badges and Tags - Mobile Sizing
+============================================================================= */
+
+@media (max-width: 768px) {
+    .badge,
+    .badge-faction,
+    .badge-quality {
+        padding: 4px 10px !important;
+        font-size: 0.85rem !important;
+    }
+
+    .badge img {
+        width: 16px !important;
+        height: 16px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .badge,
+    .badge-faction,
+    .badge-quality {
+        padding: 3px 8px !important;
+        font-size: 0.8rem !important;
+    }
+}
+
+/* =============================================================================
+   Column Checkboxes - Mobile Layout
+============================================================================= */
+
+@media (max-width: 768px) {
+    .column-checkboxes {
+        grid-template-columns: repeat(2, 1fr) !important;
+        gap: 8px !important;
+        max-height: 40vh !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .column-checkboxes {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+/* =============================================================================
+   War Machine Skin Strip - Mobile Layout
+============================================================================= */
+
+@media (max-width: 768px) {
+    .warmachine-skin-strip {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)) !important;
+        gap: 8px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .warmachine-skin-strip {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+/* =============================================================================
+   Landscape Images - Mobile Responsive
+============================================================================= */
+
+@media (max-width: 768px) {
+    img[src*="landscape"],
+    img[src*="manor"],
+    img[src*="war-room"] {
+        max-width: 100% !important;
+        height: auto !important;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* =============================================================================
+   Prevent Text Selection Issues on Mobile
+============================================================================= */
+
+@media (max-width: 768px) {
+    /* Allow text selection in content areas */
+    .markdown-body,
+    .hero-description,
+    .skill-description {
+        -webkit-user-select: text;
+        user-select: text;
+    }
+
+    /* Prevent text selection on UI elements */
+    .nav-link,
+    .nav-dropdown-toggle,
+    button,
+    .hero-card,
+    .set-card,
+    .item-card {
+        -webkit-user-select: none;
+        user-select: none;
+        -webkit-tap-highlight-color: rgba(74, 158, 255, 0.2);
+    }
+}
+
+/* =============================================================================
+   Safe Area Insets (iPhone X+ notch support)
+============================================================================= */
+
+@supports (padding: max(0px)) {
+    body {
+        padding-left: env(safe-area-inset-left);
+        padding-right: env(safe-area-inset-right);
+    }
+
+    .nav-bar {
+        padding-left: max(8px, env(safe-area-inset-left));
+        padding-right: max(8px, env(safe-area-inset-right));
+    }
+
+    #back-to-top {
+        right: max(16px, calc(16px + env(safe-area-inset-right))) !important;
+        bottom: max(16px, calc(16px + env(safe-area-inset-bottom))) !important;
+    }
+}
+
+/* =============================================================================
+   Performance Optimizations for Mobile
+============================================================================= */
+
+@media (max-width: 768px) {
+    /* Disable animations on low-end devices (user can enable in settings) */
+    @media (prefers-reduced-motion: reduce) {
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+
+    /* Optimize will-change for smoother scrolling */
+    .nav-bar,
+    #back-to-top,
+    .modal-content {
+        will-change: transform;
+    }
+}
+
+/* =============================================================================
+   Landscape Orientation Adjustments
+============================================================================= */
+
+@media (max-width: 768px) and (orientation: landscape) {
+    .modal-content,
+    .hero-detail-page .modal-content {
+        max-height: 90vh !important;
+        overflow-y: auto !important;
+    }
+
+    .hero-detail-header {
+        grid-template-columns: 200px 1fr !important;
+    }
+
+    .hero-portrait-large {
+        max-width: 180px;
+    }
+}
