@@ -24,6 +24,7 @@
 
     /**
      * Generates the complete navigation bar HTML
+     * Order: Header (top) -> Navbar (middle) -> Patreon CTA (bottom)
      * @returns {string} Navigation bar HTML
      */
     function generateNavbar() {
@@ -73,7 +74,6 @@
             </div>
         </nav>
 
-        <!-- Patreon CTA -->
         <div style="max-width: 1200px; margin: 12px auto 20px; padding: 14px 24px; background: linear-gradient(135deg, rgba(255, 66, 77, 0.15) 0%, rgba(249, 104, 84, 0.15) 100%); border: 2px solid rgba(255, 66, 77, 0.4); border-radius: 12px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap;">
             <div style="flex: 1; min-width: 200px;">
                 <div style="color: #ff424d; font-weight: 700; font-size: 18px; margin-bottom: 6px; font-family: 'Orbitron', sans-serif;">💖 Support This Project</div>
@@ -91,7 +91,7 @@
 
     /**
      * Injects the navigation bar into the page
-     * Looks for element with id="navbar-container" or inserts after opening body tag
+     * Looks for element with id="navbar-container" or markdown-body, otherwise inserts at beginning of body
      */
     function injectNavbar() {
         const navbarHTML = generateNavbar();
@@ -101,15 +101,25 @@
             // If there's a designated container, use it
             container.innerHTML = navbarHTML;
         } else {
-            // Otherwise, insert at the beginning of the body
-            const body = document.body;
+            // Try to insert inside markdown-body first, otherwise at beginning of body
+            const markdownBody = document.querySelector('.markdown-body');
+            const targetElement = markdownBody || document.body;
+
+            // Get reference to first existing child (to insert before it)
+            const firstChild = targetElement.firstChild;
+
+            // Create temporary container
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = navbarHTML;
 
-            // Insert all children at the beginning of body
+            // Use DocumentFragment to preserve DOM order
+            const fragment = document.createDocumentFragment();
             while (tempDiv.firstChild) {
-                body.insertBefore(tempDiv.firstChild, body.firstChild);
+                fragment.appendChild(tempDiv.firstChild);
             }
+
+            // Insert fragment (preserves order: Header -> Navbar -> Patreon)
+            targetElement.insertBefore(fragment, firstChild);
         }
 
         // Initialize dropdown functionality
