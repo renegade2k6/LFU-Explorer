@@ -23,119 +23,129 @@
     <link rel="stylesheet" href="../mobile-responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+
         .guide-container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
+
         .guide-content {
-            background: rgba(255,255,255,0.03);
-            border: 2px solid rgba(255,255,255,0.1);
-            border-radius: 12px;
+            background: rgba(26, 26, 46, 0.9);
             padding: 40px;
+            border-radius: 16px;
+            border: 2px solid rgba(96, 165, 250, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
         }
+
         .guide-content h1 {
-            color: #ec4899;
+            color: #93c5fd;
             font-family: 'Orbitron', sans-serif;
-            font-size: 32px;
-            margin-bottom: 20px;
+            font-size: 2.5em;
+            margin-bottom: 30px;
             text-align: center;
+            text-shadow: 0 0 20px rgba(147, 197, 253, 0.5);
+            border-bottom: 3px solid rgba(96, 165, 250, 0.5);
+            padding-bottom: 20px;
         }
+
         .guide-content h2 {
-            color: #ec4899;
-            font-family: 'Orbitron', sans-serif;
-            border-bottom: 2px solid #ec4899;
-            padding-bottom: 10px;
-            margin-top: 50px;
-            margin-bottom: 25px;
-            font-size: 26px;
-        }
-        .guide-content h3 {
-            color: #60a5fa;
-            font-family: 'Orbitron', sans-serif;
-            margin-top: 35px;
+            color: #bfdbfe;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 2em;
+            margin-top: 40px;
             margin-bottom: 20px;
-            font-size: 20px;
+            border-left: 5px solid #60a5fa;
+            padding-left: 15px;
         }
+
+        .guide-content h3 {
+            color: #dbeafe;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .guide-content h4 {
+            color: #eff6ff;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .guide-content p, .guide-content li {
+            color: #e0e0ff;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        .guide-content strong {
+            color: #bfdbfe;
+            font-weight: 600;
+        }
+
         .guide-content table {
             width: 100%;
-            border-collapse: collapse;
-            background: rgba(0,0,0,0.3);
-            border-radius: 12px;
-            margin: 25px 0;
-            overflow: hidden;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.3);
-        }
-        .guide-content th {
-            background: linear-gradient(135deg, rgba(236, 72, 153, 0.3) 0%, rgba(236, 72, 153, 0.2) 100%);
-            color: #ec4899;
-            padding: 16px 20px;
-            font-family: 'Orbitron', sans-serif;
-            text-align: left;
-            font-weight: 600;
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
-        .guide-content td {
-            padding: 18px 20px;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-            color: #e0e0ff;
-            vertical-align: middle;
-            font-size: 15px;
-            line-height: 1.6;
-        }
-        .guide-content td:first-child {
-            width: 100px;
-            text-align: center;
-        }
-        .guide-content td img {
-            max-width: 80px;
-            max-height: 80px;
-            border-radius: 10px;
-            display: block;
-            margin: 0 auto;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.5);
-            border: 2px solid rgba(96, 165, 250, 0.3);
-            transition: all 0.3s ease;
-        }
-        .guide-content td img:hover {
-            transform: scale(1.15);
-            box-shadow: 0 6px 20px rgba(96, 165, 250, 0.6);
-            border-color: rgba(96, 165, 250, 0.8);
-        }
-        .guide-content tr:last-child td {
-            border-bottom: none;
-        }
-        .guide-content ul {
-            color: #e0e0ff;
-            line-height: 1.9;
             margin: 20px 0;
-            padding-left: 25px;
+            border-collapse: collapse;
+            background: rgba(96, 165, 250, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
         }
-        .guide-content p {
-            color: #e0e0ff;
-            line-height: 1.7;
-            margin: 15px 0;
-            font-size: 15px;
-        }
-        .guide-content li {
-            margin: 10px 0;
-            font-size: 15px;
-        }
-        .guide-content strong {
-            color: #93c5fd;
+
+        .guide-content th {
+            background: linear-gradient(135deg, rgba(96, 165, 250, 0.4) 0%, rgba(59, 130, 246, 0.4) 100%);
+            color: #eff6ff;
+            padding: 14px;
+            text-align: left;
+            font-family: 'Rajdhani', sans-serif;
             font-weight: 600;
+            font-size: 1.1em;
+            border-bottom: 2px solid rgba(96, 165, 250, 0.5);
         }
+
+        .guide-content td {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(96, 165, 250, 0.2);
+            color: #e0e0ff;
+        }
+
+        .guide-content tr:hover {
+            background: rgba(96, 165, 250, 0.15);
+        }
+
+        .guide-content td img {
+            max-width: 50px;
+            max-height: 50px;
+            vertical-align: middle;
+        }
+
         .guide-content hr {
             border: none;
-            border-top: 2px solid rgba(236, 72, 153, 0.3);
+            border-top: 2px solid rgba(96, 165, 250, 0.3);
             margin: 40px 0;
-            box-shadow: 0 1px 0 rgba(96, 165, 250, 0.1);
         }
-        .guide-content em {
-            color: #c4b5fd;
-            font-style: italic;
+
+        .guide-content code {
+            background: rgba(96, 165, 250, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #dbeafe;
+            font-family: 'Courier New', monospace;
+        }
+
+        .guide-content ul, .guide-content ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        .guide-content li {
+            margin: 8px 0;
         }
     </style>
 </head>
