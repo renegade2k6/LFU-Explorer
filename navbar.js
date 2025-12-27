@@ -54,7 +54,7 @@
                     </a>
                     <a href="${prefix}hero_system.html" class="nav-dropdown-item">
                         <span class="nav-dropdown-item-icon">📊</span>
-                        Hero System Guide
+                        Hero System
                     </a>
                     <a href="${prefix}hero_skins.html" class="nav-dropdown-item">
                         <span class="nav-dropdown-item-icon">✨</span>
