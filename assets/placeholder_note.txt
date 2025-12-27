@@ -1,0 +1,1 @@
+Note: placeholder.png would be used as fallback for missing event skins

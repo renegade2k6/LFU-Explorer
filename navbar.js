@@ -42,7 +42,26 @@
 
         <nav class="nav-bar" aria-label="Main">
             <a class="nav-link" href="${prefix}index.html">Home</a>
-            <a class="nav-link" href="${prefix}heroes.html">Heroes</a>
+            <div class="nav-dropdown">
+                <button class="nav-dropdown-toggle nav-link">
+                    Heroes
+                    <span class="nav-dropdown-arrow">▼</span>
+                </button>
+                <div class="nav-dropdown-content">
+                    <a href="${prefix}heroes.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">🦸</span>
+                        Heroes Database
+                    </a>
+                    <a href="${prefix}hero_system.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">📊</span>
+                        Hero System Guide
+                    </a>
+                    <a href="${prefix}hero_skins.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">✨</span>
+                        Hero Skins
+                    </a>
+                </div>
+            </div>
             <a class="nav-link" href="${prefix}equipment.html">Equipment</a>
             <a class="nav-link" href="${prefix}apc.html">APCs</a>
             <a class="nav-link" href="${prefix}warbeast.html">Warbeasts</a>
@@ -54,9 +73,18 @@
                     <span class="nav-dropdown-arrow">▼</span>
                 </button>
                 <div class="nav-dropdown-content">
-                    <a href="${prefix}guides/manor.html" class="nav-dropdown-item">Manor System</a>
-                    <a href="${prefix}guides/landscape.html" class="nav-dropdown-item">Landscape System</a>
-                    <a href="${prefix}guides/war-room.html" class="nav-dropdown-item">War Room / Spiritual Link</a>
+                    <a href="${prefix}guides/manor.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">🏰</span>
+                        Manor System
+                    </a>
+                    <a href="${prefix}guides/landscape.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">🌄</span>
+                        Landscape System
+                    </a>
+                    <a href="${prefix}guides/war-room.html" class="nav-dropdown-item">
+                        <span class="nav-dropdown-item-icon">⚔️</span>
+                        War Room / Spiritual Link
+                    </a>
                 </div>
             </div>
         </nav>
@@ -115,30 +143,49 @@
 
     /**
      * Initializes dropdown menu interactivity
+     * Handles multiple dropdowns (Heroes, Guides, etc.)
      */
     function initializeDropdown() {
-        const dropdown = document.querySelector('.nav-dropdown');
-        const toggle = document.querySelector('.nav-dropdown-toggle');
+        const dropdowns = document.querySelectorAll('.nav-dropdown');
 
-        if (!dropdown || !toggle) return;
+        if (!dropdowns.length) return;
 
-        // Toggle dropdown on click
-        toggle.addEventListener('click', function(e) {
-            e.preventDefault();
-            dropdown.classList.toggle('active');
+        // Initialize each dropdown
+        dropdowns.forEach(function(dropdown) {
+            const toggle = dropdown.querySelector('.nav-dropdown-toggle');
+            if (!toggle) return;
+
+            // Toggle dropdown on click
+            toggle.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                // Close other dropdowns
+                dropdowns.forEach(function(otherDropdown) {
+                    if (otherDropdown !== dropdown) {
+                        otherDropdown.classList.remove('active');
+                    }
+                });
+
+                // Toggle this dropdown
+                dropdown.classList.toggle('active');
+            });
         });
 
-        // Close dropdown when clicking outside
+        // Close all dropdowns when clicking outside
         document.addEventListener('click', function(e) {
-            if (!dropdown.contains(e.target)) {
-                dropdown.classList.remove('active');
-            }
+            dropdowns.forEach(function(dropdown) {
+                if (!dropdown.contains(e.target)) {
+                    dropdown.classList.remove('active');
+                }
+            });
         });
 
-        // Close dropdown on escape key
+        // Close all dropdowns on escape key
         document.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
-                dropdown.classList.remove('active');
+                dropdowns.forEach(function(dropdown) {
+                    dropdown.classList.remove('active');
+                });
             }
         });
     }

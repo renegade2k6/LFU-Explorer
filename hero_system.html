@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero System - Complete Guide | LFU Explorer</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/LFU-Explorer/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/LFU-Explorer/favicon.ico" type="image/x-icon">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Complete guide to the Hero System in Last Fortress Underground. Master hero progression, recruitment, quality advancement, skills, camps, and strategic optimization.">
+    <meta name="keywords" content="Last Fortress Underground, LFU, Hero guide, hero progression, hero recruitment, quality advancement, hero skills, camps">
+    <meta name="author" content="renegade2k6">
+    <meta name="theme-color" content="#1a1a2e">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://renegade2k6.github.io/LFU-Explorer/hero_system.html">
+    <meta property="og:title" content="Hero System Complete Guide | LFU Explorer">
+    <meta property="og:description" content="Master the Hero System in Last Fortress Underground with this comprehensive guide covering all 179 heroes, progression, and strategic optimization.">
+    <meta property="og:image" content="https://renegade2k6.github.io/LFU-Explorer/assets/og-image.png">
+    <meta property="og:site_name" content="LFU Explorer">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://renegade2k6.github.io/LFU-Explorer/hero_system.html">
+    <meta property="twitter:title" content="Hero System Complete Guide | LFU Explorer">
+    <meta property="twitter:description" content="Complete guide to mastering all 179 heroes in Last Fortress Underground.">
+    <meta property="twitter:image" content="https://renegade2k6.github.io/LFU-Explorer/assets/og-image.png">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="theme-fix.css">
+    <link rel="stylesheet" href="mobile-responsive.css">
+    <link rel="stylesheet" href="guides-dropdown.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: linear-gradient(135deg, #1a1a2e 0%, #2e2e1a 100%);
+        }
+
+        .guide-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .guide-content {
+            background: rgba(46, 46, 26, 0.9);
+            padding: 40px;
+            border-radius: 16px;
+            border: 2px solid rgba(251, 191, 36, 0.3);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .guide-content h1 {
+            color: #fde68a;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            text-shadow: 0 0 20px rgba(253, 230, 138, 0.5);
+            border-bottom: 3px solid rgba(251, 191, 36, 0.5);
+            padding-bottom: 20px;
+        }
+
+        .guide-content h2 {
+            color: #fef3c7;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 2em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            border-left: 5px solid #fbbf24;
+            padding-left: 15px;
+        }
+
+        .guide-content h3 {
+            color: #fef9e7;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.5em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .guide-content h4 {
+            color: #fffbeb;
+            font-family: 'Rajdhani', sans-serif;
+            font-size: 1.2em;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+
+        .guide-content p, .guide-content li {
+            color: #e0e0ff;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        .guide-content strong {
+            color: #fef3c7;
+            font-weight: 600;
+        }
+
+        .guide-content table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+            background: rgba(251, 191, 36, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .guide-content th {
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.4) 0%, rgba(245, 158, 11, 0.4) 100%);
+            color: #fffbeb;
+            padding: 14px;
+            text-align: left;
+            font-family: 'Rajdhani', sans-serif;
+            font-weight: 600;
+            font-size: 1.1em;
+            border-bottom: 2px solid rgba(251, 191, 36, 0.5);
+        }
+
+        .guide-content td {
+            padding: 12px 14px;
+            border-bottom: 1px solid rgba(251, 191, 36, 0.2);
+            color: #e0e0ff;
+        }
+
+        .guide-content tr:hover {
+            background: rgba(251, 191, 36, 0.15);
+        }
+
+        .guide-content td img {
+            max-width: 50px;
+            max-height: 50px;
+            vertical-align: middle;
+        }
+
+        .guide-content hr {
+            border: none;
+            border-top: 2px solid rgba(251, 191, 36, 0.3);
+            margin: 40px 0;
+        }
+
+        .guide-content code {
+            background: rgba(251, 191, 36, 0.2);
+            padding: 2px 6px;
+            border-radius: 4px;
+            color: #fef9e7;
+            font-family: 'Courier New', monospace;
+        }
+
+        .guide-content ul, .guide-content ol {
+            margin: 15px 0;
+            padding-left: 30px;
+        }
+
+        .guide-content li {
+            margin: 8px 0;
+        }
+
+        .info-box {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 16px 24px;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.15) 0%, rgba(37, 99, 235, 0.15) 100%);
+            border: 2px solid rgba(59, 130, 246, 0.4);
+            border-left: 6px solid #3b82f6;
+            border-radius: 8px;
+        }
+
+        .info-box h4 {
+            color: #60a5fa;
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0 0 8px 0;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .info-box p {
+            color: #e0e0ff;
+            margin: 6px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .info-box ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        .info-box li {
+            color: #e0e0ff;
+            margin: 4px 0;
+            font-size: 14px;
+        }
+
+        .warning-box {
+            max-width: 1200px;
+            margin: 24px auto;
+            padding: 16px 24px;
+            background: linear-gradient(135deg, rgba(251, 191, 36, 0.15) 0%, rgba(245, 158, 11, 0.15) 100%);
+            border: 2px solid rgba(251, 191, 36, 0.4);
+            border-left: 6px solid #fbbf24;
+            border-radius: 8px;
+        }
+
+        .warning-box h4 {
+            color: #fbbf24;
+            font-weight: 700;
+            font-size: 16px;
+            margin: 0 0 8px 0;
+            font-family: 'Orbitron', sans-serif;
+        }
+
+        .warning-box p {
+            color: #e0e0ff;
+            margin: 6px 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .warning-box ul {
+            margin: 8px 0;
+            padding-left: 20px;
+        }
+
+        .warning-box li {
+            color: #e0e0ff;
+            margin: 4px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="markdown-body">
+        <!-- Navigation will be injected by navbar.js -->
+
+    <div class="guide-container">
+        <div class="guide-content"><h1>Hero System</h1>
+<h2>1. Hero System Architecture</h2>
+<p>The Hero System is a core progression mechanic featuring <strong>179 playable heroes</strong> that provide combat leadership, resource bonuses, and strategic advantages.</p>
+<p>Heroes are organized by:
+- <strong>9 Camp Factions</strong>, with factional warfare bonuses.
+- <strong>4 Rarity Tiers</strong> (B/A/S/SS), which determine base potential.
+- <strong>14 Quality Grades</strong> (Q2–Q15, internally 1–14), which define level caps from 30 to 140 and stat growth.
+- <strong>5 Arms Types</strong>, which control troop specialization.
+- <strong>5 Base Statistics</strong>, each with hero-specific growth curves.</p>
+<h2>2. Hero Rarity and Quality Tiers</h2>
+<h3>2.1 Rarity System (4 tiers)</h3>
+<p>Rarity controls access to higher qualities and reflects base hero potential.</p>
+<table>
+<thead>
+<tr>
+<th>Rarity</th>
+<th>Tier</th>
+<th>Count</th>
+<th>Quality Range</th>
+<th>Typical Starting Quality</th>
+<th>Acquisition Difficulty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>B‑Tier</td>
+<td>4</td>
+<td>Q1–Q1</td>
+<td>Q1</td>
+<td>Tutorial/Event only</td>
+</tr>
+<tr>
+<td>1</td>
+<td>A‑Tier</td>
+<td>16</td>
+<td>Q2–Q14</td>
+<td>Q2–Q3</td>
+<td>Common (story/daily)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>S‑Tier</td>
+<td>48</td>
+<td>Q3–Q14</td>
+<td>Q3–Q4</td>
+<td>Uncommon (lottery)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>SS‑Tier</td>
+<td>111</td>
+<td>Q4–Q14</td>
+<td>Q4</td>
+<td>Rare (premium lottery)</td>
+</tr>
+</tbody>
+</table>
+<p>Distribution:
+- ~62% SS, ~27% S, ~9% A, ~2% B.</p>
+<h3>2.2 Quality System (14 progression tiers)</h3>
+<p>Quality determines level caps, access to skills, and stat multipliers. Advancement consumes duplicate copies and materials.</p>
+<table>
+<thead>
+<tr>
+<th>Quality</th>
+<th>Name</th>
+<th>Level Cap</th>
+<th>Color</th>
+<th>Level Growth</th>
+<th>Stars</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td>Gray</td>
+<td>1</td>
+<td>Gray</td>
+<td>7,000</td>
+<td>0</td>
+<td>Tutorial heroes only</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>Green</td>
+<td>30</td>
+<td>Green</td>
+<td>10,000</td>
+<td>0</td>
+<td>Common start</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Blue</td>
+<td>40</td>
+<td>Blue</td>
+<td>12,000</td>
+<td>0</td>
+<td>First skill unlock</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>Purple</td>
+<td>50</td>
+<td>Purple</td>
+<td>15,000</td>
+<td>0</td>
+<td>Typical SS start</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>Orange</td>
+<td>60</td>
+<td>Orange</td>
+<td>17,000</td>
+<td>0</td>
+<td>Mid‑tier</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>Red</td>
+<td>70</td>
+<td>Red</td>
+<td>18,000</td>
+<td>0</td>
+<td>High tier</td>
+</tr>
+<tr>
+<td>Q7</td>
+<td>Gold</td>
+<td>80</td>
+<td>Gold</td>
+<td>21,000</td>
+<td>0</td>
+<td>Advanced</td>
+</tr>
+<tr>
+<td>Q8</td>
+<td>Gold+</td>
+<td>90</td>
+<td>Gold</td>
+<td>22,500</td>
+<td>★</td>
+<td>Star 1</td>
+</tr>
+<tr>
+<td>Q9</td>
+<td>Gold++</td>
+<td>95</td>
+<td>Gold</td>
+<td>24,000</td>
+<td>★★</td>
+<td>Star 2</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>Gold+++</td>
+<td>100</td>
+<td>Gold</td>
+<td>25,500</td>
+<td>★★★</td>
+<td>Star 3</td>
+</tr>
+<tr>
+<td>Q11</td>
+<td>Platinum</td>
+<td>100</td>
+<td>Gold</td>
+<td>26,600</td>
+<td>0</td>
+<td>Elite tier</td>
+</tr>
+<tr>
+<td>Q12</td>
+<td>Platinum+</td>
+<td>100</td>
+<td>Gold</td>
+<td>27,400</td>
+<td>★</td>
+<td>Elite star 1</td>
+</tr>
+<tr>
+<td>Q13</td>
+<td>Platinum++</td>
+<td>100</td>
+<td>Gold</td>
+<td>28,200</td>
+<td>★★</td>
+<td>Elite star 2</td>
+</tr>
+<tr>
+<td>Q14</td>
+<td>Platinum+++</td>
+<td>100</td>
+<td>Gold</td>
+<td>29,000</td>
+<td>★★★</td>
+<td>Max quality</td>
+</tr>
+</tbody>
+</table>
+<p>Key milestones:
+- Q3: first active skill.
+- Q4–Q7: additional skills and major stat boosts.
+- Q8–Q10: Gold star progression at constant or slowly rising level caps.
+- Q11–Q14: Platinum tiers at level 100 with increasing stat growth.</p>
+<hr />
+<h2>3. Camp System and Factional Warfare</h2>
+<p>Heroes belong to one of 8 active camps, providing faction bonuses and weaknesses.</p>
+<table>
+<thead>
+<tr>
+<th>Icon</th>
+<th>Camp Name</th>
+<th>Counters</th>
+<th>Bonus</th>
+<th>Heroes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Solari.png" alt="The Solari" style="width: 40px; height: 40px;"></td>
+<td><strong>The Solari</strong><br><span style="font-size: 0.85em; color: #a0a0c0;">Neutral</span></td>
+<td>None</td>
+<td>None</td>
+<td>36</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Minutemen.png" alt="The Minutemen" style="width: 40px; height: 40px;"></td>
+<td><strong>The Minutemen</strong><br><span style="font-size: 0.85em; color: #5eead4;">Teal</span></td>
+<td>Vindicators</td>
+<td>+20% damage</td>
+<td>19</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Vindicators.png" alt="The Vindicators" style="width: 40px; height: 40px;"></td>
+<td><strong>The Vindicators</strong><br><span style="font-size: 0.85em; color: #c084fc;">Purple</span></td>
+<td>Wildlings</td>
+<td>+20% damage</td>
+<td>17</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Wildlings.png" alt="The Wildlings" style="width: 40px; height: 40px;"></td>
+<td><strong>The Wildlings</strong><br><span style="font-size: 0.85em; color: #fbbf24;">Yellow</span></td>
+<td>Watchers</td>
+<td>+20% damage</td>
+<td>19</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Watchers.png" alt="Watchers" style="width: 40px; height: 40px;"></td>
+<td><strong>Watchers</strong><br><span style="font-size: 0.85em; color: #60a5fa;">Blue</span></td>
+<td>Minutemen</td>
+<td>+20% damage</td>
+<td>20</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Lawbringers.png" alt="Lawbringers" style="width: 40px; height: 40px;"></td>
+<td><strong>Lawbringers</strong><br><span style="font-size: 0.85em; color: #fde68a;">Pale Gold</span></td>
+<td>Wreakers</td>
+<td>+20% damage</td>
+<td>1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Wreakers.png" alt="Wreakers" style="width: 40px; height: 40px;"></td>
+<td><strong>Wreakers</strong><br><span style="font-size: 0.85em; color: #f87171;">Red</span></td>
+<td>Lawbringers</td>
+<td>+20% damage</td>
+<td>1</td>
+</tr>
+<tr>
+<td style="text-align: center;"><img src="assets/factions/Spacetime.png" alt="Spacetime Travelers" style="width: 40px; height: 40px;"></td>
+<td><strong>Spacetime Travelers</strong><br><span style="font-size: 0.85em; color: #67e8f9;">Cyan</span></td>
+<td>None</td>
+<td>Neutral</td>
+<td>7</td>
+</tr>
+</tbody>
+</table>
+<p>Main warfare loop:</p>
+<ul>
+<li>Minutemen → Vindicators → Wildlings → Watchers → Minutemen.</li>
+<li>Counter advantage grants <strong>+20% damage</strong> against the weaker camp.</li>
+</ul>
+<p>Strategic implications:
+- Build cross‑camp lineups to exploit counters.
+- Solari and Spacetime Travelers are neutral (no bonus or weakness).
+- Lawbringers and Wreakers exclusively counter each other.</p>
+<hr />
+<h2>4. Recruitment System</h2>
+<p>Recruitment is the primary way to obtain heroes in Last Fortress Underground. The system uses a gacha-style lottery with various recruitment methods and hero pools.</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 24px 0;">
+    <div style="text-align: center; background: rgba(251, 191, 36, 0.05); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 8px; padding: 16px;">
+        <img src="assets/Sprite/icon_Diamondmall_recruit_01.png" alt="Standard Recruitment" style="width: 120px; height: auto; margin-bottom: 8px;">
+        <div style="color: #fef3c7; font-weight: 600; font-size: 0.9em;">Standard Recruitment</div>
+        <div style="color: #e0e0ff; font-size: 0.8em; margin-top: 4px;">Basic & Advanced Cards</div>
+    </div>
+
+    <div style="text-align: center; background: rgba(251, 191, 36, 0.05); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 8px; padding: 16px;">
+        <img src="assets/Sprite/icon_Diamondmall_recruit_02.png" alt="Elite Recruitment" style="width: 120px; height: auto; margin-bottom: 8px;">
+        <div style="color: #fef3c7; font-weight: 600; font-size: 0.9em;">Elite Recruitment</div>
+        <div style="color: #e0e0ff; font-size: 0.8em; margin-top: 4px;">Elite Cards 0-8</div>
+    </div>
+
+    <div style="text-align: center; background: rgba(251, 191, 36, 0.05); border: 1px solid rgba(251, 191, 36, 0.2); border-radius: 8px; padding: 16px;">
+        <img src="assets/Sprite/icon_Diamondmall_recruit_03.png" alt="Special Recruitment" style="width: 120px; height: auto; margin-bottom: 8px;">
+        <div style="color: #fef3c7; font-weight: 600; font-size: 0.9em;">Special Recruitment</div>
+        <div style="color: #e0e0ff; font-size: 0.8em; margin-top: 4px;">Events & Guarantees</div>
+    </div>
+</div>
+
+        <div class="warning-box">
+            <h4>⚠️ Recruitment Tips</h4>
+            <p><strong>Important:</strong> Don't waste premium recruitment cards early game!</p>
+            <ul>
+                <li>Save Elite Recruitment Cards for events with rate-up bonuses</li>
+                <li>Focus on guaranteed hero fragments from shops first</li>
+                <li>Understand the pity system - some heroes require 300+ pulls</li>
+                <li>B and C-tier heroes are abundant - don't use them for advancement</li>
+            </ul>
+        </div>
+
+<h3>4.1 Recruitment Card Types</h3>
+<p>Different recruitment cards access different hero pools:</p>
+
+<h4>Standard Recruitment</h4>
+<ul>
+<li><strong>Basic Recruitment Cards</strong> - Common heroes (B and C tier)</li>
+<li><strong>Advanced Recruitment Cards</strong> - Mix of B, A, and occasional S heroes</li>
+<li>Use these for daily pulls and resource conversion</li>
+</ul>
+
+<h4>Elite Recruitment Cards</h4>
+<p>Elite cards come in numbered tiers (0-8), each unlocking additional SS-tier heroes:</p>
+<ul>
+<li><strong>Elite Card 0</strong> - Base pool with starter SS heroes (Enrique, Blanche, Quinn, Harman, etc.)</li>
+<li><strong>Elite Cards 1-8</strong> - Progressively expand the pool with newer SS heroes</li>
+<li>Higher tier cards = access to more powerful, recent heroes</li>
+<li>Save these for special events with 2x or 3x rates</li>
+</ul>
+
+<h4>Special Recruitment</h4>
+<ul>
+<li><strong>Guaranteed Hero Cards</strong> - Select specific hero pools with guaranteed drops</li>
+<li><strong>Event Banners</strong> - Limited-time recruitment with featured heroes</li>
+<li><strong>Collaboration Cards</strong> - Special crossover heroes (time-limited)</li>
+</ul>
+
+<h3>4.2 Drop Rates</h3>
+<p>Typical recruitment rates for Elite Recruitment:</p>
+<table>
+<thead>
+<tr>
+<th>Rarity</th>
+<th>Base Rate</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SS (Orange)</td>
+<td>1-3%</td>
+<td>Flagship heroes, extremely rare</td>
+</tr>
+<tr>
+<td>S (Purple)</td>
+<td>5-10%</td>
+<td>Solid heroes, viable endgame</td>
+</tr>
+<tr>
+<td>A (Blue)</td>
+<td>20-30%</td>
+<td>Common, early-mid game viable</td>
+</tr>
+<tr>
+<td>B/C (Green/White)</td>
+<td>60-75%</td>
+<td>Abundant, use for advancement material</td>
+</tr>
+</tbody>
+</table>
+
+<h3>4.3 Pity System</h3>
+<p>Most recruitment banners include pity mechanics:</p>
+<ul>
+<li><strong>Standard Pity</strong> - Guaranteed S or higher every 10 pulls</li>
+<li><strong>Premium Pity</strong> - Guaranteed SS every 100-300 pulls (varies by banner)</li>
+<li><strong>Pity Counter</strong> - Carries over between same banner types</li>
+<li>Check event details for specific pity rules</li>
+</ul>
+
+<h3>4.4 Recruitment Currency</h3>
+<p>Various currencies are used for recruitment:</p>
+<ul>
+<li><strong>Recruitment Currency</strong> - Exchange for recruitment cards in shops</li>
+<li><strong>Diamonds</strong> - Premium currency for 10x pulls and special banners</li>
+<li><strong>Alliance Coins</strong> - Alliance shop recruitment</li>
+<li><strong>Event Tokens</strong> - Time-limited event recruitment</li>
+</ul>
+
+<h3>4.5 Fragment System</h3>
+<p>Alternative to direct recruitment:</p>
+<ul>
+<li><strong>Hero Fragments</strong> - Collect specific amounts to synthesize a hero</li>
+<li>Most heroes require 10-100 fragments to unlock</li>
+<li>Fragments available from: shops, events, campaign rewards, alliance activities</li>
+<li><strong>More reliable than gacha</strong> - Guaranteed progress toward specific heroes</li>
+</ul>
+
+<h3>4.6 Friendship Recruitment</h3>
+<div style="display: flex; align-items: center; gap: 16px; margin: 16px 0; flex-wrap: wrap;">
+    <img src="assets/Sprite/ICON_siyecao.png" alt="Friendship Points" style="width: 64px; height: 64px; border: 2px solid rgba(251, 191, 36, 0.4); border-radius: 8px; background: rgba(251, 191, 36, 0.1); padding: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+        <h4 style="color: #fef3c7; margin: 0 0 8px 0;">Friendship Points System</h4>
+        <p style="color: #e0e0ff; margin: 0; font-size: 0.95em;">Collect Friendship Points from friends to recruit Combat Heroes!</p>
+    </div>
+</div>
+
+<p><strong>How it works:</strong></p>
+<ul>
+<li><strong>Send and Receive</strong> - Exchange Friendship Points with up to 40 friends daily</li>
+<li><strong>Daily Limits</strong> - Send to 40 friends, claim from 40 friends per day</li>
+<li><strong>Accumulate Points</strong> - Build up Friendship Points over time</li>
+<li><strong>Recruit Combat Heroes</strong> - Use accumulated points for guaranteed hero recruitment</li>
+</ul>
+
+<p><strong>Benefits:</strong></p>
+<ul>
+<li>Free, guaranteed hero recruitment method</li>
+<li>No RNG - direct exchange of points for heroes</li>
+<li>Encourages active friend list participation</li>
+<li>Excellent for F2P players to build roster</li>
+</ul>
+
+<h3>4.7 Combat Hero Recruitment Points</h3>
+<div style="display: flex; align-items: center; gap: 16px; margin: 16px 0; flex-wrap: wrap;">
+    <img src="assets/Sprite/item200056.png" alt="Combat Hero Recruitment Points" style="width: 64px; height: 64px; border: 2px solid rgba(139, 92, 246, 0.4); border-radius: 8px; background: rgba(139, 92, 246, 0.1); padding: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+        <h4 style="color: #a78bfa; margin: 0 0 8px 0;">Combat Hero Recruitment Points</h4>
+        <p style="color: #e0e0ff; margin: 0; font-size: 0.95em;">Special currency for guaranteed Combat Hero recruitment</p>
+    </div>
+</div>
+
+<p><strong>How to obtain Combat Hero Recruitment Points:</strong></p>
+<ul>
+<li><strong>Main Quests</strong> - Complete story missions for recruitment points</li>
+<li><strong>Alliance Joining Bonus</strong> - Get 100 points when joining your first alliance</li>
+<li><strong>Daily Login</strong> - Rising Pass subscribers receive points daily</li>
+<li><strong>Event Rewards</strong> - Special events and bounties grant recruitment points</li>
+<li><strong>Satellite Nexus</strong> - Activate signal transmitters for recruitment opportunities</li>
+<li><strong>Community Activities</strong> - Participate in official community events</li>
+</ul>
+
+<p><strong>Uses:</strong></p>
+<ul>
+<li><strong>Direct Combat Hero Recruitment</strong> - Exchange points for specific heroes</li>
+<li><strong>No RNG</strong> - Guaranteed hero acquisition, not random gacha</li>
+<li><strong>Accumulate over time</strong> - Save points for desired heroes</li>
+<li><strong>F2P-Friendly</strong> - Primary free method for obtaining specific Combat Heroes</li>
+</ul>
+
+<h3>4.8 Additional Recruitment Methods</h3>
+
+<h4>Alliance Recruitment</h4>
+<div style="display: flex; align-items: center; gap: 16px; margin: 16px 0; flex-wrap: wrap;">
+    <img src="assets/Sprite/item_recruit_alliance.png" alt="Alliance Recruitment Card" style="width: 64px; height: 64px; border: 2px solid rgba(139, 92, 246, 0.4); border-radius: 8px; background: rgba(139, 92, 246, 0.1); padding: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+        <h4 style="color: #a78bfa; margin: 0 0 8px 0;">Alliance Recruitment Cards</h4>
+        <p style="color: #e0e0ff; margin: 0; font-size: 0.95em;">Purchase Alliance Recruitment Cards at Alliance Shop</p>
+    </div>
+</div>
+<ul>
+<li><strong>Source:</strong> Alliance Shop - exchange alliance coins for recruitment cards</li>
+<li><strong>Hero Pool:</strong> Specialized alliance hero pool with exclusive heroes</li>
+<li><strong>Benefits:</strong> Reliable acquisition method for active alliance members</li>
+</ul>
+
+<h4>Faction Recruitment</h4>
+<div style="display: flex; align-items: center; gap: 16px; margin: 16px 0; flex-wrap: wrap;">
+    <img src="assets/Sprite/item200059.png" alt="Faction Recruitment Card" style="width: 64px; height: 64px; border: 2px solid rgba(251, 191, 36, 0.4); border-radius: 8px; background: rgba(251, 191, 36, 0.1); padding: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+        <h4 style="color: #fef3c7; margin: 0 0 8px 0;">Faction Recruitment Cards</h4>
+        <p style="color: #e0e0ff; margin: 0; font-size: 0.95em;">Recruit heroes of a specific faction/camp</p>
+    </div>
+</div>
+<ul>
+<li><strong>Faction Selection:</strong> Choose which camp (Minutemen, Vindicators, Wildlings, etc.) to recruit from</li>
+<li><strong>Strategic Use:</strong> Target specific factions to build camp-focused lineups</li>
+<li><strong>Availability:</strong> Event rewards and special shop exchanges</li>
+</ul>
+
+<h4>Faction Selection Cards</h4>
+<p>Special cards that let you select heroes of specific rarity tiers within a faction:</p>
+<ul>
+<li><strong>Elite Combat Hero Selection</strong> - Select from elite-tier combat heroes of chosen faction</li>
+<li><strong>Rare Combat Hero Selection</strong> - Select from rare-tier combat heroes of chosen faction</li>
+<li><strong>Uncommon Combat Hero Selection</strong> - Select from uncommon-tier combat heroes</li>
+<li><strong>Usage:</strong> Guaranteed selection (no RNG) - choose exactly which hero you want from the pool</li>
+<li><strong>Value:</strong> Extremely valuable for completing specific camp lineups</li>
+</ul>
+
+<h4>Limited-Time & Event Recruitment</h4>
+<div style="display: flex; align-items: center; gap: 16px; margin: 16px 0; flex-wrap: wrap;">
+    <img src="assets/Sprite/icon_item_xianshizhaomu.png" alt="Limited-Time Recruitment" style="width: 64px; height: 64px; border: 2px solid rgba(139, 92, 246, 0.4); border-radius: 8px; background: rgba(139, 92, 246, 0.1); padding: 8px;">
+    <div style="flex: 1; min-width: 200px;">
+        <h4 style="color: #a78bfa; margin: 0 0 8px 0;">Limited-Time Recruitment Cards</h4>
+        <p style="color: #e0e0ff; margin: 0; font-size: 0.95em;">Recruit designated heroes during special events</p>
+    </div>
+</div>
+<ul>
+<li><strong>Event Banners:</strong> Special recruitment featuring specific hero pools</li>
+<li><strong>Higher Rates:</strong> Often includes boosted drop rates for featured heroes</li>
+<li><strong>Time-Limited:</strong> Only available during event duration</li>
+<li><strong>Examples:</strong> Season of War Raffle Tickets, collaboration events, anniversary banners</li>
+</ul>
+
+        <div class="info-box">
+            <h4>💡 Smart Recruitment Strategy</h4>
+            <p><strong>Maximize your heroes:</strong></p>
+            <ul>
+                <li><strong>Daily habits:</strong> Send Friendship Points to all 40 friends every day</li>
+                <li>Prioritize fragment collection over random pulls for target heroes</li>
+                <li>Save diamonds for guaranteed recruitment events</li>
+                <li>Use daily free pulls on standard banners</li>
+                <li>Join an active alliance for alliance recruitment access</li>
+                <li><strong>Combat Hero Recruitment Points:</strong> Save for specific SS-tier heroes you want</li>
+                <li>Never pull on banners without understanding the pity system</li>
+            </ul>
+        </div>
+
+<hr />
+<h2>5. Hero List and Acquisition Overview</h2>
+<p>There are <strong>179 heroes</strong> total. Full hero definitions are available in the game data.</p>
+<p>For a complete, searchable database of all 179 heroes with detailed stats, skills, and filtering:</p>
+
+        <div class="info-box">
+            <h4>🦸 Complete Hero Database</h4>
+            <p><strong>View all heroes:</strong> <a href="/heroes.html" style="color: #60a5fa; text-decoration: underline;">Browse Hero Database</a></p>
+            <ul>
+                <li>Search and filter by rarity, camp, and arms type</li>
+                <li>View detailed stats, skills, and quality progression</li>
+                <li>See exclusive weapons, skins, and advancement paths</li>
+                <li>Compare heroes side-by-side</li>
+            </ul>
+        </div>
+
+<h3>5.1 Acquisition Methods (High‑Level)</h3>
+<p>Heroes come from:
+- Recruitment/gacha (standard, premium, event, guaranteed) using recruitment tickets and special currencies.
+- Alliance‑based recruitment and shops (alliance heroes system).
+- Story and campaign rewards, hero quests, and activity events.
+- Fragment/shard collection and synthesis.</p>
+<p>Details of recruitment systems are fully described in the dedicated recruitment document.</p>
+<hr />
+<h2>6. Leveling System</h2>
+<p>Heroes can reach up to <strong>level 140</strong>, gated by quality up to level 100 and by special currencies afterwards.</p>
+<h3>6.1 EXP‑Based Levels 1–100</h3>
+<p>Experience requirements grow nonlinearly; some notable steps:</p>
+<table>
+<thead>
+<tr>
+<th>Level Range</th>
+<th>Example Level</th>
+<th>EXP Required</th>
+<th>Diamond Bypass</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1–10</td>
+<td>1→2</td>
+<td>100</td>
+<td>0</td>
+<td>Very cheap</td>
+</tr>
+<tr>
+<td>5–6</td>
+<td>5→6</td>
+<td>800</td>
+<td>5</td>
+<td>First diamond option</td>
+</tr>
+<tr>
+<td>10–20</td>
+<td>10→11</td>
+<td>3,200</td>
+<td>10</td>
+<td>–</td>
+</tr>
+<tr>
+<td>20–30</td>
+<td>20→21</td>
+<td>27,000</td>
+<td>60</td>
+<td>–</td>
+</tr>
+<tr>
+<td>30–40</td>
+<td>30→31</td>
+<td>210,000</td>
+<td>500</td>
+<td>Q2 cap region</td>
+</tr>
+<tr>
+<td>40–50</td>
+<td>40→41</td>
+<td>520,000</td>
+<td>1,500</td>
+<td>Q3 cap region</td>
+</tr>
+<tr>
+<td>50–60</td>
+<td>50→51</td>
+<td>860,000</td>
+<td>6,000</td>
+<td>Q4 cap region</td>
+</tr>
+<tr>
+<td>60–70</td>
+<td>60→61</td>
+<td>1,500,000</td>
+<td>12,000</td>
+<td>Q5 cap region</td>
+</tr>
+<tr>
+<td>70–80</td>
+<td>70→71</td>
+<td>2,300,000</td>
+<td>100,000</td>
+<td>Q6 cap region</td>
+</tr>
+<tr>
+<td>80–90</td>
+<td>80→81</td>
+<td>2,800,000</td>
+<td>200,000</td>
+<td>Q7 cap region</td>
+</tr>
+<tr>
+<td>90–100</td>
+<td>90→91</td>
+<td>3,400,000</td>
+<td>400,000</td>
+<td>Q8+ region</td>
+</tr>
+</tbody>
+</table>
+<p>Diamond bypass becomes extremely expensive; it exists but is not efficient for most players.</p>
+<p>Level caps are tied to quality:</p>
+<table>
+<thead>
+<tr>
+<th>Quality</th>
+<th>Max Level</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>40</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>60</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>70</td>
+</tr>
+<tr>
+<td>Q7</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Q8</td>
+<td>90</td>
+</tr>
+<tr>
+<td>Q9</td>
+<td>95</td>
+</tr>
+<tr>
+<td>Q10–Q14</td>
+<td>100</td>
+</tr>
+</tbody>
+</table>
+<h3>6.2 Level 101–140 (Special Currencies)</h3>
+<p>Beyond level 100, standard EXP is replaced by:
+- <strong>Hero Essence / Token</strong>.
+- <strong>Premium Essence</strong> for milestone boosts.</p>
+<p>Example requirements:</p>
+<table>
+<thead>
+<tr>
+<th>Level</th>
+<th>Hero Essence</th>
+<th>Premium Essence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>101</td>
+<td>1,000</td>
+<td>–</td>
+</tr>
+<tr>
+<td>102</td>
+<td>1,200</td>
+<td>–</td>
+</tr>
+<tr>
+<td>105</td>
+<td>1,800</td>
+<td>1,000</td>
+</tr>
+<tr>
+<td>110</td>
+<td>2,800</td>
+<td>1,500</td>
+</tr>
+<tr>
+<td>115</td>
+<td>3,800</td>
+<td>2,000</td>
+</tr>
+<tr>
+<td>120</td>
+<td>4,800</td>
+<td>2,500</td>
+</tr>
+<tr>
+<td>121</td>
+<td>10,000</td>
+<td>–</td>
+</tr>
+<tr>
+<td>125</td>
+<td>35,000</td>
+<td>10,000</td>
+</tr>
+<tr>
+<td>130</td>
+<td>95,000</td>
+<td>30,000</td>
+</tr>
+<tr>
+<td>135</td>
+<td>225,000</td>
+<td>60,000</td>
+</tr>
+<tr>
+<td>140</td>
+<td>525,000</td>
+<td>100,000</td>
+</tr>
+</tbody>
+</table>
+<p>Level 140 is an extreme long‑term goal.</p>
+<hr />
+<h2>7. Quality Advancement System</h2>
+
+<p>Quality advancement varies by hero type. Here are the three main advancement paths:</p>
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 24px 0;">
+    <div style="background: rgba(251, 191, 36, 0.1); border: 2px solid rgba(251, 191, 36, 0.3); border-radius: 8px; padding: 16px;">
+        <img src="assets/ascend/First-Gen_heroes_ascend.png" alt="First Generation Heroes Advancement" style="width: 100%; border-radius: 4px; margin-bottom: 12px;">
+        <h4 style="color: #fef3c7; margin: 8px 0; font-size: 1.1em;">First-Gen Heroes</h4>
+        <p style="color: #e0e0ff; font-size: 0.95em; margin: 0;">Tutorial and early-game heroes. Simpler advancement path but lower endgame potential.</p>
+    </div>
+
+    <div style="background: rgba(251, 191, 36, 0.1); border: 2px solid rgba(251, 191, 36, 0.3); border-radius: 8px; padding: 16px;">
+        <img src="assets/ascend/Lf_combat_heroes_ascend.png" alt="Combat Heroes Advancement" style="width: 100%; border-radius: 4px; margin-bottom: 12px;">
+        <h4 style="color: #fef3c7; margin: 8px 0; font-size: 1.1em;">Combat Heroes</h4>
+        <p style="color: #e0e0ff; font-size: 0.95em; margin: 0;">Main roster SS and S-tier heroes. Complex advancement with higher material costs but superior stats.</p>
+    </div>
+
+    <div style="background: rgba(251, 191, 36, 0.1); border: 2px solid rgba(251, 191, 36, 0.3); border-radius: 8px; padding: 16px;">
+        <img src="assets/ascend/Solari_hero_ascend.png" alt="Solari Heroes Advancement" style="width: 100%; border-radius: 4px; margin-bottom: 12px;">
+        <h4 style="color: #fef3c7; margin: 8px 0; font-size: 1.1em;">Solari Heroes</h4>
+        <p style="color: #e0e0ff; font-size: 0.95em; margin: 0;">Special faction heroes with unique advancement requirements and progression paths.</p>
+    </div>
+</div>
+
+<p>Advancing quality raises level caps, unlocks skills, and boosts stats. Requirements vary by hero type and quality tier.</p>
+<h3>7.1 Advancement Types</h3>
+<p>Two main consumption patterns:</p>
+<ul>
+<li><strong>Basic Path</strong></li>
+<li>Used for Q2→Q6.</li>
+<li>Requires fewer hero copies and more common materials.</li>
+<li><strong>Advanced Path</strong></li>
+<li>Used from roughly Q7 upward.</li>
+<li>Requires more copies and rarer materials.</li>
+</ul>
+<p>Indicative pattern:</p>
+<table>
+<thead>
+<tr>
+<th>Target Quality</th>
+<th>Type</th>
+<th>Approx Hero Copies</th>
+<th>Material Tier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q2</td>
+<td>1</td>
+<td>2</td>
+<td>Common Materials</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>1</td>
+<td>2</td>
+<td>Uncommon Materials</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>1</td>
+<td>1</td>
+<td>Rare</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>1</td>
+<td>1</td>
+<td>Rare+</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>1</td>
+<td>1</td>
+<td>Epic</td>
+</tr>
+<tr>
+<td>Q7</td>
+<td>2</td>
+<td>1–2</td>
+<td>Epic Materials</td>
+</tr>
+<tr>
+<td>Q8</td>
+<td>2</td>
+<td>1–2</td>
+<td>Legendary Materials</td>
+</tr>
+<tr>
+<td>Q9</td>
+<td>2</td>
+<td>1–2</td>
+<td>Legendary+</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>2</td>
+<td>2</td>
+<td>Mythic</td>
+</tr>
+<tr>
+<td>Q11–Q14</td>
+<td>2</td>
+<td>2</td>
+<td>Mythic+</td>
+</tr>
+</tbody>
+</table>
+<h3>7.2 Special Advancement Paths (38 Heroes)</h3>
+<p>Enhanced progression paths are available for 38 heroes, giving rewards at specific qualities.</p>
+<p>Typical milestones:
+- Q4: Initial reward package (resources and materials).
+- Q5: Enhanced rewards.
+- Q6/Q7: Premium tier packages.
+- Q9/Q10: Legendary milestone rewards.</p>
+<p>Example featured heroes:
+- 2411 (Galande) – milestones at Q4, Q5, Q7, Q9, Q10 plus promotional media.
+- 2412 (Kelly) – similar advancement track.
+- 2111 (Mira) – six distinct milestone rewards from Q4 through Q10.</p>
+<h3>7.3 Copy Requirements (Approximate)</h3>
+<p>Very rough total duplicate requirements from starting quality:</p>
+<table>
+<thead>
+<tr>
+<th>Start Quality</th>
+<th>Copies to Q7</th>
+<th>Copies to Q10</th>
+<th>Copies to Q14</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q4 (SS)</td>
+<td>~3–5</td>
+<td>~8–12</td>
+<td>~20–30</td>
+</tr>
+<tr>
+<td>Q3 (S)</td>
+<td>~4–7</td>
+<td>~10–15</td>
+<td>~25–35</td>
+</tr>
+<tr>
+<td>Q2 (A)</td>
+<td>~6–10</td>
+<td>~15–20</td>
+<td>~35–50</td>
+</tr>
+</tbody>
+</table>
+<p>Exact values vary by hero and path type.</p>
+<hr />
+<h2>8. Skill System</h2>
+<p>Heroes typically have <strong>4–5 skills</strong>. Skills unlock at specific qualities and can be individually leveled.</p>
+<h3>8.1 Skill Unlock Schedule</h3>
+<p>General pattern:
+- Q3: first active skill.
+- Q4: second skill (often a passive or secondary active).
+- Q5: third active.
+- Q6: fourth active.
+- Q7: fifth skill (only on certain heroes).</p>
+<p><strong>Example – Enrique</strong></p>
+<p>Skills:
+- <strong>Armor Crush</strong> (active) – AoE damage + DEF reduction.
+- <strong>Zombie Hunter</strong> (passive) – Bonus damage vs zombies.
+- Additional passive buffs unlocked at higher qualities.</p>
+<p>Unlock progression:
+- Q3: Main active skill (Armor Crush) – deals weapon damage to all enemies and reduces their defense.
+- Q4: Zombie Hunter passive – bonus damage against zombies.
+- Q5–Q7: Additional passive buffs and enhanced effects.</p>
+<p><strong>Example – Doris (2105)</strong></p>
+<ul>
+<li><strong>Ironclad</strong> (teamwide damage mitigation buff).</li>
+<li><strong>Efficient Gatherer</strong> (passive) – Increased gathering capacity.</li>
+<li>Additional passive skills for support and utility.</li>
+</ul>
+<p>Unlock:
+- Q3: primary defensive skill.
+- Q4: gathering passive.
+- Q5–Q6: additional actives.</p>
+<h3>8.2 Skill Leveling and Materials</h3>
+<p>Skills generally have <strong>20 levels</strong>, using skill-specific and generic materials:</p>
+<p>Material requirements:
+- <strong>Hero-specific skill stones</strong> – Each hero has their own unique skill material.
+- <strong>Generic skill materials</strong> – Shared across all heroes for common upgrades.</p>
+<p>Higher levels require exponentially more materials. Skill level 15 is a good baseline for most heroes.</p>
+<h3>8.3 Skin‑Modified Skills</h3>
+<p>Some special skins (like Season of War skins) replace or enhance hero skills with modified versions. See the hero skins guide for details on skill-modifying skins.</p>
+<hr />
+        <div class="info-box">
+            <h4>🎯 Skill Leveling Priority</h4>
+            <p><strong>Maximize your damage:</strong> Not all skills are created equal!</p>
+            <ul>
+                <li>Prioritize active damage skills (Skill 1 and Skill 2) first</li>
+                <li>Passive buffs provide less immediate impact than active abilities</li>
+                <li>Skill level 15 is a good baseline for main heroes</li>
+                <li>Level 20+ skills require massive material investment - save for endgame</li>
+            </ul>
+        </div>
+
+<hr />
+<h2>9. Skin System</h2>
+<p>Hero skins provide visual customization and in some cases, combat bonuses:</p>
+
+        <div class="info-box">
+            <h4>👔 Hero Skins Guide</h4>
+            <p><strong>View complete skin information:</strong> <a href="/hero_skins.html" style="color: #60a5fa; text-decoration: underline;">Browse Hero Skins</a></p>
+            <ul>
+                <li>56 hero skins including cosmetic and buffing types</li>
+                <li>Season of War skins with modified skills</li>
+                <li>Event-themed and collaboration skins</li>
+                <li>Acquisition methods and unlock requirements</li>
+            </ul>
+        </div>
+
+<hr />
+<h2>10. Special Systems</h2>
+<h3>10.1 Hero Quest and Activity Systems</h3>
+<ul>
+<li>Heroes are linked to long‑term questlines.</li>
+<li>Hero-centric events include combination mechanics and special drop tables.</li>
+</ul>
+<p>These systems provide additional copies, fragments, or special rewards for focused heroes.</p>
+<hr />
+<hr />
+
+<!-- ============================================================================
+     RELATED SYSTEMS - See Dedicated Guides
+     ============================================================================ -->
+
+<!-- RECRUITMENT SYSTEM
+     For detailed recruitment mechanics, card types, gacha rates, and pity systems:
+     See: /guides/recruitment.html (when available)
+     -->
+
+<!-- EQUIPMENT SYSTEM
+     For complete equipment information including:
+     - Equipment types and slots
+     - Quality tiers and enhancement
+     - Set bonuses and affixes
+     - Crafting and economy
+     See: /equipment.html
+     -->
+
+<!-- EXCLUSIVE EQUIPMENT / ULTIMATE WEAPONS
+     For exclusive weapon details including:
+     - Unlock requirements and blueprints
+     - Star progression and leveling
+     - Special effects and skills
+     See: /equipment.html (Exclusive Equipment section)
+     -->
+
+<!-- HERO SKINS
+     For detailed skin information including:
+     - Cosmetic and buffing skins
+     - Skill modifications (Season of War skins)
+     - Acquisition methods and events
+     See: /hero_skins.html
+     -->
+
+<!-- TROOP SPECIALITIES
+     For troop speciality system including:
+     - Base speciality skills
+     - Hero-specific specialities
+     - Progression and unlock conditions
+     See: /guides/war-room.html
+     -->
+
+        </div> <!-- close guide-content -->
+    </div> <!-- close guide-container -->
+    </div> <!-- close markdown-body -->
+
+    <script src="navbar.js"></script>
+</body>
+</html>
