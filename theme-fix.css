@@ -260,7 +260,7 @@ body {
 /* Standard card grid spacing */
 .card-grid,
 .fortress-grid,
-.warmachine-grid,
+.warbeast-grid,
 .apc-grid {
     gap: 20px !important;
     padding: 24px !important;

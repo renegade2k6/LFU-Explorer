@@ -45,7 +45,7 @@
             <a class="nav-link" href="${prefix}heroes.html">Heroes</a>
             <a class="nav-link" href="${prefix}equipment.html">Equipment</a>
             <a class="nav-link" href="${prefix}apc.html">APCs</a>
-            <a class="nav-link" href="${prefix}warmachine.html">War Machines</a>
+            <a class="nav-link" href="${prefix}warbeast.html">Warbeasts</a>
             <a class="nav-link" href="${prefix}decors.html">Decors</a>
             <a class="nav-link" href="${prefix}relics.html">Relics</a>
             <div class="nav-dropdown">
@@ -57,7 +57,6 @@
                     <a href="${prefix}guides/manor.html" class="nav-dropdown-item">Manor System</a>
                     <a href="${prefix}guides/landscape.html" class="nav-dropdown-item">Landscape System</a>
                     <a href="${prefix}guides/war-room.html" class="nav-dropdown-item">War Room / Spiritual Link</a>
-                    <a href="${prefix}guides/apc-guide.html" class="nav-dropdown-item">APC System</a>
                 </div>
             </div>
         </nav>

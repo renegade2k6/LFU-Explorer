@@ -582,18 +582,18 @@ body {
 }
 
 /* =============================================================================
-   War Machine Skin Strip - Mobile Layout
+   Warbeast Skin Strip - Mobile Layout
 ============================================================================= */
 
 @media (max-width: 768px) {
-    .warmachine-skin-strip {
+    .warbeast-skin-strip {
         grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)) !important;
         gap: 8px !important;
     }
 }
 
 @media (max-width: 480px) {
-    .warmachine-skin-strip {
+    .warbeast-skin-strip {
         grid-template-columns: repeat(3, 1fr) !important;
     }
 }

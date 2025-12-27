@@ -33,7 +33,7 @@ async function loadCommonHeader() {
                     <a class="nav-link" href="./equipment.html">Equipment</a>
                     <a class="nav-link" href="./apc.html">APCs</a>
                     <a class="nav-link" href="./apc-skins.html">APC Skins</a>
-                    <a class="nav-link" href="./warmachine.html">War Machines</a>
+                    <a class="nav-link" href="./warbeast.html">Warbeasts</a>
                     <a class="nav-link" href="./relics.html">Relics</a>
                 </div>
             `;

@@ -58,7 +58,7 @@
 }
 
 /* Smooth transitions for all interactive elements */
-a, button, .category-card, .feature-item, .card-base, .apc-card, .warmachine-card {
+a, button, .category-card, .feature-item, .card-base, .apc-card, .warbeast-card {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1229,7 +1229,7 @@ body {
 }
 
 .detail-equipment-icon,
-.detail-warmachine-icon {
+.detail-warbeast-icon {
     width: 150px;
     height: 150px;
     object-fit: contain;
@@ -2187,7 +2187,7 @@ body {
     text-shadow: 0 0 12px rgba(0, 255, 255, 0.55);
 }
 
-/* Shared card grid for heroes, war machines, and equipment lists */
+/* Shared card grid for heroes, warbeasts, and equipment lists */
 
 .set-grid {
     display: grid;
@@ -2599,7 +2599,7 @@ body {
     gap: 16px;
 }
 
-.warmachine-skin-strip {
+.warbeast-skin-strip {
     margin: 8px 0 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
@@ -2607,7 +2607,7 @@ body {
     justify-items: center;
 }
 
-.warmachine-skin-thumb {
+.warbeast-skin-thumb {
     width: 120px;
     height: 65px;
     object-fit: contain;
@@ -2619,14 +2619,14 @@ body {
     background: rgba(0, 0, 0, 0.3);
 }
 
-.warmachine-skin-thumb:hover {
+.warbeast-skin-thumb:hover {
     border: 2px solid rgba(120, 200, 255, 0.8);
     box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
     transform: scale(1.05);
 }
 
 /* Rarity Badges for Skins */
-.warmachine-skin-strip a {
+.warbeast-skin-strip a {
     position: relative;
 }
 
@@ -2957,7 +2957,7 @@ body {
     }
 
     .set-img-large,
-    .warmachine-skin-thumb {
+    .warbeast-skin-thumb {
         border: 1px solid #ddd !important;
     }
 
@@ -3137,23 +3137,23 @@ body {
     transform: scale(1.1);
 }
 
-.warmachine-skin-item {
+.warbeast-skin-item {
     position: relative;
     display: inline-block;
     transition: transform 0.2s ease;
 }
 
-.warmachine-skin-item:hover {
+.warbeast-skin-item:hover {
     transform: translateY(-4px);
 }
 
-.warmachine-skin-thumb {
+.warbeast-skin-thumb {
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     transition: all 0.2s ease;
 }
 
-.warmachine-skin-item:hover .warmachine-skin-thumb {
+.warbeast-skin-item:hover .warbeast-skin-thumb {
     box-shadow: 0 4px 16px rgba(120, 200, 255, 0.4);
 }
 
@@ -3270,7 +3270,7 @@ body {
 
 /* ============================================================
    Global Quality/Rarity Border Colors
-   (Applied to any card type: APC, War Machine, Equipment, Relics)
+   (Applied to any card type: APC, Warbeast, Equipment, Relics)
 ============================================================ */
 
 /* Quality 3 - Common (Gray) */
@@ -3329,7 +3329,7 @@ body {
 
 /* ============================================================
    Global Skin Count Badge
-   (Used on APC, War Machine cards to show skin availability)
+   (Used on APC, Warbeast cards to show skin availability)
 ============================================================ */
 
 .skin-count-badge {
@@ -3364,7 +3364,7 @@ body {
 
 /* ============================================================
    Global Card System (Standardized)
-   (Used for APC, War Machine, Equipment cards)
+   (Used for APC, Warbeast, Equipment cards)
 ============================================================ */
 
 .card-container {
@@ -3396,7 +3396,7 @@ body {
 
 /* ============================================================
    Page Headers (Standardized)
-   (Used on all collection pages: APC, War Machine, Equipment, etc.)
+   (Used on all collection pages: APC, Warbeast, Equipment, etc.)
 ============================================================ */
 
 .page-header {
